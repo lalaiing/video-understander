@@ -1,0 +1,10 @@
+scenedetect[opencv]
+faster-whisper
+qdrant-client
+sentence-transformers
+pillow
+numpy
+pydantic
+typer
+rich
+python-dotenv
