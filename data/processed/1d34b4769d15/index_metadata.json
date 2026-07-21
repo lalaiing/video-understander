@@ -1,0 +1,23 @@
+{
+  "collection_name": "video_scenes",
+  "qdrant_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\qdrant",
+  "indexed_point_count": 160,
+  "expected_scene_count": 160,
+  "text_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "frame_model": "sentence-transformers/clip-ViT-B-32",
+  "vectors": {
+    "caption": {
+      "dimension": 384,
+      "distance": "cosine"
+    },
+    "transcript": {
+      "dimension": 384,
+      "distance": "cosine"
+    },
+    "keyframe": {
+      "dimension": 512,
+      "distance": "cosine"
+    }
+  },
+  "collection_status": "green"
+}

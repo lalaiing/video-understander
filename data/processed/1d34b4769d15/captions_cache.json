@@ -1,0 +1,802 @@
+{
+  "1d34b4769d15:0000": {
+    "caption": "The screen is entirely black, with no visible people, objects, or actions.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0000.jpg"
+  },
+  "1d34b4769d15:0001": {
+    "caption": "Multiple large rocket engines fire bright exhaust plumes from a massive metallic structure surrounded by scaffolding.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0001.jpg"
+  },
+  "1d34b4769d15:0002": {
+    "caption": "Multiple rocket thrusters fire simultaneously, emitting bright white exhaust and smoke. Text thanking contributors for the 4K UHD version is displayed on the upper-left corner.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0002.jpg"
+  },
+  "1d34b4769d15:0003": {
+    "caption": "A rocket launches upward, producing a brilliant column of light and billowing smoke amidst an industrial landscape of tall metal towers under a hazy sky. Text on the bottom left corner displays funding credits for the film.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0003.jpg"
+  },
+  "1d34b4769d15:0004": {
+    "caption": "A young man and a woman stand facing each other on a bridge over a canal lined with trees and buildings. The woman, wearing a metallic robotic brace on her arm, raises her hand while looking at the man.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg"
+  },
+  "1d34b4769d15:0005": {
+    "caption": "Two glowing wireframe hologram figures, one orange and one blue, stand facing each other with raised hands in a dark, industrial setting.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0005.jpg"
+  },
+  "1d34b4769d15:0006": {
+    "caption": "In a dark, futuristic industrial setting filled with scaffolding and complex machinery, the text \"40 YEARS LATER\" is superimposed in the center. A glowing pink brain-like hologram on the left and small, glowing orange and blue holographic figures on the right illuminate the ruined environment.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0006.jpg"
+  },
+  "1d34b4769d15:0007": {
+    "caption": "Two glowing wireframe humanoid figures, one orange and one blue, stand facing each other on a platform inside a dark, industrial facility with mechanical structures in the background.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0007.jpg"
+  },
+  "1d34b4769d15:0008": {
+    "caption": "A glowing green and pink holographic interface displaying media controls floats in a dark, cluttered setting filled with wires and machinery. Swirling pink neon rings and light particles are scattered around the digital display.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0008.jpg"
+  },
+  "1d34b4769d15:0009": {
+    "caption": "A glowing holographic interface displaying media controls and the text \"MEMORY PLAYBACK - GLOBAL\" is overlaid in front of a complex industrial setting with machinery and wiring. A large, cyan-colored pause icon glows brightly above the control panel.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0009.jpg"
+  },
+  "1d34b4769d15:0010": {
+    "caption": "A hand adjusts a component on a complex electronic control panel filled with dials, buttons, numerical readouts, and glowing digital graphics.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0010.jpg"
+  },
+  "1d34b4769d15:0011": {
+    "caption": "In a futuristic laboratory filled with neon pink and green digital overlays, a man wearing glasses looks forward while flanked by two individuals in white coats facing away from the camera.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0011.jpg"
+  },
+  "1d34b4769d15:0012": {
+    "caption": "In a futuristic laboratory, two people wearing protective garments work with electronic equipment at a desk. A holographic screen displaying the words \"SIMULATION READY...\" overlays the scene as one person with dreadlocks looks down at devices while the other sits facing a glowing control panel.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0012.jpg"
+  },
+  "1d34b4769d15:0013": {
+    "caption": "A man wearing a mechanical eyepiece looks closely at a brain resting on an illuminated platform in a dimly lit, pink-hued room.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0013.jpg"
+  },
+  "1d34b4769d15:0014": {
+    "caption": "The stylized, metallic silver text \"TEARS OF STEEL\" is centered against a solid black background.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0014.jpg"
+  },
+  "1d34b4769d15:0015": {
+    "caption": "A large, dark mechanical structure sits amidst the gabled rooftops of a historic cityscape under an overcast, smoky sky. In the background, smoke rises in a plume near a tall spire tower.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0015.jpg"
+  },
+  "1d34b4769d15:0016": {
+    "caption": "Inside an elevated, open-air structure with large hanging bells and cables, one person in dark gear lies on the ground while another aims a rifle through the railing toward a misty background with transmission towers.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0016.jpg"
+  },
+  "1d34b4769d15:0017": {
+    "caption": "A person lies with their face covered by a newspaper bearing the headline \"ROBOTICIST CREATES KILLER ROBOTS.\" Their hand rests on the edge of the page, which is draped over their head.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0017.jpg"
+  },
+  "1d34b4769d15:0018": {
+    "caption": "A man wearing a quilted jacket aims a large, scoped rifle supported by a bipod on a balcony with stone balusters. The setting around him is filled with a thick, hazy blue mist.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0018.jpg"
+  },
+  "1d34b4769d15:0019": {
+    "caption": "A complex, retro-futuristic model vessel covered in wires, scaffolding, and antennae is positioned in a dark setting. It is backlit by a bright, circular light source from behind.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0019.jpg"
+  },
+  "1d34b4769d15:0020": {
+    "caption": "A person holds a large, futuristic rifle with a glowing scope and looks upward in a dimly lit, cool-toned environment.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0020.jpg"
+  },
+  "1d34b4769d15:0021": {
+    "caption": "Viewed through a circular scope, a complex aerial vehicle with numerous lights hovers over the rooftops of a town under an overcast sky.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0021.jpg"
+  },
+  "1d34b4769d15:0022": {
+    "caption": "In a dimly lit, misty setting, a man with gray hair lies on his back smoking a cigarette beside lit candles and a hanging rope, while another man in tactical gear aims a scoped rifle in the background.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0022.jpg"
+  },
+  "1d34b4769d15:0023": {
+    "caption": "Viewed through a circular lens, a complex mechanical vessel equipped with bright spotlights hovers over the rooftops of a misty town. Several cables hang from the underside of the floating craft.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0023.jpg"
+  },
+  "1d34b4769d15:0024": {
+    "caption": "A man in a dark jacket aims a futuristic scoped rifle mounted on a bipod from behind stone pillars in a misty setting.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0024.jpg"
+  },
+  "1d34b4769d15:0025": {
+    "caption": "An older man with grey hair stands on a foggy deck with a wooden railing, adjusting his dark patterned jacket. In the background, another person in dark clothing sits on the floor near a tripod-mounted device.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0025.jpg"
+  },
+  "1d34b4769d15:0026": {
+    "caption": "A man with gray hair and a beard sits on the misty deck of a vessel surrounded by ropes and equipment. In the background, another figure sits near a wooden railing, framed by dark columns on either side of the scene.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0026.jpg"
+  },
+  "1d34b4769d15:0027": {
+    "caption": "A man aims a scoped rifle mounted on a bipod from a balcony with stone balusters, looking off to the side against a foggy, blue background.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0027.jpg"
+  },
+  "1d34b4769d15:0028": {
+    "caption": "An older, grey-haired man stands on a balcony holding a thick rope and looking downwards. In the background, a person wearing tactical gear aims a scoped rifle over the railing next to a lit candle and blankets.",
+    "model": "gemini-3.5-flash",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0028.jpg"
+  },
+  "1d34b4769d15:0029": {
+    "caption": "A person with a dark complexion drinks from a juice box while holding a rifle with an attached scope, peering from behind a balustrade in a dimly lit, interior setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0029.jpg"
+  },
+  "1d34b4769d15:0030": {
+    "caption": "A person hangs from a rope in front of a large pipe organ inside a dimly lit, vine-covered stone interior that resembles a ruined church.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0030.jpg"
+  },
+  "1d34b4769d15:0031": {
+    "caption": "An elderly person with gray hair, wearing a plaid shirt, walks toward a large, dimly lit metallic structure featuring a circular tunnel-like entrance. A thick rope hangs vertically in the foreground of the industrial setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0031.jpg"
+  },
+  "1d34b4769d15:0032": {
+    "caption": "A woman in a camouflage jacket and an older man with white hair stand side-by-side in a room with a bookshelf and a lamp. The two individuals are looking toward the right, both appearing to be engaged in conversation or observing something off-screen.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0032.jpg"
+  },
+  "1d34b4769d15:0033": {
+    "caption": "A man with grey hair stands inside a semi-ruined room featuring brick walls, overgrown vegetation, a wooden desk, and a red armchair. The room is open to the outdoors, and a person sits at the desk in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0033.jpg"
+  },
+  "1d34b4769d15:0034": {
+    "caption": "An elderly person with gray hair stands in the foreground facing a large, complex mechanical structure in a dimly lit, ruined city street. The individual looks toward the machine, which is situated on a cobblestone path surrounded by weathered buildings and streetlamps.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0034.jpg"
+  },
+  "1d34b4769d15:0035": {
+    "caption": "Two people in military-style clothing stand on either side of an older man with a grey beard, with the person on the left placing a hand on his shoulder and the person on the right holding his arm in a dimly lit, furnished room. The setting features multiple lamps, a table, and a mirror in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0035.jpg"
+  },
+  "1d34b4769d15:0036": {
+    "caption": "A person with dark skin peers through a gap between two stone pillars while aiming a rifle equipped with an optical scope.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0036.jpg"
+  },
+  "1d34b4769d15:0037": {
+    "caption": "A man with a robotic eye attachment and a woman in military-style gear stand together indoors in a room furnished with lamps, desks, and books. The man in the red jacket is gesturing while speaking, while the woman beside him looks toward the side.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0037.jpg"
+  },
+  "1d34b4769d15:0038": {
+    "caption": "A person operates a technical console covered in glowing digital interfaces, buttons, and dials within a dimly lit, futuristic setting. A dark glass bottle stands on the workstation as the person's hand interacts with the equipment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0038.jpg"
+  },
+  "1d34b4769d15:0039": {
+    "caption": "A dark, industrial space contains a cluster of glowing, circular lights and suspended metallic structures enveloped in thick smoke. The scene is obscured, and no people or specific actions are identifiable amidst the fog and machinery.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0039.jpg"
+  },
+  "1d34b4769d15:0040": {
+    "caption": "A person stands within an art installation composed of numerous intersecting orange horizontal lines strung across a dark room. The individual appears to be walking through the space while surrounded by the grid-like structure.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0040.jpg"
+  },
+  "1d34b4769d15:0041": {
+    "caption": "A large, mechanical construct stands in the center of a cobblestone bridge surrounded by dilapidated buildings in a post-apocalyptic setting, with no people visible in the scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0041.jpg"
+  },
+  "1d34b4769d15:0042": {
+    "caption": "Two people in lab coats work at a long outdoor console filled with various electronic equipment and mechanical components. Numerous thin wires connect the devices, which are interspersed with translucent, neon-glowing holographic diagrams.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0042.jpg"
+  },
+  "1d34b4769d15:0043": {
+    "caption": "Two men stand indoors, with the man in the foreground wearing a mechanical eye device while speaking with his mouth open. The man in the background watches him while wearing a plaid jacket over a dark shirt.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0043.jpg"
+  },
+  "1d34b4769d15:0044": {
+    "caption": "A person stands with arms outstretched before a glowing, grid-like dome of light symbols in a park-like setting featuring street lamps.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0044.jpg"
+  },
+  "1d34b4769d15:0045": {
+    "caption": "A mechanical, spider-like robot stands on a bridge in an urban setting surrounded by trees and a building, with no people visible in the frame.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0045.jpg"
+  },
+  "1d34b4769d15:0046": {
+    "caption": "A man with a prosthetic eye device reaches out to touch the ear of an older man with grey hair, while a young woman stands behind them in what appears to be a cluttered indoor room.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0046.jpg"
+  },
+  "1d34b4769d15:0047": {
+    "caption": "Three people stand with their backs to the viewer in a brick-lined urban setting, looking toward a large, complex mechanical structure hanging from above. The person in the center has their arm around the shoulders of the person standing to their right.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0047.jpg"
+  },
+  "1d34b4769d15:0048": {
+    "caption": "Three people, including two men and a woman, are gathered in a cluttered indoor room with a lamp and wall decor visible in the background. One man leans in to speak toward the other man while resting his arm on his shoulder, as the woman looks on from the side.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0048.jpg"
+  },
+  "1d34b4769d15:0049": {
+    "caption": "Three people walk along a bridge in front of traditional buildings, moving toward a large, complex metallic structure that displays a glowing green digital interface.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0049.jpg"
+  },
+  "1d34b4769d15:0050": {
+    "caption": "A young man wearing a leather jacket walks along a cobblestone street beside a canal. A green metal railing and a lamp post are visible nearby, with buildings and trees in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0050.jpg"
+  },
+  "1d34b4769d15:0051": {
+    "caption": "A young man wearing a jacket with a graphic on the back stands near a canal and faces a large, complex robotic figure in an urban setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0051.jpg"
+  },
+  "1d34b4769d15:0052": {
+    "caption": "A man with an ocular prosthetic device sits at a desk in a room, holding a small object while another person stands behind him in a tactical uniform. The setting includes bookshelves filled with books, a desk lamp, and various papers and a cup on the desk surface.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0052.jpg"
+  },
+  "1d34b4769d15:0053": {
+    "caption": "A person's hand rests on a large, illuminated green panel labeled \"PLAYBACK\" in a dimly lit, high-tech environment. Nearby, a glowing computer screen displays graphical interface elements.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0053.jpg"
+  },
+  "1d34b4769d15:0054": {
+    "caption": "A man wearing glasses sits at a desk in a tech-filled laboratory, appearing to speak or react while surrounded by people in white lab coats and glowing digital equipment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0054.jpg"
+  },
+  "1d34b4769d15:0055": {
+    "caption": "A person is viewed from behind as they observe a translucent digital interface displaying the text \"MEMORY OVERWRITE\" and a progress bar currently at 4.77%.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0055.jpg"
+  },
+  "1d34b4769d15:0056": {
+    "caption": "A large, metallic, robotic figure with glowing eyes stands in an outdoor area near some buildings. No people are visible, and the machine is stationary.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0056.jpg"
+  },
+  "1d34b4769d15:0057": {
+    "caption": "A man stands on a bridge next to a large, mechanical robotic structure in an outdoor urban setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0057.jpg"
+  },
+  "1d34b4769d15:0058": {
+    "caption": "A man with glasses stands in a dark, neon-lit setting, reaching toward a small desk lamp placed near his workspace. Blurred digital structures and glowing grid lines surround him, creating a futuristic atmosphere.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0058.jpg"
+  },
+  "1d34b4769d15:0059": {
+    "caption": "A person with braided hair is partially obscured by a hovering, metallic drone equipped with a glowing blue light, positioned against a background of trees and houses.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0059.jpg"
+  },
+  "1d34b4769d15:0060": {
+    "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg"
+  },
+  "1d34b4769d15:0061": {
+    "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg"
+  },
+  "1d34b4769d15:0062": {
+    "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg"
+  },
+  "1d34b4769d15:0063": {
+    "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg"
+  },
+  "1d34b4769d15:0064": {
+    "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg"
+  },
+  "1d34b4769d15:0065": {
+    "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg"
+  },
+  "1d34b4769d15:0066": {
+    "caption": "A silhouetted cityscape featuring domed towers and industrial-looking structures is backlit by a large, bright sun. No people or specific actions are visible in the scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0066.jpg"
+  },
+  "1d34b4769d15:0067": {
+    "caption": "A robot is visible through a circular sniper scope, perched on the tiled roof of an old-fashioned European-style building. There are no people visible in the scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0067.jpg"
+  },
+  "1d34b4769d15:0068": {
+    "caption": "A man gazes forward with an intense expression while peering over the barrel of a rifle equipped with a large optic sight. He is positioned between two white stone columns, looking through the weapon's scope.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0068.jpg"
+  },
+  "1d34b4769d15:0069": {
+    "caption": "A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg"
+  },
+  "1d34b4769d15:0070": {
+    "caption": "A woman with light hair is outdoors in a residential area, speaking with her mouth open. The background includes green trees and blurred houses.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0070.jpg"
+  },
+  "1d34b4769d15:0071": {
+    "caption": "A man and a woman with a robotic prosthetic arm stand facing each other on a bridge over a canal lined with trees and buildings. The woman holds her mechanical arm up toward the man.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0071.jpg"
+  },
+  "1d34b4769d15:0072": {
+    "caption": "Two people work at computer consoles in a laboratory filled with glowing holographic displays and data visualizations. The environment features industrial equipment and stairs in the background as the individuals appear to monitor the glowing light patterns.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0072.jpg"
+  },
+  "1d34b4769d15:0073": {
+    "caption": "A man stands outdoors near a canal, looking toward a mechanical, robotic-looking hand that is positioned in front of him. A purple, digital-style text overlay reading \"CELIA, I LOVE YOUR ROBOT HAND\" is visible against the background of city buildings and trees.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0073.jpg"
+  },
+  "1d34b4769d15:0074": {
+    "caption": "A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg"
+  },
+  "1d34b4769d15:0075": {
+    "caption": "A woman with an intense expression looks toward a person partially visible in the foreground who is holding a small bouquet of flowers in an outdoor, tree-lined setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0075.jpg"
+  },
+  "1d34b4769d15:0076": {
+    "caption": "A woman wearing a tactical vest with a shoulder-mounted radio stands in a dimly lit room near a wall with books and a wall lamp. She is looking slightly off-camera with a neutral expression.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0076.jpg"
+  },
+  "1d34b4769d15:0077": {
+    "caption": "A large chalkboard covered in various handwritten phrases and notes stands in a cluttered room that also contains a painting, a mug, and furniture. No people are visible in the scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0077.jpg"
+  },
+  "1d34b4769d15:0078": {
+    "caption": "A person with a blurred hand is positioned in the foreground, with a bridge railing and a body of water visible in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0078.jpg"
+  },
+  "1d34b4769d15:0079": {
+    "caption": "A person stands in an outdoor urban setting with a mechanical, robotic arm positioned near their face.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0079.jpg"
+  },
+  "1d34b4769d15:0080": {
+    "caption": "A man with a robotic eye attachment and a woman in military-style clothing sit together in a room filled with books and lamps, while the man adjusts a device held in his hands.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0080.jpg"
+  },
+  "1d34b4769d15:0081": {
+    "caption": "A man with a shocked expression, wearing glasses and a hooded garment, is positioned in the foreground of a brightly lit, colorful room. In the lower left, a desk lamp is partially visible, and the background features various blurred structures and vibrant pink and blue panels.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0081.jpg"
+  },
+  "1d34b4769d15:0082": {
+    "caption": "A person's hand reaches toward a futuristic console with green-lit buttons that display the word \"PLAYBACK\" and playback control symbols.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0082.jpg"
+  },
+  "1d34b4769d15:0083": {
+    "caption": "A man wearing glasses and a patterned jacket stands in an indoor setting with blue structures in the background, appearing to speak while a desk lamp shines in the foreground.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0083.jpg"
+  },
+  "1d34b4769d15:0084": {
+    "caption": "A person's hand interacts with a control console featuring a screen that displays \"ERROR!!!\" on its surfaces. The setting appears to be a technical or industrial environment with mechanical components visible.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0084.jpg"
+  },
+  "1d34b4769d15:0085": {
+    "caption": "A person wearing glasses is shown with their mouth wide open in a scream, positioned in front of a glowing digital interface and a desk lamp in a dimly lit, high-tech setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0085.jpg"
+  },
+  "1d34b4769d15:0086": {
+    "caption": "A woman with a wide-eyed expression and open mouth stares at a metallic, robotic device positioned near a person's neck in an outdoor setting with green foliage in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0086.jpg"
+  },
+  "1d34b4769d15:0087": {
+    "caption": "A person is shown in close-up with a mechanical arm reaching toward their face. The person has their eyes closed, and the background is an out-of-focus outdoor setting with trees.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0087.jpg"
+  },
+  "1d34b4769d15:0088": {
+    "caption": "A woman looks intensely at a person while a mechanical device with a needle is positioned near that person's face outdoors in a green environment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0088.jpg"
+  },
+  "1d34b4769d15:0089": {
+    "caption": "A young man stands outdoors while a mechanical, robotic hand reaches toward his face.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0089.jpg"
+  },
+  "1d34b4769d15:0090": {
+    "caption": "A woman standing outdoors with a purple digital overlay on her face is approached by a metallic, multi-limbed robot.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0090.jpg"
+  },
+  "1d34b4769d15:0091": {
+    "caption": "A person with closed eyes has a mechanical, metallic arm pressing against their face. The scene takes place outdoors against a blurred, leafy green background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0091.jpg"
+  },
+  "1d34b4769d15:0092": {
+    "caption": "A man with messy hair and glasses stands in a brightly lit, colorful space with a lamp positioned to his left.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0092.jpg"
+  },
+  "1d34b4769d15:0093": {
+    "caption": "A man with a mechanical apparatus over his eye sits near a bookshelf, while a woman in tactical clothing stands behind him in a dimly lit room.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0093.jpg"
+  },
+  "1d34b4769d15:0094": {
+    "caption": "A young man stands outdoors near a body of water while a robotic device with a mechanical claw and a needle mechanism positions itself toward his face.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0094.jpg"
+  },
+  "1d34b4769d15:0095": {
+    "caption": "A man wearing a mechanical eyepiece and a pink jacket gestures with his hand while a woman in a brown uniform stands behind him in an indoor room.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0095.jpg"
+  },
+  "1d34b4769d15:0096": {
+    "caption": "A woman looks toward a person out of frame while a mechanical device with a needle is positioned near the person's face outdoors.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0096.jpg"
+  },
+  "1d34b4769d15:0097": {
+    "caption": "A person wearing a dark jacket with a yellow tiger graphic on the back stands outdoors near buildings and trees. A semi-transparent, glowing blue light effect appears to billow around the individual.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0097.jpg"
+  },
+  "1d34b4769d15:0098": {
+    "caption": "A man with curly hair and glasses sits in a dimly lit, futuristic environment filled with glowing digital displays, while another person sits partially visible at a desk nearby with a desk lamp.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0098.jpg"
+  },
+  "1d34b4769d15:0099": {
+    "caption": "A dark, metallic craft with glowing lines hovers over a vast, mechanical surface composed of numerous hexagonal panels and bright lights. No people are visible in this scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0099.jpg"
+  },
+  "1d34b4769d15:0100": {
+    "caption": "A man wearing a mechanical eyepiece talks into a handheld radio transmitter within a dimly lit room featuring traditional decorative wall elements.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0100.jpg"
+  },
+  "1d34b4769d15:0101": {
+    "caption": "A person wearing tactical gear is positioned on a balcony, aiming a scoped rifle outward toward a cloudy, overcast sky.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0101.jpg"
+  },
+  "1d34b4769d15:0102": {
+    "caption": "A person in tactical gear stands on a balcony with a wooden railing, overlooking a blurred urban environment. The individual is positioned near the railing while holding an object in their hands.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0102.jpg"
+  },
+  "1d34b4769d15:0103": {
+    "caption": "A man lies in a sleeping bag in a dark, dimly lit indoor setting while an unseen person holds a firearm toward him.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0103.jpg"
+  },
+  "1d34b4769d15:0104": {
+    "caption": "A large, mechanical robot climbs the exterior of a tall, ornate clock tower while debris floats in the sky around it.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0104.jpg"
+  },
+  "1d34b4769d15:0105": {
+    "caption": "A person wearing a white glove interacts with circular, metallic technological components embedded within a control panel in an industrial or futuristic setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0105.jpg"
+  },
+  "1d34b4769d15:0106": {
+    "caption": "A young man in a white hooded jacket holds a mechanical device while looking toward the left side of a dark, cluttered workshop.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0106.jpg"
+  },
+  "1d34b4769d15:0107": {
+    "caption": "Four individuals in white protective suits kneel on the floor of a dilapidated, plant-filled greenhouse, aiming handheld technological devices toward an object on the ground.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0107.jpg"
+  },
+  "1d34b4769d15:0108": {
+    "caption": "A large mechanical robot stands with its feet planted on a debris-covered floor within an industrial-looking interior setting. No people are visible in this scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0108.jpg"
+  },
+  "1d34b4769d15:0109": {
+    "caption": "A robotic figure with mechanical limbs stands in a dark, pillar-filled interior setting. Several indistinct, blurry figures appear to be moving through the space amid the dusty, shadowed atmosphere.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0109.jpg"
+  },
+  "1d34b4769d15:0110": {
+    "caption": "A person wearing metallic armor is engaged in a fast-paced, motion-blurred fight scene in a dimly lit, industrial-looking environment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0110.jpg"
+  },
+  "1d34b4769d15:0111": {
+    "caption": "Four people in white suits kneel in a glass-walled building filled with debris and vegetation, aiming weapons toward large, metallic robotic figures.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0111.jpg"
+  },
+  "1d34b4769d15:0112": {
+    "caption": "A person dressed in dark clothing stands on a wooden floor in a dimly lit indoor setting, holding an object with a glowing blue component. The scene appears to be captured from a first-person perspective, showing a cluttered area with blurred surroundings.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0112.jpg"
+  },
+  "1d34b4769d15:0113": {
+    "caption": "This interior scene shows a dimly lit, industrial-style environment with wooden panels, structural beams, and scattered debris. There are no people visible, and no active motions are taking place.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0113.jpg"
+  },
+  "1d34b4769d15:0114": {
+    "caption": "A man wearing a heavy collared jacket stands in a large outdoor industrial structure while holding a weapon.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0114.jpg"
+  },
+  "1d34b4769d15:0115": {
+    "caption": "A man wearing a dark coat with a faux fur collar is shown in a close-up, outdoors, as he pulls on a strap or piece of equipment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0115.jpg"
+  },
+  "1d34b4769d15:0116": {
+    "caption": "A person is suspended in mid-air within a dark, industrial or cavernous setting filled with hanging cables, wooden beams, and scaffolding. The individual appears to be falling or traversing through the air toward a brightly lit, partially obscured opening in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0116.jpg"
+  },
+  "1d34b4769d15:0117": {
+    "caption": "A person with a shaved head is climbing or pulling themselves up a rope structure set against an industrial, outdoor background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0117.jpg"
+  },
+  "1d34b4769d15:0118": {
+    "caption": "A person hangs from a rope suspended from the wooden rafters of a church-like structure, while a large, metallic, robotic-looking sculpture stands in the foreground.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0118.jpg"
+  },
+  "1d34b4769d15:0119": {
+    "caption": "The interior of a grand building features tall columns and a pipe organ, while a blurred, indistinct figure moves in the foreground.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0119.jpg"
+  },
+  "1d34b4769d15:0120": {
+    "caption": "Mechanical entities engage in combat inside a stone building with arched doorways. Sparks fly from the robots as they move across the floor amidst scattered debris.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0120.jpg"
+  },
+  "1d34b4769d15:0121": {
+    "caption": "A person clad in golden armor lies prone and partially covered by debris inside a ruined, grand hall with tall columns. The surrounding area is scattered with rubble, broken architectural elements, and wooden debris.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0121.jpg"
+  },
+  "1d34b4769d15:0122": {
+    "caption": "A person wearing a tactical vest holds onto a hanging rope in front of a pipe organ in an indoor setting.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0122.jpg"
+  },
+  "1d34b4769d15:0123": {
+    "caption": "A metallic robotic figure stands on a balcony overlooking a room featuring a large pipe organ, while a small cylindrical object floats in the air between them. There are no people visible in the scene.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0123.jpg"
+  },
+  "1d34b4769d15:0124": {
+    "caption": "A figure in blue is sliding down a rope suspended within an ornate church featuring large pipe organs and stone pillars.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0124.jpg"
+  },
+  "1d34b4769d15:0125": {
+    "caption": "A person suspended by a rope swings through the interior of a ruined church filled with debris and clouds of dust.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0125.jpg"
+  },
+  "1d34b4769d15:0126": {
+    "caption": "A person with a close-cropped haircut yells while swinging on a rope in what appears to be a warehouse or industrial building. They are wearing tactical gear and holding a rifle with both hands.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0126.jpg"
+  },
+  "1d34b4769d15:0127": {
+    "caption": "A man wearing glasses and a hoodie sits in a dark, tech-filled workspace surrounded by glowing neon projections and computer equipment as he shouts with his mouth wide open.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0127.jpg"
+  },
+  "1d34b4769d15:0128": {
+    "caption": "A woman speaks to a man wearing a red cybernetic eye piece and a brown jacket with red floral accents, both gesturing with their hands inside a room furnished with lamps and a bookshelf.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0128.jpg"
+  },
+  "1d34b4769d15:0129": {
+    "caption": "A young man stands on a bridge beside a large, complex robotic creature in an urban area with trees and a canal.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0129.jpg"
+  },
+  "1d34b4769d15:0130": {
+    "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg"
+  },
+  "1d34b4769d15:0131": {
+    "caption": "A person wearing a bulky, metallic diving suit is crouched in a dimly lit, industrial setting filled with pipes and machinery, while emitting smoke from their helmet.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0131.jpg"
+  },
+  "1d34b4769d15:0132": {
+    "caption": "Thick smoke obscures a complex industrial structure composed of heavy metal gears, cylindrical components, and shadowed machinery. No people are visible in this dimly lit, mechanical environment.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0132.jpg"
+  },
+  "1d34b4769d15:0133": {
+    "caption": "A middle-aged man with gray hair and a beard stands in a dimly lit, cluttered area, wearing a plaid shirt and a brown jacket. He is looking off to the side while speaking.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0133.jpg"
+  },
+  "1d34b4769d15:0134": {
+    "caption": "A person is shown from behind while viewing a bright, glowing digital interface that displays the text \"MEMORY OVERWRITE\" and a loading bar at 99.78%.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0134.jpg"
+  },
+  "1d34b4769d15:0135": {
+    "caption": "A man with curly hair and glasses holds up a complex mechanical device while working in a laboratory setting filled with computer equipment and glowing holographic displays.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0135.jpg"
+  },
+  "1d34b4769d15:0136": {
+    "caption": "An older man in a coat stands on a metal platform, placing his hand on the chassis of a large, complex mechanical machine.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0136.jpg"
+  },
+  "1d34b4769d15:0137": {
+    "caption": "An older man with gray hair and a mustache looks intently at a rough, dark object he is holding, with a piece of equipment visible to the right. The setting appears to be a dimly lit, enclosed space.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0137.jpg"
+  },
+  "1d34b4769d15:0138": {
+    "caption": "A man with a mechanical apparatus over his right eye wears a reddish-brown jacket in an indoor room with household items in the background.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0138.jpg"
+  },
+  "1d34b4769d15:0139": {
+    "caption": "A person wearing a tactical vest stands beside a desk where another individual with an eyepatch sits in a chair. The setting is a dimly lit, cluttered room featuring a piano, multiple lamps, and various personal items.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0139.jpg"
+  },
+  "1d34b4769d15:0140": {
+    "caption": "Several people are gathered around a metallic, mechanical structure in a dimly lit, outdoor environment with foliage nearby. The group appears to be interacting with the device while a bright light illuminates the scene from above.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0140.jpg"
+  },
+  "1d34b4769d15:0141": {
+    "caption": "A humanoid robotic figure with mechanical arms stands partially obscured by foliage within a dark, industrial or urban setting. The figure is positioned near a metal railing, with smoke or fog filling the air.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0141.jpg"
+  },
+  "1d34b4769d15:0142": {
+    "caption": "An elderly man with a long white beard stands on a platform and touches a metallic, machinery-clad figure within a dimly lit, industrial workshop filled with hanging cables and pipes.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0142.jpg"
+  },
+  "1d34b4769d15:0143": {
+    "caption": "A woman in a blue surgical mask and a patterned top stands in a hospital hallway while holding a small, white medical device.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0143.jpg"
+  },
+  "1d34b4769d15:0144": {
+    "caption": "Text reading \"Written and Directed by IAN HUBERT\" is overlaid on a dynamic, abstract graphic featuring metallic, geometric structures highlighted in blue and orange. There are no people visible, and no specific action is taking place within this static composition.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0144.jpg"
+  },
+  "1d34b4769d15:0145": {
+    "caption": "The screen displays white, glowing mechanical figures rendered in a high-contrast style against an orange and black background, accompanied by the text \"Produced by TON ROOSENDAAL.\"",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0145.jpg"
+  },
+  "1d34b4769d15:0146": {
+    "caption": "The text \"Director of Photography JORIS KERBOSCH N.S.C.\" is superimposed over a stylized, dark orange and black background featuring a bright blue, glowing mechanical structure. No people are visible in this frame.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0146.jpg"
+  },
+  "1d34b4769d15:0147": {
+    "caption": "The screen displays credits for \"Music and Sound\" assigned to Joram Letwory over a dark, stylized background featuring an illuminated mechanical object and an orange outline of a vehicle.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0147.jpg"
+  },
+  "1d34b4769d15:0148": {
+    "caption": "The closing credits show a list of cast members alongside a graphic of a blue, skeletal robotic hand on a black background with orange technical schematics.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0148.jpg"
+  },
+  "1d34b4769d15:0149": {
+    "caption": "A blue, glowing robotic figure is positioned on the left side of the screen against a dark background featuring orange line art and a list of credits titled \"Mango Artists.\" No people are visible in the frame.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0149.jpg"
+  },
+  "1d34b4769d15:0150": {
+    "caption": "A list of names is displayed alongside an illustration of a human brain set against a stylized, abstract background of orange and black shapes.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0150.jpg"
+  },
+  "1d34b4769d15:0151": {
+    "caption": "The screen displays scrolling credits over an orange, technical schematic background with circular and linear elements. Text lists various production roles, including set construction, props, makeup, catering, and special thanks to Blender developers.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0151.jpg"
+  },
+  "1d34b4769d15:0152": {
+    "caption": "The screen displays a list of names formatted in columns against a dark, tech-themed background with graphical border accents. No people are shown, and the static text appears to be part of a scrolling credit sequence.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0152.jpg"
+  },
+  "1d34b4769d15:0153": {
+    "caption": "A screen displays a long, alphabetically ordered list of names against a dark background, indicating the end credits of a production. Graphical interface elements, including stylized lines and a circular icon, are visible along the left and right margins of the text.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0153.jpg"
+  },
+  "1d34b4769d15:0154": {
+    "caption": "A long, scrolling list of names appears on a dark screen, accented by faint, abstract digital graphics along the left and right edges. There are no actual people visible in this display of text.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0154.jpg"
+  },
+  "1d34b4769d15:0155": {
+    "caption": "A digital screen displays a long, alphabetically ordered list of names against a dark background with orange graphical accents. The scene resembles the end credits of a movie or video game.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0155.jpg"
+  },
+  "1d34b4769d15:0156": {
+    "caption": "A screen displays a long, alphabetically organized list of names on a dark background, framed by stylized, glowing graphical elements. The scene resembles the rolling end credits of a media production.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0156.jpg"
+  },
+  "1d34b4769d15:0157": {
+    "caption": "Text appears on a black screen crediting the supporters of a film, including the Blender Foundation, the Netherlands Film Fund, and other organizations, while listing the production company as the Blender Institute. The bottom of the screen displays the website www.tearsofsteel.org and various organizational logos.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0157.jpg"
+  },
+  "1d34b4769d15:0158": {
+    "caption": "A person sits among a massive pile of scrap metal and destroyed machinery, holding a weapon while appearing to be in deep thought.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0158.jpg"
+  },
+  "1d34b4769d15:0159": {
+    "caption": "A woman with her hair pulled back sits at a desk and speaks into a microphone while looking at a laptop screen in a room with a patterned wall.",
+    "model": "gemini-3.1-flash-lite",
+    "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0159.jpg"
+  }
+}

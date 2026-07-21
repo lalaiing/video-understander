@@ -8,3 +8,4 @@ pydantic
 typer
 rich
 python-dotenv
+google-genai
