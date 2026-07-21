@@ -1,0 +1,119 @@
+{
+  "question": "the conversation where Thom explains that he wants to pursue a career in space",
+  "retrieval": {
+    "method": "reciprocal_rank_fusion",
+    "per_stream_limit": 10,
+    "top_k": 5,
+    "rrf_k": 60,
+    "streams": [
+      "caption",
+      "transcript",
+      "keyframe"
+    ]
+  },
+  "index_metadata_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\index_metadata.json",
+  "results": [
+    {
+      "result_position": 1,
+      "scene_id": "1d34b4769d15:0065",
+      "point_id": "e9f055bc-7818-5bd2-9cad-e092c4fedd16",
+      "rrf_score": 0.02622951,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.43094
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 65,
+      "start_ms": 324083,
+      "end_ms": 328458,
+      "keyframe_ms": 326270,
+      "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
+      "transcript": "and I just want to be awesome in space.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg"
+    },
+    {
+      "result_position": 2,
+      "scene_id": "1d34b4769d15:0004",
+      "point_id": "5e74f05b-42b6-5d42-8a51-68b82d972246",
+      "rrf_score": 0.01614201,
+      "ranks": {
+        "transcript": 2
+      },
+      "similarities": {
+        "transcript": 0.326153
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 4,
+      "start_ms": 25000,
+      "end_ms": 40250,
+      "keyframe_ms": 32625,
+      "caption": "A young man and a woman stand facing each other on a bridge over a canal lined with trees and buildings. The woman, wearing a metallic robotic brace on her arm, raises her hand while looking at the man.",
+      "transcript": "Celia, we have to follow our passions. You have your robotics, and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by it. All right, fine. I'm freaked out. I'm having nightmares that",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg"
+    },
+    {
+      "result_position": 3,
+      "scene_id": "1d34b4769d15:0064",
+      "point_id": "8878ce90-7ae6-5c30-a891-8f6ec055abb1",
+      "rrf_score": 0.01311475,
+      "ranks": {
+        "caption": 1
+      },
+      "similarities": {
+        "caption": 0.430008
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 64,
+      "start_ms": 322208,
+      "end_ms": 324083,
+      "keyframe_ms": 323145,
+      "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg"
+    },
+    {
+      "result_position": 4,
+      "scene_id": "1d34b4769d15:0003",
+      "point_id": "759b07d8-ced2-59dd-b4d1-98e78e94a592",
+      "rrf_score": 0.00787803,
+      "ranks": {
+        "caption": 4,
+        "transcript": 3
+      },
+      "similarities": {
+        "caption": 0.227922,
+        "transcript": 0.206773
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 3,
+      "start_ms": 18417,
+      "end_ms": 25000,
+      "keyframe_ms": 21708,
+      "caption": "A rocket launches upward, producing a brilliant column of light and billowing smoke amidst an industrial landscape of tall metal towers under a hazy sky. Text on the bottom left corner displays funding credits for the film.",
+      "transcript": "Jerk, Tom. Look,",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0003.jpg"
+    },
+    {
+      "result_position": 5,
+      "scene_id": "1d34b4769d15:0056",
+      "point_id": "f62ab7dd-a5bb-555f-8a24-a77e72f65a2e",
+      "rrf_score": 0.00459537,
+      "ranks": {
+        "transcript": 4
+      },
+      "similarities": {
+        "transcript": 0.202566
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 56,
+      "start_ms": 298958,
+      "end_ms": 300875,
+      "keyframe_ms": 299916,
+      "caption": "A large, metallic, robotic figure with glowing eyes stands in an outdoor area near some buildings. No people are visible, and the machine is stationary.",
+      "transcript": "Hurry, jerk, Tom.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0056.jpg"
+    }
+  ]
+}
