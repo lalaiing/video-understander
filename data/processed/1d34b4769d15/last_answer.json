@@ -1,0 +1,21 @@
+{
+  "question": "Does a four-legged robot attack a flying vehicle?",
+  "answerable": false,
+  "answer": "The provided evidence does not show a four-legged robot attacking a flying vehicle. While scene 120 shows mechanical entities engaging in combat, there is no flying vehicle present in the scene.",
+  "confidence": "high",
+  "citations": [],
+  "limitations": [],
+  "model": "gemini-3.1-flash-lite",
+  "text_only": false,
+  "retrieval": {
+    "top_retrieved": 3,
+    "neighbor_radius": 1,
+    "max_evidence": 7,
+    "stream_weights": {
+      "caption": 1.0,
+      "transcript": 1.0,
+      "keyframe": 1.0
+    }
+  },
+  "evidence_context_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\last_evidence_context.json"
+}

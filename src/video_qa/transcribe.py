@@ -60,15 +60,32 @@ def transcribe_video(
 
     print(f"[asr] Transcribing: {video_path}")
 
+
     segments_generator, info = model.transcribe(
         str(video_path),
         language=language,
         beam_size=5,
         word_timestamps=True,
-        vad_filter=True,
+
+        # Remove long non-speech regions, but keep padding around
+        # short dialogue mixed with effects and music.
+        vad_filter=False,
         vad_parameters={
             "min_silence_duration_ms": 500,
+            "speech_pad_ms": 400,
         },
+
+        # Prevent one recognized sentence from repeatedly seeding
+        # later transcription windows.
+        condition_on_previous_text=True,
+
+        # Help reject hallucinated speech across long silent gaps.
+        hallucination_silence_threshold=2.0,
+
+        # hotwords=(
+        #     "Thom Celia Barley Vivacissimo "
+        #     "robot hand robotics memory override"
+        # ),
     )
 
     segments: list[dict[str, Any]] = []

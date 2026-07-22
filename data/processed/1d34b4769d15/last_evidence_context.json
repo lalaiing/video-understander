@@ -1,0 +1,565 @@
+{
+  "question": "Does a four-legged robot attack a flying vehicle?",
+  "retrieval_weights": {
+    "caption": 1.0,
+    "transcript": 1.0,
+    "keyframe": 1.0
+  },
+  "retrieved_results": [
+    {
+      "rank": 1,
+      "scene_number": 5,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.37389671153944615
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 118,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "keyframe": 1
+      },
+      "similarities": {
+        "keyframe": 0.28274164368732907
+      }
+    },
+    {
+      "rank": 3,
+      "scene_number": 120,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "caption": 1
+      },
+      "similarities": {
+        "caption": 0.3926852803049108
+      }
+    }
+  ],
+  "evidence_scenes": [
+    {
+      "scene_id": "1d34b4769d15:0004",
+      "scene_number": 4,
+      "start_ms": 25000,
+      "end_ms": 40250,
+      "duration_ms": 15250,
+      "keyframe_ms": 32625,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg",
+      "transcript": "Celia, we have to follow our passions. You have your robotics, and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by it. All right, fine. I'm freaked out. I'm having nightmares that",
+      "transcript_words": [
+        {
+          "start_ms": 24900,
+          "end_ms": 25260,
+          "text": " Celia,",
+          "probability": 0.9586
+        },
+        {
+          "start_ms": 25400,
+          "end_ms": 25500,
+          "text": " we",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 25500,
+          "end_ms": 25680,
+          "text": " have",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 25680,
+          "end_ms": 25820,
+          "text": " to",
+          "probability": 0.9996
+        },
+        {
+          "start_ms": 25820,
+          "end_ms": 26120,
+          "text": " follow",
+          "probability": 0.9994
+        },
+        {
+          "start_ms": 26120,
+          "end_ms": 26320,
+          "text": " our",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 26320,
+          "end_ms": 26860,
+          "text": " passions.",
+          "probability": 0.9596
+        },
+        {
+          "start_ms": 27360,
+          "end_ms": 27480,
+          "text": " You",
+          "probability": 0.9917
+        },
+        {
+          "start_ms": 27480,
+          "end_ms": 27620,
+          "text": " have",
+          "probability": 0.9956
+        },
+        {
+          "start_ms": 27620,
+          "end_ms": 27740,
+          "text": " your",
+          "probability": 0.9953
+        },
+        {
+          "start_ms": 27740,
+          "end_ms": 28180,
+          "text": " robotics,",
+          "probability": 0.981
+        },
+        {
+          "start_ms": 28320,
+          "end_ms": 28400,
+          "text": " and",
+          "probability": 0.9954
+        },
+        {
+          "start_ms": 28400,
+          "end_ms": 28500,
+          "text": " I",
+          "probability": 0.9991
+        },
+        {
+          "start_ms": 28500,
+          "end_ms": 28620,
+          "text": " just",
+          "probability": 0.9917
+        },
+        {
+          "start_ms": 28620,
+          "end_ms": 28780,
+          "text": " want",
+          "probability": 0.7966
+        },
+        {
+          "start_ms": 28780,
+          "end_ms": 28880,
+          "text": " to",
+          "probability": 0.9983
+        },
+        {
+          "start_ms": 28880,
+          "end_ms": 28980,
+          "text": " be",
+          "probability": 0.9977
+        },
+        {
+          "start_ms": 28980,
+          "end_ms": 29480,
+          "text": " awesome",
+          "probability": 0.9961
+        },
+        {
+          "start_ms": 29480,
+          "end_ms": 29660,
+          "text": " in",
+          "probability": 0.9948
+        },
+        {
+          "start_ms": 29660,
+          "end_ms": 29920,
+          "text": " space.",
+          "probability": 0.9964
+        },
+        {
+          "start_ms": 30460,
+          "end_ms": 30860,
+          "text": " Why",
+          "probability": 0.963
+        },
+        {
+          "start_ms": 30860,
+          "end_ms": 31060,
+          "text": " don't",
+          "probability": 0.9977
+        },
+        {
+          "start_ms": 31060,
+          "end_ms": 31240,
+          "text": " you",
+          "probability": 0.999
+        },
+        {
+          "start_ms": 31240,
+          "end_ms": 31480,
+          "text": " just",
+          "probability": 0.9975
+        },
+        {
+          "start_ms": 31480,
+          "end_ms": 31840,
+          "text": " admit",
+          "probability": 0.9993
+        },
+        {
+          "start_ms": 31840,
+          "end_ms": 32020,
+          "text": " that",
+          "probability": 0.9902
+        },
+        {
+          "start_ms": 32020,
+          "end_ms": 32280,
+          "text": " you're",
+          "probability": 0.9839
+        },
+        {
+          "start_ms": 32280,
+          "end_ms": 32940,
+          "text": " freaked",
+          "probability": 0.9792
+        },
+        {
+          "start_ms": 32940,
+          "end_ms": 33140,
+          "text": " out",
+          "probability": 0.9954
+        },
+        {
+          "start_ms": 33140,
+          "end_ms": 33340,
+          "text": " by",
+          "probability": 0.9978
+        },
+        {
+          "start_ms": 33340,
+          "end_ms": 33520,
+          "text": " my",
+          "probability": 0.998
+        },
+        {
+          "start_ms": 33520,
+          "end_ms": 33900,
+          "text": " robot",
+          "probability": 0.9889
+        },
+        {
+          "start_ms": 33900,
+          "end_ms": 34300,
+          "text": " hand?",
+          "probability": 0.8278
+        },
+        {
+          "start_ms": 34620,
+          "end_ms": 34960,
+          "text": " I'm",
+          "probability": 0.9506
+        },
+        {
+          "start_ms": 34960,
+          "end_ms": 35100,
+          "text": " not",
+          "probability": 0.9953
+        },
+        {
+          "start_ms": 35100,
+          "end_ms": 35260,
+          "text": " freaked",
+          "probability": 0.9845
+        },
+        {
+          "start_ms": 35260,
+          "end_ms": 35480,
+          "text": " out",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 35480,
+          "end_ms": 35660,
+          "text": " by",
+          "probability": 0.5982
+        },
+        {
+          "start_ms": 35660,
+          "end_ms": 35840,
+          "text": " it.",
+          "probability": 0.3577
+        },
+        {
+          "start_ms": 37320,
+          "end_ms": 37760,
+          "text": " All",
+          "probability": 0.8003
+        },
+        {
+          "start_ms": 37760,
+          "end_ms": 37920,
+          "text": " right,",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 38020,
+          "end_ms": 38260,
+          "text": " fine.",
+          "probability": 0.9969
+        },
+        {
+          "start_ms": 38660,
+          "end_ms": 38840,
+          "text": " I'm",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 38840,
+          "end_ms": 39080,
+          "text": " freaked",
+          "probability": 0.9976
+        },
+        {
+          "start_ms": 39080,
+          "end_ms": 39400,
+          "text": " out.",
+          "probability": 0.9985
+        },
+        {
+          "start_ms": 39540,
+          "end_ms": 39580,
+          "text": " I'm",
+          "probability": 0.9928
+        },
+        {
+          "start_ms": 39580,
+          "end_ms": 39720,
+          "text": " having",
+          "probability": 0.9964
+        },
+        {
+          "start_ms": 39720,
+          "end_ms": 40040,
+          "text": " nightmares",
+          "probability": 0.995
+        },
+        {
+          "start_ms": 40040,
+          "end_ms": 40300,
+          "text": " that",
+          "probability": 0.9599
+        }
+      ],
+      "word_count": 49,
+      "has_speech": true,
+      "speech_start_ms": 24900,
+      "speech_end_ms": 40300,
+      "caption": "A young man and a woman stand facing each other on a bridge over a canal lined with trees and buildings. The woman, wearing a metallic robotic brace on her arm, raises her hand while looking at the man.",
+      "caption_model": "gemini-3.5-flash",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0005",
+      "scene_number": 5,
+      "start_ms": 40250,
+      "end_ms": 42083,
+      "duration_ms": 1833,
+      "keyframe_ms": 41166,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0005.jpg",
+      "transcript": "I'm being chased by these giant robotic",
+      "transcript_words": [
+        {
+          "start_ms": 40300,
+          "end_ms": 40380,
+          "text": " I'm",
+          "probability": 0.9976
+        },
+        {
+          "start_ms": 40380,
+          "end_ms": 40540,
+          "text": " being",
+          "probability": 0.9968
+        },
+        {
+          "start_ms": 40540,
+          "end_ms": 40860,
+          "text": " chased",
+          "probability": 0.9953
+        },
+        {
+          "start_ms": 40860,
+          "end_ms": 41020,
+          "text": " by",
+          "probability": 0.9666
+        },
+        {
+          "start_ms": 41020,
+          "end_ms": 41140,
+          "text": " these",
+          "probability": 0.3306
+        },
+        {
+          "start_ms": 41140,
+          "end_ms": 41460,
+          "text": " giant",
+          "probability": 0.9947
+        },
+        {
+          "start_ms": 41460,
+          "end_ms": 42020,
+          "text": " robotic",
+          "probability": 0.9409
+        }
+      ],
+      "word_count": 7,
+      "has_speech": true,
+      "speech_start_ms": 40300,
+      "speech_end_ms": 42020,
+      "caption": "Two glowing wireframe hologram figures, one orange and one blue, stand facing each other with raised hands in a dark, industrial setting.",
+      "caption_model": "gemini-3.5-flash",
+      "retrieval_rank": 1,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0006",
+      "scene_number": 6,
+      "start_ms": 42083,
+      "end_ms": 45625,
+      "duration_ms": 3542,
+      "keyframe_ms": 43854,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0006.jpg",
+      "transcript": "claws. Oh, what in our tongue? We're done.",
+      "transcript_words": [
+        {
+          "start_ms": 42020,
+          "end_ms": 42380,
+          "text": " claws.",
+          "probability": 0.8098
+        },
+        {
+          "start_ms": 42900,
+          "end_ms": 42900,
+          "text": " Oh,",
+          "probability": 0.6422
+        },
+        {
+          "start_ms": 42920,
+          "end_ms": 42920,
+          "text": " what",
+          "probability": 0.3065
+        },
+        {
+          "start_ms": 42920,
+          "end_ms": 42920,
+          "text": " in",
+          "probability": 0.5162
+        },
+        {
+          "start_ms": 42920,
+          "end_ms": 43080,
+          "text": " our",
+          "probability": 0.8007
+        },
+        {
+          "start_ms": 43080,
+          "end_ms": 43360,
+          "text": " tongue?",
+          "probability": 0.2331
+        },
+        {
+          "start_ms": 44250,
+          "end_ms": 44550,
+          "text": " We're",
+          "probability": 0.6839
+        },
+        {
+          "start_ms": 44550,
+          "end_ms": 44850,
+          "text": " done.",
+          "probability": 0.9846
+        }
+      ],
+      "word_count": 8,
+      "has_speech": true,
+      "speech_start_ms": 42020,
+      "speech_end_ms": 44850,
+      "caption": "In a dark, futuristic industrial setting filled with scaffolding and complex machinery, the text \"40 YEARS LATER\" is superimposed in the center. A glowing pink brain-like hologram on the left and small, glowing orange and blue holographic figures on the right illuminate the ruined environment.",
+      "caption_model": "gemini-3.5-flash",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0117",
+      "scene_number": 117,
+      "start_ms": 488042,
+      "end_ms": 489417,
+      "duration_ms": 1375,
+      "keyframe_ms": 488729,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0117.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A person with a shaved head is climbing or pulling themselves up a rope structure set against an industrial, outdoor background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0118",
+      "scene_number": 118,
+      "start_ms": 489417,
+      "end_ms": 491542,
+      "duration_ms": 2125,
+      "keyframe_ms": 490479,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0118.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A person hangs from a rope suspended from the wooden rafters of a church-like structure, while a large, metallic, robotic-looking sculpture stands in the foreground.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 2,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0119",
+      "scene_number": 119,
+      "start_ms": 491542,
+      "end_ms": 496083,
+      "duration_ms": 4541,
+      "keyframe_ms": 493812,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0119.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "The interior of a grand building features tall columns and a pipe organ, while a blurred, indistinct figure moves in the foreground.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0120",
+      "scene_number": 120,
+      "start_ms": 496083,
+      "end_ms": 496917,
+      "duration_ms": 834,
+      "keyframe_ms": 496500,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0120.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "Mechanical entities engage in combat inside a stone building with arched doorways. Sparks fly from the robots as they move across the floor amidst scattered debris.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 3,
+      "is_direct_retrieval": true
+    }
+  ]
+}
