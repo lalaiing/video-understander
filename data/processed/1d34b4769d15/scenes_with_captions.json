@@ -11,69 +11,63 @@
       "duration_ms": 8917,
       "keyframe_ms": 4458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0000.jpg",
-      "transcript": "Now, we have main engine start. Four, three, two,",
+      "transcript": "We have main engine start, four, three, two,",
       "transcript_words": [
         {
-          "start_ms": 2640,
-          "end_ms": 2780,
-          "text": " Now,",
-          "probability": 0.0326
+          "start_ms": 4040,
+          "end_ms": 4640,
+          "text": " We",
+          "probability": 0.3397
         },
         {
-          "start_ms": 3950,
-          "end_ms": 4870,
-          "text": " we",
-          "probability": 0.9562
-        },
-        {
-          "start_ms": 4870,
-          "end_ms": 5210,
+          "start_ms": 4640,
+          "end_ms": 5240,
           "text": " have",
-          "probability": 0.9962
+          "probability": 0.9902
         },
         {
-          "start_ms": 5210,
-          "end_ms": 5470,
+          "start_ms": 5240,
+          "end_ms": 5520,
           "text": " main",
-          "probability": 0.9251
+          "probability": 0.9581
         },
         {
-          "start_ms": 5470,
-          "end_ms": 5810,
+          "start_ms": 5520,
+          "end_ms": 5840,
           "text": " engine",
-          "probability": 0.7819
+          "probability": 0.7605
         },
         {
-          "start_ms": 5810,
-          "end_ms": 6210,
-          "text": " start.",
-          "probability": 0.9448
+          "start_ms": 5840,
+          "end_ms": 6340,
+          "text": " start,",
+          "probability": 0.9665
         },
         {
-          "start_ms": 6710,
-          "end_ms": 7190,
-          "text": " Four,",
-          "probability": 0.5892
+          "start_ms": 6340,
+          "end_ms": 7260,
+          "text": " four,",
+          "probability": 0.6882
         },
         {
-          "start_ms": 7470,
-          "end_ms": 7850,
+          "start_ms": 7680,
+          "end_ms": 7940,
           "text": " three,",
-          "probability": 0.9908
+          "probability": 0.9948
         },
         {
-          "start_ms": 8290,
-          "end_ms": 8650,
+          "start_ms": 8220,
+          "end_ms": 8780,
           "text": " two,",
-          "probability": 0.9979
+          "probability": 0.998
         }
       ],
-      "word_count": 9,
+      "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 2640,
-      "speech_end_ms": 8650,
-      "caption": "The screen is entirely black, with no visible people, objects, or actions.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 4040,
+      "speech_end_ms": 8780,
+      "caption": "A man in a dark hoodie stands before a large, illuminated screen in a dark room, while several people sit at computers in the background. The screen displays a complex data visualization consisting of glowing blue lines and connected nodes.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0001",
@@ -83,51 +77,27 @@
       "duration_ms": 4541,
       "keyframe_ms": 11187,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0001.jpg",
-      "transcript": "one. Get out of the car.",
+      "transcript": "one, go.",
       "transcript_words": [
         {
-          "start_ms": 9190,
-          "end_ms": 9630,
-          "text": " one.",
-          "probability": 0.9768
+          "start_ms": 8780,
+          "end_ms": 9640,
+          "text": " one,",
+          "probability": 0.9955
         },
         {
-          "start_ms": 10730,
-          "end_ms": 10770,
-          "text": " Get",
-          "probability": 0.003
-        },
-        {
-          "start_ms": 10770,
-          "end_ms": 11030,
-          "text": " out",
-          "probability": 0.3368
-        },
-        {
-          "start_ms": 11030,
-          "end_ms": 11030,
-          "text": " of",
-          "probability": 0.5715
-        },
-        {
-          "start_ms": 11030,
-          "end_ms": 11250,
-          "text": " the",
-          "probability": 0.5482
-        },
-        {
-          "start_ms": 11250,
-          "end_ms": 11290,
-          "text": " car.",
-          "probability": 0.7174
+          "start_ms": 10040,
+          "end_ms": 10860,
+          "text": " go.",
+          "probability": 0.73
         }
       ],
-      "word_count": 6,
+      "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 9190,
-      "speech_end_ms": 11290,
-      "caption": "Multiple large rocket engines fire bright exhaust plumes from a massive metallic structure surrounded by scaffolding.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 8780,
+      "speech_end_ms": 10860,
+      "caption": "Multiple large rocket engine nozzles are firing in an industrial launch facility, producing bright exhaust flames directed downward. No people are visible.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0002",
@@ -143,8 +113,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "Multiple rocket thrusters fire simultaneously, emitting bright white exhaust and smoke. Text thanking contributors for the 4K UHD version is displayed on the upper-left corner.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "Intense fire and smoke emerge from several large rocket engine nozzles, which are directed downward against a bright, hazy background. No people are visible in this scene.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0003",
@@ -154,33 +124,45 @@
       "duration_ms": 6583,
       "keyframe_ms": 21708,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0003.jpg",
-      "transcript": "Jerk, Tom. Look,",
+      "transcript": "You're a jerk, Tom. Look",
       "transcript_words": [
         {
-          "start_ms": 23600,
-          "end_ms": 24040,
-          "text": " Jerk,",
-          "probability": 0.6841
+          "start_ms": 22860,
+          "end_ms": 23460,
+          "text": " You're",
+          "probability": 0.8864
         },
         {
-          "start_ms": 24080,
-          "end_ms": 24300,
+          "start_ms": 23460,
+          "end_ms": 23720,
+          "text": " a",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 23720,
+          "end_ms": 24000,
+          "text": " jerk,",
+          "probability": 0.9977
+        },
+        {
+          "start_ms": 24300,
+          "end_ms": 24340,
           "text": " Tom.",
-          "probability": 0.956
+          "probability": 0.98
         },
         {
-          "start_ms": 24500,
-          "end_ms": 24720,
-          "text": " Look,",
-          "probability": 0.9192
+          "start_ms": 24580,
+          "end_ms": 24760,
+          "text": " Look",
+          "probability": 0.9316
         }
       ],
-      "word_count": 3,
+      "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 23600,
-      "speech_end_ms": 24720,
-      "caption": "A rocket launches upward, producing a brilliant column of light and billowing smoke amidst an industrial landscape of tall metal towers under a hazy sky. Text on the bottom left corner displays funding credits for the film.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 22860,
+      "speech_end_ms": 24760,
+      "caption": "A rocket launches into a cloudy sky from a construction site filled with metallic scaffolding, with no people visible in the scene.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0004",
@@ -190,309 +172,309 @@
       "duration_ms": 15250,
       "keyframe_ms": 32625,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg",
-      "transcript": "Celia, we have to follow our passions. You have your robotics, and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by it. All right, fine. I'm freaked out. I'm having nightmares that",
+      "transcript": "Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that",
       "transcript_words": [
         {
-          "start_ms": 24900,
-          "end_ms": 25260,
+          "start_ms": 24760,
+          "end_ms": 25280,
           "text": " Celia,",
-          "probability": 0.9586
+          "probability": 0.7174
         },
         {
-          "start_ms": 25400,
-          "end_ms": 25500,
+          "start_ms": 25280,
+          "end_ms": 25540,
           "text": " we",
-          "probability": 0.9967
+          "probability": 0.9932
         },
         {
-          "start_ms": 25500,
-          "end_ms": 25680,
+          "start_ms": 25540,
+          "end_ms": 25700,
           "text": " have",
-          "probability": 0.9984
+          "probability": 0.9965
         },
         {
-          "start_ms": 25680,
-          "end_ms": 25820,
+          "start_ms": 25700,
+          "end_ms": 25880,
           "text": " to",
-          "probability": 0.9996
+          "probability": 0.9988
         },
         {
-          "start_ms": 25820,
-          "end_ms": 26120,
+          "start_ms": 25880,
+          "end_ms": 26140,
           "text": " follow",
-          "probability": 0.9994
-        },
-        {
-          "start_ms": 26120,
-          "end_ms": 26320,
-          "text": " our",
-          "probability": 0.9972
-        },
-        {
-          "start_ms": 26320,
-          "end_ms": 26860,
-          "text": " passions.",
-          "probability": 0.9596
-        },
-        {
-          "start_ms": 27360,
-          "end_ms": 27480,
-          "text": " You",
-          "probability": 0.9917
-        },
-        {
-          "start_ms": 27480,
-          "end_ms": 27620,
-          "text": " have",
-          "probability": 0.9956
-        },
-        {
-          "start_ms": 27620,
-          "end_ms": 27740,
-          "text": " your",
-          "probability": 0.9953
-        },
-        {
-          "start_ms": 27740,
-          "end_ms": 28180,
-          "text": " robotics,",
-          "probability": 0.981
-        },
-        {
-          "start_ms": 28320,
-          "end_ms": 28400,
-          "text": " and",
-          "probability": 0.9954
-        },
-        {
-          "start_ms": 28400,
-          "end_ms": 28500,
-          "text": " I",
-          "probability": 0.9991
-        },
-        {
-          "start_ms": 28500,
-          "end_ms": 28620,
-          "text": " just",
-          "probability": 0.9917
-        },
-        {
-          "start_ms": 28620,
-          "end_ms": 28780,
-          "text": " want",
-          "probability": 0.7966
-        },
-        {
-          "start_ms": 28780,
-          "end_ms": 28880,
-          "text": " to",
-          "probability": 0.9983
-        },
-        {
-          "start_ms": 28880,
-          "end_ms": 28980,
-          "text": " be",
-          "probability": 0.9977
-        },
-        {
-          "start_ms": 28980,
-          "end_ms": 29480,
-          "text": " awesome",
-          "probability": 0.9961
-        },
-        {
-          "start_ms": 29480,
-          "end_ms": 29660,
-          "text": " in",
-          "probability": 0.9948
-        },
-        {
-          "start_ms": 29660,
-          "end_ms": 29920,
-          "text": " space.",
-          "probability": 0.9964
-        },
-        {
-          "start_ms": 30460,
-          "end_ms": 30860,
-          "text": " Why",
-          "probability": 0.963
-        },
-        {
-          "start_ms": 30860,
-          "end_ms": 31060,
-          "text": " don't",
-          "probability": 0.9977
-        },
-        {
-          "start_ms": 31060,
-          "end_ms": 31240,
-          "text": " you",
-          "probability": 0.999
-        },
-        {
-          "start_ms": 31240,
-          "end_ms": 31480,
-          "text": " just",
-          "probability": 0.9975
-        },
-        {
-          "start_ms": 31480,
-          "end_ms": 31840,
-          "text": " admit",
           "probability": 0.9993
         },
         {
+          "start_ms": 26140,
+          "end_ms": 26360,
+          "text": " our",
+          "probability": 0.9963
+        },
+        {
+          "start_ms": 26360,
+          "end_ms": 26940,
+          "text": " passions.",
+          "probability": 0.974
+        },
+        {
+          "start_ms": 26940,
+          "end_ms": 27460,
+          "text": " You",
+          "probability": 0.8835
+        },
+        {
+          "start_ms": 27460,
+          "end_ms": 27620,
+          "text": " have",
+          "probability": 0.9901
+        },
+        {
+          "start_ms": 27620,
+          "end_ms": 27800,
+          "text": " your",
+          "probability": 0.9956
+        },
+        {
+          "start_ms": 27800,
+          "end_ms": 28240,
+          "text": " robotics",
+          "probability": 0.9693
+        },
+        {
+          "start_ms": 28240,
+          "end_ms": 28400,
+          "text": " and",
+          "probability": 0.5751
+        },
+        {
+          "start_ms": 28400,
+          "end_ms": 28520,
+          "text": " I",
+          "probability": 0.9894
+        },
+        {
+          "start_ms": 28520,
+          "end_ms": 28660,
+          "text": " just",
+          "probability": 0.9943
+        },
+        {
+          "start_ms": 28660,
+          "end_ms": 28800,
+          "text": " want",
+          "probability": 0.8401
+        },
+        {
+          "start_ms": 28800,
+          "end_ms": 28900,
+          "text": " to",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 28900,
+          "end_ms": 29040,
+          "text": " be",
+          "probability": 0.9986
+        },
+        {
+          "start_ms": 29040,
+          "end_ms": 29500,
+          "text": " awesome",
+          "probability": 0.9936
+        },
+        {
+          "start_ms": 29500,
+          "end_ms": 29680,
+          "text": " in",
+          "probability": 0.9867
+        },
+        {
+          "start_ms": 29680,
+          "end_ms": 30040,
+          "text": " space.",
+          "probability": 0.9938
+        },
+        {
+          "start_ms": 30460,
+          "end_ms": 30880,
+          "text": " Why",
+          "probability": 0.8203
+        },
+        {
+          "start_ms": 30880,
+          "end_ms": 31120,
+          "text": " don't",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31120,
+          "end_ms": 31260,
+          "text": " you",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31260,
+          "end_ms": 31520,
+          "text": " just",
+          "probability": 0.9973
+        },
+        {
+          "start_ms": 31520,
+          "end_ms": 31840,
+          "text": " admit",
+          "probability": 0.9886
+        },
+        {
           "start_ms": 31840,
-          "end_ms": 32020,
+          "end_ms": 32080,
           "text": " that",
-          "probability": 0.9902
+          "probability": 0.962
         },
         {
-          "start_ms": 32020,
-          "end_ms": 32280,
+          "start_ms": 32080,
+          "end_ms": 32640,
           "text": " you're",
-          "probability": 0.9839
+          "probability": 0.9387
         },
         {
-          "start_ms": 32280,
-          "end_ms": 32940,
+          "start_ms": 32640,
+          "end_ms": 33000,
           "text": " freaked",
-          "probability": 0.9792
+          "probability": 0.9433
         },
         {
-          "start_ms": 32940,
-          "end_ms": 33140,
+          "start_ms": 33000,
+          "end_ms": 33200,
           "text": " out",
-          "probability": 0.9954
+          "probability": 0.9935
         },
         {
-          "start_ms": 33140,
-          "end_ms": 33340,
+          "start_ms": 33200,
+          "end_ms": 33380,
           "text": " by",
-          "probability": 0.9978
+          "probability": 0.989
         },
         {
-          "start_ms": 33340,
-          "end_ms": 33520,
+          "start_ms": 33380,
+          "end_ms": 33600,
           "text": " my",
-          "probability": 0.998
+          "probability": 0.9972
         },
         {
-          "start_ms": 33520,
-          "end_ms": 33900,
+          "start_ms": 33600,
+          "end_ms": 34020,
           "text": " robot",
-          "probability": 0.9889
+          "probability": 0.9945
         },
         {
-          "start_ms": 33900,
-          "end_ms": 34300,
+          "start_ms": 34020,
+          "end_ms": 34400,
           "text": " hand?",
-          "probability": 0.8278
+          "probability": 0.9723
         },
         {
-          "start_ms": 34620,
+          "start_ms": 34820,
           "end_ms": 34960,
           "text": " I'm",
-          "probability": 0.9506
+          "probability": 0.95
         },
         {
           "start_ms": 34960,
           "end_ms": 35100,
           "text": " not",
-          "probability": 0.9953
+          "probability": 0.987
         },
         {
           "start_ms": 35100,
-          "end_ms": 35260,
+          "end_ms": 35340,
           "text": " freaked",
-          "probability": 0.9845
+          "probability": 0.9947
         },
         {
-          "start_ms": 35260,
-          "end_ms": 35480,
+          "start_ms": 35340,
+          "end_ms": 35560,
           "text": " out",
-          "probability": 0.9989
+          "probability": 0.9958
         },
         {
-          "start_ms": 35480,
-          "end_ms": 35660,
+          "start_ms": 35560,
+          "end_ms": 35720,
           "text": " by",
-          "probability": 0.5982
+          "probability": 0.7266
         },
         {
-          "start_ms": 35660,
-          "end_ms": 35840,
-          "text": " it.",
-          "probability": 0.3577
+          "start_ms": 35720,
+          "end_ms": 35960,
+          "text": " its...",
+          "probability": 0.4862
         },
         {
-          "start_ms": 37320,
-          "end_ms": 37760,
+          "start_ms": 37480,
+          "end_ms": 37800,
           "text": " All",
-          "probability": 0.8003
+          "probability": 0.3451
         },
         {
-          "start_ms": 37760,
-          "end_ms": 37920,
+          "start_ms": 37800,
+          "end_ms": 37960,
           "text": " right,",
-          "probability": 0.9992
+          "probability": 0.9919
         },
         {
-          "start_ms": 38020,
-          "end_ms": 38260,
+          "start_ms": 38040,
+          "end_ms": 38380,
           "text": " fine.",
+          "probability": 0.996
+        },
+        {
+          "start_ms": 38680,
+          "end_ms": 38920,
+          "text": " I'm",
+          "probability": 0.9903
+        },
+        {
+          "start_ms": 38920,
+          "end_ms": 39200,
+          "text": " freaked",
           "probability": 0.9969
         },
         {
-          "start_ms": 38660,
-          "end_ms": 38840,
-          "text": " I'm",
-          "probability": 0.9967
-        },
-        {
-          "start_ms": 38840,
-          "end_ms": 39080,
-          "text": " freaked",
-          "probability": 0.9976
-        },
-        {
-          "start_ms": 39080,
-          "end_ms": 39400,
+          "start_ms": 39200,
+          "end_ms": 39460,
           "text": " out.",
-          "probability": 0.9985
+          "probability": 0.9989
         },
         {
-          "start_ms": 39540,
-          "end_ms": 39580,
+          "start_ms": 39520,
+          "end_ms": 39600,
           "text": " I'm",
-          "probability": 0.9928
+          "probability": 0.9972
         },
         {
-          "start_ms": 39580,
-          "end_ms": 39720,
+          "start_ms": 39600,
+          "end_ms": 39760,
           "text": " having",
-          "probability": 0.9964
+          "probability": 0.9991
         },
         {
-          "start_ms": 39720,
-          "end_ms": 40040,
+          "start_ms": 39760,
+          "end_ms": 40140,
           "text": " nightmares",
-          "probability": 0.995
+          "probability": 0.9943
         },
         {
-          "start_ms": 40040,
-          "end_ms": 40300,
+          "start_ms": 40140,
+          "end_ms": 40320,
           "text": " that",
-          "probability": 0.9599
+          "probability": 0.9727
         }
       ],
       "word_count": 49,
       "has_speech": true,
-      "speech_start_ms": 24900,
-      "speech_end_ms": 40300,
-      "caption": "A young man and a woman stand facing each other on a bridge over a canal lined with trees and buildings. The woman, wearing a metallic robotic brace on her arm, raises her hand while looking at the man.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 24760,
+      "speech_end_ms": 40320,
+      "caption": "A young man and a young woman stand on a bridge over a canal, with the woman gesturing upward while wearing a prosthetic or mechanical arm.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0005",
@@ -505,54 +487,54 @@
       "transcript": "I'm being chased by these giant robotic",
       "transcript_words": [
         {
-          "start_ms": 40300,
-          "end_ms": 40380,
+          "start_ms": 40320,
+          "end_ms": 40440,
           "text": " I'm",
+          "probability": 0.9941
+        },
+        {
+          "start_ms": 40440,
+          "end_ms": 40580,
+          "text": " being",
           "probability": 0.9976
         },
         {
-          "start_ms": 40380,
-          "end_ms": 40540,
-          "text": " being",
-          "probability": 0.9968
-        },
-        {
-          "start_ms": 40540,
-          "end_ms": 40860,
+          "start_ms": 40580,
+          "end_ms": 40880,
           "text": " chased",
-          "probability": 0.9953
+          "probability": 0.999
         },
         {
-          "start_ms": 40860,
-          "end_ms": 41020,
+          "start_ms": 40880,
+          "end_ms": 41040,
           "text": " by",
-          "probability": 0.9666
+          "probability": 0.9811
         },
         {
-          "start_ms": 41020,
-          "end_ms": 41140,
+          "start_ms": 41040,
+          "end_ms": 41160,
           "text": " these",
-          "probability": 0.3306
+          "probability": 0.5298
         },
         {
-          "start_ms": 41140,
-          "end_ms": 41460,
+          "start_ms": 41160,
+          "end_ms": 41540,
           "text": " giant",
-          "probability": 0.9947
+          "probability": 0.9859
         },
         {
-          "start_ms": 41460,
-          "end_ms": 42020,
+          "start_ms": 41540,
+          "end_ms": 42120,
           "text": " robotic",
-          "probability": 0.9409
+          "probability": 0.8797
         }
       ],
       "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 40300,
-      "speech_end_ms": 42020,
-      "caption": "Two glowing wireframe hologram figures, one orange and one blue, stand facing each other with raised hands in a dark, industrial setting.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 40320,
+      "speech_end_ms": 42120,
+      "caption": "Two stylized, holographic figures in orange and blue stand facing each other in a dark, industrial-looking setting with mechanical background elements. The blue figure appears to be gesturing toward the orange figure as they interact in a space marked by faint red grid markings.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0006",
@@ -562,63 +544,33 @@
       "duration_ms": 3542,
       "keyframe_ms": 43854,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0006.jpg",
-      "transcript": "claws. Oh, what in our tongue? We're done.",
+      "transcript": "claws. We're done.",
       "transcript_words": [
         {
-          "start_ms": 42020,
-          "end_ms": 42380,
+          "start_ms": 42120,
+          "end_ms": 42420,
           "text": " claws.",
-          "probability": 0.8098
+          "probability": 0.793
         },
         {
-          "start_ms": 42900,
-          "end_ms": 42900,
-          "text": " Oh,",
-          "probability": 0.6422
-        },
-        {
-          "start_ms": 42920,
-          "end_ms": 42920,
-          "text": " what",
-          "probability": 0.3065
-        },
-        {
-          "start_ms": 42920,
-          "end_ms": 42920,
-          "text": " in",
-          "probability": 0.5162
-        },
-        {
-          "start_ms": 42920,
-          "end_ms": 43080,
-          "text": " our",
-          "probability": 0.8007
-        },
-        {
-          "start_ms": 43080,
-          "end_ms": 43360,
-          "text": " tongue?",
-          "probability": 0.2331
-        },
-        {
-          "start_ms": 44250,
-          "end_ms": 44550,
+          "start_ms": 44100,
+          "end_ms": 44580,
           "text": " We're",
-          "probability": 0.6839
+          "probability": 0.5196
         },
         {
-          "start_ms": 44550,
-          "end_ms": 44850,
+          "start_ms": 44580,
+          "end_ms": 44960,
           "text": " done.",
-          "probability": 0.9846
+          "probability": 0.9914
         }
       ],
-      "word_count": 8,
+      "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 42020,
-      "speech_end_ms": 44850,
-      "caption": "In a dark, futuristic industrial setting filled with scaffolding and complex machinery, the text \"40 YEARS LATER\" is superimposed in the center. A glowing pink brain-like hologram on the left and small, glowing orange and blue holographic figures on the right illuminate the ruined environment.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 42120,
+      "speech_end_ms": 44960,
+      "caption": "In a dark, industrial setting, two holographic figures stand near a large, complex machine structure, while a glowing pink brain-like object sits on the left side of the frame. The text \"40 YEARS LATER\" is displayed prominently in the center of the scene.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0007",
@@ -628,14 +580,21 @@
       "duration_ms": 1833,
       "keyframe_ms": 46541,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0007.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "Two glowing wireframe humanoid figures, one orange and one blue, stand facing each other on a platform inside a dark, industrial facility with mechanical structures in the background.",
-      "caption_model": "gemini-3.5-flash"
+      "transcript": "The",
+      "transcript_words": [
+        {
+          "start_ms": 44960,
+          "end_ms": 47340,
+          "text": " The",
+          "probability": 0.0327
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 44960,
+      "speech_end_ms": 47340,
+      "caption": "Two humanoid wireframe figures, one orange and one blue, stand in a dimly lit industrial facility filled with machinery and pipes. The translucent, box-like structures appear to be holographic overlays or representations within the setting.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0008",
@@ -651,8 +610,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A glowing green and pink holographic interface displaying media controls floats in a dark, cluttered setting filled with wires and machinery. Swirling pink neon rings and light particles are scattered around the digital display.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A neon digital interface with playback controls and progress bars glows over a dark, cluttered industrial setting containing obscured figures. The scene is filled with floating particles and light artifacts that suggest a glitchy or futuristic digital environment.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0009",
@@ -662,14 +621,21 @@
       "duration_ms": 1500,
       "keyframe_ms": 49042,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0009.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "A glowing holographic interface displaying media controls and the text \"MEMORY PLAYBACK - GLOBAL\" is overlaid in front of a complex industrial setting with machinery and wiring. A large, cyan-colored pause icon glows brightly above the control panel.",
-      "caption_model": "gemini-3.5-flash"
+      "transcript": "robot's",
+      "transcript_words": [
+        {
+          "start_ms": 47340,
+          "end_ms": 50700,
+          "text": " robot's",
+          "probability": 0.8795
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 47340,
+      "speech_end_ms": 50700,
+      "caption": "A digital, light-green heads-up display showing \"MEMORY PLAYBACK - GLOBAL\" with media playback icons floats over a dimly lit, complex industrial setting featuring heavy machinery and pipes. No people are visible in this scene.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0010",
@@ -679,27 +645,21 @@
       "duration_ms": 1333,
       "keyframe_ms": 50458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0010.jpg",
-      "transcript": "Robot's memory",
+      "transcript": "memory",
       "transcript_words": [
         {
-          "start_ms": 50100,
-          "end_ms": 50660,
-          "text": " Robot's",
-          "probability": 0.7467
-        },
-        {
-          "start_ms": 50660,
-          "end_ms": 50920,
+          "start_ms": 50700,
+          "end_ms": 51040,
           "text": " memory",
-          "probability": 0.8245
+          "probability": 0.977
         }
       ],
-      "word_count": 2,
+      "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 50100,
-      "speech_end_ms": 50920,
-      "caption": "A hand adjusts a component on a complex electronic control panel filled with dials, buttons, numerical readouts, and glowing digital graphics.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 50700,
+      "speech_end_ms": 51040,
+      "caption": "A person's hand reaches toward buttons and electronic components on a complex console that features various knobs, digital displays, and illuminated circuitry overlays. The setting appears to be a laboratory or a technical workspace filled with specialized monitoring equipment.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0011",
@@ -712,30 +672,30 @@
       "transcript": "synced and locked.",
       "transcript_words": [
         {
-          "start_ms": 50920,
-          "end_ms": 51740,
+          "start_ms": 51040,
+          "end_ms": 51760,
           "text": " synced",
-          "probability": 0.7191
+          "probability": 0.7758
         },
         {
-          "start_ms": 51740,
-          "end_ms": 52600,
+          "start_ms": 51760,
+          "end_ms": 52640,
           "text": " and",
-          "probability": 0.8584
+          "probability": 0.661
         },
         {
-          "start_ms": 52600,
-          "end_ms": 53540,
+          "start_ms": 52640,
+          "end_ms": 53800,
           "text": " locked.",
-          "probability": 0.9233
+          "probability": 0.9717
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 50920,
-      "speech_end_ms": 53540,
-      "caption": "In a futuristic laboratory filled with neon pink and green digital overlays, a man wearing glasses looks forward while flanked by two individuals in white coats facing away from the camera.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 51040,
+      "speech_end_ms": 53800,
+      "caption": "A man wearing glasses works at a desk surrounded by lab equipment and glowing neon digital graphics, while two other individuals in white coats stand in the background.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0012",
@@ -751,8 +711,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "In a futuristic laboratory, two people wearing protective garments work with electronic equipment at a desk. A holographic screen displaying the words \"SIMULATION READY...\" overlays the scene as one person with dreadlocks looks down at devices while the other sits facing a glowing control panel.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "Two individuals wearing white lab coats operate glowing, complex technological equipment in a futuristic environment marked by large digital displays that read \"SIMULATION READY.\" The person on the left wears a head covering, while the person on the right sits at a desk with various illuminated components.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0013",
@@ -765,36 +725,36 @@
       "transcript": "This is pretty freaky.",
       "transcript_words": [
         {
-          "start_ms": 60830,
-          "end_ms": 61130,
+          "start_ms": 60420,
+          "end_ms": 61120,
           "text": " This",
-          "probability": 0.9534
+          "probability": 0.9065
         },
         {
-          "start_ms": 61130,
-          "end_ms": 61290,
+          "start_ms": 61120,
+          "end_ms": 61360,
           "text": " is",
-          "probability": 0.9973
+          "probability": 0.9907
         },
         {
-          "start_ms": 61290,
-          "end_ms": 61690,
+          "start_ms": 61360,
+          "end_ms": 61780,
           "text": " pretty",
-          "probability": 0.9938
+          "probability": 0.992
         },
         {
-          "start_ms": 61690,
-          "end_ms": 62190,
+          "start_ms": 61780,
+          "end_ms": 62300,
           "text": " freaky.",
-          "probability": 0.9576
+          "probability": 0.9947
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 60830,
-      "speech_end_ms": 62190,
-      "caption": "A man wearing a mechanical eyepiece looks closely at a brain resting on an illuminated platform in a dimly lit, pink-hued room.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 60420,
+      "speech_end_ms": 62300,
+      "caption": "A man wearing a futuristic ocular device leans over a human-like brain resting on a table while working in a dimly lit, laboratory-like setting.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0014",
@@ -810,8 +770,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "The stylized, metallic silver text \"TEARS OF STEEL\" is centered against a solid black background.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "The title \"Tears of Steel\" is displayed in metallic, stylized lettering centered against a solid black background.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0015",
@@ -827,8 +787,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A large, dark mechanical structure sits amidst the gabled rooftops of a historic cityscape under an overcast, smoky sky. In the background, smoke rises in a plume near a tall spire tower.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A large, dark mechanical structure looms over a city of traditional European-style houses and a church steeple, while several silhouettes of people stand atop the tower in the background. Thick plumes of smoke rise into the overcast sky above the urban landscape.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0016",
@@ -844,8 +804,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "Inside an elevated, open-air structure with large hanging bells and cables, one person in dark gear lies on the ground while another aims a rifle through the railing toward a misty background with transmission towers.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A person holding a rifle crouches on a balcony overlooking an industrial area, while another individual lies prone on the ground nearby. The setting is cluttered with equipment, cables, and structural supports under a hazy sky.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0017",
@@ -861,8 +821,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A person lies with their face covered by a newspaper bearing the headline \"ROBOTICIST CREATES KILLER ROBOTS.\" Their hand rests on the edge of the page, which is draped over their head.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A person lies with their head covered by a newspaper titled \"ROBOTICIST CREATES KILLER ROBOTS,\" while their hand rests on the paper's edge.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0018",
@@ -878,8 +838,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A man wearing a quilted jacket aims a large, scoped rifle supported by a bipod on a balcony with stone balusters. The setting around him is filled with a thick, hazy blue mist.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A man in a dark quilted jacket aims a futuristic sniper rifle equipped with a bipod and a scope while positioned behind a stone railing.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0019",
@@ -895,8 +855,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A complex, retro-futuristic model vessel covered in wires, scaffolding, and antennae is positioned in a dark setting. It is backlit by a bright, circular light source from behind.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A large, detailed mechanical vehicle with numerous lights and pipes is positioned within a curved, illuminated structure. There are no people visible, and the craft appears stationary.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0020",
@@ -912,8 +872,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A person holds a large, futuristic rifle with a glowing scope and looks upward in a dimly lit, cool-toned environment.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A person looks up while holding a futuristic rifle equipped with a large scope in a dimly lit, cold-toned setting.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0021",
@@ -929,8 +889,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "Viewed through a circular scope, a complex aerial vehicle with numerous lights hovers over the rooftops of a town under an overcast sky.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A large, metallic, multi-engine aircraft hovers low over a town with traditional European-style houses, viewed through a circular scope or lens. No people are visible, and the craft remains stationary above the rooftop level.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0022",
@@ -946,8 +906,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "In a dimly lit, misty setting, a man with gray hair lies on his back smoking a cigarette beside lit candles and a hanging rope, while another man in tactical gear aims a scoped rifle in the background.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A man rests on a bed while a person in tactical gear aims a sniper rifle toward the outdoors through an opening with railings. Candles are placed on a ledge near the sniper, and the overall setting appears to be a dimly lit, rustic interior.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0023",
@@ -963,8 +923,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "Viewed through a circular lens, a complex mechanical vessel equipped with bright spotlights hovers over the rooftops of a misty town. Several cables hang from the underside of the floating craft.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A large, metallic, multi-tiered aerial machine with glowing lights hovers above the rooftops of a residential area, viewed through a circular frame. No people are visible, and the structure remains stationary above the buildings.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0024",
@@ -974,51 +934,45 @@
       "duration_ms": 3167,
       "keyframe_ms": 118291,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0024.jpg",
-      "transcript": "Should have you be down there?",
+      "transcript": "Shouldn't you be down there?",
       "transcript_words": [
         {
-          "start_ms": 117750,
-          "end_ms": 117910,
-          "text": " Should",
-          "probability": 0.326
+          "start_ms": 117380,
+          "end_ms": 118000,
+          "text": " Shouldn't",
+          "probability": 0.8905
         },
         {
-          "start_ms": 117910,
-          "end_ms": 117970,
-          "text": " have",
-          "probability": 0.1992
-        },
-        {
-          "start_ms": 117970,
-          "end_ms": 118050,
+          "start_ms": 118000,
+          "end_ms": 118080,
           "text": " you",
-          "probability": 0.9793
+          "probability": 0.9969
         },
         {
-          "start_ms": 118050,
-          "end_ms": 118170,
+          "start_ms": 118080,
+          "end_ms": 118220,
           "text": " be",
-          "probability": 0.821
+          "probability": 0.9988
         },
         {
-          "start_ms": 118170,
-          "end_ms": 118370,
+          "start_ms": 118220,
+          "end_ms": 118380,
           "text": " down",
-          "probability": 0.9893
+          "probability": 0.9988
         },
         {
-          "start_ms": 118370,
-          "end_ms": 118550,
+          "start_ms": 118380,
+          "end_ms": 118690,
           "text": " there?",
-          "probability": 0.9915
+          "probability": 0.9978
         }
       ],
-      "word_count": 6,
+      "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 117750,
-      "speech_end_ms": 118550,
-      "caption": "A man in a dark jacket aims a futuristic scoped rifle mounted on a bipod from behind stone pillars in a misty setting.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 117380,
+      "speech_end_ms": 118690,
+      "caption": "A man aims a scoped futuristic rifle while resting it on a stone balcony railing. He is positioned in a dimly lit, foggy environment with architectural pillars visible in the foreground.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0025",
@@ -1031,54 +985,54 @@
       "transcript": "I heard you guys talking last night.",
       "transcript_words": [
         {
-          "start_ms": 131190,
-          "end_ms": 131490,
+          "start_ms": 130880,
+          "end_ms": 131500,
           "text": " I",
-          "probability": 0.9874
+          "probability": 0.9525
         },
         {
-          "start_ms": 131490,
-          "end_ms": 131590,
+          "start_ms": 131500,
+          "end_ms": 131600,
           "text": " heard",
-          "probability": 0.9888
+          "probability": 0.944
         },
         {
-          "start_ms": 131590,
-          "end_ms": 131710,
+          "start_ms": 131600,
+          "end_ms": 131740,
           "text": " you",
-          "probability": 0.9071
+          "probability": 0.9294
         },
         {
-          "start_ms": 131710,
-          "end_ms": 131950,
+          "start_ms": 131740,
+          "end_ms": 131940,
           "text": " guys",
-          "probability": 0.9923
+          "probability": 0.995
         },
         {
-          "start_ms": 131950,
-          "end_ms": 132230,
+          "start_ms": 131940,
+          "end_ms": 132300,
           "text": " talking",
-          "probability": 0.9567
+          "probability": 0.9781
         },
         {
-          "start_ms": 132230,
-          "end_ms": 132530,
+          "start_ms": 132300,
+          "end_ms": 132560,
           "text": " last",
-          "probability": 0.985
+          "probability": 0.9967
         },
         {
-          "start_ms": 132530,
-          "end_ms": 132790,
+          "start_ms": 132560,
+          "end_ms": 132920,
           "text": " night.",
-          "probability": 0.9995
+          "probability": 0.9992
         }
       ],
       "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 131190,
-      "speech_end_ms": 132790,
-      "caption": "An older man with grey hair stands on a foggy deck with a wooden railing, adjusting his dark patterned jacket. In the background, another person in dark clothing sits on the floor near a tripod-mounted device.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 130880,
+      "speech_end_ms": 132920,
+      "caption": "An older man with gray hair adjusts his dark patterned jacket while standing on a railed balcony overlooking a misty expanse. In the background, another person wearing tactical gear and equipment crouches near a railing.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0026",
@@ -1088,51 +1042,51 @@
       "duration_ms": 5000,
       "keyframe_ms": 137417,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0026.jpg",
-      "transcript": "It's not my fault, you know?",
+      "transcript": "It's not my fault, you know.",
       "transcript_words": [
         {
-          "start_ms": 136370,
-          "end_ms": 136650,
+          "start_ms": 136140,
+          "end_ms": 136660,
           "text": " It's",
-          "probability": 0.9503
+          "probability": 0.8896
         },
         {
-          "start_ms": 136650,
-          "end_ms": 136750,
+          "start_ms": 136660,
+          "end_ms": 136780,
           "text": " not",
-          "probability": 0.9977
+          "probability": 0.9973
         },
         {
-          "start_ms": 136750,
-          "end_ms": 136950,
+          "start_ms": 136780,
+          "end_ms": 137000,
           "text": " my",
-          "probability": 0.8693
+          "probability": 0.9586
         },
         {
-          "start_ms": 136950,
-          "end_ms": 137250,
+          "start_ms": 137000,
+          "end_ms": 137260,
           "text": " fault,",
           "probability": 0.9999
         },
         {
-          "start_ms": 137410,
-          "end_ms": 137490,
+          "start_ms": 137260,
+          "end_ms": 137500,
           "text": " you",
-          "probability": 0.9575
+          "probability": 0.9944
         },
         {
-          "start_ms": 137490,
-          "end_ms": 137610,
-          "text": " know?",
-          "probability": 0.9992
+          "start_ms": 137500,
+          "end_ms": 138300,
+          "text": " know.",
+          "probability": 0.9997
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 136370,
-      "speech_end_ms": 137610,
-      "caption": "A man with gray hair and a beard sits on the misty deck of a vessel surrounded by ropes and equipment. In the background, another figure sits near a wooden railing, framed by dark columns on either side of the scene.",
-      "caption_model": "gemini-3.5-flash"
+      "speech_start_ms": 136140,
+      "speech_end_ms": 138300,
+      "caption": "A man sits on a wooden deck in a foggy, exterior setting while another figure is visible resting in the background. Piles of rope and other debris are scattered across the deck near structural supports.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0027",
@@ -1148,8 +1102,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A man aims a scoped rifle mounted on a bipod from a balcony with stone balusters, looking off to the side against a foggy, blue background.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "A man aims a scoped rifle from a balcony overlooking a foggy, indistinct setting.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0028",
@@ -1165,8 +1119,8 @@
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "An older, grey-haired man stands on a balcony holding a thick rope and looking downwards. In the background, a person wearing tactical gear aims a scoped rifle over the railing next to a lit candle and blankets.",
-      "caption_model": "gemini-3.5-flash"
+      "caption": "An older man with gray hair holds a rope on a balcony, while in the background, a person in tactical gear aims a rifle mounted on a tripod.",
+      "caption_model": "gemini-3.1-flash-lite"
     },
     {
       "scene_id": "1d34b4769d15:0029",
@@ -1261,24 +1215,42 @@
       "duration_ms": 3583,
       "keyframe_ms": 191291,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0034.jpg",
-      "transcript": "Of course",
+      "transcript": "Are you ready? Of course",
       "transcript_words": [
         {
-          "start_ms": 192660,
-          "end_ms": 192900,
-          "text": " Of",
-          "probability": 0.6279
+          "start_ms": 190720,
+          "end_ms": 191220,
+          "text": " Are",
+          "probability": 0.8019
         },
         {
-          "start_ms": 192900,
+          "start_ms": 191220,
+          "end_ms": 191720,
+          "text": " you",
+          "probability": 0.9975
+        },
+        {
+          "start_ms": 191720,
+          "end_ms": 192060,
+          "text": " ready?",
+          "probability": 0.998
+        },
+        {
+          "start_ms": 192840,
+          "end_ms": 192940,
+          "text": " Of",
+          "probability": 0.8519
+        },
+        {
+          "start_ms": 192940,
           "end_ms": 193000,
           "text": " course",
-          "probability": 0.9731
+          "probability": 0.9925
         }
       ],
-      "word_count": 2,
+      "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 192660,
+      "speech_start_ms": 190720,
       "speech_end_ms": 193000,
       "caption": "An elderly person with gray hair stands in the foreground facing a large, complex mechanical structure in a dimly lit, ruined city street. The individual looks toward the machine, which is situated on a cobblestone path surrounded by weathered buildings and streetlamps.",
       "caption_model": "gemini-3.1-flash-lite"
@@ -1291,73 +1263,73 @@
       "duration_ms": 5417,
       "keyframe_ms": 195791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0035.jpg",
-      "transcript": "you're ready. You're a rock star. Is it looking, Barley?",
+      "transcript": "you're ready. You're a rock star. How's it looking, Barty?",
       "transcript_words": [
         {
           "start_ms": 193000,
-          "end_ms": 193260,
+          "end_ms": 193300,
           "text": " you're",
-          "probability": 0.863
+          "probability": 0.7502
         },
         {
-          "start_ms": 193260,
-          "end_ms": 193460,
+          "start_ms": 193300,
+          "end_ms": 193480,
           "text": " ready.",
-          "probability": 0.9916
+          "probability": 0.9982
         },
         {
-          "start_ms": 193680,
-          "end_ms": 193820,
+          "start_ms": 193640,
+          "end_ms": 193860,
           "text": " You're",
-          "probability": 0.9922
+          "probability": 0.9813
         },
         {
-          "start_ms": 193820,
-          "end_ms": 193960,
+          "start_ms": 193860,
+          "end_ms": 194040,
           "text": " a",
-          "probability": 0.9749
+          "probability": 0.9949
         },
         {
-          "start_ms": 193960,
-          "end_ms": 194120,
+          "start_ms": 194040,
+          "end_ms": 194140,
           "text": " rock",
-          "probability": 0.9593
+          "probability": 0.9865
         },
         {
-          "start_ms": 194120,
-          "end_ms": 194440,
+          "start_ms": 194140,
+          "end_ms": 194580,
           "text": " star.",
-          "probability": 0.5606
+          "probability": 0.7498
         },
         {
-          "start_ms": 197030,
-          "end_ms": 197350,
-          "text": " Is",
-          "probability": 0.2097
+          "start_ms": 196820,
+          "end_ms": 197420,
+          "text": " How's",
+          "probability": 0.6013
         },
         {
-          "start_ms": 197350,
-          "end_ms": 197490,
+          "start_ms": 197420,
+          "end_ms": 197500,
           "text": " it",
-          "probability": 0.9934
+          "probability": 0.989
         },
         {
-          "start_ms": 197490,
-          "end_ms": 197670,
+          "start_ms": 197500,
+          "end_ms": 197760,
           "text": " looking,",
-          "probability": 0.9407
+          "probability": 0.931
         },
         {
-          "start_ms": 197830,
-          "end_ms": 198130,
-          "text": " Barley?",
-          "probability": 0.7572
+          "start_ms": 198060,
+          "end_ms": 198200,
+          "text": " Barty?",
+          "probability": 0.7067
         }
       ],
       "word_count": 10,
       "has_speech": true,
       "speech_start_ms": 193000,
-      "speech_end_ms": 198130,
+      "speech_end_ms": 198200,
       "caption": "Two people in military-style clothing stand on either side of an older man with a grey beard, with the person on the left placing a hand on his shoulder and the person on the right holding his arm in a dimly lit, furnished room. The setting features multiple lamps, a table, and a mirror in the background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1372,46 +1344,46 @@
       "transcript": "We should have about 10 minutes.",
       "transcript_words": [
         {
-          "start_ms": 198530,
-          "end_ms": 199030,
+          "start_ms": 198660,
+          "end_ms": 199060,
           "text": " We",
-          "probability": 0.9879
+          "probability": 0.8261
         },
         {
-          "start_ms": 199030,
-          "end_ms": 199310,
+          "start_ms": 199060,
+          "end_ms": 199360,
           "text": " should",
-          "probability": 0.9945
+          "probability": 0.9916
         },
         {
-          "start_ms": 199310,
-          "end_ms": 199570,
+          "start_ms": 199360,
+          "end_ms": 199600,
           "text": " have",
-          "probability": 0.9977
+          "probability": 0.9959
         },
         {
-          "start_ms": 199570,
-          "end_ms": 199790,
+          "start_ms": 199600,
+          "end_ms": 199860,
           "text": " about",
-          "probability": 0.985
+          "probability": 0.9768
         },
         {
-          "start_ms": 199790,
-          "end_ms": 200070,
+          "start_ms": 199860,
+          "end_ms": 200100,
           "text": " 10",
-          "probability": 0.4293
+          "probability": 0.4975
         },
         {
-          "start_ms": 200070,
-          "end_ms": 200330,
+          "start_ms": 200100,
+          "end_ms": 200400,
           "text": " minutes.",
-          "probability": 0.9915
+          "probability": 0.9885
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 198530,
-      "speech_end_ms": 200330,
+      "speech_start_ms": 198660,
+      "speech_end_ms": 200400,
       "caption": "A person with dark skin peers through a gap between two stone pillars while aiming a rifle equipped with an optical scope.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1423,67 +1395,67 @@
       "duration_ms": 5500,
       "keyframe_ms": 203917,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0037.jpg",
-      "transcript": "Well, that's perfect. We're only one. All systems go.",
+      "transcript": "Well, that's perfect. We're only one. All systems, go!",
       "transcript_words": [
         {
-          "start_ms": 201640,
-          "end_ms": 201980,
+          "start_ms": 201700,
+          "end_ms": 202000,
           "text": " Well,",
-          "probability": 0.9866
+          "probability": 0.9235
         },
         {
-          "start_ms": 202020,
-          "end_ms": 202280,
+          "start_ms": 202060,
+          "end_ms": 202380,
           "text": " that's",
-          "probability": 0.9981
+          "probability": 0.9968
         },
         {
-          "start_ms": 202280,
-          "end_ms": 202640,
+          "start_ms": 202380,
+          "end_ms": 202720,
           "text": " perfect.",
-          "probability": 0.9959
+          "probability": 0.9955
         },
         {
-          "start_ms": 203500,
-          "end_ms": 203860,
+          "start_ms": 203640,
+          "end_ms": 203880,
           "text": " We're",
-          "probability": 0.9487
+          "probability": 0.9274
         },
         {
-          "start_ms": 203860,
-          "end_ms": 204180,
+          "start_ms": 203880,
+          "end_ms": 204160,
           "text": " only",
-          "probability": 0.8723
+          "probability": 0.9024
         },
         {
-          "start_ms": 204180,
-          "end_ms": 204440,
+          "start_ms": 204160,
+          "end_ms": 204540,
           "text": " one.",
-          "probability": 0.9142
+          "probability": 0.9426
         },
         {
-          "start_ms": 205120,
-          "end_ms": 205480,
+          "start_ms": 205220,
+          "end_ms": 205520,
           "text": " All",
-          "probability": 0.9934
+          "probability": 0.9589
         },
         {
-          "start_ms": 205480,
-          "end_ms": 205900,
-          "text": " systems",
-          "probability": 0.9943
+          "start_ms": 205520,
+          "end_ms": 205980,
+          "text": " systems,",
+          "probability": 0.9905
         },
         {
-          "start_ms": 205900,
-          "end_ms": 206340,
-          "text": " go.",
-          "probability": 0.6914
+          "start_ms": 206280,
+          "end_ms": 206460,
+          "text": " go!",
+          "probability": 0.9794
         }
       ],
       "word_count": 9,
       "has_speech": true,
-      "speech_start_ms": 201640,
-      "speech_end_ms": 206340,
+      "speech_start_ms": 201700,
+      "speech_end_ms": 206460,
       "caption": "A man with a robotic eye attachment and a woman in military-style gear stand together indoors in a room furnished with lamps, desks, and books. The man in the red jacket is gesturing while speaking, while the woman beside him looks toward the side.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1495,37 +1467,37 @@
       "duration_ms": 2000,
       "keyframe_ms": 207667,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0038.jpg",
-      "transcript": "Yeah, you go. Go.",
+      "transcript": "Yeah, you, go! Go!",
       "transcript_words": [
         {
-          "start_ms": 206620,
-          "end_ms": 206740,
+          "start_ms": 206660,
+          "end_ms": 206780,
           "text": " Yeah,",
-          "probability": 0.8436
+          "probability": 0.7036
         },
         {
-          "start_ms": 206820,
-          "end_ms": 206940,
-          "text": " you",
-          "probability": 0.9974
+          "start_ms": 206900,
+          "end_ms": 207000,
+          "text": " you,",
+          "probability": 0.9362
         },
         {
-          "start_ms": 206940,
-          "end_ms": 207280,
-          "text": " go.",
-          "probability": 0.4568
+          "start_ms": 207180,
+          "end_ms": 207480,
+          "text": " go!",
+          "probability": 0.9942
         },
         {
-          "start_ms": 207920,
-          "end_ms": 208260,
-          "text": " Go.",
-          "probability": 0.893
+          "start_ms": 208100,
+          "end_ms": 208480,
+          "text": " Go!",
+          "probability": 0.9795
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 206620,
-      "speech_end_ms": 208260,
+      "speech_start_ms": 206660,
+      "speech_end_ms": 208480,
       "caption": "A person operates a technical console covered in glowing digital interfaces, buttons, and dials within a dimly lit, futuristic setting. A dark glass bottle stands on the workstation as the person's hand interacts with the equipment.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1554,12 +1526,31 @@
       "duration_ms": 1584,
       "keyframe_ms": 210375,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0040.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Move your asses!",
+      "transcript_words": [
+        {
+          "start_ms": 209800,
+          "end_ms": 210240,
+          "text": " Move",
+          "probability": 0.9068
+        },
+        {
+          "start_ms": 210240,
+          "end_ms": 210540,
+          "text": " your",
+          "probability": 0.8934
+        },
+        {
+          "start_ms": 210540,
+          "end_ms": 210980,
+          "text": " asses!",
+          "probability": 0.9882
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 209800,
+      "speech_end_ms": 210980,
       "caption": "A person stands within an art installation composed of numerous intersecting orange horizontal lines strung across a dark room. The individual appears to be walking through the space while surrounded by the grid-like structure.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1571,12 +1562,31 @@
       "duration_ms": 1291,
       "keyframe_ms": 211812,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0041.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Go, go, go!",
+      "transcript_words": [
+        {
+          "start_ms": 211300,
+          "end_ms": 211460,
+          "text": " Go,",
+          "probability": 0.9656
+        },
+        {
+          "start_ms": 211640,
+          "end_ms": 211740,
+          "text": " go,",
+          "probability": 0.9983
+        },
+        {
+          "start_ms": 212300,
+          "end_ms": 212300,
+          "text": " go!",
+          "probability": 0.9955
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 211300,
+      "speech_end_ms": 212300,
       "caption": "A large, mechanical construct stands in the center of a cobblestone bridge surrounded by dilapidated buildings in a post-apocalyptic setting, with no people visible in the scene.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1588,12 +1598,31 @@
       "duration_ms": 1459,
       "keyframe_ms": 213187,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0042.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "I love it!",
+      "transcript_words": [
+        {
+          "start_ms": 213060,
+          "end_ms": 213340,
+          "text": " I",
+          "probability": 0.4904
+        },
+        {
+          "start_ms": 213340,
+          "end_ms": 213680,
+          "text": " love",
+          "probability": 0.8185
+        },
+        {
+          "start_ms": 213680,
+          "end_ms": 214060,
+          "text": " it!",
+          "probability": 0.9854
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 213060,
+      "speech_end_ms": 214060,
       "caption": "Two people in lab coats work at a long outdoor console filled with various electronic equipment and mechanical components. Numerous thin wires connect the devices, which are interspersed with translucent, neon-glowing holographic diagrams.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1605,12 +1634,25 @@
       "duration_ms": 1625,
       "keyframe_ms": 214729,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0043.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Come on!",
+      "transcript_words": [
+        {
+          "start_ms": 214320,
+          "end_ms": 214580,
+          "text": " Come",
+          "probability": 0.9435
+        },
+        {
+          "start_ms": 214580,
+          "end_ms": 215000,
+          "text": " on!",
+          "probability": 0.9958
+        }
+      ],
+      "word_count": 2,
+      "has_speech": true,
+      "speech_start_ms": 214320,
+      "speech_end_ms": 215000,
       "caption": "Two men stand indoors, with the man in the foreground wearing a mechanical eye device while speaking with his mouth open. The man in the background watches him while wearing a plaid jacket over a dark shirt.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1622,12 +1664,19 @@
       "duration_ms": 6875,
       "keyframe_ms": 218979,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0044.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Go!",
+      "transcript_words": [
+        {
+          "start_ms": 215500,
+          "end_ms": 215840,
+          "text": " Go!",
+          "probability": 0.9783
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 215500,
+      "speech_end_ms": 215840,
       "caption": "A person stands with arms outstretched before a glowing, grid-like dome of light symbols in a park-like setting featuring street lamps.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1642,34 +1691,34 @@
       "transcript": "That's nice. Nothing to",
       "transcript_words": [
         {
-          "start_ms": 222740,
+          "start_ms": 222700,
           "end_ms": 223300,
           "text": " That's",
-          "probability": 0.9798
+          "probability": 0.981
         },
         {
           "start_ms": 223300,
-          "end_ms": 223580,
+          "end_ms": 223720,
           "text": " nice.",
-          "probability": 0.9982
+          "probability": 0.9989
         },
         {
-          "start_ms": 224550,
-          "end_ms": 224830,
+          "start_ms": 224600,
+          "end_ms": 224960,
           "text": " Nothing",
-          "probability": 0.2697
+          "probability": 0.423
         },
         {
-          "start_ms": 224830,
-          "end_ms": 225170,
+          "start_ms": 224960,
+          "end_ms": 225180,
           "text": " to",
-          "probability": 0.987
+          "probability": 0.9911
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 222740,
-      "speech_end_ms": 225170,
+      "speech_start_ms": 222700,
+      "speech_end_ms": 225180,
       "caption": "A mechanical, spider-like robot stands on a bridge in an urban setting surrounded by trees and a building, with no people visible in the frame.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1681,31 +1730,55 @@
       "duration_ms": 9500,
       "keyframe_ms": 229833,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0046.jpg",
-      "transcript": "worry about. Tom,",
+      "transcript": "worry about. Tom, there she is. Now,",
       "transcript_words": [
         {
-          "start_ms": 225170,
-          "end_ms": 225330,
+          "start_ms": 225180,
+          "end_ms": 225360,
           "text": " worry",
-          "probability": 0.9924
+          "probability": 0.9972
         },
         {
-          "start_ms": 225330,
-          "end_ms": 225570,
+          "start_ms": 225360,
+          "end_ms": 225680,
           "text": " about.",
-          "probability": 0.9926
+          "probability": 0.9977
         },
         {
-          "start_ms": 225750,
-          "end_ms": 225890,
+          "start_ms": 230300,
+          "end_ms": 231020,
           "text": " Tom,",
-          "probability": 0.2991
+          "probability": 0.8641
+        },
+        {
+          "start_ms": 232200,
+          "end_ms": 232340,
+          "text": " there",
+          "probability": 0.9684
+        },
+        {
+          "start_ms": 232340,
+          "end_ms": 232540,
+          "text": " she",
+          "probability": 0.9965
+        },
+        {
+          "start_ms": 232540,
+          "end_ms": 232840,
+          "text": " is.",
+          "probability": 0.9995
+        },
+        {
+          "start_ms": 233800,
+          "end_ms": 234000,
+          "text": " Now,",
+          "probability": 0.9557
         }
       ],
-      "word_count": 3,
+      "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 225170,
-      "speech_end_ms": 225890,
+      "speech_start_ms": 225180,
+      "speech_end_ms": 234000,
       "caption": "A man with a prosthetic eye device reaches out to touch the ear of an older man with grey hair, while a young woman stands behind them in what appears to be a cluttered indoor room.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1717,31 +1790,49 @@
       "duration_ms": 4084,
       "keyframe_ms": 236625,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0047.jpg",
-      "transcript": "she's your passion.",
+      "transcript": "you love her. She's your passion.",
       "transcript_words": [
         {
-          "start_ms": 237470,
-          "end_ms": 237750,
-          "text": " she's",
-          "probability": 0.8496
+          "start_ms": 235400,
+          "end_ms": 235640,
+          "text": " you",
+          "probability": 0.9685
         },
         {
-          "start_ms": 237750,
-          "end_ms": 237850,
+          "start_ms": 235640,
+          "end_ms": 236000,
+          "text": " love",
+          "probability": 0.9196
+        },
+        {
+          "start_ms": 236000,
+          "end_ms": 236560,
+          "text": " her.",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 237560,
+          "end_ms": 237760,
+          "text": " She's",
+          "probability": 0.8934
+        },
+        {
+          "start_ms": 237760,
+          "end_ms": 237880,
           "text": " your",
-          "probability": 0.9924
+          "probability": 0.9929
         },
         {
-          "start_ms": 237850,
-          "end_ms": 238350,
+          "start_ms": 237880,
+          "end_ms": 238460,
           "text": " passion.",
-          "probability": 0.9882
+          "probability": 0.9991
         }
       ],
-      "word_count": 3,
+      "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 237470,
-      "speech_end_ms": 238350,
+      "speech_start_ms": 235400,
+      "speech_end_ms": 238460,
       "caption": "Three people stand with their backs to the viewer in a brick-lined urban setting, looking toward a large, complex mechanical structure hanging from above. The person in the center has their arm around the shoulders of the person standing to their right.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1753,79 +1844,91 @@
       "duration_ms": 14750,
       "keyframe_ms": 246042,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0048.jpg",
-      "transcript": "Be tender to her. Be honest. Remind her what love is.",
+      "transcript": "Be tender to her. Be honest. Be tender. Remind her what love is.",
       "transcript_words": [
         {
-          "start_ms": 238730,
-          "end_ms": 239270,
+          "start_ms": 239300,
+          "end_ms": 239360,
           "text": " Be",
-          "probability": 0.7896
+          "probability": 0.9566
         },
         {
-          "start_ms": 239270,
-          "end_ms": 240130,
+          "start_ms": 239360,
+          "end_ms": 240200,
           "text": " tender",
-          "probability": 0.2655
+          "probability": 0.9186
         },
         {
-          "start_ms": 240130,
-          "end_ms": 240410,
+          "start_ms": 240200,
+          "end_ms": 240420,
           "text": " to",
-          "probability": 0.9827
+          "probability": 0.9918
         },
         {
-          "start_ms": 240410,
-          "end_ms": 240570,
+          "start_ms": 240420,
+          "end_ms": 240680,
           "text": " her.",
-          "probability": 0.9968
+          "probability": 0.999
         },
         {
-          "start_ms": 241580,
-          "end_ms": 241660,
+          "start_ms": 241560,
+          "end_ms": 241680,
           "text": " Be",
-          "probability": 0.954
+          "probability": 0.9882
         },
         {
-          "start_ms": 241660,
-          "end_ms": 241960,
+          "start_ms": 241680,
+          "end_ms": 242040,
           "text": " honest.",
-          "probability": 0.9974
+          "probability": 0.9995
         },
         {
-          "start_ms": 245440,
-          "end_ms": 245980,
+          "start_ms": 243440,
+          "end_ms": 243880,
+          "text": " Be",
+          "probability": 0.7985
+        },
+        {
+          "start_ms": 243880,
+          "end_ms": 244200,
+          "text": " tender.",
+          "probability": 0.9995
+        },
+        {
+          "start_ms": 245560,
+          "end_ms": 246080,
           "text": " Remind",
-          "probability": 0.8455
+          "probability": 0.9951
         },
         {
-          "start_ms": 245980,
-          "end_ms": 246260,
+          "start_ms": 246080,
+          "end_ms": 246380,
           "text": " her",
-          "probability": 0.9885
+          "probability": 0.9979
         },
         {
-          "start_ms": 246260,
-          "end_ms": 247120,
+          "start_ms": 246380,
+          "end_ms": 247260,
           "text": " what",
-          "probability": 0.7881
+          "probability": 0.9652
         },
         {
-          "start_ms": 247220,
-          "end_ms": 247520,
+          "start_ms": 247260,
+          "end_ms": 247560,
           "text": " love",
-          "probability": 0.9929
+          "probability": 0.9978
         },
         {
-          "start_ms": 247520,
-          "end_ms": 247940,
+          "start_ms": 247560,
+          "end_ms": 247960,
           "text": " is.",
-          "probability": 0.9969
+          "probability": 0.9995
         }
       ],
-      "word_count": 11,
+      "word_count": 13,
       "has_speech": true,
-      "speech_start_ms": 238730,
-      "speech_end_ms": 247940,
+      "speech_start_ms": 239300,
+      "speech_end_ms": 247960,
       "caption": "Three people, including two men and a woman, are gathered in a cluttered indoor room with a lamp and wall decor visible in the background. One man leans in to speak toward the other man while resting his arm on his shoulder, as the woman looks on from the side.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1888,12 +1991,25 @@
       "duration_ms": 5583,
       "keyframe_ms": 292333,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0052.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "And action!",
+      "transcript_words": [
+        {
+          "start_ms": 293180,
+          "end_ms": 294060,
+          "text": " And",
+          "probability": 0.5215
+        },
+        {
+          "start_ms": 294060,
+          "end_ms": 294940,
+          "text": " action!",
+          "probability": 0.4283
+        }
+      ],
+      "word_count": 2,
+      "has_speech": true,
+      "speech_start_ms": 293180,
+      "speech_end_ms": 294940,
       "caption": "A man with an ocular prosthetic device sits at a desk in a room, holding a small object while another person stands behind him in a tactical uniform. The setting includes bookshelves filled with books, a desk lamp, and various papers and a cup on the desk surface.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1922,12 +2038,25 @@
       "duration_ms": 1000,
       "keyframe_ms": 297000,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0054.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Memory override",
+      "transcript_words": [
+        {
+          "start_ms": 296460,
+          "end_ms": 297080,
+          "text": " Memory",
+          "probability": 0.9108
+        },
+        {
+          "start_ms": 297080,
+          "end_ms": 297520,
+          "text": " override",
+          "probability": 0.8546
+        }
+      ],
+      "word_count": 2,
+      "has_speech": true,
+      "speech_start_ms": 296460,
+      "speech_end_ms": 297520,
       "caption": "A man wearing glasses sits at a desk in a tech-filled laboratory, appearing to speak or react while surrounded by people in white lab coats and glowing digital equipment.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1939,19 +2068,25 @@
       "duration_ms": 1458,
       "keyframe_ms": 298229,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0055.jpg",
-      "transcript": "Progress.",
+      "transcript": "in progress.",
       "transcript_words": [
         {
-          "start_ms": 297760,
-          "end_ms": 298120,
-          "text": " Progress.",
-          "probability": 0.6645
+          "start_ms": 297520,
+          "end_ms": 297780,
+          "text": " in",
+          "probability": 0.9944
+        },
+        {
+          "start_ms": 297780,
+          "end_ms": 298260,
+          "text": " progress.",
+          "probability": 0.9948
         }
       ],
-      "word_count": 1,
+      "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 297760,
-      "speech_end_ms": 298120,
+      "speech_start_ms": 297520,
+      "speech_end_ms": 298260,
       "caption": "A person is viewed from behind as they observe a translucent digital interface displaying the text \"MEMORY OVERWRITE\" and a progress bar currently at 4.77%.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1963,31 +2098,37 @@
       "duration_ms": 1917,
       "keyframe_ms": 299916,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0056.jpg",
-      "transcript": "Hurry, jerk, Tom.",
+      "transcript": "You're a jerk, Tom.",
       "transcript_words": [
         {
-          "start_ms": 299340,
-          "end_ms": 299600,
-          "text": " Hurry,",
-          "probability": 0.0291
+          "start_ms": 299380,
+          "end_ms": 299580,
+          "text": " You're",
+          "probability": 0.9179
         },
         {
-          "start_ms": 299780,
-          "end_ms": 299960,
+          "start_ms": 299580,
+          "end_ms": 299800,
+          "text": " a",
+          "probability": 0.9901
+        },
+        {
+          "start_ms": 299800,
+          "end_ms": 300040,
           "text": " jerk,",
-          "probability": 0.2903
+          "probability": 0.9484
         },
         {
-          "start_ms": 300220,
-          "end_ms": 300460,
+          "start_ms": 300460,
+          "end_ms": 300520,
           "text": " Tom.",
-          "probability": 0.8931
+          "probability": 0.6875
         }
       ],
-      "word_count": 3,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 299340,
-      "speech_end_ms": 300460,
+      "speech_start_ms": 299380,
+      "speech_end_ms": 300520,
       "caption": "A large, metallic, robotic figure with glowing eyes stands in an outdoor area near some buildings. No people are visible, and the machine is stationary.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -1999,31 +2140,19 @@
       "duration_ms": 1833,
       "keyframe_ms": 301791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0057.jpg",
-      "transcript": "Oh, I'm sorry.",
+      "transcript": "Oh,",
       "transcript_words": [
         {
-          "start_ms": 302150,
-          "end_ms": 302430,
+          "start_ms": 302160,
+          "end_ms": 302420,
           "text": " Oh,",
-          "probability": 0.5773
-        },
-        {
-          "start_ms": 302510,
-          "end_ms": 302510,
-          "text": " I'm",
-          "probability": 0.8146
-        },
-        {
-          "start_ms": 302510,
-          "end_ms": 302850,
-          "text": " sorry.",
-          "probability": 0.998
+          "probability": 0.4975
         }
       ],
-      "word_count": 3,
+      "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 302150,
-      "speech_end_ms": 302850,
+      "speech_start_ms": 302160,
+      "speech_end_ms": 302420,
       "caption": "A man stands on a bridge next to a large, mechanical robotic structure in an outdoor urban setting.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2035,19 +2164,25 @@
       "duration_ms": 5000,
       "keyframe_ms": 305208,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0058.jpg",
-      "transcript": "Sorry.",
+      "transcript": "sorry. Sorry.",
       "transcript_words": [
         {
-          "start_ms": 303690,
-          "end_ms": 304030,
+          "start_ms": 302840,
+          "end_ms": 302840,
+          "text": " sorry.",
+          "probability": 0.6447
+        },
+        {
+          "start_ms": 303720,
+          "end_ms": 304100,
           "text": " Sorry.",
-          "probability": 0.7124
+          "probability": 0.9941
         }
       ],
-      "word_count": 1,
+      "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 303690,
-      "speech_end_ms": 304030,
+      "speech_start_ms": 302840,
+      "speech_end_ms": 304100,
       "caption": "A man with glasses stands in a dark, neon-lit setting, reaching toward a small desk lamp placed near his workspace. Blurred digital structures and glowing grid lines surround him, creating a futuristic atmosphere.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2113,58 +2248,58 @@
       "transcript": "Look, Celia, we have to follow our passions.",
       "transcript_words": [
         {
-          "start_ms": 316020,
-          "end_ms": 316200,
+          "start_ms": 315640,
+          "end_ms": 316240,
           "text": " Look,",
-          "probability": 0.5248
+          "probability": 0.698
         },
         {
-          "start_ms": 316340,
-          "end_ms": 316660,
+          "start_ms": 316480,
+          "end_ms": 316700,
           "text": " Celia,",
-          "probability": 0.9487
+          "probability": 0.9641
         },
         {
-          "start_ms": 318150,
-          "end_ms": 318530,
+          "start_ms": 317500,
+          "end_ms": 318560,
           "text": " we",
-          "probability": 0.9748
+          "probability": 0.9145
         },
         {
-          "start_ms": 318530,
-          "end_ms": 318730,
+          "start_ms": 318560,
+          "end_ms": 318740,
           "text": " have",
-          "probability": 0.9987
+          "probability": 0.9979
         },
         {
-          "start_ms": 318730,
-          "end_ms": 318890,
+          "start_ms": 318740,
+          "end_ms": 318960,
           "text": " to",
-          "probability": 0.999
+          "probability": 0.9992
         },
         {
-          "start_ms": 318890,
-          "end_ms": 319230,
+          "start_ms": 318960,
+          "end_ms": 319260,
           "text": " follow",
-          "probability": 0.999
+          "probability": 0.9994
         },
         {
-          "start_ms": 319230,
-          "end_ms": 319470,
+          "start_ms": 319260,
+          "end_ms": 319560,
           "text": " our",
-          "probability": 0.9946
+          "probability": 0.9927
         },
         {
-          "start_ms": 319470,
-          "end_ms": 320010,
+          "start_ms": 319560,
+          "end_ms": 320160,
           "text": " passions.",
-          "probability": 0.9933
+          "probability": 0.9663
         }
       ],
       "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 316020,
-      "speech_end_ms": 320010,
+      "speech_start_ms": 315640,
+      "speech_end_ms": 320160,
       "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2176,37 +2311,31 @@
       "duration_ms": 2250,
       "keyframe_ms": 321083,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg",
-      "transcript": "You have your robotics,",
+      "transcript": "You have your",
       "transcript_words": [
         {
-          "start_ms": 321310,
-          "end_ms": 321550,
+          "start_ms": 320960,
+          "end_ms": 321560,
           "text": " You",
-          "probability": 0.9974
+          "probability": 0.9926
         },
         {
-          "start_ms": 321550,
-          "end_ms": 321750,
+          "start_ms": 321560,
+          "end_ms": 321740,
           "text": " have",
-          "probability": 0.9992
+          "probability": 0.9989
         },
         {
-          "start_ms": 321750,
-          "end_ms": 321910,
+          "start_ms": 321740,
+          "end_ms": 322000,
           "text": " your",
-          "probability": 0.9964
-        },
-        {
-          "start_ms": 321910,
-          "end_ms": 322410,
-          "text": " robotics,",
-          "probability": 0.9841
+          "probability": 0.9985
         }
       ],
-      "word_count": 4,
+      "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 321310,
-      "speech_end_ms": 322410,
+      "speech_start_ms": 320960,
+      "speech_end_ms": 322000,
       "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2218,12 +2347,19 @@
       "duration_ms": 1875,
       "keyframe_ms": 323145,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "robotics.",
+      "transcript_words": [
+        {
+          "start_ms": 322000,
+          "end_ms": 322580,
+          "text": " robotics.",
+          "probability": 0.9908
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 322000,
+      "speech_end_ms": 322580,
       "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2235,67 +2371,67 @@
       "duration_ms": 4375,
       "keyframe_ms": 326270,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg",
-      "transcript": "and I just want to be awesome in space.",
+      "transcript": "And I just want to be awesome in space.",
       "transcript_words": [
         {
-          "start_ms": 325110,
-          "end_ms": 325310,
-          "text": " and",
-          "probability": 0.9838
+          "start_ms": 324840,
+          "end_ms": 325440,
+          "text": " And",
+          "probability": 0.8819
         },
         {
-          "start_ms": 325310,
-          "end_ms": 326010,
+          "start_ms": 325440,
+          "end_ms": 326040,
           "text": " I",
-          "probability": 0.9791
+          "probability": 0.947
         },
         {
-          "start_ms": 326010,
-          "end_ms": 326210,
+          "start_ms": 326040,
+          "end_ms": 326240,
           "text": " just",
-          "probability": 0.9975
+          "probability": 0.9957
         },
         {
-          "start_ms": 326210,
-          "end_ms": 326430,
+          "start_ms": 326240,
+          "end_ms": 326460,
           "text": " want",
-          "probability": 0.8543
+          "probability": 0.7745
         },
         {
-          "start_ms": 326430,
-          "end_ms": 326550,
+          "start_ms": 326460,
+          "end_ms": 326560,
           "text": " to",
-          "probability": 0.9989
+          "probability": 0.9986
         },
         {
-          "start_ms": 326550,
-          "end_ms": 326670,
+          "start_ms": 326560,
+          "end_ms": 326720,
           "text": " be",
-          "probability": 0.9977
+          "probability": 0.9992
         },
         {
-          "start_ms": 326670,
-          "end_ms": 327010,
+          "start_ms": 326720,
+          "end_ms": 327060,
           "text": " awesome",
-          "probability": 0.9974
+          "probability": 0.9954
         },
         {
-          "start_ms": 327010,
-          "end_ms": 327250,
+          "start_ms": 327060,
+          "end_ms": 327320,
           "text": " in",
-          "probability": 0.9904
+          "probability": 0.9789
         },
         {
-          "start_ms": 327250,
-          "end_ms": 327510,
+          "start_ms": 327320,
+          "end_ms": 327740,
           "text": " space.",
-          "probability": 0.9942
+          "probability": 0.9931
         }
       ],
       "word_count": 9,
       "has_speech": true,
-      "speech_start_ms": 325110,
-      "speech_end_ms": 327510,
+      "speech_start_ms": 324840,
+      "speech_end_ms": 327740,
       "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2341,49 +2477,49 @@
       "duration_ms": 2291,
       "keyframe_ms": 340062,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0068.jpg",
-      "transcript": "Get her coming. Two minutes left.",
+      "transcript": "Okay, they're coming. Two minutes left.",
       "transcript_words": [
         {
-          "start_ms": 339140,
+          "start_ms": 338740,
           "end_ms": 339340,
-          "text": " Get",
-          "probability": 0.5948
+          "text": " Okay,",
+          "probability": 0.1256
         },
         {
-          "start_ms": 339340,
-          "end_ms": 339420,
-          "text": " her",
-          "probability": 0.9632
+          "start_ms": 339400,
+          "end_ms": 339480,
+          "text": " they're",
+          "probability": 0.9684
         },
         {
-          "start_ms": 339420,
-          "end_ms": 339660,
+          "start_ms": 339480,
+          "end_ms": 339700,
           "text": " coming.",
-          "probability": 0.8938
+          "probability": 0.9862
         },
         {
-          "start_ms": 340200,
-          "end_ms": 340520,
+          "start_ms": 340260,
+          "end_ms": 340540,
           "text": " Two",
-          "probability": 0.9135
+          "probability": 0.8997
         },
         {
-          "start_ms": 340520,
-          "end_ms": 340700,
+          "start_ms": 340540,
+          "end_ms": 340720,
           "text": " minutes",
-          "probability": 0.9981
+          "probability": 0.9969
         },
         {
-          "start_ms": 340700,
-          "end_ms": 341060,
+          "start_ms": 340720,
+          "end_ms": 341100,
           "text": " left.",
-          "probability": 0.9979
+          "probability": 0.9956
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 339140,
-      "speech_end_ms": 341060,
+      "speech_start_ms": 338740,
+      "speech_end_ms": 341100,
       "caption": "A man gazes forward with an intense expression while peering over the barrel of a rifle equipped with a large optic sight. He is positioned between two white stone columns, looking through the weapon's scope.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2395,55 +2531,61 @@
       "duration_ms": 5250,
       "keyframe_ms": 343833,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg",
-      "transcript": "Speed up, Tom. This is Celia. Why",
+      "transcript": "Two minutes. Celia, come! We can see Celia!",
       "transcript_words": [
         {
-          "start_ms": 342860,
-          "end_ms": 343140,
-          "text": " Speed",
-          "probability": 0.1883
+          "start_ms": 341520,
+          "end_ms": 341700,
+          "text": " Two",
+          "probability": 0.8277
         },
         {
-          "start_ms": 343140,
-          "end_ms": 343440,
-          "text": " up,",
-          "probability": 0.5876
+          "start_ms": 341700,
+          "end_ms": 341920,
+          "text": " minutes.",
+          "probability": 0.9927
         },
         {
-          "start_ms": 343520,
-          "end_ms": 343660,
-          "text": " Tom.",
-          "probability": 0.8822
+          "start_ms": 342780,
+          "end_ms": 343320,
+          "text": " Celia,",
+          "probability": 0.5031
         },
         {
-          "start_ms": 343660,
-          "end_ms": 344400,
-          "text": " This",
-          "probability": 0.0305
+          "start_ms": 343320,
+          "end_ms": 343640,
+          "text": " come!",
+          "probability": 0.3671
         },
         {
-          "start_ms": 345390,
-          "end_ms": 345410,
-          "text": " is",
-          "probability": 0.8488
+          "start_ms": 344880,
+          "end_ms": 345140,
+          "text": " We",
+          "probability": 0.3714
         },
         {
-          "start_ms": 345410,
-          "end_ms": 345850,
-          "text": " Celia.",
-          "probability": 0.8882
+          "start_ms": 345140,
+          "end_ms": 345380,
+          "text": " can",
+          "probability": 0.3398
         },
         {
-          "start_ms": 346390,
-          "end_ms": 346390,
-          "text": " Why",
-          "probability": 0.5992
+          "start_ms": 345380,
+          "end_ms": 345600,
+          "text": " see",
+          "probability": 0.9706
+        },
+        {
+          "start_ms": 345600,
+          "end_ms": 346200,
+          "text": " Celia!",
+          "probability": 0.9851
         }
       ],
-      "word_count": 7,
+      "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 342860,
-      "speech_end_ms": 346390,
+      "speech_start_ms": 341520,
+      "speech_end_ms": 346200,
       "caption": "A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2455,49 +2597,55 @@
       "duration_ms": 1959,
       "keyframe_ms": 347437,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0070.jpg",
-      "transcript": "don't you just admit that you're",
+      "transcript": "Why don't you just admit that you're",
       "transcript_words": [
         {
-          "start_ms": 346490,
-          "end_ms": 347430,
-          "text": " don't",
-          "probability": 0.9924
+          "start_ms": 347000,
+          "end_ms": 347220,
+          "text": " Why",
+          "probability": 0.9675
         },
         {
-          "start_ms": 347430,
-          "end_ms": 347530,
+          "start_ms": 347220,
+          "end_ms": 347400,
+          "text": " don't",
+          "probability": 0.9913
+        },
+        {
+          "start_ms": 347400,
+          "end_ms": 347560,
           "text": " you",
           "probability": 0.9978
         },
         {
-          "start_ms": 347530,
-          "end_ms": 347710,
+          "start_ms": 347560,
+          "end_ms": 347780,
           "text": " just",
-          "probability": 0.9903
+          "probability": 0.9853
         },
         {
-          "start_ms": 347710,
-          "end_ms": 348010,
+          "start_ms": 347780,
+          "end_ms": 348060,
           "text": " admit",
-          "probability": 0.9975
+          "probability": 0.9982
         },
         {
-          "start_ms": 348010,
-          "end_ms": 348190,
+          "start_ms": 348060,
+          "end_ms": 348240,
           "text": " that",
-          "probability": 0.9389
+          "probability": 0.7896
         },
         {
-          "start_ms": 348190,
-          "end_ms": 348410,
+          "start_ms": 348240,
+          "end_ms": 348540,
           "text": " you're",
-          "probability": 0.9682
+          "probability": 0.9492
         }
       ],
-      "word_count": 6,
+      "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 346490,
-      "speech_end_ms": 348410,
+      "speech_start_ms": 347000,
+      "speech_end_ms": 348540,
       "caption": "A woman with light hair is outdoors in a residential area, speaking with her mouth open. The background includes green trees and blurred houses.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2512,46 +2660,46 @@
       "transcript": "freaked out by my robot hand?",
       "transcript_words": [
         {
-          "start_ms": 348410,
-          "end_ms": 348650,
+          "start_ms": 348540,
+          "end_ms": 348700,
           "text": " freaked",
-          "probability": 0.9936
+          "probability": 0.9931
         },
         {
-          "start_ms": 348650,
-          "end_ms": 348850,
+          "start_ms": 348700,
+          "end_ms": 348920,
           "text": " out",
-          "probability": 0.9928
+          "probability": 0.9913
         },
         {
-          "start_ms": 348850,
-          "end_ms": 349030,
+          "start_ms": 348920,
+          "end_ms": 349060,
           "text": " by",
-          "probability": 0.9958
+          "probability": 0.9937
         },
         {
-          "start_ms": 349030,
-          "end_ms": 349230,
+          "start_ms": 349060,
+          "end_ms": 349280,
           "text": " my",
-          "probability": 0.9891
+          "probability": 0.9959
         },
         {
-          "start_ms": 349230,
-          "end_ms": 349490,
+          "start_ms": 349280,
+          "end_ms": 349600,
           "text": " robot",
-          "probability": 0.9837
+          "probability": 0.9911
         },
         {
-          "start_ms": 349490,
-          "end_ms": 349870,
+          "start_ms": 349600,
+          "end_ms": 350040,
           "text": " hand?",
-          "probability": 0.8591
+          "probability": 0.9526
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 348410,
-      "speech_end_ms": 349870,
+      "speech_start_ms": 348540,
+      "speech_end_ms": 350040,
       "caption": "A man and a woman with a robotic prosthetic arm stand facing each other on a bridge over a canal lined with trees and buildings. The woman holds her mechanical arm up toward the man.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2597,97 +2745,91 @@
       "duration_ms": 5792,
       "keyframe_ms": 359229,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg",
-      "transcript": "This is Celia. I was young and a dick, but there's no reason to",
+      "transcript": "Listen, Celia, I was young and a dick, but there's no reason to",
       "transcript_words": [
         {
-          "start_ms": 356740,
-          "end_ms": 357060,
-          "text": " This",
-          "probability": 0.8156
+          "start_ms": 356620,
+          "end_ms": 357160,
+          "text": " Listen,",
+          "probability": 0.8585
         },
         {
-          "start_ms": 357060,
-          "end_ms": 357180,
-          "text": " is",
-          "probability": 0.9873
+          "start_ms": 357320,
+          "end_ms": 357640,
+          "text": " Celia,",
+          "probability": 0.9979
         },
         {
-          "start_ms": 357180,
-          "end_ms": 357560,
-          "text": " Celia.",
-          "probability": 0.9975
-        },
-        {
-          "start_ms": 358140,
-          "end_ms": 358280,
+          "start_ms": 358060,
+          "end_ms": 358320,
           "text": " I",
-          "probability": 0.9963
+          "probability": 0.9951
         },
         {
-          "start_ms": 358280,
-          "end_ms": 358440,
+          "start_ms": 358320,
+          "end_ms": 358480,
           "text": " was",
-          "probability": 0.9992
+          "probability": 0.9982
         },
         {
-          "start_ms": 358440,
-          "end_ms": 358780,
+          "start_ms": 358480,
+          "end_ms": 358840,
           "text": " young",
-          "probability": 0.9965
+          "probability": 0.9984
         },
         {
-          "start_ms": 358780,
-          "end_ms": 359760,
+          "start_ms": 358840,
+          "end_ms": 360140,
           "text": " and",
-          "probability": 0.6439
+          "probability": 0.3386
         },
         {
           "start_ms": 360140,
-          "end_ms": 360240,
+          "end_ms": 360420,
           "text": " a",
-          "probability": 0.9947
+          "probability": 0.9952
         },
         {
-          "start_ms": 360240,
-          "end_ms": 360500,
+          "start_ms": 360420,
+          "end_ms": 360640,
           "text": " dick,",
-          "probability": 0.9831
+          "probability": 0.9786
         },
         {
-          "start_ms": 360820,
-          "end_ms": 361340,
+          "start_ms": 360700,
+          "end_ms": 361360,
           "text": " but",
-          "probability": 0.9805
+          "probability": 0.9917
         },
         {
-          "start_ms": 361340,
-          "end_ms": 361500,
+          "start_ms": 361360,
+          "end_ms": 361520,
           "text": " there's",
-          "probability": 0.9667
+          "probability": 0.9709
         },
         {
-          "start_ms": 361500,
-          "end_ms": 361620,
+          "start_ms": 361520,
+          "end_ms": 361660,
           "text": " no",
-          "probability": 0.9987
+          "probability": 0.9967
         },
         {
-          "start_ms": 361620,
-          "end_ms": 361840,
+          "start_ms": 361660,
+          "end_ms": 361860,
           "text": " reason",
-          "probability": 0.9995
+          "probability": 0.9996
         },
         {
-          "start_ms": 361840,
-          "end_ms": 361980,
+          "start_ms": 361860,
+          "end_ms": 362060,
           "text": " to",
-          "probability": 0.9993
+          "probability": 0.9995
         }
       ],
-      "word_count": 14,
+      "word_count": 13,
       "has_speech": true,
-      "speech_start_ms": 356740,
-      "speech_end_ms": 361980,
+      "speech_start_ms": 356620,
+      "speech_end_ms": 362060,
       "caption": "A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2702,28 +2844,28 @@
       "transcript": "destroy the world.",
       "transcript_words": [
         {
-          "start_ms": 361980,
-          "end_ms": 362360,
+          "start_ms": 362060,
+          "end_ms": 362380,
           "text": " destroy",
-          "probability": 0.9988
+          "probability": 0.9994
         },
         {
-          "start_ms": 362360,
-          "end_ms": 362520,
+          "start_ms": 362380,
+          "end_ms": 362640,
           "text": " the",
-          "probability": 0.9988
+          "probability": 0.9992
         },
         {
-          "start_ms": 362520,
-          "end_ms": 362860,
+          "start_ms": 362640,
+          "end_ms": 362920,
           "text": " world.",
-          "probability": 0.997
+          "probability": 0.9986
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 361980,
-      "speech_end_ms": 362860,
+      "speech_start_ms": 362060,
+      "speech_end_ms": 362920,
       "caption": "A woman with an intense expression looks toward a person partially visible in the foreground who is holding a small bouquet of flowers in an outdoor, tree-lined setting.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2739,51 +2881,51 @@
       "transcript_words": [
         {
           "start_ms": 364680,
-          "end_ms": 365200,
+          "end_ms": 365220,
           "text": " Why",
-          "probability": 0.97
+          "probability": 0.9725
         },
         {
-          "start_ms": 365200,
-          "end_ms": 365300,
+          "start_ms": 365220,
+          "end_ms": 365340,
           "text": " does",
-          "probability": 0.5788
+          "probability": 0.8821
         },
         {
-          "start_ms": 365300,
-          "end_ms": 365420,
+          "start_ms": 365340,
+          "end_ms": 365440,
           "text": " she",
-          "probability": 0.9361
+          "probability": 0.6893
         },
         {
-          "start_ms": 365420,
-          "end_ms": 365560,
+          "start_ms": 365440,
+          "end_ms": 365580,
           "text": " do",
-          "probability": 0.9989
+          "probability": 0.9979
         },
         {
-          "start_ms": 365560,
-          "end_ms": 365760,
+          "start_ms": 365580,
+          "end_ms": 365920,
           "text": " this?",
-          "probability": 0.9991
+          "probability": 0.9993
         },
         {
-          "start_ms": 366890,
-          "end_ms": 367250,
+          "start_ms": 366960,
+          "end_ms": 367260,
           "text": " We",
-          "probability": 0.9639
+          "probability": 0.9782
         },
         {
-          "start_ms": 367250,
-          "end_ms": 367510,
+          "start_ms": 367260,
+          "end_ms": 367580,
           "text": " already",
-          "probability": 0.9875
+          "probability": 0.9525
         }
       ],
       "word_count": 7,
       "has_speech": true,
       "speech_start_ms": 364680,
-      "speech_end_ms": 367510,
+      "speech_end_ms": 367580,
       "caption": "A woman wearing a tactical vest with a shoulder-mounted radio stands in a dimly lit room near a wall with books and a wall lamp. She is looking slightly off-camera with a neutral expression.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2798,28 +2940,28 @@
       "transcript": "tried that one.",
       "transcript_words": [
         {
-          "start_ms": 367510,
-          "end_ms": 367970,
+          "start_ms": 367580,
+          "end_ms": 368000,
           "text": " tried",
-          "probability": 0.9919
+          "probability": 0.9921
         },
         {
-          "start_ms": 367970,
-          "end_ms": 368170,
+          "start_ms": 368000,
+          "end_ms": 368240,
           "text": " that",
-          "probability": 0.8
+          "probability": 0.9386
         },
         {
-          "start_ms": 368170,
-          "end_ms": 368390,
+          "start_ms": 368240,
+          "end_ms": 368500,
           "text": " one.",
-          "probability": 0.989
+          "probability": 0.9983
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 367510,
-      "speech_end_ms": 368390,
+      "speech_start_ms": 367580,
+      "speech_end_ms": 368500,
       "caption": "A large chalkboard covered in various handwritten phrases and notes stands in a cluttered room that also contains a painting, a mug, and furniture. No people are visible in the scene.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2865,12 +3007,19 @@
       "duration_ms": 2250,
       "keyframe_ms": 372750,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0080.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Avar!",
+      "transcript_words": [
+        {
+          "start_ms": 371920,
+          "end_ms": 372500,
+          "text": " Avar!",
+          "probability": 0.3235
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 371920,
+      "speech_end_ms": 372500,
       "caption": "A man with a robotic eye attachment and a woman in military-style clothing sit together in a room filled with books and lamps, while the man adjusts a device held in his hands.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2933,19 +3082,12 @@
       "duration_ms": 2000,
       "keyframe_ms": 379000,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0084.jpg",
-      "transcript": "You",
-      "transcript_words": [
-        {
-          "start_ms": 379710,
-          "end_ms": 379980,
-          "text": " You",
-          "probability": 0.6612
-        }
-      ],
-      "word_count": 1,
-      "has_speech": true,
-      "speech_start_ms": 379710,
-      "speech_end_ms": 379980,
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
       "caption": "A person's hand interacts with a control console featuring a screen that displays \"ERROR!!!\" on its surfaces. The setting appears to be a technical or industrial environment with mechanical components visible.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -2974,31 +3116,37 @@
       "duration_ms": 2292,
       "keyframe_ms": 384271,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0086.jpg",
-      "transcript": "broke my heart.",
+      "transcript": "You broke my heart.",
       "transcript_words": [
         {
-          "start_ms": 383600,
-          "end_ms": 384140,
-          "text": " broke",
-          "probability": 0.987
+          "start_ms": 383720,
+          "end_ms": 383720,
+          "text": " You",
+          "probability": 0.1373
         },
         {
-          "start_ms": 384140,
+          "start_ms": 383720,
+          "end_ms": 384160,
+          "text": " broke",
+          "probability": 0.9883
+        },
+        {
+          "start_ms": 384160,
           "end_ms": 384500,
           "text": " my",
-          "probability": 0.9991
+          "probability": 0.9983
         },
         {
           "start_ms": 384500,
-          "end_ms": 384840,
+          "end_ms": 384960,
           "text": " heart.",
-          "probability": 0.9979
+          "probability": 0.9961
         }
       ],
-      "word_count": 3,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 383600,
-      "speech_end_ms": 384840,
+      "speech_start_ms": 383720,
+      "speech_end_ms": 384960,
       "caption": "A woman with a wide-eyed expression and open mouth stares at a metallic, robotic device positioned near a person's neck in an outdoor setting with green foliage in the background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3010,12 +3158,19 @@
       "duration_ms": 1541,
       "keyframe_ms": 386187,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0087.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "You",
+      "transcript_words": [
+        {
+          "start_ms": 386100,
+          "end_ms": 386340,
+          "text": " You",
+          "probability": 0.1765
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 386100,
+      "speech_end_ms": 386340,
       "caption": "A person is shown in close-up with a mechanical arm reaching toward their face. The person has their eyes closed, and the background is an out-of-focus outdoor setting with trees.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3027,43 +3182,37 @@
       "duration_ms": 2000,
       "keyframe_ms": 387958,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0088.jpg",
-      "transcript": "You forgot me on Earth.",
+      "transcript": "forgot me on Earth.",
       "transcript_words": [
         {
-          "start_ms": 387080,
-          "end_ms": 387320,
-          "text": " You",
-          "probability": 0.9947
-        },
-        {
-          "start_ms": 387320,
-          "end_ms": 387740,
+          "start_ms": 386340,
+          "end_ms": 387600,
           "text": " forgot",
-          "probability": 0.9758
+          "probability": 0.9858
         },
         {
-          "start_ms": 387740,
-          "end_ms": 388060,
+          "start_ms": 387600,
+          "end_ms": 388080,
           "text": " me",
-          "probability": 0.9988
+          "probability": 0.9968
         },
         {
-          "start_ms": 388060,
-          "end_ms": 388280,
+          "start_ms": 388080,
+          "end_ms": 388340,
           "text": " on",
-          "probability": 0.9849
+          "probability": 0.9877
         },
         {
-          "start_ms": 388280,
-          "end_ms": 388520,
+          "start_ms": 388340,
+          "end_ms": 388600,
           "text": " Earth.",
-          "probability": 0.4122
+          "probability": 0.3884
         }
       ],
-      "word_count": 5,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 387080,
-      "speech_end_ms": 388520,
+      "speech_start_ms": 386340,
+      "speech_end_ms": 388600,
       "caption": "A woman looks intensely at a person while a mechanical device with a needle is positioned near that person's face outdoors in a green environment.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3095,40 +3244,40 @@
       "transcript": "I should just crush you.",
       "transcript_words": [
         {
-          "start_ms": 390460,
+          "start_ms": 390640,
           "end_ms": 390680,
           "text": " I",
-          "probability": 0.9873
+          "probability": 0.8743
         },
         {
           "start_ms": 390680,
-          "end_ms": 390920,
+          "end_ms": 390900,
           "text": " should",
-          "probability": 0.9948
+          "probability": 0.74
         },
         {
-          "start_ms": 390920,
-          "end_ms": 391360,
+          "start_ms": 390900,
+          "end_ms": 391420,
           "text": " just",
-          "probability": 0.9917
+          "probability": 0.9903
         },
         {
-          "start_ms": 391360,
-          "end_ms": 391780,
+          "start_ms": 391420,
+          "end_ms": 391880,
           "text": " crush",
-          "probability": 0.8397
+          "probability": 0.9051
         },
         {
-          "start_ms": 391780,
-          "end_ms": 392140,
+          "start_ms": 391880,
+          "end_ms": 392180,
           "text": " you.",
-          "probability": 0.9966
+          "probability": 0.9965
         }
       ],
       "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 390460,
-      "speech_end_ms": 392140,
+      "speech_start_ms": 390640,
+      "speech_end_ms": 392180,
       "caption": "A woman standing outdoors with a purple digital overlay on her face is approached by a metallic, multi-limbed robot.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3191,12 +3340,25 @@
       "duration_ms": 5041,
       "keyframe_ms": 406562,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0094.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "I'm sorry.",
+      "transcript_words": [
+        {
+          "start_ms": 406460,
+          "end_ms": 407860,
+          "text": " I'm",
+          "probability": 0.9223
+        },
+        {
+          "start_ms": 407860,
+          "end_ms": 408200,
+          "text": " sorry.",
+          "probability": 0.9479
+        }
+      ],
+      "word_count": 2,
+      "has_speech": true,
+      "speech_start_ms": 406460,
+      "speech_end_ms": 408200,
       "caption": "A young man stands outdoors near a body of water while a robotic device with a mechanical claw and a needle mechanism positions itself toward his face.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3208,31 +3370,31 @@
       "duration_ms": 2792,
       "keyframe_ms": 410479,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0095.jpg",
-      "transcript": "Do that, Lip.",
+      "transcript": "Good ad-lib.",
       "transcript_words": [
         {
-          "start_ms": 410160,
-          "end_ms": 410500,
-          "text": " Do",
-          "probability": 0.2277
+          "start_ms": 409880,
+          "end_ms": 410580,
+          "text": " Good",
+          "probability": 0.5438
         },
         {
-          "start_ms": 410500,
-          "end_ms": 410720,
-          "text": " that,",
-          "probability": 0.9211
+          "start_ms": 410580,
+          "end_ms": 410840,
+          "text": " ad",
+          "probability": 0.8954
         },
         {
-          "start_ms": 410780,
-          "end_ms": 410920,
-          "text": " Lip.",
-          "probability": 0.6688
+          "start_ms": 410840,
+          "end_ms": 411000,
+          "text": "-lib.",
+          "probability": 0.8335
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 410160,
-      "speech_end_ms": 410920,
+      "speech_start_ms": 409880,
+      "speech_end_ms": 411000,
       "caption": "A man wearing a mechanical eyepiece and a pink jacket gestures with his hand while a woman in a brown uniform stands behind him in an indoor room.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3261,12 +3423,19 @@
       "duration_ms": 3792,
       "keyframe_ms": 416896,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0097.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Not",
+      "transcript_words": [
+        {
+          "start_ms": 416900,
+          "end_ms": 418300,
+          "text": " Not",
+          "probability": 0.6656
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 416900,
+      "speech_end_ms": 418300,
       "caption": "A person wearing a dark jacket with a yellow tiger graphic on the back stands outdoors near buildings and trees. A semi-transparent, glowing blue light effect appears to billow around the individual.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3278,43 +3447,37 @@
       "duration_ms": 6708,
       "keyframe_ms": 422146,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0098.jpg",
-      "transcript": "Got my ball? This time.",
+      "transcript": "my fault! This time.",
       "transcript_words": [
         {
-          "start_ms": 419360,
-          "end_ms": 419500,
-          "text": " Got",
-          "probability": 0.2593
-        },
-        {
-          "start_ms": 419500,
-          "end_ms": 419660,
+          "start_ms": 418300,
+          "end_ms": 419700,
           "text": " my",
-          "probability": 0.9926
+          "probability": 0.9975
         },
         {
-          "start_ms": 419660,
-          "end_ms": 419940,
-          "text": " ball?",
-          "probability": 0.6079
+          "start_ms": 419700,
+          "end_ms": 420000,
+          "text": " fault!",
+          "probability": 0.9863
         },
         {
-          "start_ms": 422280,
-          "end_ms": 422480,
+          "start_ms": 422300,
+          "end_ms": 422540,
           "text": " This",
-          "probability": 0.6105
+          "probability": 0.4296
         },
         {
-          "start_ms": 422480,
-          "end_ms": 422720,
+          "start_ms": 422540,
+          "end_ms": 422820,
           "text": " time.",
-          "probability": 0.9978
+          "probability": 0.9982
         }
       ],
-      "word_count": 5,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 419360,
-      "speech_end_ms": 422720,
+      "speech_start_ms": 418300,
+      "speech_end_ms": 422820,
       "caption": "A man with curly hair and glasses sits in a dimly lit, futuristic environment filled with glowing digital displays, while another person sits partially visible at a desk nearby with a desk lamp.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3785,12 +3948,19 @@
       "duration_ms": 1333,
       "keyframe_ms": 503041,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0126.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Memory",
+      "transcript_words": [
+        {
+          "start_ms": 503000,
+          "end_ms": 503840,
+          "text": " Memory",
+          "probability": 0.5392
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 503000,
+      "speech_end_ms": 503840,
       "caption": "A person with a close-cropped haircut yells while swinging on a rope in what appears to be a warehouse or industrial building. They are wearing tactical gear and holding a rifle with both hands.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3802,12 +3972,31 @@
       "duration_ms": 2167,
       "keyframe_ms": 504791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0127.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "overhead at 90%.",
+      "transcript_words": [
+        {
+          "start_ms": 503840,
+          "end_ms": 504680,
+          "text": " overhead",
+          "probability": 0.5927
+        },
+        {
+          "start_ms": 504680,
+          "end_ms": 504920,
+          "text": " at",
+          "probability": 0.9722
+        },
+        {
+          "start_ms": 504920,
+          "end_ms": 505340,
+          "text": " 90%.",
+          "probability": 0.5835
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 503840,
+      "speech_end_ms": 505340,
       "caption": "A man wearing glasses and a hoodie sits in a dark, tech-filled workspace surrounded by glowing neon projections and computer equipment as he shouts with his mouth wide open.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3819,12 +4008,43 @@
       "duration_ms": 4083,
       "keyframe_ms": 507916,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0128.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Captain, we have to abort.",
+      "transcript_words": [
+        {
+          "start_ms": 506040,
+          "end_ms": 506880,
+          "text": " Captain,",
+          "probability": 0.9859
+        },
+        {
+          "start_ms": 507060,
+          "end_ms": 507480,
+          "text": " we",
+          "probability": 0.9945
+        },
+        {
+          "start_ms": 507480,
+          "end_ms": 507640,
+          "text": " have",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 507640,
+          "end_ms": 507860,
+          "text": " to",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 507860,
+          "end_ms": 508200,
+          "text": " abort.",
+          "probability": 0.9962
+        }
+      ],
+      "word_count": 5,
+      "has_speech": true,
+      "speech_start_ms": 506040,
+      "speech_end_ms": 508200,
       "caption": "A woman speaks to a man wearing a red cybernetic eye piece and a brown jacket with red floral accents, both gesturing with their hands inside a room furnished with lamps and a bookshelf.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3853,12 +4073,37 @@
       "duration_ms": 3125,
       "keyframe_ms": 519437,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "The world's changed, Celia.",
+      "transcript_words": [
+        {
+          "start_ms": 518660,
+          "end_ms": 519380,
+          "text": " The",
+          "probability": 0.9069
+        },
+        {
+          "start_ms": 519380,
+          "end_ms": 519740,
+          "text": " world's",
+          "probability": 0.9097
+        },
+        {
+          "start_ms": 519740,
+          "end_ms": 519960,
+          "text": " changed,",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 520300,
+          "end_ms": 520820,
+          "text": " Celia.",
+          "probability": 0.9775
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 518660,
+      "speech_end_ms": 520820,
       "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3904,12 +4149,37 @@
       "duration_ms": 6500,
       "keyframe_ms": 534458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0133.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Maybe we can too.",
+      "transcript_words": [
+        {
+          "start_ms": 534680,
+          "end_ms": 535400,
+          "text": " Maybe",
+          "probability": 0.9462
+        },
+        {
+          "start_ms": 535400,
+          "end_ms": 535600,
+          "text": " we",
+          "probability": 0.9932
+        },
+        {
+          "start_ms": 535600,
+          "end_ms": 535780,
+          "text": " can",
+          "probability": 0.9998
+        },
+        {
+          "start_ms": 535780,
+          "end_ms": 536060,
+          "text": " too.",
+          "probability": 0.747
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 534680,
+      "speech_end_ms": 536060,
       "caption": "A middle-aged man with gray hair and a beard stands in a dimly lit, cluttered area, wearing a plaid shirt and a brown jacket. He is looking off to the side while speaking.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3921,12 +4191,31 @@
       "duration_ms": 1500,
       "keyframe_ms": 538458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0134.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Memory override complete!",
+      "transcript_words": [
+        {
+          "start_ms": 538340,
+          "end_ms": 538500,
+          "text": " Memory",
+          "probability": 0.8889
+        },
+        {
+          "start_ms": 538500,
+          "end_ms": 538860,
+          "text": " override",
+          "probability": 0.9663
+        },
+        {
+          "start_ms": 538860,
+          "end_ms": 539300,
+          "text": " complete!",
+          "probability": 0.9862
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 538340,
+      "speech_end_ms": 539300,
       "caption": "A person is shown from behind while viewing a bright, glowing digital interface that displays the text \"MEMORY OVERWRITE\" and a loading bar at 99.78%.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -3989,12 +4278,73 @@
       "duration_ms": 7459,
       "keyframe_ms": 560562,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0138.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "You know, there's a lesson to be learned from this.",
+      "transcript_words": [
+        {
+          "start_ms": 558580,
+          "end_ms": 559100,
+          "text": " You",
+          "probability": 0.8643
+        },
+        {
+          "start_ms": 559100,
+          "end_ms": 559620,
+          "text": " know,",
+          "probability": 0.9973
+        },
+        {
+          "start_ms": 561880,
+          "end_ms": 562220,
+          "text": " there's",
+          "probability": 0.88
+        },
+        {
+          "start_ms": 562220,
+          "end_ms": 562340,
+          "text": " a",
+          "probability": 0.9964
+        },
+        {
+          "start_ms": 562340,
+          "end_ms": 562580,
+          "text": " lesson",
+          "probability": 0.9986
+        },
+        {
+          "start_ms": 562580,
+          "end_ms": 562780,
+          "text": " to",
+          "probability": 0.9969
+        },
+        {
+          "start_ms": 562780,
+          "end_ms": 562900,
+          "text": " be",
+          "probability": 0.9968
+        },
+        {
+          "start_ms": 562900,
+          "end_ms": 563040,
+          "text": " learned",
+          "probability": 0.7648
+        },
+        {
+          "start_ms": 563040,
+          "end_ms": 563280,
+          "text": " from",
+          "probability": 0.997
+        },
+        {
+          "start_ms": 563280,
+          "end_ms": 563540,
+          "text": " this.",
+          "probability": 0.9981
+        }
+      ],
+      "word_count": 10,
+      "has_speech": true,
+      "speech_start_ms": 558580,
+      "speech_end_ms": 563540,
       "caption": "A man with a mechanical apparatus over his right eye wears a reddish-brown jacket in an indoor room with household items in the background.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -4006,12 +4356,37 @@
       "duration_ms": 7041,
       "keyframe_ms": 567812,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0139.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
+      "transcript": "Could have gone worse.",
+      "transcript_words": [
+        {
+          "start_ms": 565880,
+          "end_ms": 566140,
+          "text": " Could",
+          "probability": 0.864
+        },
+        {
+          "start_ms": 566140,
+          "end_ms": 566320,
+          "text": " have",
+          "probability": 0.539
+        },
+        {
+          "start_ms": 566320,
+          "end_ms": 566480,
+          "text": " gone",
+          "probability": 0.9914
+        },
+        {
+          "start_ms": 566480,
+          "end_ms": 566820,
+          "text": " worse.",
+          "probability": 0.9996
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 565880,
+      "speech_end_ms": 566820,
       "caption": "A person wearing a tactical vest stands beside a desk where another individual with an eyepatch sits in a chair. The setting is a dimly lit, cluttered room featuring a piano, multiple lamps, and various personal items.",
       "caption_model": "gemini-3.1-flash-lite"
     },
@@ -4357,16 +4732,16 @@
     }
   ],
   "transcription_summary": {
-    "total_words": 265,
-    "assigned_words": 265,
+    "total_words": 324,
+    "assigned_words": 324,
     "unassigned_words": 0,
-    "scenes_with_speech": 42,
-    "scenes_without_speech": 118
+    "scenes_with_speech": 63,
+    "scenes_without_speech": 97
   },
   "transcription": {
-    "model": "small",
+    "model": "medium.en",
     "detected_language": "en",
-    "language_probability": 0.9665,
+    "language_probability": 1.0,
     "transcription_file": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\transcription.json"
   },
   "captioning": {

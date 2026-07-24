@@ -14,58 +14,58 @@
       "transcript": "We have main engine start, four, three, two,",
       "transcript_words": [
         {
-          "start_ms": 4360,
-          "end_ms": 4880,
+          "start_ms": 4040,
+          "end_ms": 4640,
           "text": " We",
-          "probability": 0.5703
+          "probability": 0.3397
         },
         {
-          "start_ms": 4880,
-          "end_ms": 5200,
+          "start_ms": 4640,
+          "end_ms": 5240,
           "text": " have",
-          "probability": 0.9818
+          "probability": 0.9902
         },
         {
-          "start_ms": 5200,
-          "end_ms": 5480,
+          "start_ms": 5240,
+          "end_ms": 5520,
           "text": " main",
-          "probability": 0.933
+          "probability": 0.9581
         },
         {
-          "start_ms": 5480,
-          "end_ms": 5820,
+          "start_ms": 5520,
+          "end_ms": 5840,
           "text": " engine",
-          "probability": 0.8305
+          "probability": 0.7605
         },
         {
-          "start_ms": 5820,
-          "end_ms": 6260,
+          "start_ms": 5840,
+          "end_ms": 6340,
           "text": " start,",
-          "probability": 0.9605
+          "probability": 0.9665
         },
         {
-          "start_ms": 6680,
-          "end_ms": 7220,
+          "start_ms": 6340,
+          "end_ms": 7260,
           "text": " four,",
-          "probability": 0.5633
+          "probability": 0.6882
         },
         {
-          "start_ms": 7480,
-          "end_ms": 7960,
+          "start_ms": 7680,
+          "end_ms": 7940,
           "text": " three,",
-          "probability": 0.9962
+          "probability": 0.9948
         },
         {
-          "start_ms": 8080,
-          "end_ms": 8720,
+          "start_ms": 8220,
+          "end_ms": 8780,
           "text": " two,",
-          "probability": 0.9976
+          "probability": 0.998
         }
       ],
       "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 4360,
-      "speech_end_ms": 8720
+      "speech_start_ms": 4040,
+      "speech_end_ms": 8780
     },
     {
       "scene_id": "1d34b4769d15:0001",
@@ -75,25 +75,25 @@
       "duration_ms": 4541,
       "keyframe_ms": 11187,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0001.jpg",
-      "transcript": "one, go!",
+      "transcript": "one, go.",
       "transcript_words": [
         {
-          "start_ms": 8760,
-          "end_ms": 9620,
+          "start_ms": 8780,
+          "end_ms": 9640,
           "text": " one,",
-          "probability": 0.9952
+          "probability": 0.9955
         },
         {
-          "start_ms": 9880,
-          "end_ms": 10140,
-          "text": " go!",
-          "probability": 0.279
+          "start_ms": 10040,
+          "end_ms": 10860,
+          "text": " go.",
+          "probability": 0.73
         }
       ],
       "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 8760,
-      "speech_end_ms": 10140
+      "speech_start_ms": 8780,
+      "speech_end_ms": 10860
     },
     {
       "scene_id": "1d34b4769d15:0002",
@@ -118,49 +118,43 @@
       "duration_ms": 6583,
       "keyframe_ms": 21708,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0003.jpg",
-      "transcript": "You're a jerk, Tom. Look Celia,",
+      "transcript": "You're a jerk, Tom. Look",
       "transcript_words": [
         {
-          "start_ms": 22900,
-          "end_ms": 23420,
+          "start_ms": 22860,
+          "end_ms": 23460,
           "text": " You're",
-          "probability": 0.9105
+          "probability": 0.8864
         },
         {
-          "start_ms": 23420,
-          "end_ms": 23560,
+          "start_ms": 23460,
+          "end_ms": 23720,
           "text": " a",
-          "probability": 0.9862
+          "probability": 0.9982
         },
         {
-          "start_ms": 23560,
-          "end_ms": 23960,
+          "start_ms": 23720,
+          "end_ms": 24000,
           "text": " jerk,",
-          "probability": 0.9974
+          "probability": 0.9977
         },
         {
-          "start_ms": 24220,
-          "end_ms": 24300,
+          "start_ms": 24300,
+          "end_ms": 24340,
           "text": " Tom.",
-          "probability": 0.9572
+          "probability": 0.98
         },
         {
-          "start_ms": 24560,
-          "end_ms": 24700,
+          "start_ms": 24580,
+          "end_ms": 24760,
           "text": " Look",
-          "probability": 0.9437
-        },
-        {
-          "start_ms": 24700,
-          "end_ms": 25260,
-          "text": " Celia,",
-          "probability": 0.7917
+          "probability": 0.9316
         }
       ],
-      "word_count": 6,
+      "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 22900,
-      "speech_end_ms": 25260
+      "speech_start_ms": 22860,
+      "speech_end_ms": 24760
     },
     {
       "scene_id": "1d34b4769d15:0004",
@@ -170,289 +164,307 @@
       "duration_ms": 15250,
       "keyframe_ms": 32625,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg",
-      "transcript": "we have to follow our passions. You have your robotics and I just wanna be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out, but it's... Alright, fine. I'm freaked out, I'm having nightmares that",
+      "transcript": "Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that",
       "transcript_words": [
         {
-          "start_ms": 25360,
-          "end_ms": 25500,
+          "start_ms": 24760,
+          "end_ms": 25280,
+          "text": " Celia,",
+          "probability": 0.7174
+        },
+        {
+          "start_ms": 25280,
+          "end_ms": 25540,
           "text": " we",
-          "probability": 0.9867
+          "probability": 0.9932
         },
         {
-          "start_ms": 25500,
-          "end_ms": 25680,
+          "start_ms": 25540,
+          "end_ms": 25700,
           "text": " have",
-          "probability": 0.9962
+          "probability": 0.9965
         },
         {
-          "start_ms": 25680,
-          "end_ms": 25860,
+          "start_ms": 25700,
+          "end_ms": 25880,
           "text": " to",
-          "probability": 0.9989
+          "probability": 0.9988
         },
         {
-          "start_ms": 25860,
-          "end_ms": 26100,
+          "start_ms": 25880,
+          "end_ms": 26140,
           "text": " follow",
-          "probability": 0.9991
+          "probability": 0.9993
         },
         {
-          "start_ms": 26100,
-          "end_ms": 26340,
+          "start_ms": 26140,
+          "end_ms": 26360,
           "text": " our",
-          "probability": 0.9945
-        },
-        {
-          "start_ms": 26340,
-          "end_ms": 26880,
-          "text": " passions.",
-          "probability": 0.9832
-        },
-        {
-          "start_ms": 27380,
-          "end_ms": 27460,
-          "text": " You",
-          "probability": 0.9906
-        },
-        {
-          "start_ms": 27460,
-          "end_ms": 27600,
-          "text": " have",
-          "probability": 0.9821
-        },
-        {
-          "start_ms": 27600,
-          "end_ms": 27740,
-          "text": " your",
-          "probability": 0.9778
-        },
-        {
-          "start_ms": 27740,
-          "end_ms": 28180,
-          "text": " robotics",
-          "probability": 0.9697
-        },
-        {
-          "start_ms": 28180,
-          "end_ms": 28400,
-          "text": " and",
-          "probability": 0.8027
-        },
-        {
-          "start_ms": 28400,
-          "end_ms": 28500,
-          "text": " I",
-          "probability": 0.987
-        },
-        {
-          "start_ms": 28500,
-          "end_ms": 28600,
-          "text": " just",
-          "probability": 0.969
-        },
-        {
-          "start_ms": 28600,
-          "end_ms": 28780,
-          "text": " wanna",
-          "probability": 0.3441
-        },
-        {
-          "start_ms": 28780,
-          "end_ms": 29000,
-          "text": " be",
           "probability": 0.9963
         },
         {
-          "start_ms": 29000,
-          "end_ms": 29440,
-          "text": " awesome",
-          "probability": 0.9957
+          "start_ms": 26360,
+          "end_ms": 26940,
+          "text": " passions.",
+          "probability": 0.974
         },
         {
-          "start_ms": 29440,
-          "end_ms": 29660,
-          "text": " in",
-          "probability": 0.994
+          "start_ms": 26940,
+          "end_ms": 27460,
+          "text": " You",
+          "probability": 0.8835
         },
         {
-          "start_ms": 29660,
-          "end_ms": 29920,
-          "text": " space.",
-          "probability": 0.9966
+          "start_ms": 27460,
+          "end_ms": 27620,
+          "text": " have",
+          "probability": 0.9901
         },
         {
-          "start_ms": 29920,
-          "end_ms": 30840,
-          "text": " Why",
-          "probability": 0.4755
+          "start_ms": 27620,
+          "end_ms": 27800,
+          "text": " your",
+          "probability": 0.9956
         },
         {
-          "start_ms": 30840,
-          "end_ms": 31060,
-          "text": " don't",
-          "probability": 0.992
+          "start_ms": 27800,
+          "end_ms": 28240,
+          "text": " robotics",
+          "probability": 0.9693
         },
         {
-          "start_ms": 31060,
-          "end_ms": 31280,
-          "text": " you",
-          "probability": 0.9955
+          "start_ms": 28240,
+          "end_ms": 28400,
+          "text": " and",
+          "probability": 0.5751
         },
         {
-          "start_ms": 31280,
-          "end_ms": 31480,
+          "start_ms": 28400,
+          "end_ms": 28520,
+          "text": " I",
+          "probability": 0.9894
+        },
+        {
+          "start_ms": 28520,
+          "end_ms": 28660,
           "text": " just",
-          "probability": 0.9948
+          "probability": 0.9943
         },
         {
-          "start_ms": 31480,
-          "end_ms": 31820,
+          "start_ms": 28660,
+          "end_ms": 28800,
+          "text": " want",
+          "probability": 0.8401
+        },
+        {
+          "start_ms": 28800,
+          "end_ms": 28900,
+          "text": " to",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 28900,
+          "end_ms": 29040,
+          "text": " be",
+          "probability": 0.9986
+        },
+        {
+          "start_ms": 29040,
+          "end_ms": 29500,
+          "text": " awesome",
+          "probability": 0.9936
+        },
+        {
+          "start_ms": 29500,
+          "end_ms": 29680,
+          "text": " in",
+          "probability": 0.9867
+        },
+        {
+          "start_ms": 29680,
+          "end_ms": 30040,
+          "text": " space.",
+          "probability": 0.9938
+        },
+        {
+          "start_ms": 30460,
+          "end_ms": 30880,
+          "text": " Why",
+          "probability": 0.8203
+        },
+        {
+          "start_ms": 30880,
+          "end_ms": 31120,
+          "text": " don't",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31120,
+          "end_ms": 31260,
+          "text": " you",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31260,
+          "end_ms": 31520,
+          "text": " just",
+          "probability": 0.9973
+        },
+        {
+          "start_ms": 31520,
+          "end_ms": 31840,
           "text": " admit",
-          "probability": 0.9945
+          "probability": 0.9886
         },
         {
-          "start_ms": 31820,
-          "end_ms": 32020,
+          "start_ms": 31840,
+          "end_ms": 32080,
           "text": " that",
-          "probability": 0.9481
+          "probability": 0.962
         },
         {
-          "start_ms": 32020,
-          "end_ms": 32600,
+          "start_ms": 32080,
+          "end_ms": 32640,
           "text": " you're",
-          "probability": 0.943
+          "probability": 0.9387
         },
         {
-          "start_ms": 32600,
+          "start_ms": 32640,
           "end_ms": 33000,
           "text": " freaked",
-          "probability": 0.9526
+          "probability": 0.9433
         },
         {
           "start_ms": 33000,
-          "end_ms": 33160,
+          "end_ms": 33200,
           "text": " out",
-          "probability": 0.9929
+          "probability": 0.9935
         },
         {
-          "start_ms": 33160,
+          "start_ms": 33200,
           "end_ms": 33380,
           "text": " by",
-          "probability": 0.9952
+          "probability": 0.989
         },
         {
           "start_ms": 33380,
           "end_ms": 33600,
           "text": " my",
-          "probability": 0.996
+          "probability": 0.9972
         },
         {
           "start_ms": 33600,
-          "end_ms": 34000,
+          "end_ms": 34020,
           "text": " robot",
-          "probability": 0.9884
+          "probability": 0.9945
         },
         {
-          "start_ms": 34000,
-          "end_ms": 34320,
+          "start_ms": 34020,
+          "end_ms": 34400,
           "text": " hand?",
-          "probability": 0.99
+          "probability": 0.9723
         },
         {
-          "start_ms": 34660,
-          "end_ms": 34940,
+          "start_ms": 34820,
+          "end_ms": 34960,
           "text": " I'm",
-          "probability": 0.9159
+          "probability": 0.95
         },
         {
-          "start_ms": 34940,
-          "end_ms": 35080,
+          "start_ms": 34960,
+          "end_ms": 35100,
           "text": " not",
-          "probability": 0.9777
+          "probability": 0.987
         },
         {
-          "start_ms": 35080,
+          "start_ms": 35100,
           "end_ms": 35340,
           "text": " freaked",
-          "probability": 0.989
+          "probability": 0.9947
         },
         {
           "start_ms": 35340,
-          "end_ms": 35500,
-          "text": " out,",
-          "probability": 0.9955
+          "end_ms": 35560,
+          "text": " out",
+          "probability": 0.9958
         },
         {
-          "start_ms": 35700,
-          "end_ms": 35700,
-          "text": " but",
-          "probability": 0.9639
+          "start_ms": 35560,
+          "end_ms": 35720,
+          "text": " by",
+          "probability": 0.7266
         },
         {
-          "start_ms": 35700,
-          "end_ms": 36920,
-          "text": " it's...",
-          "probability": 0.8229
+          "start_ms": 35720,
+          "end_ms": 35960,
+          "text": " its...",
+          "probability": 0.4862
         },
         {
           "start_ms": 37480,
-          "end_ms": 37900,
-          "text": " Alright,",
-          "probability": 0.4618
+          "end_ms": 37800,
+          "text": " All",
+          "probability": 0.3451
         },
         {
-          "start_ms": 37940,
-          "end_ms": 38320,
+          "start_ms": 37800,
+          "end_ms": 37960,
+          "text": " right,",
+          "probability": 0.9919
+        },
+        {
+          "start_ms": 38040,
+          "end_ms": 38380,
           "text": " fine.",
-          "probability": 0.9951
+          "probability": 0.996
         },
         {
-          "start_ms": 38640,
-          "end_ms": 38840,
+          "start_ms": 38680,
+          "end_ms": 38920,
           "text": " I'm",
-          "probability": 0.9944
+          "probability": 0.9903
         },
         {
-          "start_ms": 38840,
-          "end_ms": 39160,
+          "start_ms": 38920,
+          "end_ms": 39200,
           "text": " freaked",
-          "probability": 0.9902
+          "probability": 0.9969
         },
         {
-          "start_ms": 39160,
-          "end_ms": 39420,
-          "text": " out,",
-          "probability": 0.9985
+          "start_ms": 39200,
+          "end_ms": 39460,
+          "text": " out.",
+          "probability": 0.9989
         },
         {
-          "start_ms": 39540,
-          "end_ms": 39560,
+          "start_ms": 39520,
+          "end_ms": 39600,
           "text": " I'm",
-          "probability": 0.9825
+          "probability": 0.9972
         },
         {
-          "start_ms": 39560,
-          "end_ms": 39700,
+          "start_ms": 39600,
+          "end_ms": 39760,
           "text": " having",
-          "probability": 0.995
+          "probability": 0.9991
         },
         {
-          "start_ms": 39700,
+          "start_ms": 39760,
           "end_ms": 40140,
           "text": " nightmares",
-          "probability": 0.9965
+          "probability": 0.9943
         },
         {
           "start_ms": 40140,
-          "end_ms": 40300,
+          "end_ms": 40320,
           "text": " that",
-          "probability": 0.804
+          "probability": 0.9727
         }
       ],
-      "word_count": 46,
+      "word_count": 49,
       "has_speech": true,
-      "speech_start_ms": 25360,
-      "speech_end_ms": 40300
+      "speech_start_ms": 24760,
+      "speech_end_ms": 40320
     },
     {
       "scene_id": "1d34b4769d15:0005",
@@ -465,52 +477,52 @@
       "transcript": "I'm being chased by these giant robotic",
       "transcript_words": [
         {
-          "start_ms": 40300,
-          "end_ms": 40400,
+          "start_ms": 40320,
+          "end_ms": 40440,
           "text": " I'm",
           "probability": 0.9941
         },
         {
-          "start_ms": 40400,
-          "end_ms": 40560,
+          "start_ms": 40440,
+          "end_ms": 40580,
           "text": " being",
-          "probability": 0.9934
-        },
-        {
-          "start_ms": 40560,
-          "end_ms": 40860,
-          "text": " chased",
-          "probability": 0.9995
-        },
-        {
-          "start_ms": 40860,
-          "end_ms": 41000,
-          "text": " by",
-          "probability": 0.8886
-        },
-        {
-          "start_ms": 41000,
-          "end_ms": 41160,
-          "text": " these",
-          "probability": 0.8062
-        },
-        {
-          "start_ms": 41160,
-          "end_ms": 41460,
-          "text": " giant",
           "probability": 0.9976
         },
         {
-          "start_ms": 41460,
-          "end_ms": 42080,
+          "start_ms": 40580,
+          "end_ms": 40880,
+          "text": " chased",
+          "probability": 0.999
+        },
+        {
+          "start_ms": 40880,
+          "end_ms": 41040,
+          "text": " by",
+          "probability": 0.9811
+        },
+        {
+          "start_ms": 41040,
+          "end_ms": 41160,
+          "text": " these",
+          "probability": 0.5298
+        },
+        {
+          "start_ms": 41160,
+          "end_ms": 41540,
+          "text": " giant",
+          "probability": 0.9859
+        },
+        {
+          "start_ms": 41540,
+          "end_ms": 42120,
           "text": " robotic",
-          "probability": 0.9462
+          "probability": 0.8797
         }
       ],
       "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 40300,
-      "speech_end_ms": 42080
+      "speech_start_ms": 40320,
+      "speech_end_ms": 42120
     },
     {
       "scene_id": "1d34b4769d15:0006",
@@ -520,49 +532,31 @@
       "duration_ms": 3542,
       "keyframe_ms": 43854,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0006.jpg",
-      "transcript": "claws. Oh, whatever Tom. We're done.",
+      "transcript": "claws. We're done.",
       "transcript_words": [
         {
-          "start_ms": 42080,
+          "start_ms": 42120,
           "end_ms": 42420,
           "text": " claws.",
-          "probability": 0.7823
+          "probability": 0.793
         },
         {
-          "start_ms": 42540,
-          "end_ms": 42540,
-          "text": " Oh,",
-          "probability": 0.6932
-        },
-        {
-          "start_ms": 42880,
-          "end_ms": 42880,
-          "text": " whatever",
-          "probability": 0.4072
-        },
-        {
-          "start_ms": 42880,
-          "end_ms": 43400,
-          "text": " Tom.",
-          "probability": 0.0542
-        },
-        {
-          "start_ms": 44240,
-          "end_ms": 44560,
+          "start_ms": 44100,
+          "end_ms": 44580,
           "text": " We're",
-          "probability": 0.9872
+          "probability": 0.5196
         },
         {
-          "start_ms": 44560,
-          "end_ms": 44940,
+          "start_ms": 44580,
+          "end_ms": 44960,
           "text": " done.",
-          "probability": 0.998
+          "probability": 0.9914
         }
       ],
-      "word_count": 6,
+      "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 42080,
-      "speech_end_ms": 44940
+      "speech_start_ms": 42120,
+      "speech_end_ms": 44960
     },
     {
       "scene_id": "1d34b4769d15:0007",
@@ -572,12 +566,19 @@
       "duration_ms": 1833,
       "keyframe_ms": 46541,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0007.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null
+      "transcript": "The",
+      "transcript_words": [
+        {
+          "start_ms": 44960,
+          "end_ms": 47340,
+          "text": " The",
+          "probability": 0.0327
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 44960,
+      "speech_end_ms": 47340
     },
     {
       "scene_id": "1d34b4769d15:0008",
@@ -602,12 +603,19 @@
       "duration_ms": 1500,
       "keyframe_ms": 49042,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0009.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null
+      "transcript": "robot's",
+      "transcript_words": [
+        {
+          "start_ms": 47340,
+          "end_ms": 50700,
+          "text": " robot's",
+          "probability": 0.8795
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 47340,
+      "speech_end_ms": 50700
     },
     {
       "scene_id": "1d34b4769d15:0010",
@@ -617,25 +625,19 @@
       "duration_ms": 1333,
       "keyframe_ms": 50458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0010.jpg",
-      "transcript": "Robots memory",
+      "transcript": "memory",
       "transcript_words": [
         {
-          "start_ms": 49840,
-          "end_ms": 50480,
-          "text": " Robots",
-          "probability": 0.5051
-        },
-        {
-          "start_ms": 50480,
-          "end_ms": 50940,
+          "start_ms": 50700,
+          "end_ms": 51040,
           "text": " memory",
-          "probability": 0.5676
+          "probability": 0.977
         }
       ],
-      "word_count": 2,
+      "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 49840,
-      "speech_end_ms": 50940
+      "speech_start_ms": 50700,
+      "speech_end_ms": 51040
     },
     {
       "scene_id": "1d34b4769d15:0011",
@@ -648,28 +650,28 @@
       "transcript": "synced and locked.",
       "transcript_words": [
         {
-          "start_ms": 50940,
-          "end_ms": 51780,
+          "start_ms": 51040,
+          "end_ms": 51760,
           "text": " synced",
-          "probability": 0.8631
+          "probability": 0.7758
         },
         {
-          "start_ms": 51780,
-          "end_ms": 52660,
+          "start_ms": 51760,
+          "end_ms": 52640,
           "text": " and",
-          "probability": 0.7955
+          "probability": 0.661
         },
         {
-          "start_ms": 52660,
-          "end_ms": 53520,
+          "start_ms": 52640,
+          "end_ms": 53800,
           "text": " locked.",
-          "probability": 0.9863
+          "probability": 0.9717
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 50940,
-      "speech_end_ms": 53520
+      "speech_start_ms": 51040,
+      "speech_end_ms": 53800
     },
     {
       "scene_id": "1d34b4769d15:0012",
@@ -697,33 +699,33 @@
       "transcript": "This is pretty freaky.",
       "transcript_words": [
         {
-          "start_ms": 60000,
+          "start_ms": 60420,
           "end_ms": 61120,
           "text": " This",
-          "probability": 0.8696
+          "probability": 0.9065
         },
         {
           "start_ms": 61120,
-          "end_ms": 61280,
+          "end_ms": 61360,
           "text": " is",
-          "probability": 0.9597
+          "probability": 0.9907
         },
         {
-          "start_ms": 61280,
-          "end_ms": 61740,
+          "start_ms": 61360,
+          "end_ms": 61780,
           "text": " pretty",
-          "probability": 0.9912
+          "probability": 0.992
         },
         {
-          "start_ms": 61740,
+          "start_ms": 61780,
           "end_ms": 62300,
           "text": " freaky.",
-          "probability": 0.9853
+          "probability": 0.9947
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 60000,
+      "speech_start_ms": 60420,
       "speech_end_ms": 62300
     },
     {
@@ -887,40 +889,40 @@
       "transcript": "Shouldn't you be down there?",
       "transcript_words": [
         {
-          "start_ms": 117520,
-          "end_ms": 117980,
+          "start_ms": 117380,
+          "end_ms": 118000,
           "text": " Shouldn't",
-          "probability": 0.9123
+          "probability": 0.8905
         },
         {
-          "start_ms": 117980,
+          "start_ms": 118000,
           "end_ms": 118080,
           "text": " you",
-          "probability": 0.9964
+          "probability": 0.9969
         },
         {
           "start_ms": 118080,
-          "end_ms": 118200,
+          "end_ms": 118220,
           "text": " be",
-          "probability": 0.9968
+          "probability": 0.9988
         },
         {
-          "start_ms": 118200,
-          "end_ms": 118360,
+          "start_ms": 118220,
+          "end_ms": 118380,
           "text": " down",
-          "probability": 0.9949
+          "probability": 0.9988
         },
         {
-          "start_ms": 118360,
-          "end_ms": 119180,
+          "start_ms": 118380,
+          "end_ms": 118690,
           "text": " there?",
-          "probability": 0.997
+          "probability": 0.9978
         }
       ],
       "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 117520,
-      "speech_end_ms": 119180
+      "speech_start_ms": 117380,
+      "speech_end_ms": 118690
     },
     {
       "scene_id": "1d34b4769d15:0025",
@@ -933,52 +935,52 @@
       "transcript": "I heard you guys talking last night.",
       "transcript_words": [
         {
-          "start_ms": 131020,
-          "end_ms": 131480,
+          "start_ms": 130880,
+          "end_ms": 131500,
           "text": " I",
-          "probability": 0.9337
+          "probability": 0.9525
         },
         {
-          "start_ms": 131480,
-          "end_ms": 131580,
+          "start_ms": 131500,
+          "end_ms": 131600,
           "text": " heard",
-          "probability": 0.973
+          "probability": 0.944
         },
         {
-          "start_ms": 131580,
+          "start_ms": 131600,
           "end_ms": 131740,
           "text": " you",
-          "probability": 0.9225
+          "probability": 0.9294
         },
         {
           "start_ms": 131740,
           "end_ms": 131940,
           "text": " guys",
-          "probability": 0.9976
-        },
-        {
-          "start_ms": 131940,
-          "end_ms": 132240,
-          "text": " talking",
-          "probability": 0.9395
-        },
-        {
-          "start_ms": 132240,
-          "end_ms": 132500,
-          "text": " last",
           "probability": 0.995
         },
         {
-          "start_ms": 132500,
-          "end_ms": 133140,
+          "start_ms": 131940,
+          "end_ms": 132300,
+          "text": " talking",
+          "probability": 0.9781
+        },
+        {
+          "start_ms": 132300,
+          "end_ms": 132560,
+          "text": " last",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 132560,
+          "end_ms": 132920,
           "text": " night.",
-          "probability": 0.9998
+          "probability": 0.9992
         }
       ],
       "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 131020,
-      "speech_end_ms": 133140
+      "speech_start_ms": 130880,
+      "speech_end_ms": 132920
     },
     {
       "scene_id": "1d34b4769d15:0026",
@@ -991,46 +993,46 @@
       "transcript": "It's not my fault, you know.",
       "transcript_words": [
         {
-          "start_ms": 136160,
-          "end_ms": 136620,
+          "start_ms": 136140,
+          "end_ms": 136660,
           "text": " It's",
-          "probability": 0.9801
+          "probability": 0.8896
         },
         {
-          "start_ms": 136620,
-          "end_ms": 136760,
+          "start_ms": 136660,
+          "end_ms": 136780,
           "text": " not",
-          "probability": 0.9992
+          "probability": 0.9973
         },
         {
-          "start_ms": 136760,
-          "end_ms": 136960,
+          "start_ms": 136780,
+          "end_ms": 137000,
           "text": " my",
-          "probability": 0.9564
+          "probability": 0.9586
         },
         {
-          "start_ms": 136960,
+          "start_ms": 137000,
           "end_ms": 137260,
           "text": " fault,",
-          "probability": 1.0
+          "probability": 0.9999
         },
         {
-          "start_ms": 137320,
-          "end_ms": 137480,
+          "start_ms": 137260,
+          "end_ms": 137500,
           "text": " you",
-          "probability": 0.9816
+          "probability": 0.9944
         },
         {
-          "start_ms": 137480,
-          "end_ms": 137620,
+          "start_ms": 137500,
+          "end_ms": 138300,
           "text": " know.",
-          "probability": 0.9992
+          "probability": 0.9997
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 136160,
-      "speech_end_ms": 137620
+      "speech_start_ms": 136140,
+      "speech_end_ms": 138300
     },
     {
       "scene_id": "1d34b4769d15:0027",
@@ -1145,25 +1147,43 @@
       "duration_ms": 3583,
       "keyframe_ms": 191291,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0034.jpg",
-      "transcript": "Of course",
+      "transcript": "Are you ready? Of course",
       "transcript_words": [
         {
-          "start_ms": 192260,
-          "end_ms": 192860,
-          "text": " Of",
-          "probability": 0.2117
+          "start_ms": 190720,
+          "end_ms": 191220,
+          "text": " Are",
+          "probability": 0.8019
         },
         {
-          "start_ms": 192860,
-          "end_ms": 192960,
+          "start_ms": 191220,
+          "end_ms": 191720,
+          "text": " you",
+          "probability": 0.9975
+        },
+        {
+          "start_ms": 191720,
+          "end_ms": 192060,
+          "text": " ready?",
+          "probability": 0.998
+        },
+        {
+          "start_ms": 192840,
+          "end_ms": 192940,
+          "text": " Of",
+          "probability": 0.8519
+        },
+        {
+          "start_ms": 192940,
+          "end_ms": 193000,
           "text": " course",
-          "probability": 0.9651
+          "probability": 0.9925
         }
       ],
-      "word_count": 2,
+      "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 192260,
-      "speech_end_ms": 192960
+      "speech_start_ms": 190720,
+      "speech_end_ms": 193000
     },
     {
       "scene_id": "1d34b4769d15:0035",
@@ -1173,73 +1193,73 @@
       "duration_ms": 5417,
       "keyframe_ms": 195791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0035.jpg",
-      "transcript": "you're ready. You're a rock star. How's it looking, Barley?",
+      "transcript": "you're ready. You're a rock star. How's it looking, Barty?",
       "transcript_words": [
         {
-          "start_ms": 192960,
-          "end_ms": 193260,
+          "start_ms": 193000,
+          "end_ms": 193300,
           "text": " you're",
-          "probability": 0.8634
+          "probability": 0.7502
         },
         {
-          "start_ms": 193260,
+          "start_ms": 193300,
           "end_ms": 193480,
           "text": " ready.",
-          "probability": 0.9878
+          "probability": 0.9982
         },
         {
-          "start_ms": 193740,
-          "end_ms": 193840,
+          "start_ms": 193640,
+          "end_ms": 193860,
           "text": " You're",
-          "probability": 0.9818
+          "probability": 0.9813
         },
         {
-          "start_ms": 193840,
-          "end_ms": 193980,
+          "start_ms": 193860,
+          "end_ms": 194040,
           "text": " a",
-          "probability": 0.9966
+          "probability": 0.9949
         },
         {
-          "start_ms": 193980,
-          "end_ms": 194120,
+          "start_ms": 194040,
+          "end_ms": 194140,
           "text": " rock",
-          "probability": 0.9126
+          "probability": 0.9865
         },
         {
-          "start_ms": 194120,
-          "end_ms": 194520,
+          "start_ms": 194140,
+          "end_ms": 194580,
           "text": " star.",
-          "probability": 0.4969
+          "probability": 0.7498
         },
         {
-          "start_ms": 196800,
-          "end_ms": 197400,
+          "start_ms": 196820,
+          "end_ms": 197420,
           "text": " How's",
-          "probability": 0.8696
+          "probability": 0.6013
         },
         {
-          "start_ms": 197400,
+          "start_ms": 197420,
           "end_ms": 197500,
           "text": " it",
-          "probability": 0.9968
+          "probability": 0.989
         },
         {
           "start_ms": 197500,
-          "end_ms": 197800,
+          "end_ms": 197760,
           "text": " looking,",
-          "probability": 0.9361
+          "probability": 0.931
         },
         {
-          "start_ms": 197980,
-          "end_ms": 198160,
-          "text": " Barley?",
-          "probability": 0.7538
+          "start_ms": 198060,
+          "end_ms": 198200,
+          "text": " Barty?",
+          "probability": 0.7067
         }
       ],
       "word_count": 10,
       "has_speech": true,
-      "speech_start_ms": 192960,
-      "speech_end_ms": 198160
+      "speech_start_ms": 193000,
+      "speech_end_ms": 198200
     },
     {
       "scene_id": "1d34b4769d15:0036",
@@ -1249,49 +1269,49 @@
       "duration_ms": 2667,
       "keyframe_ms": 199833,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0036.jpg",
-      "transcript": "We should have about ten minutes.",
+      "transcript": "We should have about 10 minutes.",
       "transcript_words": [
         {
-          "start_ms": 198500,
-          "end_ms": 199040,
+          "start_ms": 198660,
+          "end_ms": 199060,
           "text": " We",
-          "probability": 0.9512
+          "probability": 0.8261
         },
         {
-          "start_ms": 199040,
-          "end_ms": 199340,
+          "start_ms": 199060,
+          "end_ms": 199360,
           "text": " should",
-          "probability": 0.997
+          "probability": 0.9916
         },
         {
-          "start_ms": 199340,
-          "end_ms": 199560,
+          "start_ms": 199360,
+          "end_ms": 199600,
           "text": " have",
-          "probability": 0.9971
+          "probability": 0.9959
         },
         {
-          "start_ms": 199560,
-          "end_ms": 199840,
+          "start_ms": 199600,
+          "end_ms": 199860,
           "text": " about",
-          "probability": 0.9569
+          "probability": 0.9768
         },
         {
-          "start_ms": 199840,
-          "end_ms": 200060,
-          "text": " ten",
-          "probability": 0.4807
+          "start_ms": 199860,
+          "end_ms": 200100,
+          "text": " 10",
+          "probability": 0.4975
         },
         {
-          "start_ms": 200060,
-          "end_ms": 200360,
+          "start_ms": 200100,
+          "end_ms": 200400,
           "text": " minutes.",
-          "probability": 0.9971
+          "probability": 0.9885
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 198500,
-      "speech_end_ms": 200360
+      "speech_start_ms": 198660,
+      "speech_end_ms": 200400
     },
     {
       "scene_id": "1d34b4769d15:0037",
@@ -1301,67 +1321,67 @@
       "duration_ms": 5500,
       "keyframe_ms": 203917,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0037.jpg",
-      "transcript": "Well, that's perfect. We're only one! All systems go!",
+      "transcript": "Well, that's perfect. We're only one. All systems, go!",
       "transcript_words": [
         {
-          "start_ms": 201760,
-          "end_ms": 201980,
+          "start_ms": 201700,
+          "end_ms": 202000,
           "text": " Well,",
-          "probability": 0.9661
+          "probability": 0.9235
         },
         {
-          "start_ms": 202020,
-          "end_ms": 202300,
+          "start_ms": 202060,
+          "end_ms": 202380,
           "text": " that's",
-          "probability": 0.9985
+          "probability": 0.9968
         },
         {
-          "start_ms": 202300,
-          "end_ms": 202640,
+          "start_ms": 202380,
+          "end_ms": 202720,
           "text": " perfect.",
-          "probability": 0.9971
+          "probability": 0.9955
         },
         {
-          "start_ms": 203680,
-          "end_ms": 203860,
+          "start_ms": 203640,
+          "end_ms": 203880,
           "text": " We're",
-          "probability": 0.9777
+          "probability": 0.9274
         },
         {
-          "start_ms": 203860,
-          "end_ms": 204120,
+          "start_ms": 203880,
+          "end_ms": 204160,
           "text": " only",
-          "probability": 0.8508
+          "probability": 0.9024
         },
         {
-          "start_ms": 204120,
-          "end_ms": 204480,
-          "text": " one!",
-          "probability": 0.9898
+          "start_ms": 204160,
+          "end_ms": 204540,
+          "text": " one.",
+          "probability": 0.9426
         },
         {
-          "start_ms": 205160,
-          "end_ms": 205500,
+          "start_ms": 205220,
+          "end_ms": 205520,
           "text": " All",
-          "probability": 0.9785
+          "probability": 0.9589
         },
         {
-          "start_ms": 205500,
-          "end_ms": 205940,
-          "text": " systems",
-          "probability": 0.9895
+          "start_ms": 205520,
+          "end_ms": 205980,
+          "text": " systems,",
+          "probability": 0.9905
         },
         {
-          "start_ms": 205940,
-          "end_ms": 206420,
+          "start_ms": 206280,
+          "end_ms": 206460,
           "text": " go!",
-          "probability": 0.6504
+          "probability": 0.9794
         }
       ],
       "word_count": 9,
       "has_speech": true,
-      "speech_start_ms": 201760,
-      "speech_end_ms": 206420
+      "speech_start_ms": 201700,
+      "speech_end_ms": 206460
     },
     {
       "scene_id": "1d34b4769d15:0038",
@@ -1371,37 +1391,37 @@
       "duration_ms": 2000,
       "keyframe_ms": 207667,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0038.jpg",
-      "transcript": "Yeah, you go! Go!",
+      "transcript": "Yeah, you, go! Go!",
       "transcript_words": [
         {
           "start_ms": 206660,
           "end_ms": 206780,
           "text": " Yeah,",
-          "probability": 0.7336
+          "probability": 0.7036
         },
         {
-          "start_ms": 206820,
-          "end_ms": 206980,
-          "text": " you",
-          "probability": 0.9951
+          "start_ms": 206900,
+          "end_ms": 207000,
+          "text": " you,",
+          "probability": 0.9362
         },
         {
-          "start_ms": 206980,
-          "end_ms": 207400,
+          "start_ms": 207180,
+          "end_ms": 207480,
           "text": " go!",
-          "probability": 0.4628
+          "probability": 0.9942
         },
         {
-          "start_ms": 208080,
-          "end_ms": 208400,
+          "start_ms": 208100,
+          "end_ms": 208480,
           "text": " Go!",
-          "probability": 0.93
+          "probability": 0.9795
         }
       ],
       "word_count": 4,
       "has_speech": true,
       "speech_start_ms": 206660,
-      "speech_end_ms": 208400
+      "speech_end_ms": 208480
     },
     {
       "scene_id": "1d34b4769d15:0039",
@@ -1429,28 +1449,28 @@
       "transcript": "Move your asses!",
       "transcript_words": [
         {
-          "start_ms": 209760,
-          "end_ms": 210200,
+          "start_ms": 209800,
+          "end_ms": 210240,
           "text": " Move",
-          "probability": 0.3224
+          "probability": 0.9068
         },
         {
-          "start_ms": 210200,
-          "end_ms": 210520,
+          "start_ms": 210240,
+          "end_ms": 210540,
           "text": " your",
-          "probability": 0.9836
+          "probability": 0.8934
         },
         {
-          "start_ms": 210520,
-          "end_ms": 210920,
+          "start_ms": 210540,
+          "end_ms": 210980,
           "text": " asses!",
-          "probability": 0.9834
+          "probability": 0.9882
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 209760,
-      "speech_end_ms": 210920
+      "speech_start_ms": 209800,
+      "speech_end_ms": 210980
     },
     {
       "scene_id": "1d34b4769d15:0041",
@@ -1463,28 +1483,28 @@
       "transcript": "Go, go, go!",
       "transcript_words": [
         {
-          "start_ms": 211360,
-          "end_ms": 211440,
+          "start_ms": 211300,
+          "end_ms": 211460,
           "text": " Go,",
-          "probability": 0.9475
+          "probability": 0.9656
         },
         {
-          "start_ms": 211600,
-          "end_ms": 211700,
+          "start_ms": 211640,
+          "end_ms": 211740,
           "text": " go,",
-          "probability": 0.9962
+          "probability": 0.9983
         },
         {
-          "start_ms": 211820,
-          "end_ms": 212020,
+          "start_ms": 212300,
+          "end_ms": 212300,
           "text": " go!",
-          "probability": 0.9983
+          "probability": 0.9955
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 211360,
-      "speech_end_ms": 212020
+      "speech_start_ms": 211300,
+      "speech_end_ms": 212300
     },
     {
       "scene_id": "1d34b4769d15:0042",
@@ -1497,28 +1517,28 @@
       "transcript": "I love it!",
       "transcript_words": [
         {
-          "start_ms": 212940,
-          "end_ms": 213300,
+          "start_ms": 213060,
+          "end_ms": 213340,
           "text": " I",
-          "probability": 0.3626
+          "probability": 0.4904
         },
         {
-          "start_ms": 213300,
-          "end_ms": 213700,
+          "start_ms": 213340,
+          "end_ms": 213680,
           "text": " love",
-          "probability": 0.5337
+          "probability": 0.8185
         },
         {
-          "start_ms": 213700,
-          "end_ms": 214020,
+          "start_ms": 213680,
+          "end_ms": 214060,
           "text": " it!",
-          "probability": 0.9487
+          "probability": 0.9854
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 212940,
-      "speech_end_ms": 214020
+      "speech_start_ms": 213060,
+      "speech_end_ms": 214060
     },
     {
       "scene_id": "1d34b4769d15:0043",
@@ -1531,22 +1551,22 @@
       "transcript": "Come on!",
       "transcript_words": [
         {
-          "start_ms": 214440,
-          "end_ms": 214500,
+          "start_ms": 214320,
+          "end_ms": 214580,
           "text": " Come",
-          "probability": 0.3575
+          "probability": 0.9435
         },
         {
-          "start_ms": 214500,
-          "end_ms": 214920,
+          "start_ms": 214580,
+          "end_ms": 215000,
           "text": " on!",
-          "probability": 0.9829
+          "probability": 0.9958
         }
       ],
       "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 214440,
-      "speech_end_ms": 214920
+      "speech_start_ms": 214320,
+      "speech_end_ms": 215000
     },
     {
       "scene_id": "1d34b4769d15:0044",
@@ -1559,16 +1579,16 @@
       "transcript": "Go!",
       "transcript_words": [
         {
-          "start_ms": 215640,
-          "end_ms": 215820,
+          "start_ms": 215500,
+          "end_ms": 215840,
           "text": " Go!",
-          "probability": 0.9345
+          "probability": 0.9783
         }
       ],
       "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 215640,
-      "speech_end_ms": 215820
+      "speech_start_ms": 215500,
+      "speech_end_ms": 215840
     },
     {
       "scene_id": "1d34b4769d15:0045",
@@ -1581,34 +1601,34 @@
       "transcript": "That's nice. Nothing to",
       "transcript_words": [
         {
-          "start_ms": 222960,
-          "end_ms": 223280,
+          "start_ms": 222700,
+          "end_ms": 223300,
           "text": " That's",
-          "probability": 0.8015
+          "probability": 0.981
         },
         {
-          "start_ms": 223280,
-          "end_ms": 223760,
+          "start_ms": 223300,
+          "end_ms": 223720,
           "text": " nice.",
-          "probability": 0.9965
+          "probability": 0.9989
         },
         {
-          "start_ms": 224720,
-          "end_ms": 224860,
+          "start_ms": 224600,
+          "end_ms": 224960,
           "text": " Nothing",
-          "probability": 0.9606
+          "probability": 0.423
         },
         {
-          "start_ms": 224860,
-          "end_ms": 225160,
+          "start_ms": 224960,
+          "end_ms": 225180,
           "text": " to",
-          "probability": 0.9983
+          "probability": 0.9911
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 222960,
-      "speech_end_ms": 225160
+      "speech_start_ms": 222700,
+      "speech_end_ms": 225180
     },
     {
       "scene_id": "1d34b4769d15:0046",
@@ -1618,61 +1638,55 @@
       "duration_ms": 9500,
       "keyframe_ms": 229833,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0046.jpg",
-      "transcript": "worry about. Tom! Tom, there she is. Now,",
+      "transcript": "worry about. Tom, there she is. Now,",
       "transcript_words": [
         {
-          "start_ms": 225160,
-          "end_ms": 225320,
+          "start_ms": 225180,
+          "end_ms": 225360,
           "text": " worry",
-          "probability": 0.9987
+          "probability": 0.9972
         },
         {
-          "start_ms": 225320,
-          "end_ms": 225600,
+          "start_ms": 225360,
+          "end_ms": 225680,
           "text": " about.",
-          "probability": 0.9985
+          "probability": 0.9977
         },
         {
-          "start_ms": 225880,
-          "end_ms": 225880,
-          "text": " Tom!",
-          "probability": 0.6699
-        },
-        {
-          "start_ms": 230820,
-          "end_ms": 231580,
+          "start_ms": 230300,
+          "end_ms": 231020,
           "text": " Tom,",
-          "probability": 0.8677
+          "probability": 0.8641
         },
         {
-          "start_ms": 231580,
+          "start_ms": 232200,
           "end_ms": 232340,
           "text": " there",
-          "probability": 0.9659
+          "probability": 0.9684
         },
         {
           "start_ms": 232340,
-          "end_ms": 232500,
+          "end_ms": 232540,
           "text": " she",
-          "probability": 0.9961
+          "probability": 0.9965
         },
         {
-          "start_ms": 232500,
+          "start_ms": 232540,
           "end_ms": 232840,
           "text": " is.",
-          "probability": 0.9994
+          "probability": 0.9995
         },
         {
-          "start_ms": 233640,
-          "end_ms": 233940,
+          "start_ms": 233800,
+          "end_ms": 234000,
           "text": " Now,",
-          "probability": 0.9728
+          "probability": 0.9557
         }
       ],
-      "word_count": 8,
+      "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 225160,
-      "speech_end_ms": 233940
+      "speech_start_ms": 225180,
+      "speech_end_ms": 234000
     },
     {
       "scene_id": "1d34b4769d15:0047",
@@ -1685,46 +1699,46 @@
       "transcript": "you love her. She's your passion.",
       "transcript_words": [
         {
-          "start_ms": 235120,
+          "start_ms": 235400,
           "end_ms": 235640,
           "text": " you",
-          "probability": 0.9701
+          "probability": 0.9685
         },
         {
           "start_ms": 235640,
-          "end_ms": 235980,
+          "end_ms": 236000,
           "text": " love",
-          "probability": 0.7104
+          "probability": 0.9196
         },
         {
-          "start_ms": 235980,
-          "end_ms": 236720,
+          "start_ms": 236000,
+          "end_ms": 236560,
           "text": " her.",
-          "probability": 0.9991
+          "probability": 0.9982
         },
         {
           "start_ms": 237560,
-          "end_ms": 237700,
+          "end_ms": 237760,
           "text": " She's",
-          "probability": 0.938
+          "probability": 0.8934
         },
         {
-          "start_ms": 237700,
-          "end_ms": 237900,
+          "start_ms": 237760,
+          "end_ms": 237880,
           "text": " your",
-          "probability": 0.9644
+          "probability": 0.9929
         },
         {
-          "start_ms": 237900,
-          "end_ms": 238400,
+          "start_ms": 237880,
+          "end_ms": 238460,
           "text": " passion.",
-          "probability": 0.9967
+          "probability": 0.9991
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 235120,
-      "speech_end_ms": 238400
+      "speech_start_ms": 235400,
+      "speech_end_ms": 238460
     },
     {
       "scene_id": "1d34b4769d15:0048",
@@ -1737,88 +1751,88 @@
       "transcript": "Be tender to her. Be honest. Be tender. Remind her what love is.",
       "transcript_words": [
         {
-          "start_ms": 239220,
-          "end_ms": 239300,
-          "text": " Be",
-          "probability": 0.9078
-        },
-        {
           "start_ms": 239300,
-          "end_ms": 240120,
-          "text": " tender",
-          "probability": 0.7545
+          "end_ms": 239360,
+          "text": " Be",
+          "probability": 0.9566
         },
         {
-          "start_ms": 240120,
+          "start_ms": 239360,
+          "end_ms": 240200,
+          "text": " tender",
+          "probability": 0.9186
+        },
+        {
+          "start_ms": 240200,
           "end_ms": 240420,
           "text": " to",
-          "probability": 0.997
+          "probability": 0.9918
         },
         {
           "start_ms": 240420,
-          "end_ms": 240600,
+          "end_ms": 240680,
           "text": " her.",
-          "probability": 0.9992
+          "probability": 0.999
         },
         {
-          "start_ms": 241360,
-          "end_ms": 241660,
+          "start_ms": 241560,
+          "end_ms": 241680,
           "text": " Be",
-          "probability": 0.9913
+          "probability": 0.9882
         },
         {
-          "start_ms": 241660,
-          "end_ms": 241980,
+          "start_ms": 241680,
+          "end_ms": 242040,
           "text": " honest.",
-          "probability": 0.9994
+          "probability": 0.9995
         },
         {
-          "start_ms": 243080,
-          "end_ms": 243840,
+          "start_ms": 243440,
+          "end_ms": 243880,
           "text": " Be",
-          "probability": 0.9405
+          "probability": 0.7985
         },
         {
-          "start_ms": 243840,
-          "end_ms": 244220,
+          "start_ms": 243880,
+          "end_ms": 244200,
           "text": " tender.",
           "probability": 0.9995
         },
         {
           "start_ms": 245560,
-          "end_ms": 246020,
+          "end_ms": 246080,
           "text": " Remind",
-          "probability": 0.9918
+          "probability": 0.9951
         },
         {
-          "start_ms": 246020,
-          "end_ms": 246300,
+          "start_ms": 246080,
+          "end_ms": 246380,
           "text": " her",
-          "probability": 0.9942
+          "probability": 0.9979
         },
         {
-          "start_ms": 246300,
-          "end_ms": 247220,
+          "start_ms": 246380,
+          "end_ms": 247260,
           "text": " what",
-          "probability": 0.9687
+          "probability": 0.9652
         },
         {
-          "start_ms": 247220,
-          "end_ms": 247520,
+          "start_ms": 247260,
+          "end_ms": 247560,
           "text": " love",
-          "probability": 0.998
+          "probability": 0.9978
         },
         {
-          "start_ms": 247520,
-          "end_ms": 247900,
+          "start_ms": 247560,
+          "end_ms": 247960,
           "text": " is.",
-          "probability": 0.9991
+          "probability": 0.9995
         }
       ],
       "word_count": 13,
       "has_speech": true,
-      "speech_start_ms": 239220,
-      "speech_end_ms": 247900
+      "speech_start_ms": 239300,
+      "speech_end_ms": 247960
     },
     {
       "scene_id": "1d34b4769d15:0049",
@@ -1873,19 +1887,25 @@
       "duration_ms": 5583,
       "keyframe_ms": 292333,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0052.jpg",
-      "transcript": "Action!",
+      "transcript": "And action!",
       "transcript_words": [
         {
-          "start_ms": 294140,
-          "end_ms": 294860,
-          "text": " Action!",
-          "probability": 0.1352
+          "start_ms": 293180,
+          "end_ms": 294060,
+          "text": " And",
+          "probability": 0.5215
+        },
+        {
+          "start_ms": 294060,
+          "end_ms": 294940,
+          "text": " action!",
+          "probability": 0.4283
         }
       ],
-      "word_count": 1,
+      "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 294140,
-      "speech_end_ms": 294860
+      "speech_start_ms": 293180,
+      "speech_end_ms": 294940
     },
     {
       "scene_id": "1d34b4769d15:0053",
@@ -1913,21 +1933,21 @@
       "transcript": "Memory override",
       "transcript_words": [
         {
-          "start_ms": 296420,
-          "end_ms": 297040,
+          "start_ms": 296460,
+          "end_ms": 297080,
           "text": " Memory",
-          "probability": 0.9008
+          "probability": 0.9108
         },
         {
-          "start_ms": 297040,
+          "start_ms": 297080,
           "end_ms": 297520,
           "text": " override",
-          "probability": 0.7248
+          "probability": 0.8546
         }
       ],
       "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 296420,
+      "speech_start_ms": 296460,
       "speech_end_ms": 297520
     },
     {
@@ -1942,21 +1962,21 @@
       "transcript_words": [
         {
           "start_ms": 297520,
-          "end_ms": 297720,
+          "end_ms": 297780,
           "text": " in",
-          "probability": 0.9935
+          "probability": 0.9944
         },
         {
-          "start_ms": 297720,
-          "end_ms": 298160,
+          "start_ms": 297780,
+          "end_ms": 298260,
           "text": " progress.",
-          "probability": 0.9985
+          "probability": 0.9948
         }
       ],
       "word_count": 2,
       "has_speech": true,
       "speech_start_ms": 297520,
-      "speech_end_ms": 298160
+      "speech_end_ms": 298260
     },
     {
       "scene_id": "1d34b4769d15:0056",
@@ -1966,37 +1986,37 @@
       "duration_ms": 1917,
       "keyframe_ms": 299916,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0056.jpg",
-      "transcript": "You're a jerk, Tom!",
+      "transcript": "You're a jerk, Tom.",
       "transcript_words": [
         {
-          "start_ms": 299340,
+          "start_ms": 299380,
           "end_ms": 299580,
           "text": " You're",
-          "probability": 0.931
+          "probability": 0.9179
         },
         {
           "start_ms": 299580,
-          "end_ms": 299700,
+          "end_ms": 299800,
           "text": " a",
-          "probability": 0.6339
+          "probability": 0.9901
         },
         {
-          "start_ms": 299700,
-          "end_ms": 300020,
+          "start_ms": 299800,
+          "end_ms": 300040,
           "text": " jerk,",
-          "probability": 0.9727
+          "probability": 0.9484
         },
         {
-          "start_ms": 300420,
-          "end_ms": 300500,
-          "text": " Tom!",
-          "probability": 0.4246
+          "start_ms": 300460,
+          "end_ms": 300520,
+          "text": " Tom.",
+          "probability": 0.6875
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 299340,
-      "speech_end_ms": 300500
+      "speech_start_ms": 299380,
+      "speech_end_ms": 300520
     },
     {
       "scene_id": "1d34b4769d15:0057",
@@ -2006,31 +2026,19 @@
       "duration_ms": 1833,
       "keyframe_ms": 301791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0057.jpg",
-      "transcript": "Oh, I'm sorry.",
+      "transcript": "Oh,",
       "transcript_words": [
         {
-          "start_ms": 302140,
+          "start_ms": 302160,
           "end_ms": 302420,
           "text": " Oh,",
-          "probability": 0.5813
-        },
-        {
-          "start_ms": 302440,
-          "end_ms": 302540,
-          "text": " I'm",
-          "probability": 0.9018
-        },
-        {
-          "start_ms": 302540,
-          "end_ms": 302860,
-          "text": " sorry.",
-          "probability": 0.9979
+          "probability": 0.4975
         }
       ],
-      "word_count": 3,
+      "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 302140,
-      "speech_end_ms": 302860
+      "speech_start_ms": 302160,
+      "speech_end_ms": 302420
     },
     {
       "scene_id": "1d34b4769d15:0058",
@@ -2040,25 +2048,25 @@
       "duration_ms": 5000,
       "keyframe_ms": 305208,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0058.jpg",
-      "transcript": "Sorry. Sorry.",
+      "transcript": "sorry. Sorry.",
       "transcript_words": [
         {
-          "start_ms": 303720,
-          "end_ms": 304040,
-          "text": " Sorry.",
-          "probability": 0.8914
+          "start_ms": 302840,
+          "end_ms": 302840,
+          "text": " sorry.",
+          "probability": 0.6447
         },
         {
-          "start_ms": 304040,
-          "end_ms": 304120,
+          "start_ms": 303720,
+          "end_ms": 304100,
           "text": " Sorry.",
-          "probability": 0.1654
+          "probability": 0.9941
         }
       ],
       "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 303720,
-      "speech_end_ms": 304120
+      "speech_start_ms": 302840,
+      "speech_end_ms": 304100
     },
     {
       "scene_id": "1d34b4769d15:0059",
@@ -2113,61 +2121,61 @@
       "duration_ms": 4583,
       "keyframe_ms": 317666,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg",
-      "transcript": "Look Celia, we have to follow our passions.",
+      "transcript": "Look, Celia, we have to follow our passions.",
       "transcript_words": [
         {
-          "start_ms": 315820,
-          "end_ms": 316180,
-          "text": " Look",
-          "probability": 0.2376
+          "start_ms": 315640,
+          "end_ms": 316240,
+          "text": " Look,",
+          "probability": 0.698
         },
         {
-          "start_ms": 316180,
+          "start_ms": 316480,
           "end_ms": 316700,
           "text": " Celia,",
-          "probability": 0.9003
+          "probability": 0.9641
         },
         {
-          "start_ms": 317520,
-          "end_ms": 318520,
+          "start_ms": 317500,
+          "end_ms": 318560,
           "text": " we",
-          "probability": 0.8061
+          "probability": 0.9145
         },
         {
-          "start_ms": 318520,
-          "end_ms": 318720,
+          "start_ms": 318560,
+          "end_ms": 318740,
           "text": " have",
-          "probability": 0.9969
+          "probability": 0.9979
         },
         {
-          "start_ms": 318720,
-          "end_ms": 318940,
+          "start_ms": 318740,
+          "end_ms": 318960,
           "text": " to",
-          "probability": 0.999
+          "probability": 0.9992
         },
         {
-          "start_ms": 318940,
-          "end_ms": 319220,
+          "start_ms": 318960,
+          "end_ms": 319260,
           "text": " follow",
-          "probability": 0.9993
+          "probability": 0.9994
         },
         {
-          "start_ms": 319220,
-          "end_ms": 319500,
+          "start_ms": 319260,
+          "end_ms": 319560,
           "text": " our",
-          "probability": 0.9957
+          "probability": 0.9927
         },
         {
-          "start_ms": 319500,
-          "end_ms": 320040,
+          "start_ms": 319560,
+          "end_ms": 320160,
           "text": " passions.",
-          "probability": 0.9792
+          "probability": 0.9663
         }
       ],
       "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 315820,
-      "speech_end_ms": 320040
+      "speech_start_ms": 315640,
+      "speech_end_ms": 320160
     },
     {
       "scene_id": "1d34b4769d15:0063",
@@ -2180,28 +2188,28 @@
       "transcript": "You have your",
       "transcript_words": [
         {
-          "start_ms": 321160,
+          "start_ms": 320960,
           "end_ms": 321560,
           "text": " You",
-          "probability": 0.9908
+          "probability": 0.9926
         },
         {
           "start_ms": 321560,
           "end_ms": 321740,
           "text": " have",
-          "probability": 0.9953
+          "probability": 0.9989
         },
         {
           "start_ms": 321740,
-          "end_ms": 321960,
+          "end_ms": 322000,
           "text": " your",
-          "probability": 0.9931
+          "probability": 0.9985
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 321160,
-      "speech_end_ms": 321960
+      "speech_start_ms": 320960,
+      "speech_end_ms": 322000
     },
     {
       "scene_id": "1d34b4769d15:0064",
@@ -2214,16 +2222,16 @@
       "transcript": "robotics.",
       "transcript_words": [
         {
-          "start_ms": 321960,
-          "end_ms": 322460,
+          "start_ms": 322000,
+          "end_ms": 322580,
           "text": " robotics.",
-          "probability": 0.9541
+          "probability": 0.9908
         }
       ],
       "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 321960,
-      "speech_end_ms": 322460
+      "speech_start_ms": 322000,
+      "speech_end_ms": 322580
     },
     {
       "scene_id": "1d34b4769d15:0065",
@@ -2236,64 +2244,64 @@
       "transcript": "And I just want to be awesome in space.",
       "transcript_words": [
         {
-          "start_ms": 324960,
-          "end_ms": 325340,
+          "start_ms": 324840,
+          "end_ms": 325440,
           "text": " And",
-          "probability": 0.836
+          "probability": 0.8819
         },
         {
-          "start_ms": 325340,
+          "start_ms": 325440,
           "end_ms": 326040,
           "text": " I",
-          "probability": 0.928
+          "probability": 0.947
         },
         {
           "start_ms": 326040,
-          "end_ms": 326200,
+          "end_ms": 326240,
           "text": " just",
-          "probability": 0.9953
+          "probability": 0.9957
         },
         {
-          "start_ms": 326200,
-          "end_ms": 326440,
+          "start_ms": 326240,
+          "end_ms": 326460,
           "text": " want",
-          "probability": 0.706
+          "probability": 0.7745
         },
         {
-          "start_ms": 326440,
-          "end_ms": 326540,
+          "start_ms": 326460,
+          "end_ms": 326560,
           "text": " to",
-          "probability": 0.9976
+          "probability": 0.9986
         },
         {
-          "start_ms": 326540,
-          "end_ms": 326680,
+          "start_ms": 326560,
+          "end_ms": 326720,
           "text": " be",
-          "probability": 0.9988
+          "probability": 0.9992
         },
         {
-          "start_ms": 326680,
-          "end_ms": 327040,
+          "start_ms": 326720,
+          "end_ms": 327060,
           "text": " awesome",
-          "probability": 0.9977
+          "probability": 0.9954
         },
         {
-          "start_ms": 327040,
-          "end_ms": 327240,
+          "start_ms": 327060,
+          "end_ms": 327320,
           "text": " in",
-          "probability": 0.9931
+          "probability": 0.9789
         },
         {
-          "start_ms": 327240,
-          "end_ms": 327540,
+          "start_ms": 327320,
+          "end_ms": 327740,
           "text": " space.",
-          "probability": 0.9923
+          "probability": 0.9931
         }
       ],
       "word_count": 9,
       "has_speech": true,
-      "speech_start_ms": 324960,
-      "speech_end_ms": 327540
+      "speech_start_ms": 324840,
+      "speech_end_ms": 327740
     },
     {
       "scene_id": "1d34b4769d15:0066",
@@ -2333,49 +2341,49 @@
       "duration_ms": 2291,
       "keyframe_ms": 340062,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0068.jpg",
-      "transcript": "Get her coming. Two minutes left.",
+      "transcript": "Okay, they're coming. Two minutes left.",
       "transcript_words": [
         {
-          "start_ms": 338880,
-          "end_ms": 339320,
-          "text": " Get",
-          "probability": 0.6507
+          "start_ms": 338740,
+          "end_ms": 339340,
+          "text": " Okay,",
+          "probability": 0.1256
         },
         {
-          "start_ms": 339320,
-          "end_ms": 339440,
-          "text": " her",
-          "probability": 0.8856
+          "start_ms": 339400,
+          "end_ms": 339480,
+          "text": " they're",
+          "probability": 0.9684
         },
         {
-          "start_ms": 339440,
+          "start_ms": 339480,
           "end_ms": 339700,
           "text": " coming.",
-          "probability": 0.5
+          "probability": 0.9862
         },
         {
-          "start_ms": 340240,
-          "end_ms": 340520,
+          "start_ms": 340260,
+          "end_ms": 340540,
           "text": " Two",
-          "probability": 0.8559
+          "probability": 0.8997
         },
         {
-          "start_ms": 340520,
-          "end_ms": 340700,
+          "start_ms": 340540,
+          "end_ms": 340720,
           "text": " minutes",
-          "probability": 0.9957
+          "probability": 0.9969
         },
         {
-          "start_ms": 340700,
-          "end_ms": 341040,
+          "start_ms": 340720,
+          "end_ms": 341100,
           "text": " left.",
-          "probability": 0.983
+          "probability": 0.9956
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 338880,
-      "speech_end_ms": 341040
+      "speech_start_ms": 338740,
+      "speech_end_ms": 341100
     },
     {
       "scene_id": "1d34b4769d15:0069",
@@ -2385,73 +2393,61 @@
       "duration_ms": 5250,
       "keyframe_ms": 343833,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg",
-      "transcript": "Two minutes. Speed her up, Tom. Leave her to Celia!",
+      "transcript": "Two minutes. Celia, come! We can see Celia!",
       "transcript_words": [
         {
-          "start_ms": 341440,
-          "end_ms": 341640,
+          "start_ms": 341520,
+          "end_ms": 341700,
           "text": " Two",
-          "probability": 0.8209
+          "probability": 0.8277
         },
         {
-          "start_ms": 341640,
-          "end_ms": 341940,
+          "start_ms": 341700,
+          "end_ms": 341920,
           "text": " minutes.",
-          "probability": 0.9284
+          "probability": 0.9927
         },
         {
-          "start_ms": 343100,
-          "end_ms": 343140,
-          "text": " Speed",
-          "probability": 0.109
+          "start_ms": 342780,
+          "end_ms": 343320,
+          "text": " Celia,",
+          "probability": 0.5031
         },
         {
-          "start_ms": 343140,
-          "end_ms": 343300,
-          "text": " her",
-          "probability": 0.273
+          "start_ms": 343320,
+          "end_ms": 343640,
+          "text": " come!",
+          "probability": 0.3671
         },
         {
-          "start_ms": 343300,
-          "end_ms": 343420,
-          "text": " up,",
-          "probability": 0.9923
-        },
-        {
-          "start_ms": 343680,
-          "end_ms": 343680,
-          "text": " Tom.",
-          "probability": 0.0854
-        },
-        {
-          "start_ms": 344980,
+          "start_ms": 344880,
           "end_ms": 345140,
-          "text": " Leave",
-          "probability": 0.1465
+          "text": " We",
+          "probability": 0.3714
         },
         {
           "start_ms": 345140,
-          "end_ms": 345280,
-          "text": " her",
-          "probability": 0.7755
+          "end_ms": 345380,
+          "text": " can",
+          "probability": 0.3398
         },
         {
-          "start_ms": 345280,
-          "end_ms": 345500,
-          "text": " to",
-          "probability": 0.8065
+          "start_ms": 345380,
+          "end_ms": 345600,
+          "text": " see",
+          "probability": 0.9706
         },
         {
-          "start_ms": 345500,
-          "end_ms": 345680,
+          "start_ms": 345600,
+          "end_ms": 346200,
           "text": " Celia!",
-          "probability": 0.7371
+          "probability": 0.9851
         }
       ],
-      "word_count": 10,
+      "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 341440,
-      "speech_end_ms": 345680
+      "speech_start_ms": 341520,
+      "speech_end_ms": 346200
     },
     {
       "scene_id": "1d34b4769d15:0070",
@@ -2464,52 +2460,52 @@
       "transcript": "Why don't you just admit that you're",
       "transcript_words": [
         {
-          "start_ms": 346740,
-          "end_ms": 347180,
+          "start_ms": 347000,
+          "end_ms": 347220,
           "text": " Why",
-          "probability": 0.9766
+          "probability": 0.9675
         },
         {
-          "start_ms": 347180,
-          "end_ms": 347380,
+          "start_ms": 347220,
+          "end_ms": 347400,
           "text": " don't",
-          "probability": 0.9943
+          "probability": 0.9913
         },
         {
-          "start_ms": 347380,
+          "start_ms": 347400,
           "end_ms": 347560,
           "text": " you",
           "probability": 0.9978
         },
         {
           "start_ms": 347560,
-          "end_ms": 347740,
+          "end_ms": 347780,
           "text": " just",
-          "probability": 0.9901
+          "probability": 0.9853
         },
         {
-          "start_ms": 347740,
-          "end_ms": 348040,
+          "start_ms": 347780,
+          "end_ms": 348060,
           "text": " admit",
-          "probability": 0.9997
+          "probability": 0.9982
         },
         {
-          "start_ms": 348040,
-          "end_ms": 348200,
+          "start_ms": 348060,
+          "end_ms": 348240,
           "text": " that",
-          "probability": 0.9407
+          "probability": 0.7896
         },
         {
-          "start_ms": 348200,
-          "end_ms": 348400,
+          "start_ms": 348240,
+          "end_ms": 348540,
           "text": " you're",
-          "probability": 0.9624
+          "probability": 0.9492
         }
       ],
       "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 346740,
-      "speech_end_ms": 348400
+      "speech_start_ms": 347000,
+      "speech_end_ms": 348540
     },
     {
       "scene_id": "1d34b4769d15:0071",
@@ -2522,46 +2518,46 @@
       "transcript": "freaked out by my robot hand?",
       "transcript_words": [
         {
-          "start_ms": 348400,
+          "start_ms": 348540,
           "end_ms": 348700,
           "text": " freaked",
-          "probability": 0.9944
+          "probability": 0.9931
         },
         {
           "start_ms": 348700,
-          "end_ms": 348880,
+          "end_ms": 348920,
           "text": " out",
-          "probability": 0.9921
+          "probability": 0.9913
         },
         {
-          "start_ms": 348880,
+          "start_ms": 348920,
           "end_ms": 349060,
           "text": " by",
-          "probability": 0.9975
+          "probability": 0.9937
         },
         {
           "start_ms": 349060,
-          "end_ms": 349220,
+          "end_ms": 349280,
           "text": " my",
-          "probability": 0.9954
+          "probability": 0.9959
         },
         {
-          "start_ms": 349220,
+          "start_ms": 349280,
           "end_ms": 349600,
           "text": " robot",
-          "probability": 0.9926
+          "probability": 0.9911
         },
         {
           "start_ms": 349600,
-          "end_ms": 349920,
+          "end_ms": 350040,
           "text": " hand?",
-          "probability": 0.9928
+          "probability": 0.9526
         }
       ],
       "word_count": 6,
       "has_speech": true,
-      "speech_start_ms": 348400,
-      "speech_end_ms": 349920
+      "speech_start_ms": 348540,
+      "speech_end_ms": 350040
     },
     {
       "scene_id": "1d34b4769d15:0072",
@@ -2601,91 +2597,91 @@
       "duration_ms": 5792,
       "keyframe_ms": 359229,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg",
-      "transcript": "Listen, Celia. I was young. And a dick. But there's no reason to",
+      "transcript": "Listen, Celia, I was young and a dick, but there's no reason to",
       "transcript_words": [
         {
-          "start_ms": 356680,
-          "end_ms": 357120,
+          "start_ms": 356620,
+          "end_ms": 357160,
           "text": " Listen,",
-          "probability": 0.9241
+          "probability": 0.8585
         },
         {
-          "start_ms": 357360,
-          "end_ms": 357580,
-          "text": " Celia.",
-          "probability": 0.999
+          "start_ms": 357320,
+          "end_ms": 357640,
+          "text": " Celia,",
+          "probability": 0.9979
         },
         {
-          "start_ms": 358080,
-          "end_ms": 358280,
+          "start_ms": 358060,
+          "end_ms": 358320,
           "text": " I",
-          "probability": 0.9978
+          "probability": 0.9951
         },
         {
-          "start_ms": 358280,
-          "end_ms": 358440,
+          "start_ms": 358320,
+          "end_ms": 358480,
           "text": " was",
-          "probability": 0.9994
+          "probability": 0.9982
         },
         {
-          "start_ms": 358440,
-          "end_ms": 358740,
-          "text": " young.",
-          "probability": 0.9991
+          "start_ms": 358480,
+          "end_ms": 358840,
+          "text": " young",
+          "probability": 0.9984
         },
         {
-          "start_ms": 359740,
-          "end_ms": 360160,
-          "text": " And",
-          "probability": 0.972
+          "start_ms": 358840,
+          "end_ms": 360140,
+          "text": " and",
+          "probability": 0.3386
         },
         {
-          "start_ms": 360160,
-          "end_ms": 360340,
+          "start_ms": 360140,
+          "end_ms": 360420,
           "text": " a",
-          "probability": 0.9977
+          "probability": 0.9952
         },
         {
-          "start_ms": 360340,
-          "end_ms": 360560,
-          "text": " dick.",
-          "probability": 0.978
+          "start_ms": 360420,
+          "end_ms": 360640,
+          "text": " dick,",
+          "probability": 0.9786
         },
         {
-          "start_ms": 361240,
+          "start_ms": 360700,
           "end_ms": 361360,
-          "text": " But",
-          "probability": 0.9929
+          "text": " but",
+          "probability": 0.9917
         },
         {
           "start_ms": 361360,
-          "end_ms": 361500,
+          "end_ms": 361520,
           "text": " there's",
-          "probability": 0.9853
+          "probability": 0.9709
         },
         {
-          "start_ms": 361500,
-          "end_ms": 361620,
+          "start_ms": 361520,
+          "end_ms": 361660,
           "text": " no",
-          "probability": 0.998
+          "probability": 0.9967
         },
         {
-          "start_ms": 361620,
-          "end_ms": 361800,
+          "start_ms": 361660,
+          "end_ms": 361860,
           "text": " reason",
           "probability": 0.9996
         },
         {
-          "start_ms": 361800,
-          "end_ms": 362020,
+          "start_ms": 361860,
+          "end_ms": 362060,
           "text": " to",
-          "probability": 0.9992
+          "probability": 0.9995
         }
       ],
       "word_count": 13,
       "has_speech": true,
-      "speech_start_ms": 356680,
-      "speech_end_ms": 362020
+      "speech_start_ms": 356620,
+      "speech_end_ms": 362060
     },
     {
       "scene_id": "1d34b4769d15:0075",
@@ -2695,37 +2691,31 @@
       "duration_ms": 2375,
       "keyframe_ms": 363312,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0075.jpg",
-      "transcript": "destroy the world. Why",
+      "transcript": "destroy the world.",
       "transcript_words": [
         {
-          "start_ms": 362020,
-          "end_ms": 362340,
+          "start_ms": 362060,
+          "end_ms": 362380,
           "text": " destroy",
-          "probability": 0.999
+          "probability": 0.9994
         },
         {
-          "start_ms": 362340,
-          "end_ms": 362540,
+          "start_ms": 362380,
+          "end_ms": 362640,
           "text": " the",
-          "probability": 0.999
+          "probability": 0.9992
         },
         {
-          "start_ms": 362540,
-          "end_ms": 362800,
+          "start_ms": 362640,
+          "end_ms": 362920,
           "text": " world.",
-          "probability": 0.9972
-        },
-        {
-          "start_ms": 363920,
-          "end_ms": 364660,
-          "text": " Why",
-          "probability": 0.5111
+          "probability": 0.9986
         }
       ],
-      "word_count": 4,
+      "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 362020,
-      "speech_end_ms": 364660
+      "speech_start_ms": 362060,
+      "speech_end_ms": 362920
     },
     {
       "scene_id": "1d34b4769d15:0076",
@@ -2735,49 +2725,55 @@
       "duration_ms": 3167,
       "keyframe_ms": 366083,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0076.jpg",
-      "transcript": "does she do this? We already",
+      "transcript": "Why does she do this? We already",
       "transcript_words": [
         {
-          "start_ms": 364660,
-          "end_ms": 365320,
-          "text": " does",
-          "probability": 0.7739
+          "start_ms": 364680,
+          "end_ms": 365220,
+          "text": " Why",
+          "probability": 0.9725
         },
         {
-          "start_ms": 365320,
+          "start_ms": 365220,
+          "end_ms": 365340,
+          "text": " does",
+          "probability": 0.8821
+        },
+        {
+          "start_ms": 365340,
           "end_ms": 365440,
           "text": " she",
-          "probability": 0.5788
+          "probability": 0.6893
         },
         {
           "start_ms": 365440,
-          "end_ms": 365560,
+          "end_ms": 365580,
           "text": " do",
-          "probability": 0.9976
+          "probability": 0.9979
         },
         {
-          "start_ms": 365560,
-          "end_ms": 365900,
+          "start_ms": 365580,
+          "end_ms": 365920,
           "text": " this?",
-          "probability": 0.998
+          "probability": 0.9993
         },
         {
-          "start_ms": 367020,
+          "start_ms": 366960,
           "end_ms": 367260,
           "text": " We",
-          "probability": 0.9203
+          "probability": 0.9782
         },
         {
           "start_ms": 367260,
-          "end_ms": 367520,
+          "end_ms": 367580,
           "text": " already",
-          "probability": 0.9739
+          "probability": 0.9525
         }
       ],
-      "word_count": 6,
+      "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 364660,
-      "speech_end_ms": 367520
+      "speech_start_ms": 364680,
+      "speech_end_ms": 367580
     },
     {
       "scene_id": "1d34b4769d15:0077",
@@ -2790,28 +2786,28 @@
       "transcript": "tried that one.",
       "transcript_words": [
         {
-          "start_ms": 367520,
-          "end_ms": 367980,
+          "start_ms": 367580,
+          "end_ms": 368000,
           "text": " tried",
-          "probability": 0.9524
+          "probability": 0.9921
         },
         {
-          "start_ms": 367980,
-          "end_ms": 368160,
+          "start_ms": 368000,
+          "end_ms": 368240,
           "text": " that",
-          "probability": 0.8814
+          "probability": 0.9386
         },
         {
-          "start_ms": 368160,
-          "end_ms": 368800,
+          "start_ms": 368240,
+          "end_ms": 368500,
           "text": " one.",
-          "probability": 0.9955
+          "probability": 0.9983
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 367520,
-      "speech_end_ms": 368800
+      "speech_start_ms": 367580,
+      "speech_end_ms": 368500
     },
     {
       "scene_id": "1d34b4769d15:0078",
@@ -2836,25 +2832,12 @@
       "duration_ms": 2042,
       "keyframe_ms": 370604,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0079.jpg",
-      "transcript": "Come on!",
-      "transcript_words": [
-        {
-          "start_ms": 369980,
-          "end_ms": 369980,
-          "text": " Come",
-          "probability": 0.0932
-        },
-        {
-          "start_ms": 369980,
-          "end_ms": 372520,
-          "text": " on!",
-          "probability": 0.9887
-        }
-      ],
-      "word_count": 2,
-      "has_speech": true,
-      "speech_start_ms": 369980,
-      "speech_end_ms": 372520
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null
     },
     {
       "scene_id": "1d34b4769d15:0080",
@@ -2864,12 +2847,19 @@
       "duration_ms": 2250,
       "keyframe_ms": 372750,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0080.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null
+      "transcript": "Avar!",
+      "transcript_words": [
+        {
+          "start_ms": 371920,
+          "end_ms": 372500,
+          "text": " Avar!",
+          "probability": 0.3235
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 371920,
+      "speech_end_ms": 372500
     },
     {
       "scene_id": "1d34b4769d15:0081",
@@ -2909,19 +2899,12 @@
       "duration_ms": 792,
       "keyframe_ms": 377604,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0083.jpg",
-      "transcript": "No!",
-      "transcript_words": [
-        {
-          "start_ms": 376840,
-          "end_ms": 377600,
-          "text": " No!",
-          "probability": 0.3122
-        }
-      ],
-      "word_count": 1,
-      "has_speech": true,
-      "speech_start_ms": 376840,
-      "speech_end_ms": 377600
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null
     },
     {
       "scene_id": "1d34b4769d15:0084",
@@ -2946,19 +2929,12 @@
       "duration_ms": 3125,
       "keyframe_ms": 381562,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0085.jpg",
-      "transcript": "No!",
-      "transcript_words": [
-        {
-          "start_ms": 380960,
-          "end_ms": 381400,
-          "text": " No!",
-          "probability": 0.3747
-        }
-      ],
-      "word_count": 1,
-      "has_speech": true,
-      "speech_start_ms": 380960,
-      "speech_end_ms": 381400
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null
     },
     {
       "scene_id": "1d34b4769d15:0086",
@@ -2971,34 +2947,34 @@
       "transcript": "You broke my heart.",
       "transcript_words": [
         {
-          "start_ms": 383280,
-          "end_ms": 383780,
+          "start_ms": 383720,
+          "end_ms": 383720,
           "text": " You",
-          "probability": 0.7219
+          "probability": 0.1373
         },
         {
-          "start_ms": 383780,
+          "start_ms": 383720,
           "end_ms": 384160,
           "text": " broke",
-          "probability": 0.9954
+          "probability": 0.9883
         },
         {
           "start_ms": 384160,
           "end_ms": 384500,
           "text": " my",
-          "probability": 0.9987
+          "probability": 0.9983
         },
         {
           "start_ms": 384500,
-          "end_ms": 384880,
+          "end_ms": 384960,
           "text": " heart.",
-          "probability": 0.9991
+          "probability": 0.9961
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 383280,
-      "speech_end_ms": 384880
+      "speech_start_ms": 383720,
+      "speech_end_ms": 384960
     },
     {
       "scene_id": "1d34b4769d15:0087",
@@ -3008,25 +2984,19 @@
       "duration_ms": 1541,
       "keyframe_ms": 386187,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0087.jpg",
-      "transcript": "I know.",
+      "transcript": "You",
       "transcript_words": [
         {
-          "start_ms": 386080,
-          "end_ms": 386240,
-          "text": " I",
-          "probability": 0.9079
-        },
-        {
-          "start_ms": 386240,
-          "end_ms": 386440,
-          "text": " know.",
-          "probability": 0.9954
+          "start_ms": 386100,
+          "end_ms": 386340,
+          "text": " You",
+          "probability": 0.1765
         }
       ],
-      "word_count": 2,
+      "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 386080,
-      "speech_end_ms": 386440
+      "speech_start_ms": 386100,
+      "speech_end_ms": 386340
     },
     {
       "scene_id": "1d34b4769d15:0088",
@@ -3036,43 +3006,37 @@
       "duration_ms": 2000,
       "keyframe_ms": 387958,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0088.jpg",
-      "transcript": "You forgot me on Earth.",
+      "transcript": "forgot me on Earth.",
       "transcript_words": [
         {
-          "start_ms": 386940,
-          "end_ms": 387320,
-          "text": " You",
-          "probability": 0.9925
-        },
-        {
-          "start_ms": 387320,
-          "end_ms": 387680,
+          "start_ms": 386340,
+          "end_ms": 387600,
           "text": " forgot",
-          "probability": 0.9805
+          "probability": 0.9858
         },
         {
-          "start_ms": 387680,
-          "end_ms": 388060,
+          "start_ms": 387600,
+          "end_ms": 388080,
           "text": " me",
-          "probability": 0.9979
+          "probability": 0.9968
         },
         {
-          "start_ms": 388060,
-          "end_ms": 388300,
+          "start_ms": 388080,
+          "end_ms": 388340,
           "text": " on",
-          "probability": 0.993
+          "probability": 0.9877
         },
         {
-          "start_ms": 388300,
-          "end_ms": 388520,
+          "start_ms": 388340,
+          "end_ms": 388600,
           "text": " Earth.",
-          "probability": 0.6255
+          "probability": 0.3884
         }
       ],
-      "word_count": 5,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 386940,
-      "speech_end_ms": 388520
+      "speech_start_ms": 386340,
+      "speech_end_ms": 388600
     },
     {
       "scene_id": "1d34b4769d15:0089",
@@ -3082,25 +3046,12 @@
       "duration_ms": 1209,
       "keyframe_ms": 389562,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0089.jpg",
-      "transcript": "I know.",
-      "transcript_words": [
-        {
-          "start_ms": 389320,
-          "end_ms": 389520,
-          "text": " I",
-          "probability": 0.9843
-        },
-        {
-          "start_ms": 389520,
-          "end_ms": 389680,
-          "text": " know.",
-          "probability": 0.9971
-        }
-      ],
-      "word_count": 2,
-      "has_speech": true,
-      "speech_start_ms": 389320,
-      "speech_end_ms": 389680
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null
     },
     {
       "scene_id": "1d34b4769d15:0090",
@@ -3113,40 +3064,40 @@
       "transcript": "I should just crush you.",
       "transcript_words": [
         {
-          "start_ms": 390320,
-          "end_ms": 390700,
+          "start_ms": 390640,
+          "end_ms": 390680,
           "text": " I",
-          "probability": 0.9881
+          "probability": 0.8743
         },
         {
-          "start_ms": 390700,
-          "end_ms": 390940,
+          "start_ms": 390680,
+          "end_ms": 390900,
           "text": " should",
-          "probability": 0.9841
+          "probability": 0.74
         },
         {
-          "start_ms": 390940,
-          "end_ms": 391300,
+          "start_ms": 390900,
+          "end_ms": 391420,
           "text": " just",
-          "probability": 0.9939
+          "probability": 0.9903
         },
         {
-          "start_ms": 391300,
-          "end_ms": 391780,
+          "start_ms": 391420,
+          "end_ms": 391880,
           "text": " crush",
-          "probability": 0.6476
+          "probability": 0.9051
         },
         {
-          "start_ms": 391780,
-          "end_ms": 392140,
+          "start_ms": 391880,
+          "end_ms": 392180,
           "text": " you.",
-          "probability": 0.9961
+          "probability": 0.9965
         }
       ],
       "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 390320,
-      "speech_end_ms": 392140
+      "speech_start_ms": 390640,
+      "speech_end_ms": 392180
     },
     {
       "scene_id": "1d34b4769d15:0091",
@@ -3204,22 +3155,22 @@
       "transcript": "I'm sorry.",
       "transcript_words": [
         {
-          "start_ms": 406400,
-          "end_ms": 407800,
+          "start_ms": 406460,
+          "end_ms": 407860,
           "text": " I'm",
-          "probability": 0.8648
+          "probability": 0.9223
         },
         {
-          "start_ms": 407800,
-          "end_ms": 408160,
+          "start_ms": 407860,
+          "end_ms": 408200,
           "text": " sorry.",
-          "probability": 0.8851
+          "probability": 0.9479
         }
       ],
       "word_count": 2,
       "has_speech": true,
-      "speech_start_ms": 406400,
-      "speech_end_ms": 408160
+      "speech_start_ms": 406460,
+      "speech_end_ms": 408200
     },
     {
       "scene_id": "1d34b4769d15:0095",
@@ -3232,28 +3183,28 @@
       "transcript": "Good ad-lib.",
       "transcript_words": [
         {
-          "start_ms": 410260,
-          "end_ms": 410560,
+          "start_ms": 409880,
+          "end_ms": 410580,
           "text": " Good",
-          "probability": 0.467
+          "probability": 0.5438
         },
         {
-          "start_ms": 410560,
-          "end_ms": 410760,
+          "start_ms": 410580,
+          "end_ms": 410840,
           "text": " ad",
-          "probability": 0.5823
+          "probability": 0.8954
         },
         {
-          "start_ms": 410760,
-          "end_ms": 410940,
+          "start_ms": 410840,
+          "end_ms": 411000,
           "text": "-lib.",
-          "probability": 0.7236
+          "probability": 0.8335
         }
       ],
       "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 410260,
-      "speech_end_ms": 410940
+      "speech_start_ms": 409880,
+      "speech_end_ms": 411000
     },
     {
       "scene_id": "1d34b4769d15:0096",
@@ -3278,19 +3229,19 @@
       "duration_ms": 3792,
       "keyframe_ms": 416896,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0097.jpg",
-      "transcript": "Grab",
+      "transcript": "Not",
       "transcript_words": [
         {
-          "start_ms": 416880,
-          "end_ms": 418280,
-          "text": " Grab",
-          "probability": 0.1403
+          "start_ms": 416900,
+          "end_ms": 418300,
+          "text": " Not",
+          "probability": 0.6656
         }
       ],
       "word_count": 1,
       "has_speech": true,
-      "speech_start_ms": 416880,
-      "speech_end_ms": 418280
+      "speech_start_ms": 416900,
+      "speech_end_ms": 418300
     },
     {
       "scene_id": "1d34b4769d15:0098",
@@ -3300,37 +3251,37 @@
       "duration_ms": 6708,
       "keyframe_ms": 422146,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0098.jpg",
-      "transcript": "my ball! This time.",
+      "transcript": "my fault! This time.",
       "transcript_words": [
         {
-          "start_ms": 418280,
-          "end_ms": 419680,
+          "start_ms": 418300,
+          "end_ms": 419700,
           "text": " my",
-          "probability": 0.9956
+          "probability": 0.9975
         },
         {
-          "start_ms": 419680,
-          "end_ms": 419980,
-          "text": " ball!",
-          "probability": 0.3642
+          "start_ms": 419700,
+          "end_ms": 420000,
+          "text": " fault!",
+          "probability": 0.9863
         },
         {
-          "start_ms": 422260,
-          "end_ms": 422500,
+          "start_ms": 422300,
+          "end_ms": 422540,
           "text": " This",
-          "probability": 0.8522
+          "probability": 0.4296
         },
         {
-          "start_ms": 422500,
-          "end_ms": 423460,
+          "start_ms": 422540,
+          "end_ms": 422820,
           "text": " time.",
-          "probability": 0.9983
+          "probability": 0.9982
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 418280,
-      "speech_end_ms": 423460
+      "speech_start_ms": 418300,
+      "speech_end_ms": 422820
     },
     {
       "scene_id": "1d34b4769d15:0099",
@@ -3355,25 +3306,12 @@
       "duration_ms": 3666,
       "keyframe_ms": 429625,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0100.jpg",
-      "transcript": "While set.",
-      "transcript_words": [
-        {
-          "start_ms": 428120,
-          "end_ms": 428880,
-          "text": " While",
-          "probability": 0.0789
-        },
-        {
-          "start_ms": 428880,
-          "end_ms": 429360,
-          "text": " set.",
-          "probability": 0.6953
-        }
-      ],
-      "word_count": 2,
-      "has_speech": true,
-      "speech_start_ms": 428120,
-      "speech_end_ms": 429360
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null
     },
     {
       "scene_id": "1d34b4769d15:0101",
@@ -3758,12 +3696,19 @@
       "duration_ms": 1333,
       "keyframe_ms": 503041,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0126.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null
+      "transcript": "Memory",
+      "transcript_words": [
+        {
+          "start_ms": 503000,
+          "end_ms": 503840,
+          "text": " Memory",
+          "probability": 0.5392
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 503000,
+      "speech_end_ms": 503840
     },
     {
       "scene_id": "1d34b4769d15:0127",
@@ -3773,37 +3718,31 @@
       "duration_ms": 2167,
       "keyframe_ms": 504791,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0127.jpg",
-      "transcript": "Memory overhead at 90%.",
+      "transcript": "overhead at 90%.",
       "transcript_words": [
         {
-          "start_ms": 503640,
-          "end_ms": 504320,
-          "text": " Memory",
-          "probability": 0.8401
-        },
-        {
-          "start_ms": 504320,
-          "end_ms": 504660,
+          "start_ms": 503840,
+          "end_ms": 504680,
           "text": " overhead",
-          "probability": 0.0477
+          "probability": 0.5927
         },
         {
-          "start_ms": 504660,
-          "end_ms": 504820,
+          "start_ms": 504680,
+          "end_ms": 504920,
           "text": " at",
-          "probability": 0.9406
+          "probability": 0.9722
         },
         {
-          "start_ms": 504820,
-          "end_ms": 505240,
+          "start_ms": 504920,
+          "end_ms": 505340,
           "text": " 90%.",
-          "probability": 0.6424
+          "probability": 0.5835
         }
       ],
-      "word_count": 4,
+      "word_count": 3,
       "has_speech": true,
-      "speech_start_ms": 503640,
-      "speech_end_ms": 505240
+      "speech_start_ms": 503840,
+      "speech_end_ms": 505340
     },
     {
       "scene_id": "1d34b4769d15:0128",
@@ -3816,39 +3755,39 @@
       "transcript": "Captain, we have to abort.",
       "transcript_words": [
         {
-          "start_ms": 506160,
-          "end_ms": 506840,
+          "start_ms": 506040,
+          "end_ms": 506880,
           "text": " Captain,",
-          "probability": 0.9356
+          "probability": 0.9859
         },
         {
-          "start_ms": 507180,
-          "end_ms": 507440,
+          "start_ms": 507060,
+          "end_ms": 507480,
           "text": " we",
-          "probability": 0.984
+          "probability": 0.9945
         },
         {
-          "start_ms": 507440,
+          "start_ms": 507480,
           "end_ms": 507640,
           "text": " have",
-          "probability": 0.9965
+          "probability": 0.9972
         },
         {
           "start_ms": 507640,
-          "end_ms": 507820,
+          "end_ms": 507860,
           "text": " to",
-          "probability": 0.9984
+          "probability": 0.9979
         },
         {
-          "start_ms": 507820,
+          "start_ms": 507860,
           "end_ms": 508200,
           "text": " abort.",
-          "probability": 0.9956
+          "probability": 0.9962
         }
       ],
       "word_count": 5,
       "has_speech": true,
-      "speech_start_ms": 506160,
+      "speech_start_ms": 506040,
       "speech_end_ms": 508200
     },
     {
@@ -3878,33 +3817,33 @@
       "transcript_words": [
         {
           "start_ms": 518660,
-          "end_ms": 519340,
+          "end_ms": 519380,
           "text": " The",
-          "probability": 0.9741
+          "probability": 0.9069
         },
         {
-          "start_ms": 519340,
-          "end_ms": 519660,
+          "start_ms": 519380,
+          "end_ms": 519740,
           "text": " world's",
-          "probability": 0.8566
+          "probability": 0.9097
         },
         {
-          "start_ms": 519660,
-          "end_ms": 519920,
+          "start_ms": 519740,
+          "end_ms": 519960,
           "text": " changed,",
-          "probability": 0.9949
+          "probability": 0.9972
         },
         {
-          "start_ms": 520180,
-          "end_ms": 520400,
+          "start_ms": 520300,
+          "end_ms": 520820,
           "text": " Celia.",
-          "probability": 0.9819
+          "probability": 0.9775
         }
       ],
       "word_count": 4,
       "has_speech": true,
       "speech_start_ms": 518660,
-      "speech_end_ms": 520400
+      "speech_end_ms": 520820
     },
     {
       "scene_id": "1d34b4769d15:0131",
@@ -3944,37 +3883,37 @@
       "duration_ms": 6500,
       "keyframe_ms": 534458,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0133.jpg",
-      "transcript": "Maybe we can, too.",
+      "transcript": "Maybe we can too.",
       "transcript_words": [
         {
-          "start_ms": 534300,
-          "end_ms": 535360,
+          "start_ms": 534680,
+          "end_ms": 535400,
           "text": " Maybe",
-          "probability": 0.9386
+          "probability": 0.9462
         },
         {
-          "start_ms": 535360,
-          "end_ms": 535560,
+          "start_ms": 535400,
+          "end_ms": 535600,
           "text": " we",
-          "probability": 0.9493
+          "probability": 0.9932
         },
         {
-          "start_ms": 535560,
-          "end_ms": 535760,
-          "text": " can,",
-          "probability": 0.9976
+          "start_ms": 535600,
+          "end_ms": 535780,
+          "text": " can",
+          "probability": 0.9998
         },
         {
-          "start_ms": 535860,
-          "end_ms": 536500,
+          "start_ms": 535780,
+          "end_ms": 536060,
           "text": " too.",
-          "probability": 0.9976
+          "probability": 0.747
         }
       ],
       "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 534300,
-      "speech_end_ms": 536500
+      "speech_start_ms": 534680,
+      "speech_end_ms": 536060
     },
     {
       "scene_id": "1d34b4769d15:0134",
@@ -3988,27 +3927,27 @@
       "transcript_words": [
         {
           "start_ms": 538340,
-          "end_ms": 538480,
+          "end_ms": 538500,
           "text": " Memory",
-          "probability": 0.8112
+          "probability": 0.8889
         },
         {
-          "start_ms": 538480,
+          "start_ms": 538500,
           "end_ms": 538860,
           "text": " override",
-          "probability": 0.9398
+          "probability": 0.9663
         },
         {
           "start_ms": 538860,
-          "end_ms": 539280,
+          "end_ms": 539300,
           "text": " complete!",
-          "probability": 0.9846
+          "probability": 0.9862
         }
       ],
       "word_count": 3,
       "has_speech": true,
       "speech_start_ms": 538340,
-      "speech_end_ms": 539280
+      "speech_end_ms": 539300
     },
     {
       "scene_id": "1d34b4769d15:0135",
@@ -4063,73 +4002,73 @@
       "duration_ms": 7459,
       "keyframe_ms": 560562,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0138.jpg",
-      "transcript": "You know... There's a lesson to be learned from this.",
+      "transcript": "You know, there's a lesson to be learned from this.",
       "transcript_words": [
         {
-          "start_ms": 558180,
-          "end_ms": 559240,
+          "start_ms": 558580,
+          "end_ms": 559100,
           "text": " You",
-          "probability": 0.883
+          "probability": 0.8643
         },
         {
-          "start_ms": 559240,
-          "end_ms": 560300,
-          "text": " know...",
-          "probability": 0.8098
+          "start_ms": 559100,
+          "end_ms": 559620,
+          "text": " know,",
+          "probability": 0.9973
         },
         {
-          "start_ms": 561760,
-          "end_ms": 562200,
-          "text": " There's",
-          "probability": 0.653
+          "start_ms": 561880,
+          "end_ms": 562220,
+          "text": " there's",
+          "probability": 0.88
         },
         {
-          "start_ms": 562200,
-          "end_ms": 562320,
+          "start_ms": 562220,
+          "end_ms": 562340,
           "text": " a",
-          "probability": 0.9947
+          "probability": 0.9964
         },
         {
-          "start_ms": 562320,
-          "end_ms": 562540,
+          "start_ms": 562340,
+          "end_ms": 562580,
           "text": " lesson",
-          "probability": 0.9976
+          "probability": 0.9986
         },
         {
-          "start_ms": 562540,
-          "end_ms": 562760,
+          "start_ms": 562580,
+          "end_ms": 562780,
           "text": " to",
-          "probability": 0.9959
+          "probability": 0.9969
         },
         {
-          "start_ms": 562760,
+          "start_ms": 562780,
           "end_ms": 562900,
           "text": " be",
-          "probability": 0.9565
+          "probability": 0.9968
         },
         {
           "start_ms": 562900,
           "end_ms": 563040,
           "text": " learned",
-          "probability": 0.9209
+          "probability": 0.7648
         },
         {
           "start_ms": 563040,
-          "end_ms": 563260,
+          "end_ms": 563280,
           "text": " from",
-          "probability": 0.9952
+          "probability": 0.997
         },
         {
-          "start_ms": 563260,
-          "end_ms": 564260,
+          "start_ms": 563280,
+          "end_ms": 563540,
           "text": " this.",
-          "probability": 0.9974
+          "probability": 0.9981
         }
       ],
       "word_count": 10,
       "has_speech": true,
-      "speech_start_ms": 558180,
-      "speech_end_ms": 564260
+      "speech_start_ms": 558580,
+      "speech_end_ms": 563540
     },
     {
       "scene_id": "1d34b4769d15:0139",
@@ -4139,31 +4078,37 @@
       "duration_ms": 7041,
       "keyframe_ms": 567812,
       "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0139.jpg",
-      "transcript": "Could've gone worse.",
+      "transcript": "Could have gone worse.",
       "transcript_words": [
         {
-          "start_ms": 566060,
-          "end_ms": 566260,
-          "text": " Could've",
-          "probability": 0.3399
+          "start_ms": 565880,
+          "end_ms": 566140,
+          "text": " Could",
+          "probability": 0.864
         },
         {
-          "start_ms": 566260,
-          "end_ms": 566440,
+          "start_ms": 566140,
+          "end_ms": 566320,
+          "text": " have",
+          "probability": 0.539
+        },
+        {
+          "start_ms": 566320,
+          "end_ms": 566480,
           "text": " gone",
-          "probability": 0.987
+          "probability": 0.9914
         },
         {
-          "start_ms": 566440,
-          "end_ms": 566740,
+          "start_ms": 566480,
+          "end_ms": 566820,
           "text": " worse.",
-          "probability": 0.9923
+          "probability": 0.9996
         }
       ],
-      "word_count": 3,
+      "word_count": 4,
       "has_speech": true,
-      "speech_start_ms": 566060,
-      "speech_end_ms": 566740
+      "speech_start_ms": 565880,
+      "speech_end_ms": 566820
     },
     {
       "scene_id": "1d34b4769d15:0140",
@@ -4467,14 +4412,14 @@
     }
   ],
   "transcription_summary": {
-    "total_words": 333,
-    "assigned_words": 333,
+    "total_words": 324,
+    "assigned_words": 324,
     "unassigned_words": 0,
-    "scenes_with_speech": 64,
-    "scenes_without_speech": 96
+    "scenes_with_speech": 63,
+    "scenes_without_speech": 97
   },
   "transcription": {
-    "model": "small.en",
+    "model": "medium.en",
     "detected_language": "en",
     "language_probability": 1.0,
     "transcription_file": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\transcription.json"

@@ -34,6 +34,34 @@ def save_json(path: Path, data: dict[str, Any]) -> None:
         )
 
 
+def is_suspicious_segment(segment) -> bool:
+    text = segment.text.strip()
+
+    if not text:
+        return True
+
+    words = text.split()
+    duration = float(segment.end - segment.start)
+
+    # Very few words spread over a long period are usually
+    # hallucinated speech over music, effects, or silence.
+    if duration >= 10.0 and len(words) <= 8:
+        return True
+
+    # Extremely long segments are unreliable regardless of text.
+    if duration >= 20.0:
+        return True
+
+    # Reject low-quality segments when Whisper itself reports
+    # strong evidence of non-speech.
+    if (
+        getattr(segment, "no_speech_prob", 0.0) >= 0.75
+        and getattr(segment, "avg_logprob", 0.0) <= -0.8
+    ):
+        return True
+
+    return False
+
 def transcribe_video(
     video_path: Path,
     model_name: str,
@@ -94,6 +122,15 @@ def transcribe_video(
     # faster-whisper returns a generator. Iterating over it performs
     # the actual transcription.
     for segment in segments_generator:
+        if is_suspicious_segment(segment):
+            print(
+                f"[filtered] "
+                f"{segment.start:.3f} --> "
+                f"{segment.end:.3f}: "
+                f"{segment.text.strip()}"
+            )
+            continue
+
         segment_words: list[dict[str, Any]] = []
 
         for word in segment.words or []:
@@ -132,7 +169,8 @@ def transcribe_video(
 
         print(
             f"[{start_display} --> {end_display}] "
-            f"{segment.text.strip()}"
+            f"{segment.text.strip()}",
+            flush=True,
         )
 
     detected_language = getattr(info, "language", None)

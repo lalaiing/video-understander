@@ -1,12 +1,14 @@
 {
-  "question": "Does a four-legged robot attack a flying vehicle?",
+  "question": "What frightens Thom about Celia?",
   "answerable": false,
-  "answer": "The provided evidence does not show a four-legged robot attacking a flying vehicle. While scene 120 shows mechanical entities engaging in combat, there is no flying vehicle present in the scene.",
+  "answer": "The provided evidence does not contain information about what frightens Thom about Celia.",
   "confidence": "high",
   "citations": [],
-  "limitations": [],
+  "limitations": [
+    "The provided scenes show interactions between a man and a woman, but there is no mention of fear or what might be frightening about the woman."
+  ],
   "model": "gemini-3.1-flash-lite",
-  "text_only": false,
+  "text_only": true,
   "retrieval": {
     "top_retrieved": 3,
     "neighbor_radius": 1,
