@@ -1,0 +1,42 @@
+{
+  "question": "When does Celia say that Thom broke her heart?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "candidate_start_ms": 310583,
+      "candidate_end_ms": 322208,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The provided transcript and frames do not contain any mention of Thom or the act of breaking a heart.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        74,
+        75,
+        76
+      ],
+      "candidate_start_ms": 356333,
+      "candidate_end_ms": 367667,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The provided transcript and frames do not contain any mention of Thom or the action of breaking a heart.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    }
+  ]
+}

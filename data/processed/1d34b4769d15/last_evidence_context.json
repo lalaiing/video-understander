@@ -1,5 +1,5 @@
 {
-  "question": "What frightens Thom about Celia?",
+  "question": "When does Celia say that Thom broke her heart?",
   "retrieval_weights": {
     "caption": 1.0,
     "transcript": 1.0,
@@ -8,37 +8,39 @@
   "retrieved_results": [
     {
       "rank": 1,
+      "scene_number": 62,
+      "rrf_score": 0.0257024095644588,
+      "ranks": {
+        "transcript": 2,
+        "keyframe": 3
+      },
+      "similarities": {
+        "transcript": 0.4804056526352749,
+        "keyframe": 0.2633672475653034
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 75,
+      "rrf_score": 0.02244035188251757,
+      "ranks": {
+        "caption": 3,
+        "keyframe": 1
+      },
+      "similarities": {
+        "caption": 0.1572196816423817,
+        "keyframe": 0.26703285568306984
+      }
+    },
+    {
+      "rank": 3,
       "scene_number": 61,
       "rrf_score": 0.01639344262295082,
       "ranks": {
         "caption": 1
       },
       "similarities": {
-        "caption": 0.2811803629517849
-      }
-    },
-    {
-      "rank": 2,
-      "scene_number": 63,
-      "rrf_score": 0.01639344262295082,
-      "ranks": {
-        "caption": 10,
-        "keyframe": 1
-      },
-      "similarities": {
-        "caption": 0.13453530262215355,
-        "keyframe": 0.2580441133567769
-      }
-    },
-    {
-      "rank": 3,
-      "scene_number": 130,
-      "rrf_score": 0.01639344262295082,
-      "ranks": {
-        "transcript": 1
-      },
-      "similarities": {
-        "transcript": 0.590025209402074
+        "caption": 0.24691882124814982
       }
     }
   ],
@@ -78,7 +80,7 @@
       "speech_end_ms": null,
       "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
       "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": 1,
+      "retrieval_rank": 3,
       "is_direct_retrieval": true
     },
     {
@@ -146,8 +148,8 @@
       "speech_end_ms": 320160,
       "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
       "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": null,
-      "is_direct_retrieval": false
+      "retrieval_rank": 1,
+      "is_direct_retrieval": true
     },
     {
       "scene_id": "1d34b4769d15:0063",
@@ -184,97 +186,206 @@
       "speech_end_ms": 322000,
       "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
       "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0074",
+      "scene_number": 74,
+      "start_ms": 356333,
+      "end_ms": 362125,
+      "duration_ms": 5792,
+      "keyframe_ms": 359229,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg",
+      "transcript": "Listen, Celia, I was young and a dick, but there's no reason to",
+      "transcript_words": [
+        {
+          "start_ms": 356620,
+          "end_ms": 357160,
+          "text": " Listen,",
+          "probability": 0.8585
+        },
+        {
+          "start_ms": 357320,
+          "end_ms": 357640,
+          "text": " Celia,",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 358060,
+          "end_ms": 358320,
+          "text": " I",
+          "probability": 0.9951
+        },
+        {
+          "start_ms": 358320,
+          "end_ms": 358480,
+          "text": " was",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 358480,
+          "end_ms": 358840,
+          "text": " young",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 358840,
+          "end_ms": 360140,
+          "text": " and",
+          "probability": 0.3386
+        },
+        {
+          "start_ms": 360140,
+          "end_ms": 360420,
+          "text": " a",
+          "probability": 0.9952
+        },
+        {
+          "start_ms": 360420,
+          "end_ms": 360640,
+          "text": " dick,",
+          "probability": 0.9786
+        },
+        {
+          "start_ms": 360700,
+          "end_ms": 361360,
+          "text": " but",
+          "probability": 0.9917
+        },
+        {
+          "start_ms": 361360,
+          "end_ms": 361520,
+          "text": " there's",
+          "probability": 0.9709
+        },
+        {
+          "start_ms": 361520,
+          "end_ms": 361660,
+          "text": " no",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 361660,
+          "end_ms": 361860,
+          "text": " reason",
+          "probability": 0.9996
+        },
+        {
+          "start_ms": 361860,
+          "end_ms": 362060,
+          "text": " to",
+          "probability": 0.9995
+        }
+      ],
+      "word_count": 13,
+      "has_speech": true,
+      "speech_start_ms": 356620,
+      "speech_end_ms": 362060,
+      "caption": "A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0075",
+      "scene_number": 75,
+      "start_ms": 362125,
+      "end_ms": 364500,
+      "duration_ms": 2375,
+      "keyframe_ms": 363312,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0075.jpg",
+      "transcript": "destroy the world.",
+      "transcript_words": [
+        {
+          "start_ms": 362060,
+          "end_ms": 362380,
+          "text": " destroy",
+          "probability": 0.9994
+        },
+        {
+          "start_ms": 362380,
+          "end_ms": 362640,
+          "text": " the",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 362640,
+          "end_ms": 362920,
+          "text": " world.",
+          "probability": 0.9986
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 362060,
+      "speech_end_ms": 362920,
+      "caption": "A woman with an intense expression looks toward a person partially visible in the foreground who is holding a small bouquet of flowers in an outdoor, tree-lined setting.",
+      "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": 2,
       "is_direct_retrieval": true
     },
     {
-      "scene_id": "1d34b4769d15:0064",
-      "scene_number": 64,
-      "start_ms": 322208,
-      "end_ms": 324083,
-      "duration_ms": 1875,
-      "keyframe_ms": 323145,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg",
-      "transcript": "robotics.",
+      "scene_id": "1d34b4769d15:0076",
+      "scene_number": 76,
+      "start_ms": 364500,
+      "end_ms": 367667,
+      "duration_ms": 3167,
+      "keyframe_ms": 366083,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0076.jpg",
+      "transcript": "Why does she do this? We already",
       "transcript_words": [
         {
-          "start_ms": 322000,
-          "end_ms": 322580,
-          "text": " robotics.",
-          "probability": 0.9908
+          "start_ms": 364680,
+          "end_ms": 365220,
+          "text": " Why",
+          "probability": 0.9725
+        },
+        {
+          "start_ms": 365220,
+          "end_ms": 365340,
+          "text": " does",
+          "probability": 0.8821
+        },
+        {
+          "start_ms": 365340,
+          "end_ms": 365440,
+          "text": " she",
+          "probability": 0.6893
+        },
+        {
+          "start_ms": 365440,
+          "end_ms": 365580,
+          "text": " do",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 365580,
+          "end_ms": 365920,
+          "text": " this?",
+          "probability": 0.9993
+        },
+        {
+          "start_ms": 366960,
+          "end_ms": 367260,
+          "text": " We",
+          "probability": 0.9782
+        },
+        {
+          "start_ms": 367260,
+          "end_ms": 367580,
+          "text": " already",
+          "probability": 0.9525
         }
       ],
-      "word_count": 1,
+      "word_count": 7,
       "has_speech": true,
-      "speech_start_ms": 322000,
-      "speech_end_ms": 322580,
-      "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
+      "speech_start_ms": 364680,
+      "speech_end_ms": 367580,
+      "caption": "A woman wearing a tactical vest with a shoulder-mounted radio stands in a dimly lit room near a wall with books and a wall lamp. She is looking slightly off-camera with a neutral expression.",
       "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": null,
       "is_direct_retrieval": false
-    },
-    {
-      "scene_id": "1d34b4769d15:0129",
-      "scene_number": 129,
-      "start_ms": 509958,
-      "end_ms": 517875,
-      "duration_ms": 7917,
-      "keyframe_ms": 513916,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0129.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "A young man stands on a bridge beside a large, complex robotic creature in an urban area with trees and a canal.",
-      "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": null,
-      "is_direct_retrieval": false
-    },
-    {
-      "scene_id": "1d34b4769d15:0130",
-      "scene_number": 130,
-      "start_ms": 517875,
-      "end_ms": 521000,
-      "duration_ms": 3125,
-      "keyframe_ms": 519437,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg",
-      "transcript": "The world's changed, Celia.",
-      "transcript_words": [
-        {
-          "start_ms": 518660,
-          "end_ms": 519380,
-          "text": " The",
-          "probability": 0.9069
-        },
-        {
-          "start_ms": 519380,
-          "end_ms": 519740,
-          "text": " world's",
-          "probability": 0.9097
-        },
-        {
-          "start_ms": 519740,
-          "end_ms": 519960,
-          "text": " changed,",
-          "probability": 0.9972
-        },
-        {
-          "start_ms": 520300,
-          "end_ms": 520820,
-          "text": " Celia.",
-          "probability": 0.9775
-        }
-      ],
-      "word_count": 4,
-      "has_speech": true,
-      "speech_start_ms": 518660,
-      "speech_end_ms": 520820,
-      "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
-      "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": 3,
-      "is_direct_retrieval": true
     }
   ]
 }

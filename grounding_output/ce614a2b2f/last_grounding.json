@@ -1,0 +1,56 @@
+{
+  "question": "Where are Thom and Celia standing during their early conversation?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        61,
+        62,
+        63
+      ],
+      "candidate_start_ms": 312375,
+      "candidate_end_ms": 322208,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "low",
+      "evidence": "The provided frames show close-up shots of two different individuals, but they do not show them standing together or reveal their location.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        68,
+        69,
+        70
+      ],
+      "candidate_start_ms": 338917,
+      "candidate_end_ms": 348417,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "low",
+      "evidence": "The provided frames show different individuals in separate locations, and there is no visual or transcript evidence that establishes where Thom and Celia are standing together.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 2,
+      "scene_numbers": [
+        130
+      ],
+      "candidate_start_ms": 517875,
+      "candidate_end_ms": 521000,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "low",
+      "evidence": "The provided frames only show a close-up of a man's face and do not show Celia or the location where they are standing.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "question": "When does Thom admit that he is frightened by Celia's robot hand?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        3,
+        4,
+        5
+      ],
+      "candidate_start_ms": 18417,
+      "candidate_end_ms": 42083,
+      "answerable": true,
+      "support_type": "transcript",
+      "confidence": "high",
+      "evidence": "Thom admits he is freaked out by Celia's robot hand in the transcript.",
+      "grounded_start_ms": 37080,
+      "grounded_end_ms": 39860,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        72,
+        73,
+        74
+      ],
+      "candidate_start_ms": 350208,
+      "candidate_end_ms": 362125,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The provided transcript and frames do not contain any dialogue or visual evidence of Thom admitting he is frightened by Celia's robot hand. The transcript shows him saying he loves the hand.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 2,
+      "scene_numbers": [
+        87
+      ],
+      "candidate_start_ms": 385417,
+      "candidate_end_ms": 386958,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "low",
+      "evidence": "The provided frames show a person with a robotic hand near their face, but there is no dialogue or context to identify the characters or confirm that Thom is admitting to being frightened.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    }
+  ]
+}

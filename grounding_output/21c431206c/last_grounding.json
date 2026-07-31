@@ -1,0 +1,42 @@
+{
+  "question": "Does a four-legged robot attack a flying vehicle?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        63,
+        64,
+        65
+      ],
+      "candidate_start_ms": 319958,
+      "candidate_end_ms": 328458,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The video frames show two people talking, and there is no four-legged robot or flying vehicle present in the scene.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        117,
+        118,
+        119,
+        120
+      ],
+      "candidate_start_ms": 488042,
+      "candidate_end_ms": 496917,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "While a four-legged robot is visible in the frames, there is no flying vehicle present in the scene.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    }
+  ]
+}
