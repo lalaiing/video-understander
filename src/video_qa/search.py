@@ -144,39 +144,91 @@ def query_vector_stream(
     return list(response.points)
 
 
-def choose_stream_weights(
-    question: str,
-) -> dict[str, float]:
-    """
-    Select retrieval weights based on the apparent query type.
-    """
+def is_visual_location_question(question: str) -> bool:
+    """Return True for questions asking where a visible event occurs."""
+    normalized = " ".join(question.lower().split())
 
-    normalized_question = question.lower()
+    location_markers = (
+        "where",
+        "location",
+        "located",
+        "standing",
+        "setting",
+        "place",
+        "room",
+        "building",
+    )
+
+    return any(
+        marker in normalized
+        for marker in location_markers
+    )
+
+
+def choose_stream_weights(question: str) -> dict[str, float]:
+    normalized = " ".join(question.lower().split())
+
+    location_markers = (
+        "where",
+        "location",
+        "located",
+        "standing",
+        "setting",
+        "place",
+        "room",
+        "building",
+    )
+
+    fear_markers = (
+        "frighten",
+        "frightened",
+        "afraid",
+        "scared",
+        "fear",
+        "freaked out",
+        "nightmare",
+    )
 
     dialogue_markers = (
         "conversation",
+        "say",
         "says",
         "said",
-        "speaks",
-        "speaker",
-        "explains",
+        "when does",
+        "tell",
         "tells",
-        "asks",
-        "discusses",
-        "mentions",
-        "talks",
-        "what did",
-        "what does",
-        "according to",
+        "explains",
+        "speak",
+        "speaks",
+        "talk",
+        "discuss",
+        "mention",
+        "ask",
+        "quote",
     )
 
-    if any(
-        marker in normalized_question
-        for marker in dialogue_markers
-    ):
+    if is_visual_location_question(question):
+        # Named visual-location questions need caption semantics to
+        # establish the event/people before CLIP judges the setting.
+        # Overweighting CLIP tends to retrieve generic rooms containing
+        # arbitrary people.
         return {
-            "caption": 0.8,
-            "transcript": 1.6,
+            "caption": 1.8,
+            "transcript": 0.8,
+            "keyframe": 1.0,
+        }
+
+    if any(marker in normalized for marker in fear_markers):
+        return {
+            "caption": 0.6,
+            "transcript": 1.9,
+            "keyframe": 0.3,
+        }
+
+    if any(marker in normalized for marker in dialogue_markers):
+        return {
+            "caption": 0.4,
+            "transcript": 2.2,
             "keyframe": 0.2,
         }
 

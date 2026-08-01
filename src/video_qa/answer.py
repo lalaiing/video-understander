@@ -19,6 +19,7 @@ from search import (
     apply_exact_text_bonus,
     choose_stream_weights,
     create_query_vectors,
+    is_visual_location_question,
     query_vector_stream,
     reciprocal_rank_fusion,
     resolve_existing_path,
@@ -615,7 +616,7 @@ def main() -> None:
     parser.add_argument(
         "--top-retrieved",
         type=int,
-        default=3,
+        default=5,
         help="Top fused scenes used as primary evidence.",
     )
 
@@ -700,11 +701,34 @@ def main() -> None:
     manifest_path = find_caption_manifest(metadata_path)
     manifest = load_json(manifest_path)
 
+    effective_max_evidence = args.max_evidence
+
+    if is_visual_location_question(args.question):
+        # A location answer needs the frames surrounding every primary
+        # retrieval. Otherwise a relevant lower-ranked scene can survive
+        # retrieval while its two-person/context frames are dropped.
+        complete_neighborhood_budget = (
+            args.top_retrieved
+            * (1 + 2 * args.neighbor_radius)
+        )
+        effective_max_evidence = max(
+            effective_max_evidence,
+            complete_neighborhood_budget,
+        )
+
+        if effective_max_evidence != args.max_evidence:
+            print()
+            print(
+                "[evidence budget] "
+                f"expanded {args.max_evidence} -> "
+                f"{effective_max_evidence} for visual location"
+            )
+
     evidence_scenes = select_evidence_scenes(
         retrieved_results=retrieved_results,
         manifest=manifest,
         neighbor_radius=args.neighbor_radius,
-        max_evidence=args.max_evidence,
+        max_evidence=effective_max_evidence,
     )
 
     display_evidence(evidence_scenes)
@@ -866,7 +890,8 @@ When not answerable:
         "retrieval": {
             "top_retrieved": args.top_retrieved,
             "neighbor_radius": args.neighbor_radius,
-            "max_evidence": args.max_evidence,
+            "max_evidence": effective_max_evidence,
+            "requested_max_evidence": args.max_evidence,
             "stream_weights": stream_weights,
         },
         "evidence_context_path": str(

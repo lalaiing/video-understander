@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 from typing import Any, Literal
 
@@ -28,23 +29,25 @@ class GroundingSelection(BaseModel):
 
     requested_subject_present: bool = Field(
         description=(
-            "Whether the exact requested subject or actor is "
-            "directly supported by the supplied evidence."
+            "Whether all requested subjects, named people, or actors "
+            "are supported by candidate-local evidence. For a location "
+            "question, a distinctive candidate-local dialogue or "
+            "on-screen-text anchor may establish the participants."
         )
     )
 
     requested_object_present: bool = Field(
         description=(
-            "Whether the exact requested object category is "
-            "directly supported. A related or metaphorical object "
-            "does not count."
+            "Whether the exact requested object or visible setting "
+            "category is directly supported. A related or metaphorical "
+            "object does not count."
         )
     )
 
     requested_relation_present: bool = Field(
         description=(
-            "Whether the exact requested action or relationship "
-            "is directly supported."
+            "Whether the exact requested action, conversational "
+            "relationship, or co-presence is directly supported."
         )
     )
 
@@ -281,6 +284,7 @@ def extract_scene_list(payload: Any) -> list[dict[str, Any]]:
 def scene_priority(scene: dict[str, Any], fallback: int) -> tuple:
     for key in (
         "retrieval_rank",
+        "result_position",
         "fused_rank",
         "rank",
     ):
@@ -499,11 +503,49 @@ def collect_transcript_words(
         ),
     )
 
+def build_global_context(
+    scenes: list[dict[str, Any]],
+) -> str:
+    lines: list[str] = []
+
+    ordered_scenes = sorted(
+        scenes,
+        key=lambda scene: (
+            int(scene.get("start_ms", 0)),
+            int(scene.get("end_ms", 0)),
+        ),
+    )
+
+    for scene in ordered_scenes:
+        scene_number = scene.get("scene_number", "?")
+        start_ms = int(scene.get("start_ms", 0))
+        end_ms = int(scene.get("end_ms", 0))
+
+        caption = (
+            str(scene.get("caption", "")).strip()
+            or "[No visual caption]"
+        )
+
+        transcript = (
+            str(scene.get("transcript", "")).strip()
+            or "[No dialogue]"
+        )
+
+        lines.append(
+            f"Scene {scene_number} "
+            f"[{start_ms} --> {end_ms}]\n"
+            f"Caption: {caption}\n"
+            f"Transcript: {transcript}"
+        )
+
+    return "\n\n".join(lines)
 
 def build_grounding_prompt(
     question: str,
     frame_timestamps: list[int],
     transcript_words: list[dict[str, Any]],
+    candidate_context: str,
+    global_context: str,
 ) -> str:
     frame_lines = [
         f"FRAME {index}: supplied as the next image"
@@ -521,16 +563,85 @@ def build_grounding_prompt(
     else:
         word_lines = ["No timestamped transcript words supplied."]
 
+    dialogue_question = is_dialogue_localization_question(
+        question
+    )
+    location_question = is_visual_location_question(
+        question
+    )
+
+    if dialogue_question:
+        global_context_policy = (
+            "Global context may establish speaker identity for an exact "
+            "candidate-local utterance, but it cannot supply timestamps."
+        )
+        global_context_for_prompt = global_context
+    else:
+        global_context_policy = (
+            "Global context is disabled for identity decisions on this "
+            "question type. Judge identity, event, and setting only from "
+            "the candidate-local context and supplied frames."
+        )
+        global_context_for_prompt = (
+            "[Disabled for this question type]"
+        )
+
+    if location_question:
+        question_specific_rules = """
+18. This is a visual-location question. Accept a candidate only when:
+    a. candidate-local evidence anchors the requested conversation or
+       participants,
+    b. the requested people are shown together or the candidate sequence
+       clearly connects them, and
+    c. the visible setting supports the location answer.
+19. Candidate-local dialogue, on-screen text, or captions may establish
+    the requested conversation even when every character name is not
+    spoken. For example, a distinctive line addressing one named person
+    can anchor the conversation when adjacent candidate frames show both
+    participants.
+20. Never transfer character identity from a non-adjacent retrieved
+    window. A generic man and woman in another room are not the requested
+    people merely because global context mentions their names.
+21. For this question type, requested_subject_present means the
+    candidate-local sequence anchors all requested participants;
+    requested_relation_present means they are together in the requested
+    conversation; requested_object_present means the visible setting can
+    be described.
+22. When the question explicitly names people, at least one of those
+    exact names must appear in the candidate-local caption, transcript, or
+    on-screen-text description. A generic man and woman, or a spelling
+    variant of a requested name, is not a sufficient identity anchor.
+""".strip()
+    else:
+        question_specific_rules = (
+            "18. Apply the subject, object, and relation checks according "
+            "to the exact wording of the question."
+        )
+
     return f"""
 Question:
 {question}
 
-You are performing temporal grounding over a short candidate
-video window.
+You are performing temporal grounding over a short candidate video window.
 
-Your job is not to answer using outside knowledge. Determine
-whether the supplied frames or timestamped transcript words
-contain direct evidence for the question.
+Your job is not to answer using outside knowledge. Determine whether the supplied frames or timestamped transcript words contain direct evidence for the question.
+
+CANDIDATE-LOCAL CONTEXT
+This context comes only from scenes inside the current candidate window.
+Use it to establish whether this window contains the requested people,
+conversation, event, and setting. Captions may be wrong, so confirm the
+visible setting with the supplied frames.
+
+--- BEGIN CANDIDATE CONTEXT ---
+{candidate_context}
+--- END CANDIDATE CONTEXT ---
+
+GLOBAL RETRIEVAL CONTEXT
+{global_context_policy}
+
+--- BEGIN GLOBAL CONTEXT ---
+{global_context_for_prompt}
+--- END GLOBAL CONTEXT ---
 
 FRAME INDEXES
 {chr(10).join(frame_lines)}
@@ -540,42 +651,28 @@ TRANSCRIPT WORD INDEXES
 
 Rules:
 1. Select only frame indexes and word indexes that were supplied.
-2. Never invent timestamps. The program converts indexes into
-   timestamps after your response.
-3. For a visible action, use support_type="visual" and select the
-   first and last frames that directly show the action.
-4. For spoken dialogue, use support_type="transcript" and select
-   the first and last words that directly support the answer.
-5. Use support_type="both" only when both visual and spoken
-   evidence are necessary.
-6. If the evidence is insufficient or ambiguous, set
-   answerable=false and support_type="none".
-7. A frame containing a person does not establish that person's
-   name unless the transcript, on-screen text, or surrounding
-   evidence establishes the identity.
-8. Do not infer actions that occur between widely separated
-   frames unless the supplied sequence supports that progression.
-9. For questions asking whether one entity performs an action on
-   another entity, verify all three independently:
+2. Never invent timestamps. The program converts indexes into timestamps after your response.
+3. For a visible action, use support_type="visual" and select the first and last frames that directly show the action.
+4. For spoken dialogue, use support_type="transcript" and select the first and last words that directly support the answer.
+5. Use support_type="both" only when both visual and spoken evidence are necessary.
+6. If the evidence is insufficient or ambiguous, set answerable=false and support_type="none".
+7. A frame containing a person does not establish that person's name unless the transcript, on-screen text, or surrounding evidence establishes the identity.
+8. Do not infer actions that occur between widely separated frames unless the supplied sequence supports that progression.
+9. For questions asking whether one entity performs an action on another entity, verify all three independently:
    a. the requested subject is directly visible,
    b. the requested object is directly visible,
    c. the requested action or relationship is directly visible.
-10. Do not substitute a related but different category. For example, a person
-    is not a vehicle. A rope, platform, suspended person, airborne
-    object, or object located above the ground is not automatically
-    a flying vehicle.
-11. The requested object must visibly match the noun category in
-    the question. For example, a flying vehicle should visibly be
-    a machine designed for transportation, such as an aircraft,
-    helicopter, drone, spacecraft, or other identifiable vehicle.
+10. Do not substitute a related but different category. For example, a person is not a vehicle. A rope, platform, suspended person, airborne object, or object located above the ground is not automatically a flying vehicle.
+11. The requested object must visibly match the noun category in the question. For example, a flying vehicle should visibly be a machine designed for transportation, such as an aircraft, helicopter, drone, spacecraft, or other identifiable vehicle.
 12. Do not reinterpret objects metaphorically or functionally to
     make the answer true.
-13. If the subject is visible and the action is visible, but the
-    requested object is missing or belongs to another category,
-    set answerable=false and support_type="none".
-14. For yes/no questions, answerable=true means that the exact
-    proposition in the question is directly supported. Partial
-    matches are insufficient.
+13. If the subject is visible and the action is visible, but the requested object is missing or belongs to another category, set answerable=false and support_type="none".
+14. For yes/no questions, answerable=true means that the exact proposition in the question is directly supported. Partial matches are insufficient.
+15. For questions such as “When does [person] say [statement]?”, the named person's identity may be established by the global retrieval context. Their name does not need to be repeated inside the short candidate window.
+16. Ground the timestamp using only the candidate frame indexes or transcript-word indexes. Global context may establish identity, but not timing.
+17. If the requested statement appears directly in the candidate transcript and the global context establishes the speaker, select the supporting transcript-word indexes.
+
+{question_specific_rules}
 
 Before deciding, internally check:
 
@@ -615,6 +712,121 @@ def validate_index_range(
 
     return start, end
 
+def is_dialogue_localization_question(
+    question: str,
+) -> bool:
+    normalized = " ".join(question.lower().split())
+
+    dialogue_markers = (
+        "when does",
+        "when did",
+        "when is",
+        "say",
+        "says",
+        "said",
+        "tell",
+        "tells",
+        "told",
+        "mention",
+        "mentions",
+        "quote",
+        "line",
+        "spoken",
+    )
+
+    return any(
+        marker in normalized
+        for marker in dialogue_markers
+    )
+
+def is_visual_location_question(
+    question: str,
+) -> bool:
+    normalized = " ".join(question.lower().split())
+
+    location_markers = (
+        "where",
+        "location",
+        "located",
+        "standing",
+        "setting",
+        "place",
+        "room",
+        "building",
+    )
+
+    return any(
+        marker in normalized
+        for marker in location_markers
+    )
+
+
+def extract_requested_names(
+    question: str,
+) -> list[str]:
+    """Extract explicit capitalized person-name tokens from a question."""
+    stopwords = {
+        "A",
+        "An",
+        "Are",
+        "At",
+        "Can",
+        "Did",
+        "Do",
+        "Does",
+        "During",
+        "How",
+        "In",
+        "Is",
+        "On",
+        "The",
+        "Their",
+        "There",
+        "These",
+        "This",
+        "What",
+        "When",
+        "Where",
+        "Which",
+        "Who",
+        "Why",
+    }
+
+    names: list[str] = []
+
+    for token in re.findall(
+        r"\b[A-Z][A-Za-z'’-]*\b",
+        question,
+    ):
+        if token in stopwords or token in names:
+            continue
+
+        names.append(token)
+
+    return names
+
+
+def candidate_has_requested_name_anchor(
+    question: str,
+    candidate_context: str,
+) -> bool:
+    """Require an exact local name anchor for named-person locations."""
+    names = extract_requested_names(question)
+
+    if not names:
+        return True
+
+    normalized_context = candidate_context.lower()
+
+    return any(
+        re.search(
+            rf"(?<!\w){re.escape(name.lower())}(?!\w)",
+            normalized_context,
+        )
+        is not None
+        for name in names
+    )
+
 
 def request_grounding(
     client: genai.Client,
@@ -622,6 +834,8 @@ def request_grounding(
     question: str,
     frame_records: list[dict[str, Any]],
     transcript_words: list[dict[str, Any]],
+    candidate_context: str,
+    global_context: str,
 ) -> GroundingSelection:
     prompt = build_grounding_prompt(
         question=question,
@@ -630,6 +844,8 @@ def request_grounding(
             for item in frame_records
         ],
         transcript_words=transcript_words,
+        candidate_context=candidate_context,
+        global_context=global_context,
     )
 
     parts: list[types.Part] = [
@@ -671,30 +887,66 @@ def request_grounding(
 
     selection = response.parsed
 
-    if selection.answerable and not selection.exact_claim_supported:
-        selection.answerable = False
-        selection.support_type = "none"
+    is_dialogue_question = (
+        is_dialogue_localization_question(question)
+    )
+    is_location_question = (
+        is_visual_location_question(question)
+    )
 
     if (
         selection.answerable
-        and not selection.requested_subject_present
+        and not selection.exact_claim_supported
     ):
         selection.answerable = False
         selection.support_type = "none"
 
-    if (
-        selection.answerable
-        and not selection.requested_object_present
-    ):
-        selection.answerable = False
-        selection.support_type = "none"
+    elif is_dialogue_question:
+        # For dialogue localization, require the speaker/statement
+        # relationship, but do not apply visual object-category rules.
+        if (
+            not selection.requested_subject_present
+            or not selection.requested_relation_present
+        ):
+            selection.answerable = False
+            selection.support_type = "none"
 
-    if (
-        selection.answerable
-        and not selection.requested_relation_present
-    ):
-        selection.answerable = False
-        selection.support_type = "none"
+    elif is_location_question:
+        # The location is the answer, so there is no known object
+        # category to verify in advance. Require candidate-local
+        # participant/conversation anchoring plus visible co-presence.
+        has_local_name_anchor = (
+            candidate_has_requested_name_anchor(
+                question=question,
+                candidate_context=candidate_context,
+            )
+        )
+
+        if (
+            not selection.requested_subject_present
+            or not selection.requested_relation_present
+            or not has_local_name_anchor
+        ):
+            selection.answerable = False
+            selection.support_type = "none"
+
+            if not has_local_name_anchor:
+                selection.evidence = (
+                    f"{selection.evidence} "
+                    "Rejected by deterministic validation: none of "
+                    "the exact requested names appears in the "
+                    "candidate-local caption or transcript."
+                ).strip()
+
+    else:
+        # Strict subject-object-action verification for visual claims.
+        if (
+            not selection.requested_subject_present
+            or not selection.requested_object_present
+            or not selection.requested_relation_present
+        ):
+            selection.answerable = False
+            selection.support_type = "none"
 
     return selection
 
@@ -835,6 +1087,8 @@ def run_fine_grounding(
     preview_directory: Path,
     fine_step_ms: int,
     maximum_fine_frames: int,
+    candidate_context: str,
+    global_context: str,
 ) -> tuple[
     GroundingSelection,
     list[dict[str, Any]],
@@ -910,6 +1164,8 @@ def run_fine_grounding(
         question=question,
         frame_records=fine_frames,
         transcript_words=transcript_words,
+        candidate_context=candidate_context,
+        global_context=global_context,
     )
 
     if not fine_selection.answerable:
@@ -924,7 +1180,7 @@ def ground_scenes(
     scenes: list[dict[str, Any]],
     model: str = DEFAULT_MODEL,
     output_directory: Path = Path("grounding_output"),
-    maximum_windows: int = 3,
+    maximum_windows: int = 5,
     coarse_frame_count: int = 10,
     fine_step_ms: int = 300,
     maximum_fine_frames: int = 18,
@@ -933,6 +1189,34 @@ def ground_scenes(
         raise ValueError("Question cannot be empty.")
 
     windows = merge_adjacent_scenes(scenes)
+
+    global_context = build_global_context(scenes)
+
+    def window_priority(
+        window: dict[str, Any],
+    ) -> tuple[int, float]:
+        priorities: list[tuple[int, float]] = []
+
+        for fallback, scene in enumerate(
+            window["scenes"],
+            start=1,
+        ):
+            priority = scene_priority(
+                scene,
+                fallback=10_000 + fallback,
+            )
+            priorities.append(priority)
+
+        if not priorities:
+            return 2, 99_999
+
+        return min(priorities)
+
+
+    # Ground the highest-ranked retrieval windows first,
+    # rather than simply choosing the earliest timestamps.
+    windows.sort(key=window_priority)
+
     windows = windows[:maximum_windows]
 
     if not windows:
@@ -989,12 +1273,18 @@ def ground_scenes(
                 window["scenes"]
             )
 
+            candidate_context = build_global_context(
+                window["scenes"]
+            )
+
             coarse_selection = request_grounding(
                 client=client,
                 model=model,
                 question=question,
                 frame_records=coarse_frames,
                 transcript_words=transcript_words,
+                candidate_context=candidate_context,
+                global_context=global_context,
             )
 
             final_selection, final_frames = (
@@ -1015,6 +1305,8 @@ def ground_scenes(
                     maximum_fine_frames=(
                         maximum_fine_frames
                     ),
+                    candidate_context=candidate_context,
+                    global_context=global_context,
                 )
             )
 
@@ -1172,7 +1464,7 @@ def build_argument_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--maximum-windows",
         type=int,
-        default=3,
+        default=5,
     )
 
     parser.add_argument(
