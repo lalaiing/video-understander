@@ -1,0 +1,773 @@
+{
+  "question": "Where are Thom and Celia standing during their early conversation?",
+  "retrieval_weights": {
+    "caption": 1.8,
+    "transcript": 0.8,
+    "keyframe": 1.0
+  },
+  "retrieved_results": [
+    {
+      "rank": 1,
+      "scene_number": 32,
+      "rrf_score": 0.03383382538157449,
+      "ranks": {
+        "caption": 1,
+        "keyframe": 4
+      },
+      "similarities": {
+        "caption": 0.28866015067179024,
+        "keyframe": 0.26209803506160956
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 47,
+      "rrf_score": 0.01839819986846789,
+      "ranks": {
+        "caption": 2,
+        "keyframe": 8
+      },
+      "similarities": {
+        "caption": 0.2609785068222247,
+        "keyframe": 0.25685372266772727
+      }
+    },
+    {
+      "rank": 3,
+      "scene_number": 26,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "keyframe": 1
+      },
+      "similarities": {
+        "keyframe": 0.28066631139286846
+      }
+    },
+    {
+      "rank": 4,
+      "scene_number": 61,
+      "rrf_score": 0.013946987165630344,
+      "ranks": {
+        "caption": 3
+      },
+      "similarities": {
+        "caption": 0.2535062586348662
+      }
+    },
+    {
+      "rank": 5,
+      "scene_number": 69,
+      "rrf_score": 0.013114754098360656,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.4667349906287674
+      }
+    }
+  ],
+  "evidence_scenes": [
+    {
+      "scene_id": "1d34b4769d15:0025",
+      "scene_number": 25,
+      "start_ms": 119875,
+      "end_ms": 134917,
+      "duration_ms": 15042,
+      "keyframe_ms": 127396,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0025.jpg",
+      "transcript": "I heard you guys talking last night.",
+      "transcript_words": [
+        {
+          "start_ms": 130880,
+          "end_ms": 131500,
+          "text": " I",
+          "probability": 0.9525
+        },
+        {
+          "start_ms": 131500,
+          "end_ms": 131600,
+          "text": " heard",
+          "probability": 0.944
+        },
+        {
+          "start_ms": 131600,
+          "end_ms": 131740,
+          "text": " you",
+          "probability": 0.9294
+        },
+        {
+          "start_ms": 131740,
+          "end_ms": 131940,
+          "text": " guys",
+          "probability": 0.995
+        },
+        {
+          "start_ms": 131940,
+          "end_ms": 132300,
+          "text": " talking",
+          "probability": 0.9781
+        },
+        {
+          "start_ms": 132300,
+          "end_ms": 132560,
+          "text": " last",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 132560,
+          "end_ms": 132920,
+          "text": " night.",
+          "probability": 0.9992
+        }
+      ],
+      "word_count": 7,
+      "has_speech": true,
+      "speech_start_ms": 130880,
+      "speech_end_ms": 132920,
+      "caption": "An older man with gray hair adjusts his dark patterned jacket while standing on a railed balcony overlooking a misty expanse. In the background, another person wearing tactical gear and equipment crouches near a railing.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0026",
+      "scene_number": 26,
+      "start_ms": 134917,
+      "end_ms": 139917,
+      "duration_ms": 5000,
+      "keyframe_ms": 137417,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0026.jpg",
+      "transcript": "It's not my fault, you know.",
+      "transcript_words": [
+        {
+          "start_ms": 136140,
+          "end_ms": 136660,
+          "text": " It's",
+          "probability": 0.8896
+        },
+        {
+          "start_ms": 136660,
+          "end_ms": 136780,
+          "text": " not",
+          "probability": 0.9973
+        },
+        {
+          "start_ms": 136780,
+          "end_ms": 137000,
+          "text": " my",
+          "probability": 0.9586
+        },
+        {
+          "start_ms": 137000,
+          "end_ms": 137260,
+          "text": " fault,",
+          "probability": 0.9999
+        },
+        {
+          "start_ms": 137260,
+          "end_ms": 137500,
+          "text": " you",
+          "probability": 0.9944
+        },
+        {
+          "start_ms": 137500,
+          "end_ms": 138300,
+          "text": " know.",
+          "probability": 0.9997
+        }
+      ],
+      "word_count": 6,
+      "has_speech": true,
+      "speech_start_ms": 136140,
+      "speech_end_ms": 138300,
+      "caption": "A man sits on a wooden deck in a foggy, exterior setting while another figure is visible resting in the background. Piles of rope and other debris are scattered across the deck near structural supports.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 3,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0027",
+      "scene_number": 27,
+      "start_ms": 139917,
+      "end_ms": 143292,
+      "duration_ms": 3375,
+      "keyframe_ms": 141604,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0027.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man aims a scoped rifle from a balcony overlooking a foggy, indistinct setting.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0031",
+      "scene_number": 31,
+      "start_ms": 158542,
+      "end_ms": 172292,
+      "duration_ms": 13750,
+      "keyframe_ms": 165417,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0031.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "An elderly person with gray hair, wearing a plaid shirt, walks toward a large, dimly lit metallic structure featuring a circular tunnel-like entrance. A thick rope hangs vertically in the foreground of the industrial setting.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0032",
+      "scene_number": 32,
+      "start_ms": 172292,
+      "end_ms": 183250,
+      "duration_ms": 10958,
+      "keyframe_ms": 177771,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0032.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A woman in a camouflage jacket and an older man with white hair stand side-by-side in a room with a bookshelf and a lamp. The two individuals are looking toward the right, both appearing to be engaged in conversation or observing something off-screen.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 1,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0033",
+      "scene_number": 33,
+      "start_ms": 183250,
+      "end_ms": 189500,
+      "duration_ms": 6250,
+      "keyframe_ms": 186375,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0033.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man with grey hair stands inside a semi-ruined room featuring brick walls, overgrown vegetation, a wooden desk, and a red armchair. The room is open to the outdoors, and a person sits at the desk in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0046",
+      "scene_number": 46,
+      "start_ms": 225083,
+      "end_ms": 234583,
+      "duration_ms": 9500,
+      "keyframe_ms": 229833,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0046.jpg",
+      "transcript": "worry about. Tom, there she is. Now,",
+      "transcript_words": [
+        {
+          "start_ms": 225180,
+          "end_ms": 225360,
+          "text": " worry",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 225360,
+          "end_ms": 225680,
+          "text": " about.",
+          "probability": 0.9977
+        },
+        {
+          "start_ms": 230300,
+          "end_ms": 231020,
+          "text": " Tom,",
+          "probability": 0.8641
+        },
+        {
+          "start_ms": 232200,
+          "end_ms": 232340,
+          "text": " there",
+          "probability": 0.9684
+        },
+        {
+          "start_ms": 232340,
+          "end_ms": 232540,
+          "text": " she",
+          "probability": 0.9965
+        },
+        {
+          "start_ms": 232540,
+          "end_ms": 232840,
+          "text": " is.",
+          "probability": 0.9995
+        },
+        {
+          "start_ms": 233800,
+          "end_ms": 234000,
+          "text": " Now,",
+          "probability": 0.9557
+        }
+      ],
+      "word_count": 7,
+      "has_speech": true,
+      "speech_start_ms": 225180,
+      "speech_end_ms": 234000,
+      "caption": "A man with a prosthetic eye device reaches out to touch the ear of an older man with grey hair, while a young woman stands behind them in what appears to be a cluttered indoor room.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0047",
+      "scene_number": 47,
+      "start_ms": 234583,
+      "end_ms": 238667,
+      "duration_ms": 4084,
+      "keyframe_ms": 236625,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0047.jpg",
+      "transcript": "you love her. She's your passion.",
+      "transcript_words": [
+        {
+          "start_ms": 235400,
+          "end_ms": 235640,
+          "text": " you",
+          "probability": 0.9685
+        },
+        {
+          "start_ms": 235640,
+          "end_ms": 236000,
+          "text": " love",
+          "probability": 0.9196
+        },
+        {
+          "start_ms": 236000,
+          "end_ms": 236560,
+          "text": " her.",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 237560,
+          "end_ms": 237760,
+          "text": " She's",
+          "probability": 0.8934
+        },
+        {
+          "start_ms": 237760,
+          "end_ms": 237880,
+          "text": " your",
+          "probability": 0.9929
+        },
+        {
+          "start_ms": 237880,
+          "end_ms": 238460,
+          "text": " passion.",
+          "probability": 0.9991
+        }
+      ],
+      "word_count": 6,
+      "has_speech": true,
+      "speech_start_ms": 235400,
+      "speech_end_ms": 238460,
+      "caption": "Three people stand with their backs to the viewer in a brick-lined urban setting, looking toward a large, complex mechanical structure hanging from above. The person in the center has their arm around the shoulders of the person standing to their right.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 2,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0048",
+      "scene_number": 48,
+      "start_ms": 238667,
+      "end_ms": 253417,
+      "duration_ms": 14750,
+      "keyframe_ms": 246042,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0048.jpg",
+      "transcript": "Be tender to her. Be honest. Be tender. Remind her what love is.",
+      "transcript_words": [
+        {
+          "start_ms": 239300,
+          "end_ms": 239360,
+          "text": " Be",
+          "probability": 0.9566
+        },
+        {
+          "start_ms": 239360,
+          "end_ms": 240200,
+          "text": " tender",
+          "probability": 0.9186
+        },
+        {
+          "start_ms": 240200,
+          "end_ms": 240420,
+          "text": " to",
+          "probability": 0.9918
+        },
+        {
+          "start_ms": 240420,
+          "end_ms": 240680,
+          "text": " her.",
+          "probability": 0.999
+        },
+        {
+          "start_ms": 241560,
+          "end_ms": 241680,
+          "text": " Be",
+          "probability": 0.9882
+        },
+        {
+          "start_ms": 241680,
+          "end_ms": 242040,
+          "text": " honest.",
+          "probability": 0.9995
+        },
+        {
+          "start_ms": 243440,
+          "end_ms": 243880,
+          "text": " Be",
+          "probability": 0.7985
+        },
+        {
+          "start_ms": 243880,
+          "end_ms": 244200,
+          "text": " tender.",
+          "probability": 0.9995
+        },
+        {
+          "start_ms": 245560,
+          "end_ms": 246080,
+          "text": " Remind",
+          "probability": 0.9951
+        },
+        {
+          "start_ms": 246080,
+          "end_ms": 246380,
+          "text": " her",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 246380,
+          "end_ms": 247260,
+          "text": " what",
+          "probability": 0.9652
+        },
+        {
+          "start_ms": 247260,
+          "end_ms": 247560,
+          "text": " love",
+          "probability": 0.9978
+        },
+        {
+          "start_ms": 247560,
+          "end_ms": 247960,
+          "text": " is.",
+          "probability": 0.9995
+        }
+      ],
+      "word_count": 13,
+      "has_speech": true,
+      "speech_start_ms": 239300,
+      "speech_end_ms": 247960,
+      "caption": "Three people, including two men and a woman, are gathered in a cluttered indoor room with a lamp and wall decor visible in the background. One man leans in to speak toward the other man while resting his arm on his shoulder, as the woman looks on from the side.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0060",
+      "scene_number": 60,
+      "start_ms": 310583,
+      "end_ms": 312375,
+      "duration_ms": 1792,
+      "keyframe_ms": 311479,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0061",
+      "scene_number": 61,
+      "start_ms": 312375,
+      "end_ms": 315375,
+      "duration_ms": 3000,
+      "keyframe_ms": 313875,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 4,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0062",
+      "scene_number": 62,
+      "start_ms": 315375,
+      "end_ms": 319958,
+      "duration_ms": 4583,
+      "keyframe_ms": 317666,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg",
+      "transcript": "Look, Celia, we have to follow our passions.",
+      "transcript_words": [
+        {
+          "start_ms": 315640,
+          "end_ms": 316240,
+          "text": " Look,",
+          "probability": 0.698
+        },
+        {
+          "start_ms": 316480,
+          "end_ms": 316700,
+          "text": " Celia,",
+          "probability": 0.9641
+        },
+        {
+          "start_ms": 317500,
+          "end_ms": 318560,
+          "text": " we",
+          "probability": 0.9145
+        },
+        {
+          "start_ms": 318560,
+          "end_ms": 318740,
+          "text": " have",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 318740,
+          "end_ms": 318960,
+          "text": " to",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 318960,
+          "end_ms": 319260,
+          "text": " follow",
+          "probability": 0.9994
+        },
+        {
+          "start_ms": 319260,
+          "end_ms": 319560,
+          "text": " our",
+          "probability": 0.9927
+        },
+        {
+          "start_ms": 319560,
+          "end_ms": 320160,
+          "text": " passions.",
+          "probability": 0.9663
+        }
+      ],
+      "word_count": 8,
+      "has_speech": true,
+      "speech_start_ms": 315640,
+      "speech_end_ms": 320160,
+      "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0068",
+      "scene_number": 68,
+      "start_ms": 338917,
+      "end_ms": 341208,
+      "duration_ms": 2291,
+      "keyframe_ms": 340062,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0068.jpg",
+      "transcript": "Okay, they're coming. Two minutes left.",
+      "transcript_words": [
+        {
+          "start_ms": 338740,
+          "end_ms": 339340,
+          "text": " Okay,",
+          "probability": 0.1256
+        },
+        {
+          "start_ms": 339400,
+          "end_ms": 339480,
+          "text": " they're",
+          "probability": 0.9684
+        },
+        {
+          "start_ms": 339480,
+          "end_ms": 339700,
+          "text": " coming.",
+          "probability": 0.9862
+        },
+        {
+          "start_ms": 340260,
+          "end_ms": 340540,
+          "text": " Two",
+          "probability": 0.8997
+        },
+        {
+          "start_ms": 340540,
+          "end_ms": 340720,
+          "text": " minutes",
+          "probability": 0.9969
+        },
+        {
+          "start_ms": 340720,
+          "end_ms": 341100,
+          "text": " left.",
+          "probability": 0.9956
+        }
+      ],
+      "word_count": 6,
+      "has_speech": true,
+      "speech_start_ms": 338740,
+      "speech_end_ms": 341100,
+      "caption": "A man gazes forward with an intense expression while peering over the barrel of a rifle equipped with a large optic sight. He is positioned between two white stone columns, looking through the weapon's scope.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0069",
+      "scene_number": 69,
+      "start_ms": 341208,
+      "end_ms": 346458,
+      "duration_ms": 5250,
+      "keyframe_ms": 343833,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg",
+      "transcript": "Two minutes. Celia, come! We can see Celia!",
+      "transcript_words": [
+        {
+          "start_ms": 341520,
+          "end_ms": 341700,
+          "text": " Two",
+          "probability": 0.8277
+        },
+        {
+          "start_ms": 341700,
+          "end_ms": 341920,
+          "text": " minutes.",
+          "probability": 0.9927
+        },
+        {
+          "start_ms": 342780,
+          "end_ms": 343320,
+          "text": " Celia,",
+          "probability": 0.5031
+        },
+        {
+          "start_ms": 343320,
+          "end_ms": 343640,
+          "text": " come!",
+          "probability": 0.3671
+        },
+        {
+          "start_ms": 344880,
+          "end_ms": 345140,
+          "text": " We",
+          "probability": 0.3714
+        },
+        {
+          "start_ms": 345140,
+          "end_ms": 345380,
+          "text": " can",
+          "probability": 0.3398
+        },
+        {
+          "start_ms": 345380,
+          "end_ms": 345600,
+          "text": " see",
+          "probability": 0.9706
+        },
+        {
+          "start_ms": 345600,
+          "end_ms": 346200,
+          "text": " Celia!",
+          "probability": 0.9851
+        }
+      ],
+      "word_count": 8,
+      "has_speech": true,
+      "speech_start_ms": 341520,
+      "speech_end_ms": 346200,
+      "caption": "A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 5,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0070",
+      "scene_number": 70,
+      "start_ms": 346458,
+      "end_ms": 348417,
+      "duration_ms": 1959,
+      "keyframe_ms": 347437,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0070.jpg",
+      "transcript": "Why don't you just admit that you're",
+      "transcript_words": [
+        {
+          "start_ms": 347000,
+          "end_ms": 347220,
+          "text": " Why",
+          "probability": 0.9675
+        },
+        {
+          "start_ms": 347220,
+          "end_ms": 347400,
+          "text": " don't",
+          "probability": 0.9913
+        },
+        {
+          "start_ms": 347400,
+          "end_ms": 347560,
+          "text": " you",
+          "probability": 0.9978
+        },
+        {
+          "start_ms": 347560,
+          "end_ms": 347780,
+          "text": " just",
+          "probability": 0.9853
+        },
+        {
+          "start_ms": 347780,
+          "end_ms": 348060,
+          "text": " admit",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 348060,
+          "end_ms": 348240,
+          "text": " that",
+          "probability": 0.7896
+        },
+        {
+          "start_ms": 348240,
+          "end_ms": 348540,
+          "text": " you're",
+          "probability": 0.9492
+        }
+      ],
+      "word_count": 7,
+      "has_speech": true,
+      "speech_start_ms": 347000,
+      "speech_end_ms": 348540,
+      "caption": "A woman with light hair is outdoors in a residential area, speaking with her mouth open. The background includes green trees and blurred houses.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    }
+  ]
+}

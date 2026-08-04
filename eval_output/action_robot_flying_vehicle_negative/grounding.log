@@ -1,0 +1,41 @@
+
+[complete] Temporal grounding completed
+[complete] Model: gemini-3.1-flash-lite
+[complete] Video: C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\raw\demo.mp4
+
+[window 0] Scenes [63, 64, 65]
+[candidate] 05:19.958 --> 05:28.458
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The candidate video window contains only shots of a woman and a man speaking; there is no four-legged robot or flying vehicle present, nor any action resembling an attack.
+
+[window 1] Scenes [118]
+[candidate] 08:09.417 --> 08:11.542
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  While a robotic-looking sculpture is visible, there is no flying vehicle present in the scene, and no attack occurs.
+
+[window 2] Scenes [120]
+[candidate] 08:16.083 --> 08:16.917
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  While a four-legged robot is visible in the frames, there is no flying vehicle present in the scene, nor is there any evidence of an attack on such an object.
+
+[window 3] Scenes [45]
+[candidate] 03:42.417 --> 03:45.083
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The video shows a four-legged robot, but there is no flying vehicle present in the scene, nor is there any attack occurring.
+
+[window 4] Scenes [9]
+[candidate] 00:48.292 --> 00:49.792
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The provided frames only show a digital heads-up display interface in an industrial setting. No four-legged robot or flying vehicle is visible, and no attack action is depicted.
+
+[saved] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\eval_output\action_robot_flying_vehicle_negative\grounding\21c431206c\last_grounding.json

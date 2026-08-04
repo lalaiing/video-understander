@@ -1,0 +1,113 @@
+{
+  "id": "location_early_conversation",
+  "category": "location",
+  "question": "Where are Thom and Celia standing during their early conversation?",
+  "expected_answerable": true,
+  "case_pass": true,
+  "answer": {
+    "predicted_answerable": true,
+    "answerability_pass": true,
+    "answer_text_pass": true,
+    "answer": "During their conversation, Thom and Celia are standing outdoors on a street near trees, buildings, and a canal.",
+    "confidence": "high",
+    "citations": [
+      {
+        "scene_number": 60,
+        "start_ms": 310583,
+        "end_ms": 312375,
+        "start_timestamp": "05:10.583",
+        "end_timestamp": "05:12.375",
+        "evidence": "Thom and Celia are standing outdoors on a street with trees, buildings, and a canal boat in the background.",
+        "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
+        "transcript": "",
+        "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg"
+      },
+      {
+        "scene_number": 61,
+        "start_ms": 312375,
+        "end_ms": 315375,
+        "start_timestamp": "05:12.375",
+        "end_timestamp": "05:15.375",
+        "evidence": "A man is shown in profile looking toward a canal in a city setting with traditional brick buildings, with on-screen text addressing Celia.",
+        "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+        "transcript": "",
+        "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg"
+      },
+      {
+        "scene_number": 62,
+        "start_ms": 315375,
+        "end_ms": 319958,
+        "start_timestamp": "05:15.375",
+        "end_timestamp": "05:19.958",
+        "evidence": "A man speaks to Celia while standing outdoors with trees and blurred buildings in the background.",
+        "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+        "transcript": "Look, Celia, we have to follow our passions.",
+        "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg"
+      }
+    ],
+    "limitations": [],
+    "text_check": {
+      "checked": true,
+      "any_terms": [
+        "canal",
+        "canal-side",
+        "canal side"
+      ],
+      "any_terms_pass": true,
+      "all_group_results": [
+        {
+          "terms": [
+            "outdoors",
+            "outside",
+            "street",
+            "walkway"
+          ],
+          "pass": true
+        }
+      ],
+      "all_groups_pass": true,
+      "forbidden_terms": [
+        "bookshelf",
+        "red armchair",
+        "semi-ruined room"
+      ],
+      "matched_forbidden_terms": [],
+      "forbidden_terms_pass": true
+    }
+  },
+  "grounding": {
+    "answerable_window_count": 1,
+    "answerable_windows": [
+      {
+        "window_index": 3,
+        "scene_numbers": [
+          60,
+          61,
+          62
+        ],
+        "grounded_start_ms": 310583,
+        "grounded_end_ms": 313022,
+        "support_type": "visual",
+        "confidence": "high",
+        "evidence": "The candidate-local context and frames show Thom and Celia standing outdoors on a street near a canal, with trees and traditional brick buildings in the background."
+      }
+    ],
+    "top1_iou": 0.508973,
+    "oracle_iou": 0.508973,
+    "top1_window_index": 3,
+    "oracle_window_index": 3,
+    "temporal_pass": true,
+    "window_count_pass": true,
+    "expected_start_ms": 310583,
+    "expected_end_ms": 315375,
+    "minimum_top1_iou": 0.3,
+    "minimum_oracle_iou": 0.45
+  },
+  "artifacts": {
+    "answer_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\location_early_conversation\\answer.json",
+    "answer_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\location_early_conversation\\answer.log",
+    "evidence_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\location_early_conversation\\evidence_context.json",
+    "grounding_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\location_early_conversation\\grounding\\ce614a2b2f\\last_grounding.json",
+    "grounding_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\location_early_conversation\\grounding.log"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "question": "When is the line 'You broke my heart' spoken?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        129,
+        130,
+        131
+      ],
+      "candidate_start_ms": 509958,
+      "candidate_end_ms": 527417,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The provided transcript and frames do not contain the line 'You broke my heart'.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        62
+      ],
+      "candidate_start_ms": 315375,
+      "candidate_end_ms": 319958,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The transcript provided does not contain the phrase 'You broke my heart'.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 2,
+      "scene_numbers": [
+        69
+      ],
+      "candidate_start_ms": 341208,
+      "candidate_end_ms": 346458,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The requested line 'You broke my heart' does not appear in the provided transcript, nor is it spoken in the video frames.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 3,
+      "scene_numbers": [
+        74
+      ],
+      "candidate_start_ms": 356333,
+      "candidate_end_ms": 362125,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The provided transcript does not contain the phrase 'You broke my heart'.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 4,
+      "scene_numbers": [
+        86
+      ],
+      "candidate_start_ms": 383125,
+      "candidate_end_ms": 385417,
+      "answerable": true,
+      "support_type": "transcript",
+      "confidence": "high",
+      "evidence": "The transcript contains the exact line 'You broke my heart' across words 0 through 3.",
+      "grounded_start_ms": 383320,
+      "grounded_end_ms": 385360,
+      "selected_frame_paths": []
+    }
+  ]
+}

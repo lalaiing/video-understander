@@ -1,0 +1,37 @@
+{
+  "id": "action_robot_flying_vehicle_negative",
+  "category": "action",
+  "question": "Does a four-legged robot attack a flying vehicle?",
+  "expected_answerable": false,
+  "case_pass": true,
+  "answer": {
+    "predicted_answerable": false,
+    "answerability_pass": true,
+    "answer_text_pass": true,
+    "answer": "The provided evidence does not show a four-legged robot attacking a flying vehicle. While scene 45 shows a spider-like robot and scene 120 shows mechanical entities in combat, there is no evidence of a four-legged robot or any interaction with a flying vehicle.",
+    "confidence": "high",
+    "citations": [],
+    "limitations": [],
+    "text_check": {
+      "checked": false,
+      "negative_case": true
+    }
+  },
+  "grounding": {
+    "answerable_window_count": 0,
+    "answerable_windows": [],
+    "top1_iou": null,
+    "oracle_iou": null,
+    "top1_window_index": null,
+    "oracle_window_index": null,
+    "temporal_pass": true,
+    "window_count_pass": true
+  },
+  "artifacts": {
+    "answer_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\action_robot_flying_vehicle_negative\\answer.json",
+    "answer_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\action_robot_flying_vehicle_negative\\answer.log",
+    "evidence_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\action_robot_flying_vehicle_negative\\evidence_context.json",
+    "grounding_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\action_robot_flying_vehicle_negative\\grounding\\21c431206c\\last_grounding.json",
+    "grounding_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\action_robot_flying_vehicle_negative\\grounding.log"
+  }
+}

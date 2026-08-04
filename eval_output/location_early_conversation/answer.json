@@ -1,0 +1,56 @@
+{
+  "question": "Where are Thom and Celia standing during their early conversation?",
+  "answerable": true,
+  "answer": "During their conversation, Thom and Celia are standing outdoors on a street near trees, buildings, and a canal.",
+  "confidence": "high",
+  "citations": [
+    {
+      "scene_number": 60,
+      "start_ms": 310583,
+      "end_ms": 312375,
+      "start_timestamp": "05:10.583",
+      "end_timestamp": "05:12.375",
+      "evidence": "Thom and Celia are standing outdoors on a street with trees, buildings, and a canal boat in the background.",
+      "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
+      "transcript": "",
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg"
+    },
+    {
+      "scene_number": 61,
+      "start_ms": 312375,
+      "end_ms": 315375,
+      "start_timestamp": "05:12.375",
+      "end_timestamp": "05:15.375",
+      "evidence": "A man is shown in profile looking toward a canal in a city setting with traditional brick buildings, with on-screen text addressing Celia.",
+      "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+      "transcript": "",
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg"
+    },
+    {
+      "scene_number": 62,
+      "start_ms": 315375,
+      "end_ms": 319958,
+      "start_timestamp": "05:15.375",
+      "end_timestamp": "05:19.958",
+      "evidence": "A man speaks to Celia while standing outdoors with trees and blurred buildings in the background.",
+      "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+      "transcript": "Look, Celia, we have to follow our passions.",
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg"
+    }
+  ],
+  "limitations": [],
+  "model": "gemini-3.1-flash-lite",
+  "text_only": false,
+  "retrieval": {
+    "top_retrieved": 5,
+    "neighbor_radius": 1,
+    "max_evidence": 15,
+    "requested_max_evidence": 7,
+    "stream_weights": {
+      "caption": 1.8,
+      "transcript": 0.8,
+      "keyframe": 1.0
+    }
+  },
+  "evidence_context_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\last_evidence_context.json"
+}

@@ -1,0 +1,68 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[question] Why does Thom say that he and Celia have to follow their passions?
+[answer model] gemini-3.1-flash-lite
+[device] cpu
+[text model] sentence-transformers/all-MiniLM-L6-v2
+[frame model] sentence-transformers/clip-ViT-B-32
+[qdrant] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\qdrant
+[model] Loading text embedding model...
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 5716.81it/s]
+[model] Loading CLIP embedding model...
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 398/398 [00:00<00:00, 5424.81it/s]
+[embed] Encoding question...
+[query] Searching caption...
+[query] Searching transcript...
+[query] Searching keyframe...
+[fusion weights] caption=0.4, transcript=2.2, keyframe=0.2
+
+========================================================================
+EVIDENCE SENT TO ANSWERER
+========================================================================
+Scene 4 [00:25.000 --> 00:40.250] (retrieved #5)
+  Caption: A young man and a young woman stand on a bridge over a canal, with the woman gesturing upward while wearing a prosthetic or mechanical arm.
+  Transcript: Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that
+
+Scene 61 [05:12.375 --> 05:15.375] (neighbor)
+  Caption: A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, "LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS..."
+  Transcript: [No spoken dialogue]
+
+Scene 62 [05:15.375 --> 05:19.958] (retrieved #1)
+  Caption: A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.
+  Transcript: Look, Celia, we have to follow our passions.
+
+Scene 63 [05:19.958 --> 05:22.208] (neighbor)
+  Caption: A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.
+  Transcript: You have your
+
+Scene 69 [05:41.208 --> 05:46.458] (retrieved #4)
+  Caption: A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.
+  Transcript: Two minutes. Celia, come! We can see Celia!
+
+Scene 74 [05:56.333 --> 06:02.125] (retrieved #3)
+  Caption: A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.
+  Transcript: Listen, Celia, I was young and a dick, but there's no reason to
+
+Scene 130 [08:37.875 --> 08:41.000] (retrieved #2)
+  Caption: A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.
+  Transcript: The world's changed, Celia.
+
+[evidence output] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\processed\1d34b4769d15\last_evidence_context.json
+
+[synth] Calling gemini-3.1-flash-lite with 7 evidence scenes...
+
+========================================================================
+GROUNDED ANSWER
+========================================================================
+Answerable: True
+Confidence: high
+
+Thom tells Celia that they must follow their passions because she has her robotics and he wants to be awesome in space.
+
+Citations:
+- Scene 4 [00:25.000 --> 00:40.250]: Thom explicitly states, 'Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space.'
+
+[output] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\eval_output\dialogue_follow_passions\answer.json

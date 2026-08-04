@@ -684,7 +684,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--per-stream",
         type=int,
-        default=10,
+        default=20,
         help="Number of candidates retrieved per vector.",
     )
 

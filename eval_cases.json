@@ -1,0 +1,139 @@
+[
+  {
+    "id": "dialogue_broke_heart",
+    "category": "dialogue",
+    "question": "When does Celia say that Thom broke her heart?",
+    "expected_answerable": true,
+    "answer_check": {
+      "any_terms": [
+        "you broke my heart",
+        "06:23",
+        "6:23",
+        "scene 86"
+      ],
+      "forbidden_terms": []
+    },
+    "temporal": {
+      "start_ms": 383125,
+      "end_ms": 385417,
+      "min_top1_iou": 0.3,
+      "min_oracle_iou": 0.5,
+      "max_answerable_windows": 1
+    }
+  },
+  {
+    "id": "location_early_conversation",
+    "category": "location",
+    "question": "Where are Thom and Celia standing during their early conversation?",
+    "expected_answerable": true,
+    "answer_check": {
+      "any_terms": [
+        "canal",
+        "canal-side",
+        "canal side"
+      ],
+      "all_groups": [
+        [
+          "outdoors",
+          "outside",
+          "street",
+          "walkway"
+        ]
+      ],
+      "forbidden_terms": [
+        "bookshelf",
+        "red armchair",
+        "semi-ruined room"
+      ]
+    },
+    "temporal": {
+      "start_ms": 310583,
+      "end_ms": 315375,
+      "min_top1_iou": 0.3,
+      "min_oracle_iou": 0.45,
+      "max_answerable_windows": 1
+    }
+  },
+  {
+    "id": "dialogue_robot_hand_fear",
+    "category": "dialogue",
+    "question": "What frightens Thom about Celia?",
+    "expected_answerable": true,
+    "answer_check": {
+      "all_groups": [
+        [
+          "robot hand",
+          "robotic hand",
+          "robotic claws",
+          "giant robotic claws"
+        ],
+        [
+          "fright",
+          "scared",
+          "nightmare",
+          "freaked out",
+          "afraid"
+        ]
+      ],
+      "forbidden_terms": [
+        "destroy the world"
+      ]
+    },
+    "max_answerable_windows": 1
+  },
+  {
+    "id": "dialogue_follow_passions",
+    "category": "descriptive",
+    "question": "Why does Thom say that he and Celia have to follow their passions?",
+    "expected_answerable": true,
+    "answer_check": {
+      "all_groups": [
+        [
+          "passion",
+          "passions"
+        ],
+        [
+          "space",
+          "robotics",
+          "what they want",
+          "their own goals"
+        ]
+      ],
+      "forbidden_terms": []
+    },
+    "temporal": {
+      "start_ms": 25000,
+      "end_ms": 30440,
+      "min_top1_iou": 0.2,
+      "min_oracle_iou": 0.3,
+      "max_answerable_windows": 1
+    }
+  },
+  {
+    "id": "action_robot_flying_vehicle_negative",
+    "category": "action",
+    "question": "Does a four-legged robot attack a flying vehicle?",
+    "expected_answerable": false,
+    "answer_check": {
+      "forbidden_terms": [
+        "yes",
+        "flying vehicle"
+      ]
+    },
+    "max_answerable_windows": 0
+  },
+  {
+    "id": "unsupported_university",
+    "category": "unsupported",
+    "question": "Which university does Thom attend?",
+    "expected_answerable": false,
+    "answer_check": {
+      "forbidden_terms": [
+        "university of",
+        "college",
+        "institute"
+      ]
+    },
+    "max_answerable_windows": 0
+  }
+]

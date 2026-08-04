@@ -1,0 +1,718 @@
+{
+  "question": "Why does Thom say that he and Celia have to follow their passions?",
+  "retrieval_weights": {
+    "caption": 0.4,
+    "transcript": 2.2,
+    "keyframe": 0.2
+  },
+  "retrieved_results": [
+    {
+      "rank": 1,
+      "scene_number": 62,
+      "rrf_score": 0.036065573770491806,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.6417990489470577
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 130,
+      "rrf_score": 0.02178711992894768,
+      "ranks": {
+        "transcript": 2
+      },
+      "similarities": {
+        "transcript": 0.453245624489552
+      }
+    },
+    {
+      "rank": 3,
+      "scene_number": 74,
+      "rrf_score": 0.021388395182776247,
+      "ranks": {
+        "transcript": 3
+      },
+      "similarities": {
+        "transcript": 0.4525056778127878
+      }
+    },
+    {
+      "rank": 4,
+      "scene_number": 69,
+      "rrf_score": 0.017343255997462764,
+      "ranks": {
+        "transcript": 4
+      },
+      "similarities": {
+        "transcript": 0.39977179806691293
+      }
+    },
+    {
+      "rank": 5,
+      "scene_number": 4,
+      "rrf_score": 0.00681866147325594,
+      "ranks": {
+        "transcript": 7,
+        "keyframe": 1
+      },
+      "similarities": {
+        "transcript": 0.20598016058784172,
+        "keyframe": 0.2580106391919975
+      }
+    }
+  ],
+  "evidence_scenes": [
+    {
+      "scene_id": "1d34b4769d15:0004",
+      "scene_number": 4,
+      "start_ms": 25000,
+      "end_ms": 40250,
+      "duration_ms": 15250,
+      "keyframe_ms": 32625,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg",
+      "transcript": "Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that",
+      "transcript_words": [
+        {
+          "start_ms": 24760,
+          "end_ms": 25280,
+          "text": " Celia,",
+          "probability": 0.7174
+        },
+        {
+          "start_ms": 25280,
+          "end_ms": 25540,
+          "text": " we",
+          "probability": 0.9932
+        },
+        {
+          "start_ms": 25540,
+          "end_ms": 25700,
+          "text": " have",
+          "probability": 0.9965
+        },
+        {
+          "start_ms": 25700,
+          "end_ms": 25880,
+          "text": " to",
+          "probability": 0.9988
+        },
+        {
+          "start_ms": 25880,
+          "end_ms": 26140,
+          "text": " follow",
+          "probability": 0.9993
+        },
+        {
+          "start_ms": 26140,
+          "end_ms": 26360,
+          "text": " our",
+          "probability": 0.9963
+        },
+        {
+          "start_ms": 26360,
+          "end_ms": 26940,
+          "text": " passions.",
+          "probability": 0.974
+        },
+        {
+          "start_ms": 26940,
+          "end_ms": 27460,
+          "text": " You",
+          "probability": 0.8835
+        },
+        {
+          "start_ms": 27460,
+          "end_ms": 27620,
+          "text": " have",
+          "probability": 0.9901
+        },
+        {
+          "start_ms": 27620,
+          "end_ms": 27800,
+          "text": " your",
+          "probability": 0.9956
+        },
+        {
+          "start_ms": 27800,
+          "end_ms": 28240,
+          "text": " robotics",
+          "probability": 0.9693
+        },
+        {
+          "start_ms": 28240,
+          "end_ms": 28400,
+          "text": " and",
+          "probability": 0.5751
+        },
+        {
+          "start_ms": 28400,
+          "end_ms": 28520,
+          "text": " I",
+          "probability": 0.9894
+        },
+        {
+          "start_ms": 28520,
+          "end_ms": 28660,
+          "text": " just",
+          "probability": 0.9943
+        },
+        {
+          "start_ms": 28660,
+          "end_ms": 28800,
+          "text": " want",
+          "probability": 0.8401
+        },
+        {
+          "start_ms": 28800,
+          "end_ms": 28900,
+          "text": " to",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 28900,
+          "end_ms": 29040,
+          "text": " be",
+          "probability": 0.9986
+        },
+        {
+          "start_ms": 29040,
+          "end_ms": 29500,
+          "text": " awesome",
+          "probability": 0.9936
+        },
+        {
+          "start_ms": 29500,
+          "end_ms": 29680,
+          "text": " in",
+          "probability": 0.9867
+        },
+        {
+          "start_ms": 29680,
+          "end_ms": 30040,
+          "text": " space.",
+          "probability": 0.9938
+        },
+        {
+          "start_ms": 30460,
+          "end_ms": 30880,
+          "text": " Why",
+          "probability": 0.8203
+        },
+        {
+          "start_ms": 30880,
+          "end_ms": 31120,
+          "text": " don't",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31120,
+          "end_ms": 31260,
+          "text": " you",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 31260,
+          "end_ms": 31520,
+          "text": " just",
+          "probability": 0.9973
+        },
+        {
+          "start_ms": 31520,
+          "end_ms": 31840,
+          "text": " admit",
+          "probability": 0.9886
+        },
+        {
+          "start_ms": 31840,
+          "end_ms": 32080,
+          "text": " that",
+          "probability": 0.962
+        },
+        {
+          "start_ms": 32080,
+          "end_ms": 32640,
+          "text": " you're",
+          "probability": 0.9387
+        },
+        {
+          "start_ms": 32640,
+          "end_ms": 33000,
+          "text": " freaked",
+          "probability": 0.9433
+        },
+        {
+          "start_ms": 33000,
+          "end_ms": 33200,
+          "text": " out",
+          "probability": 0.9935
+        },
+        {
+          "start_ms": 33200,
+          "end_ms": 33380,
+          "text": " by",
+          "probability": 0.989
+        },
+        {
+          "start_ms": 33380,
+          "end_ms": 33600,
+          "text": " my",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 33600,
+          "end_ms": 34020,
+          "text": " robot",
+          "probability": 0.9945
+        },
+        {
+          "start_ms": 34020,
+          "end_ms": 34400,
+          "text": " hand?",
+          "probability": 0.9723
+        },
+        {
+          "start_ms": 34820,
+          "end_ms": 34960,
+          "text": " I'm",
+          "probability": 0.95
+        },
+        {
+          "start_ms": 34960,
+          "end_ms": 35100,
+          "text": " not",
+          "probability": 0.987
+        },
+        {
+          "start_ms": 35100,
+          "end_ms": 35340,
+          "text": " freaked",
+          "probability": 0.9947
+        },
+        {
+          "start_ms": 35340,
+          "end_ms": 35560,
+          "text": " out",
+          "probability": 0.9958
+        },
+        {
+          "start_ms": 35560,
+          "end_ms": 35720,
+          "text": " by",
+          "probability": 0.7266
+        },
+        {
+          "start_ms": 35720,
+          "end_ms": 35960,
+          "text": " its...",
+          "probability": 0.4862
+        },
+        {
+          "start_ms": 37480,
+          "end_ms": 37800,
+          "text": " All",
+          "probability": 0.3451
+        },
+        {
+          "start_ms": 37800,
+          "end_ms": 37960,
+          "text": " right,",
+          "probability": 0.9919
+        },
+        {
+          "start_ms": 38040,
+          "end_ms": 38380,
+          "text": " fine.",
+          "probability": 0.996
+        },
+        {
+          "start_ms": 38680,
+          "end_ms": 38920,
+          "text": " I'm",
+          "probability": 0.9903
+        },
+        {
+          "start_ms": 38920,
+          "end_ms": 39200,
+          "text": " freaked",
+          "probability": 0.9969
+        },
+        {
+          "start_ms": 39200,
+          "end_ms": 39460,
+          "text": " out.",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 39520,
+          "end_ms": 39600,
+          "text": " I'm",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 39600,
+          "end_ms": 39760,
+          "text": " having",
+          "probability": 0.9991
+        },
+        {
+          "start_ms": 39760,
+          "end_ms": 40140,
+          "text": " nightmares",
+          "probability": 0.9943
+        },
+        {
+          "start_ms": 40140,
+          "end_ms": 40320,
+          "text": " that",
+          "probability": 0.9727
+        }
+      ],
+      "word_count": 49,
+      "has_speech": true,
+      "speech_start_ms": 24760,
+      "speech_end_ms": 40320,
+      "caption": "A young man and a young woman stand on a bridge over a canal, with the woman gesturing upward while wearing a prosthetic or mechanical arm.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 5,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0061",
+      "scene_number": 61,
+      "start_ms": 312375,
+      "end_ms": 315375,
+      "duration_ms": 3000,
+      "keyframe_ms": 313875,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0062",
+      "scene_number": 62,
+      "start_ms": 315375,
+      "end_ms": 319958,
+      "duration_ms": 4583,
+      "keyframe_ms": 317666,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg",
+      "transcript": "Look, Celia, we have to follow our passions.",
+      "transcript_words": [
+        {
+          "start_ms": 315640,
+          "end_ms": 316240,
+          "text": " Look,",
+          "probability": 0.698
+        },
+        {
+          "start_ms": 316480,
+          "end_ms": 316700,
+          "text": " Celia,",
+          "probability": 0.9641
+        },
+        {
+          "start_ms": 317500,
+          "end_ms": 318560,
+          "text": " we",
+          "probability": 0.9145
+        },
+        {
+          "start_ms": 318560,
+          "end_ms": 318740,
+          "text": " have",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 318740,
+          "end_ms": 318960,
+          "text": " to",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 318960,
+          "end_ms": 319260,
+          "text": " follow",
+          "probability": 0.9994
+        },
+        {
+          "start_ms": 319260,
+          "end_ms": 319560,
+          "text": " our",
+          "probability": 0.9927
+        },
+        {
+          "start_ms": 319560,
+          "end_ms": 320160,
+          "text": " passions.",
+          "probability": 0.9663
+        }
+      ],
+      "word_count": 8,
+      "has_speech": true,
+      "speech_start_ms": 315640,
+      "speech_end_ms": 320160,
+      "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 1,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0063",
+      "scene_number": 63,
+      "start_ms": 319958,
+      "end_ms": 322208,
+      "duration_ms": 2250,
+      "keyframe_ms": 321083,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg",
+      "transcript": "You have your",
+      "transcript_words": [
+        {
+          "start_ms": 320960,
+          "end_ms": 321560,
+          "text": " You",
+          "probability": 0.9926
+        },
+        {
+          "start_ms": 321560,
+          "end_ms": 321740,
+          "text": " have",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 321740,
+          "end_ms": 322000,
+          "text": " your",
+          "probability": 0.9985
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 320960,
+      "speech_end_ms": 322000,
+      "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0069",
+      "scene_number": 69,
+      "start_ms": 341208,
+      "end_ms": 346458,
+      "duration_ms": 5250,
+      "keyframe_ms": 343833,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg",
+      "transcript": "Two minutes. Celia, come! We can see Celia!",
+      "transcript_words": [
+        {
+          "start_ms": 341520,
+          "end_ms": 341700,
+          "text": " Two",
+          "probability": 0.8277
+        },
+        {
+          "start_ms": 341700,
+          "end_ms": 341920,
+          "text": " minutes.",
+          "probability": 0.9927
+        },
+        {
+          "start_ms": 342780,
+          "end_ms": 343320,
+          "text": " Celia,",
+          "probability": 0.5031
+        },
+        {
+          "start_ms": 343320,
+          "end_ms": 343640,
+          "text": " come!",
+          "probability": 0.3671
+        },
+        {
+          "start_ms": 344880,
+          "end_ms": 345140,
+          "text": " We",
+          "probability": 0.3714
+        },
+        {
+          "start_ms": 345140,
+          "end_ms": 345380,
+          "text": " can",
+          "probability": 0.3398
+        },
+        {
+          "start_ms": 345380,
+          "end_ms": 345600,
+          "text": " see",
+          "probability": 0.9706
+        },
+        {
+          "start_ms": 345600,
+          "end_ms": 346200,
+          "text": " Celia!",
+          "probability": 0.9851
+        }
+      ],
+      "word_count": 8,
+      "has_speech": true,
+      "speech_start_ms": 341520,
+      "speech_end_ms": 346200,
+      "caption": "A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 4,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0074",
+      "scene_number": 74,
+      "start_ms": 356333,
+      "end_ms": 362125,
+      "duration_ms": 5792,
+      "keyframe_ms": 359229,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg",
+      "transcript": "Listen, Celia, I was young and a dick, but there's no reason to",
+      "transcript_words": [
+        {
+          "start_ms": 356620,
+          "end_ms": 357160,
+          "text": " Listen,",
+          "probability": 0.8585
+        },
+        {
+          "start_ms": 357320,
+          "end_ms": 357640,
+          "text": " Celia,",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 358060,
+          "end_ms": 358320,
+          "text": " I",
+          "probability": 0.9951
+        },
+        {
+          "start_ms": 358320,
+          "end_ms": 358480,
+          "text": " was",
+          "probability": 0.9982
+        },
+        {
+          "start_ms": 358480,
+          "end_ms": 358840,
+          "text": " young",
+          "probability": 0.9984
+        },
+        {
+          "start_ms": 358840,
+          "end_ms": 360140,
+          "text": " and",
+          "probability": 0.3386
+        },
+        {
+          "start_ms": 360140,
+          "end_ms": 360420,
+          "text": " a",
+          "probability": 0.9952
+        },
+        {
+          "start_ms": 360420,
+          "end_ms": 360640,
+          "text": " dick,",
+          "probability": 0.9786
+        },
+        {
+          "start_ms": 360700,
+          "end_ms": 361360,
+          "text": " but",
+          "probability": 0.9917
+        },
+        {
+          "start_ms": 361360,
+          "end_ms": 361520,
+          "text": " there's",
+          "probability": 0.9709
+        },
+        {
+          "start_ms": 361520,
+          "end_ms": 361660,
+          "text": " no",
+          "probability": 0.9967
+        },
+        {
+          "start_ms": 361660,
+          "end_ms": 361860,
+          "text": " reason",
+          "probability": 0.9996
+        },
+        {
+          "start_ms": 361860,
+          "end_ms": 362060,
+          "text": " to",
+          "probability": 0.9995
+        }
+      ],
+      "word_count": 13,
+      "has_speech": true,
+      "speech_start_ms": 356620,
+      "speech_end_ms": 362060,
+      "caption": "A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 3,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0130",
+      "scene_number": 130,
+      "start_ms": 517875,
+      "end_ms": 521000,
+      "duration_ms": 3125,
+      "keyframe_ms": 519437,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg",
+      "transcript": "The world's changed, Celia.",
+      "transcript_words": [
+        {
+          "start_ms": 518660,
+          "end_ms": 519380,
+          "text": " The",
+          "probability": 0.9069
+        },
+        {
+          "start_ms": 519380,
+          "end_ms": 519740,
+          "text": " world's",
+          "probability": 0.9097
+        },
+        {
+          "start_ms": 519740,
+          "end_ms": 519960,
+          "text": " changed,",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 520300,
+          "end_ms": 520820,
+          "text": " Celia.",
+          "probability": 0.9775
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 518660,
+      "speech_end_ms": 520820,
+      "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 2,
+      "is_direct_retrieval": true
+    }
+  ]
+}

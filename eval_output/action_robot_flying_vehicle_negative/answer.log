@@ -1,0 +1,65 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[question] Does a four-legged robot attack a flying vehicle?
+[answer model] gemini-3.1-flash-lite
+[device] cpu
+[text model] sentence-transformers/all-MiniLM-L6-v2
+[frame model] sentence-transformers/clip-ViT-B-32
+[qdrant] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\qdrant
+[model] Loading text embedding model...
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 5699.84it/s]
+[model] Loading CLIP embedding model...
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 398/398 [00:00<00:00, 5542.26it/s]
+[embed] Encoding question...
+[query] Searching caption...
+[query] Searching transcript...
+[query] Searching keyframe...
+[fusion weights] caption=1.0, transcript=1.0, keyframe=1.0
+
+========================================================================
+EVIDENCE SENT TO ANSWERER
+========================================================================
+Scene 9 [00:48.292 --> 00:49.792] (retrieved #5)
+  Caption: A digital, light-green heads-up display showing "MEMORY PLAYBACK - GLOBAL" with media playback icons floats over a dimly lit, complex industrial setting featuring heavy machinery and pipes. No people are visible in this scene.
+  Transcript: robot's
+
+Scene 45 [03:42.417 --> 03:45.083] (retrieved #4)
+  Caption: A mechanical, spider-like robot stands on a bridge in an urban setting surrounded by trees and a building, with no people visible in the frame.
+  Transcript: That's nice. Nothing to
+
+Scene 63 [05:19.958 --> 05:22.208] (neighbor)
+  Caption: A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.
+  Transcript: You have your
+
+Scene 64 [05:22.208 --> 05:24.083] (retrieved #1)
+  Caption: A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, "...AND I JUST WANT TO BE AWESOME IN SPACE."
+  Transcript: robotics.
+
+Scene 65 [05:24.083 --> 05:28.458] (neighbor)
+  Caption: A young man stands outdoors with a blurred background of trees and buildings while speaking.
+  Transcript: And I just want to be awesome in space.
+
+Scene 118 [08:09.417 --> 08:11.542] (retrieved #2)
+  Caption: A person hangs from a rope suspended from the wooden rafters of a church-like structure, while a large, metallic, robotic-looking sculpture stands in the foreground.
+  Transcript: [No spoken dialogue]
+
+Scene 120 [08:16.083 --> 08:16.917] (retrieved #3)
+  Caption: Mechanical entities engage in combat inside a stone building with arched doorways. Sparks fly from the robots as they move across the floor amidst scattered debris.
+  Transcript: [No spoken dialogue]
+
+[evidence output] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\processed\1d34b4769d15\last_evidence_context.json
+
+[synth] Calling gemini-3.1-flash-lite with 7 evidence scenes...
+
+========================================================================
+GROUNDED ANSWER
+========================================================================
+Answerable: False
+Confidence: high
+
+The provided evidence does not show a four-legged robot attacking a flying vehicle. While scene 45 shows a spider-like robot and scene 120 shows mechanical entities in combat, there is no evidence of a four-legged robot or any interaction with a flying vehicle.
+
+[output] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\eval_output\action_robot_flying_vehicle_negative\answer.json

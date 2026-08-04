@@ -1,0 +1,41 @@
+
+[complete] Temporal grounding completed
+[complete] Model: gemini-3.1-flash-lite
+[complete] Video: C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\raw\demo.mp4
+
+[window 0] Scenes [61, 62, 63]
+[candidate] 05:12.375 --> 05:22.208
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  While the transcript shows Thom saying 'Look, Celia, we have to follow our passions,' the video does not provide the reason why they have to follow their passions.
+
+[window 1] Scenes [130]
+[candidate] 08:37.875 --> 08:41.000
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The candidate window contains the man speaking to Celia, but the specific statement about following their passions is not present in this scene's transcript. The global context shows that this statement occurs in other scenes, but not in the provided candidate-local context.
+
+[window 2] Scenes [74]
+[candidate] 05:56.333 --> 06:02.125
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The candidate window contains the characters Thom and Celia, but the transcript provided in this window does not contain the statement about following their passions. The statement is found in the global context (Scene 4, 61, 62), but not in the current candidate window (Scene 74).
+
+[window 3] Scenes [69]
+[candidate] 05:41.208 --> 05:46.458
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The candidate window does not contain the dialogue where Thom explains why he and Celia have to follow their passions. The global context shows this dialogue occurs in other scenes, but it is not present in the provided candidate-local context.
+
+[window 4] Scenes [4]
+[candidate] 00:25.000 --> 00:40.250
+[grounded]  00:25.000 --> 00:30.440
+[support]   transcript
+[confidence] high
+[evidence]  The transcript directly captures the speaker saying, 'Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space.'
+
+[saved] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\eval_output\dialogue_follow_passions\grounding\ec4d8e6fae\last_grounding.json

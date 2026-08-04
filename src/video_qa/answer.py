@@ -815,6 +815,36 @@ Evidence rules:
     supports both identities.
 """.strip()
 
+
+    if is_visual_location_question(args.question):
+        system_instruction += """
+
+    Additional rules for visual-loca tion questions:
+
+    11. Evaluate consecutive, temporally adjacent scenes as one local
+        evidence group. Do not mix identities or settings between
+        unrelated scene groups.
+
+    12. The names of all requested characters do not need to be spoken
+        inside the same scene. One participant may be identified through
+        local transcript or on-screen text, while the other may be
+        established through continuous adjacent frames showing the same
+        ongoing two-person interaction.
+
+    13. For a question asking where named people are standing, determine:
+        a. whether a local adjacent scene group anchors the conversation,
+        b. whether the frames show the participants together,
+        c. what setting is directly visible.
+
+    14. Do not transfer character identities between nonadjacent scene
+        groups. Evidence from an earlier room cannot establish that people
+        in a later outdoor scene are the same characters, or vice versa.
+
+    15. When a local group contains a named conversation anchor, adjacent
+        frames show the two-person interaction, and the setting is visible,
+        answer with the directly visible setting and cite that local group.
+    """
+
     user_prompt = (
         evidence_text
         + "\n\n"
@@ -833,6 +863,20 @@ When not answerable:
 - Return no citations.
 """.strip()
     )
+
+    if is_visual_location_question(args.question):
+        user_prompt += """
+
+    LOCATION-QUESTION PROCEDURE:
+
+    - Examine each consecutive scene group independently.
+    - Prefer the group where transcript or on-screen text anchors the
+    requested conversation.
+    - Use adjacent frames in that same group to establish the interaction.
+    - Describe only the directly visible location.
+    - Do not require both character names to be spoken.
+    - Do not borrow identity evidence from unrelated scene groups.
+    """
 
     contents = build_multimodal_contents(
         prompt_text=user_prompt,
@@ -912,6 +956,28 @@ When not answerable:
     print()
     print(f"[output] {output_path}")
 
+def is_visual_location_question(
+    question: str,
+) -> bool:
+    normalized = " ".join(
+        question.lower().split()
+    )
+
+    location_markers = (
+        "where",
+        "location",
+        "located",
+        "standing",
+        "setting",
+        "place",
+        "room",
+        "building",
+    )
+
+    return any(
+        marker in normalized
+        for marker in location_markers
+    )
 
 if __name__ == "__main__":
     main()

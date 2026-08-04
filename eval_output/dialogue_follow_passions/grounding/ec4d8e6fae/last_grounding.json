@@ -1,0 +1,84 @@
+{
+  "question": "Why does Thom say that he and Celia have to follow their passions?",
+  "model": "gemini-3.1-flash-lite",
+  "video_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\raw\\demo.mp4",
+  "windows": [
+    {
+      "window_index": 0,
+      "scene_numbers": [
+        61,
+        62,
+        63
+      ],
+      "candidate_start_ms": 312375,
+      "candidate_end_ms": 322208,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "While the transcript shows Thom saying 'Look, Celia, we have to follow our passions,' the video does not provide the reason why they have to follow their passions.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 1,
+      "scene_numbers": [
+        130
+      ],
+      "candidate_start_ms": 517875,
+      "candidate_end_ms": 521000,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The candidate window contains the man speaking to Celia, but the specific statement about following their passions is not present in this scene's transcript. The global context shows that this statement occurs in other scenes, but not in the provided candidate-local context.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 2,
+      "scene_numbers": [
+        74
+      ],
+      "candidate_start_ms": 356333,
+      "candidate_end_ms": 362125,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The candidate window contains the characters Thom and Celia, but the transcript provided in this window does not contain the statement about following their passions. The statement is found in the global context (Scene 4, 61, 62), but not in the current candidate window (Scene 74).",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 3,
+      "scene_numbers": [
+        69
+      ],
+      "candidate_start_ms": 341208,
+      "candidate_end_ms": 346458,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The candidate window does not contain the dialogue where Thom explains why he and Celia have to follow their passions. The global context shows this dialogue occurs in other scenes, but it is not present in the provided candidate-local context.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 4,
+      "scene_numbers": [
+        4
+      ],
+      "candidate_start_ms": 25000,
+      "candidate_end_ms": 40250,
+      "answerable": true,
+      "support_type": "transcript",
+      "confidence": "high",
+      "evidence": "The transcript directly captures the speaker saying, 'Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space.'",
+      "grounded_start_ms": 25000,
+      "grounded_end_ms": 30440,
+      "selected_frame_paths": []
+    }
+  ]
+}

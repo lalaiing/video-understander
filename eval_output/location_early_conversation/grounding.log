@@ -1,0 +1,41 @@
+
+[complete] Temporal grounding completed
+[complete] Model: gemini-3.1-flash-lite
+[complete] Video: C:\Users\Stella Ling\Documents\Stella\Programming\video understander\data\raw\demo.mp4
+
+[window 0] Scenes [31, 32, 33]
+[candidate] 02:38.542 --> 03:09.500
+[grounded]  insufficient evidence
+[support]   none
+[confidence] low
+[evidence]  The candidate-local context does not contain any mention of the names 'Thom' or 'Celia', nor does it provide any dialogue or on-screen text to establish their identities. Therefore, the requested subjects cannot be confirmed. Rejected by deterministic validation: none of the exact requested names appears in the candidate-local caption or transcript.
+
+[window 1] Scenes [46, 47, 48]
+[candidate] 03:45.083 --> 04:13.417
+[grounded]  insufficient evidence
+[support]   none
+[confidence] high
+[evidence]  The frames show Thom and Celia (along with another man) standing in a cluttered indoor room, which is the setting for their early conversation. Rejected by deterministic validation: none of the exact requested names appears in the candidate-local caption or transcript.
+
+[window 2] Scenes [25, 26, 27]
+[candidate] 01:59.875 --> 02:23.292
+[grounded]  insufficient evidence
+[support]   none
+[confidence] low
+[evidence]  The candidate-local context does not contain the names Thom or Celia, nor does it provide any evidence to identify the individuals shown as these characters. Rejected by deterministic validation: none of the exact requested names appears in the candidate-local caption or transcript.
+
+[window 3] Scenes [60, 61, 62]
+[candidate] 05:10.583 --> 05:19.958
+[grounded]  05:10.583 --> 05:13.022
+[support]   visual
+[confidence] high
+[evidence]  The candidate-local context and frames show Thom and Celia standing outdoors on a street near a canal, with trees and traditional brick buildings in the background.
+
+[window 4] Scenes [68, 69, 70]
+[candidate] 05:38.917 --> 05:48.417
+[grounded]  insufficient evidence
+[support]   none
+[confidence] low
+[evidence]  The candidate-local context does not show Thom and Celia standing together in the same location. The scenes show different individuals in different settings, and there is no visual or transcript evidence of them together.
+
+[saved] C:\Users\Stella Ling\Documents\Stella\Programming\video understander\eval_output\location_early_conversation\grounding\ce614a2b2f\last_grounding.json

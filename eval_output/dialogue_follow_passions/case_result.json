@@ -1,0 +1,88 @@
+{
+  "id": "dialogue_follow_passions",
+  "category": "descriptive",
+  "question": "Why does Thom say that he and Celia have to follow their passions?",
+  "expected_answerable": true,
+  "case_pass": true,
+  "answer": {
+    "predicted_answerable": true,
+    "answerability_pass": true,
+    "answer_text_pass": true,
+    "answer": "Thom tells Celia that they must follow their passions because she has her robotics and he wants to be awesome in space.",
+    "confidence": "high",
+    "citations": [
+      {
+        "scene_number": 4,
+        "start_ms": 25000,
+        "end_ms": 40250,
+        "start_timestamp": "00:25.000",
+        "end_timestamp": "00:40.250",
+        "evidence": "Thom explicitly states, 'Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space.'",
+        "caption": "A young man and a young woman stand on a bridge over a canal, with the woman gesturing upward while wearing a prosthetic or mechanical arm.",
+        "transcript": "Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that",
+        "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg"
+      }
+    ],
+    "limitations": [],
+    "text_check": {
+      "checked": true,
+      "any_terms": [],
+      "any_terms_pass": true,
+      "all_group_results": [
+        {
+          "terms": [
+            "passion",
+            "passions"
+          ],
+          "pass": true
+        },
+        {
+          "terms": [
+            "space",
+            "robotics",
+            "what they want",
+            "their own goals"
+          ],
+          "pass": true
+        }
+      ],
+      "all_groups_pass": true,
+      "forbidden_terms": [],
+      "matched_forbidden_terms": [],
+      "forbidden_terms_pass": true
+    }
+  },
+  "grounding": {
+    "answerable_window_count": 1,
+    "answerable_windows": [
+      {
+        "window_index": 4,
+        "scene_numbers": [
+          4
+        ],
+        "grounded_start_ms": 25000,
+        "grounded_end_ms": 30440,
+        "support_type": "transcript",
+        "confidence": "high",
+        "evidence": "The transcript directly captures the speaker saying, 'Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space.'"
+      }
+    ],
+    "top1_iou": 1.0,
+    "oracle_iou": 1.0,
+    "top1_window_index": 4,
+    "oracle_window_index": 4,
+    "temporal_pass": true,
+    "window_count_pass": true,
+    "expected_start_ms": 25000,
+    "expected_end_ms": 30440,
+    "minimum_top1_iou": 0.2,
+    "minimum_oracle_iou": 0.3
+  },
+  "artifacts": {
+    "answer_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\dialogue_follow_passions\\answer.json",
+    "answer_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\dialogue_follow_passions\\answer.log",
+    "evidence_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\dialogue_follow_passions\\evidence_context.json",
+    "grounding_json": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\dialogue_follow_passions\\grounding\\ec4d8e6fae\\last_grounding.json",
+    "grounding_log": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\eval_output\\dialogue_follow_passions\\grounding.log"
+  }
+}

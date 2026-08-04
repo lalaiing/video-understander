@@ -1,9 +1,9 @@
 {
-  "question": "the conversation where Thom explains that he wants to pursue a career in space",
+  "question": "What frightens Thom about Celia?",
   "retrieval": {
     "method": "reciprocal_rank_fusion",
-    "per_stream_limit": 10,
-    "top_k": 5,
+    "per_stream_limit": 50,
+    "top_k": 50,
     "rrf_k": 60,
     "streams": [
       "caption",
@@ -15,54 +15,254 @@
   "results": [
     {
       "result_position": 1,
-      "scene_id": "1d34b4769d15:0065",
-      "point_id": "e9f055bc-7818-5bd2-9cad-e092c4fedd16",
-      "rrf_score": 0.02622951,
+      "scene_id": "1d34b4769d15:0130",
+      "point_id": "7d498f32-5497-51ed-bd85-5305e101e611",
+      "rrf_score": 0.03199226,
       "ranks": {
-        "transcript": 1
+        "transcript": 1,
+        "keyframe": 29
       },
       "similarities": {
-        "transcript": 0.43094
+        "transcript": 0.590025,
+        "keyframe": 0.236907
       },
       "video_id": "1d34b4769d15",
-      "scene_number": 65,
-      "start_ms": 324083,
-      "end_ms": 328458,
-      "keyframe_ms": 326270,
-      "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
-      "transcript": "and I just want to be awesome in space.",
-      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg"
+      "scene_number": 130,
+      "start_ms": 517875,
+      "end_ms": 521000,
+      "keyframe_ms": 519437,
+      "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
+      "transcript": "The world's changed, Celia.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg"
     },
     {
       "result_position": 2,
-      "scene_id": "1d34b4769d15:0004",
-      "point_id": "5e74f05b-42b6-5d42-8a51-68b82d972246",
-      "rrf_score": 0.01614201,
+      "scene_id": "1d34b4769d15:0062",
+      "point_id": "7068bbba-b36c-5757-a5e0-9e2f887127b1",
+      "rrf_score": 0.02926373,
       "ranks": {
-        "transcript": 2
+        "transcript": 2,
+        "keyframe": 11
       },
       "similarities": {
-        "transcript": 0.326153
+        "transcript": 0.529523,
+        "keyframe": 0.249646
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 62,
+      "start_ms": 315375,
+      "end_ms": 319958,
+      "keyframe_ms": 317666,
+      "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
+      "transcript": "Look, Celia, we have to follow our passions.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg"
+    },
+    {
+      "result_position": 3,
+      "scene_id": "1d34b4769d15:0069",
+      "point_id": "93fa8ee2-c099-56d7-8c9d-50a3b3967b99",
+      "rrf_score": 0.02542559,
+      "ranks": {
+        "caption": 48,
+        "transcript": 3
+      },
+      "similarities": {
+        "caption": 0.069084,
+        "transcript": 0.521094
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 69,
+      "start_ms": 341208,
+      "end_ms": 346458,
+      "keyframe_ms": 343833,
+      "caption": "A man with a multi-lensed mechanical device attached to his left eye gazes forward while holding a microphone. His right shoulder is adorned with decorative red trim against a blurred indoor background.",
+      "transcript": "Two minutes. Celia, come! We can see Celia!",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0069.jpg"
+    },
+    {
+      "result_position": 4,
+      "scene_id": "1d34b4769d15:0074",
+      "point_id": "1d27066a-2059-54d7-b627-b2fdcef7f934",
+      "rrf_score": 0.02474471,
+      "ranks": {
+        "transcript": 4,
+        "keyframe": 8
+      },
+      "similarities": {
+        "transcript": 0.470268,
+        "keyframe": 0.25155
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 74,
+      "start_ms": 356333,
+      "end_ms": 362125,
+      "keyframe_ms": 359229,
+      "caption": "A woman with a robotic prosthetic hand gestures toward a young man as they face each other in an outdoor setting with trees and buildings in the background.",
+      "transcript": "Listen, Celia, I was young and a dick, but there's no reason to",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0074.jpg"
+    },
+    {
+      "result_position": 5,
+      "scene_id": "1d34b4769d15:0061",
+      "point_id": "b2b169b6-8e7a-5326-8b6a-f36e80759162",
+      "rrf_score": 0.01009979,
+      "ranks": {
+        "caption": 1,
+        "transcript": 21,
+        "keyframe": 42
+      },
+      "similarities": {
+        "caption": 0.28118,
+        "transcript": 0.16367,
+        "keyframe": 0.232368
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 61,
+      "start_ms": 312375,
+      "end_ms": 315375,
+      "keyframe_ms": 313875,
+      "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg"
+    },
+    {
+      "result_position": 6,
+      "scene_id": "1d34b4769d15:0046",
+      "point_id": "236823c7-2d4a-5592-9703-f40faaed8b0d",
+      "rrf_score": 0.00993003,
+      "ranks": {
+        "transcript": 5
+      },
+      "similarities": {
+        "transcript": 0.308508
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 46,
+      "start_ms": 225083,
+      "end_ms": 234583,
+      "keyframe_ms": 229833,
+      "caption": "A man with a prosthetic eye device reaches out to touch the ear of an older man with grey hair, while a young woman stands behind them in what appears to be a cluttered indoor room.",
+      "transcript": "worry about. Tom, there she is. Now,",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0046.jpg"
+    },
+    {
+      "result_position": 7,
+      "scene_id": "1d34b4769d15:0075",
+      "point_id": "3ff5782b-4115-5581-815c-bbb24f01c501",
+      "rrf_score": 0.00835954,
+      "ranks": {
+        "caption": 6,
+        "keyframe": 2
+      },
+      "similarities": {
+        "caption": 0.15666,
+        "keyframe": 0.255887
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 75,
+      "start_ms": 362125,
+      "end_ms": 364500,
+      "keyframe_ms": 363312,
+      "caption": "A woman with an intense expression looks toward a person partially visible in the foreground who is holding a small bouquet of flowers in an outdoor, tree-lined setting.",
+      "transcript": "destroy the world.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0075.jpg"
+    },
+    {
+      "result_position": 8,
+      "scene_id": "1d34b4769d15:0063",
+      "point_id": "95782f52-4e64-5655-932b-cfcc357abb43",
+      "rrf_score": 0.00771542,
+      "ranks": {
+        "caption": 10,
+        "keyframe": 1
+      },
+      "similarities": {
+        "caption": 0.134535,
+        "keyframe": 0.258044
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 63,
+      "start_ms": 319958,
+      "end_ms": 322208,
+      "keyframe_ms": 321083,
+      "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
+      "transcript": "You have your",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg"
+    },
+    {
+      "result_position": 9,
+      "scene_id": "1d34b4769d15:0004",
+      "point_id": "5e74f05b-42b6-5d42-8a51-68b82d972246",
+      "rrf_score": 0.00685397,
+      "ranks": {
+        "transcript": 7,
+        "keyframe": 6
+      },
+      "similarities": {
+        "transcript": 0.213291,
+        "keyframe": 0.251889
       },
       "video_id": "1d34b4769d15",
       "scene_number": 4,
       "start_ms": 25000,
       "end_ms": 40250,
       "keyframe_ms": 32625,
-      "caption": "A young man and a woman stand facing each other on a bridge over a canal lined with trees and buildings. The woman, wearing a metallic robotic brace on her arm, raises her hand while looking at the man.",
-      "transcript": "Celia, we have to follow our passions. You have your robotics, and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by it. All right, fine. I'm freaked out. I'm having nightmares that",
+      "caption": "A young man and a young woman stand on a bridge over a canal, with the woman gesturing upward while wearing a prosthetic or mechanical arm.",
+      "transcript": "Celia, we have to follow our passions. You have your robotics and I just want to be awesome in space. Why don't you just admit that you're freaked out by my robot hand? I'm not freaked out by its... All right, fine. I'm freaked out. I'm having nightmares that",
       "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0004.jpg"
     },
     {
-      "result_position": 3,
-      "scene_id": "1d34b4769d15:0064",
-      "point_id": "8878ce90-7ae6-5c30-a891-8f6ec055abb1",
-      "rrf_score": 0.01311475,
+      "result_position": 10,
+      "scene_id": "1d34b4769d15:0013",
+      "point_id": "13910340-7e79-5ae3-b02b-0dd22b77bfa5",
+      "rrf_score": 0.00673143,
       "ranks": {
-        "caption": 1
+        "transcript": 6,
+        "keyframe": 15
       },
       "similarities": {
-        "caption": 0.430008
+        "transcript": 0.229153,
+        "keyframe": 0.246127
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 13,
+      "start_ms": 56667,
+      "end_ms": 64458,
+      "keyframe_ms": 60562,
+      "caption": "A man wearing a futuristic ocular device leans over a human-like brain resting on a table while working in a dimly lit, laboratory-like setting.",
+      "transcript": "This is pretty freaky.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0013.jpg"
+    },
+    {
+      "result_position": 11,
+      "scene_id": "1d34b4769d15:0146",
+      "point_id": "8803dc8d-33ad-59b9-a425-2cd3caae6621",
+      "rrf_score": 0.00638728,
+      "ranks": {
+        "caption": 2
+      },
+      "similarities": {
+        "caption": 0.20717
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 146,
+      "start_ms": 597625,
+      "end_ms": 601542,
+      "keyframe_ms": 599583,
+      "caption": "The text \"Director of Photography JORIS KERBOSCH N.S.C.\" is superimposed over a stylized, dark orange and black background featuring a bright blue, glowing mechanical structure. No people are visible in this frame.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0146.jpg"
+    },
+    {
+      "result_position": 12,
+      "scene_id": "1d34b4769d15:0064",
+      "point_id": "8878ce90-7ae6-5c30-a891-8f6ec055abb1",
+      "rrf_score": 0.0055626,
+      "ranks": {
+        "caption": 3
+      },
+      "similarities": {
+        "caption": 0.190637
       },
       "video_id": "1d34b4769d15",
       "scene_number": 64,
@@ -70,50 +270,812 @@
       "end_ms": 324083,
       "keyframe_ms": 323145,
       "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
-      "transcript": "",
+      "transcript": "robotics.",
       "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg"
     },
     {
-      "result_position": 4,
-      "scene_id": "1d34b4769d15:0003",
-      "point_id": "759b07d8-ced2-59dd-b4d1-98e78e94a592",
-      "rrf_score": 0.00787803,
+      "result_position": 13,
+      "scene_id": "1d34b4769d15:0032",
+      "point_id": "751e113d-0c0c-531f-900d-5add9fb5b83c",
+      "rrf_score": 0.00490827,
       "ranks": {
-        "caption": 4,
-        "transcript": 3
+        "caption": 24,
+        "transcript": 35,
+        "keyframe": 5
       },
       "similarities": {
-        "caption": 0.227922,
-        "transcript": 0.206773
+        "caption": 0.098032,
+        "transcript": 0.16367,
+        "keyframe": 0.252908
       },
       "video_id": "1d34b4769d15",
-      "scene_number": 3,
-      "start_ms": 18417,
-      "end_ms": 25000,
-      "keyframe_ms": 21708,
-      "caption": "A rocket launches upward, producing a brilliant column of light and billowing smoke amidst an industrial landscape of tall metal towers under a hazy sky. Text on the bottom left corner displays funding credits for the film.",
-      "transcript": "Jerk, Tom. Look,",
-      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0003.jpg"
+      "scene_number": 32,
+      "start_ms": 172292,
+      "end_ms": 183250,
+      "keyframe_ms": 177771,
+      "caption": "A woman in a camouflage jacket and an older man with white hair stand side-by-side in a room with a bookshelf and a lamp. The two individuals are looking toward the right, both appearing to be engaged in conversation or observing something off-screen.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0032.jpg"
     },
     {
-      "result_position": 5,
-      "scene_id": "1d34b4769d15:0056",
-      "point_id": "f62ab7dd-a5bb-555f-8a24-a77e72f65a2e",
-      "rrf_score": 0.00459537,
+      "result_position": 14,
+      "scene_id": "1d34b4769d15:0073",
+      "point_id": "0a0b1f7b-7984-5099-9c5b-f1959984799c",
+      "rrf_score": 0.00448561,
       "ranks": {
-        "transcript": 4
+        "caption": 4,
+        "transcript": 15
       },
       "similarities": {
-        "transcript": 0.202566
+        "caption": 0.167647,
+        "transcript": 0.16367
       },
       "video_id": "1d34b4769d15",
-      "scene_number": 56,
-      "start_ms": 298958,
-      "end_ms": 300875,
-      "keyframe_ms": 299916,
-      "caption": "A large, metallic, robotic figure with glowing eyes stands in an outdoor area near some buildings. No people are visible, and the machine is stationary.",
-      "transcript": "Hurry, jerk, Tom.",
-      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0056.jpg"
+      "scene_number": 73,
+      "start_ms": 352708,
+      "end_ms": 356333,
+      "keyframe_ms": 354520,
+      "caption": "A man stands outdoors near a canal, looking toward a mechanical, robotic-looking hand that is positioned in front of him. A purple, digital-style text overlay reading \"CELIA, I LOVE YOUR ROBOT HAND\" is visible against the background of city buildings and trees.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0073.jpg"
+    },
+    {
+      "result_position": 15,
+      "scene_id": "1d34b4769d15:0060",
+      "point_id": "ee7c1d30-7784-5f41-89e7-0316d4eeb509",
+      "rrf_score": 0.00442812,
+      "ranks": {
+        "caption": 26,
+        "transcript": 22,
+        "keyframe": 7
+      },
+      "similarities": {
+        "caption": 0.093762,
+        "transcript": 0.16367,
+        "keyframe": 0.251621
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 60,
+      "start_ms": 310583,
+      "end_ms": 312375,
+      "keyframe_ms": 311479,
+      "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg"
+    },
+    {
+      "result_position": 16,
+      "scene_id": "1d34b4769d15:0086",
+      "point_id": "2ec236fc-e839-537d-8942-b207f05078d6",
+      "rrf_score": 0.00441907,
+      "ranks": {
+        "caption": 13,
+        "keyframe": 19
+      },
+      "similarities": {
+        "caption": 0.126551,
+        "keyframe": 0.244977
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 86,
+      "start_ms": 383125,
+      "end_ms": 385417,
+      "keyframe_ms": 384271,
+      "caption": "A woman with a wide-eyed expression and open mouth stares at a metallic, robotic device positioned near a person's neck in an outdoor setting with green foliage in the background.",
+      "transcript": "You broke my heart.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0086.jpg"
+    },
+    {
+      "result_position": 17,
+      "scene_id": "1d34b4769d15:0121",
+      "point_id": "9561c888-0c37-5159-89fd-298b5e86fd80",
+      "rrf_score": 0.00413285,
+      "ranks": {
+        "caption": 5
+      },
+      "similarities": {
+        "caption": 0.160955
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 121,
+      "start_ms": 496917,
+      "end_ms": 497750,
+      "keyframe_ms": 497333,
+      "caption": "A person clad in golden armor lies prone and partially covered by debris inside a ruined, grand hall with tall columns. The surrounding area is scattered with rubble, broken architectural elements, and wooden debris.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0121.jpg"
+    },
+    {
+      "result_position": 18,
+      "scene_id": "1d34b4769d15:0133",
+      "point_id": "b02e3a01-7594-5c29-b1e8-9c8ba087f6c1",
+      "rrf_score": 0.00412712,
+      "ranks": {
+        "caption": 40,
+        "keyframe": 4
+      },
+      "similarities": {
+        "caption": 0.073018,
+        "keyframe": 0.253092
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 133,
+      "start_ms": 531208,
+      "end_ms": 537708,
+      "keyframe_ms": 534458,
+      "caption": "A middle-aged man with gray hair and a beard stands in a dimly lit, cluttered area, wearing a plaid shirt and a brown jacket. He is looking off to the side while speaking.",
+      "transcript": "Maybe we can too.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0133.jpg"
+    },
+    {
+      "result_position": 19,
+      "scene_id": "1d34b4769d15:0077",
+      "point_id": "7d31509d-26e6-5b38-9428-5c9fb8e9b895",
+      "rrf_score": 0.0039446,
+      "ranks": {
+        "keyframe": 3
+      },
+      "similarities": {
+        "keyframe": 0.253203
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 77,
+      "start_ms": 367667,
+      "end_ms": 368958,
+      "keyframe_ms": 368312,
+      "caption": "A large chalkboard covered in various handwritten phrases and notes stands in a cluttered room that also contains a painting, a mug, and furniture. No people are visible in the scene.",
+      "transcript": "tried that one.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0077.jpg"
+    },
+    {
+      "result_position": 20,
+      "scene_id": "1d34b4769d15:0088",
+      "point_id": "a8d1e2de-e4d3-59db-9cde-6f1669cebceb",
+      "rrf_score": 0.00356442,
+      "ranks": {
+        "caption": 8,
+        "keyframe": 32
+      },
+      "similarities": {
+        "caption": 0.135533,
+        "keyframe": 0.235412
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 88,
+      "start_ms": 386958,
+      "end_ms": 388958,
+      "keyframe_ms": 387958,
+      "caption": "A woman looks intensely at a person while a mechanical device with a needle is positioned near that person's face outdoors in a green environment.",
+      "transcript": "forgot me on Earth.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0088.jpg"
+    },
+    {
+      "result_position": 21,
+      "scene_id": "1d34b4769d15:0070",
+      "point_id": "389683b5-6cbf-5269-81cb-604f6d99fd10",
+      "rrf_score": 0.00353785,
+      "ranks": {
+        "caption": 44,
+        "keyframe": 9
+      },
+      "similarities": {
+        "caption": 0.071415,
+        "keyframe": 0.251427
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 70,
+      "start_ms": 346458,
+      "end_ms": 348417,
+      "keyframe_ms": 347437,
+      "caption": "A woman with light hair is outdoors in a residential area, speaking with her mouth open. The background includes green trees and blurred houses.",
+      "transcript": "Why don't you just admit that you're",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0070.jpg"
+    },
+    {
+      "result_position": 22,
+      "scene_id": "1d34b4769d15:0147",
+      "point_id": "9053ff81-55b5-5ae7-b11e-f56c029ac1c2",
+      "rrf_score": 0.00349199,
+      "ranks": {
+        "caption": 7
+      },
+      "similarities": {
+        "caption": 0.148375
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 147,
+      "start_ms": 601542,
+      "end_ms": 604542,
+      "keyframe_ms": 603042,
+      "caption": "The screen displays credits for \"Music and Sound\" assigned to Joram Letwory over a dark, stylized background featuring an illuminated mechanical object and an orange outline of a vehicle.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0147.jpg"
+    },
+    {
+      "result_position": 23,
+      "scene_id": "1d34b4769d15:0139",
+      "point_id": "70b4e007-3ba1-5567-bf4b-960795a5b57b",
+      "rrf_score": 0.00348198,
+      "ranks": {
+        "caption": 23,
+        "keyframe": 16
+      },
+      "similarities": {
+        "caption": 0.10004,
+        "keyframe": 0.246046
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 139,
+      "start_ms": 564292,
+      "end_ms": 571333,
+      "keyframe_ms": 567812,
+      "caption": "A person wearing a tactical vest stands beside a desk where another individual with an eyepatch sits in a chair. The setting is a dimly lit, cluttered room featuring a piano, multiple lamps, and various personal items.",
+      "transcript": "Could have gone worse.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0139.jpg"
+    },
+    {
+      "result_position": 24,
+      "scene_id": "1d34b4769d15:0137",
+      "point_id": "526753d3-7e9c-54ab-a8ae-a6803dfe65d9",
+      "rrf_score": 0.00304773,
+      "ranks": {
+        "transcript": 42,
+        "keyframe": 10
+      },
+      "similarities": {
+        "transcript": 0.16367,
+        "keyframe": 0.249897
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 137,
+      "start_ms": 552833,
+      "end_ms": 556833,
+      "keyframe_ms": 554833,
+      "caption": "An older man with gray hair and a mustache looks intently at a rough, dark object he is holding, with a piece of equipment visible to the right. The setting appears to be a dimly lit, enclosed space.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0137.jpg"
+    },
+    {
+      "result_position": 25,
+      "scene_id": "1d34b4769d15:0084",
+      "point_id": "0f3c7bf3-12cd-5c82-a00b-64b8775bc4ce",
+      "rrf_score": 0.00297715,
+      "ranks": {
+        "caption": 14,
+        "keyframe": 31
+      },
+      "similarities": {
+        "caption": 0.124738,
+        "keyframe": 0.235793
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 84,
+      "start_ms": 378000,
+      "end_ms": 380000,
+      "keyframe_ms": 379000,
+      "caption": "A person's hand interacts with a control console featuring a screen that displays \"ERROR!!!\" on its surfaces. The setting appears to be a technical or industrial environment with mechanical components visible.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0084.jpg"
+    },
+    {
+      "result_position": 26,
+      "scene_id": "1d34b4769d15:0026",
+      "point_id": "2f137746-2c4f-5540-a747-e6268f160027",
+      "rrf_score": 0.00290091,
+      "ranks": {
+        "keyframe": 12
+      },
+      "similarities": {
+        "keyframe": 0.249476
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 26,
+      "start_ms": 134917,
+      "end_ms": 139917,
+      "keyframe_ms": 137417,
+      "caption": "A man sits on a wooden deck in a foggy, exterior setting while another figure is visible resting in the background. Piles of rope and other debris are scattered across the deck near structural supports.",
+      "transcript": "It's not my fault, you know.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0026.jpg"
+    },
+    {
+      "result_position": 27,
+      "scene_id": "1d34b4769d15:0145",
+      "point_id": "2888a3fd-d1d3-56b6-bcc4-b645777eb635",
+      "rrf_score": 0.00285606,
+      "ranks": {
+        "caption": 9
+      },
+      "similarities": {
+        "caption": 0.134989
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 145,
+      "start_ms": 594500,
+      "end_ms": 597625,
+      "keyframe_ms": 596062,
+      "caption": "The screen displays white, glowing mechanical figures rendered in a high-contrast style against an orange and black background, accompanied by the text \"Produced by TON ROOSENDAAL.\"",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0145.jpg"
+    },
+    {
+      "result_position": 28,
+      "scene_id": "1d34b4769d15:0076",
+      "point_id": "c17de8bd-3f11-523c-a4bc-663a231dffe5",
+      "rrf_score": 0.00268886,
+      "ranks": {
+        "caption": 12,
+        "transcript": 13
+      },
+      "similarities": {
+        "caption": 0.126813,
+        "transcript": 0.168008
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 76,
+      "start_ms": 364500,
+      "end_ms": 367667,
+      "keyframe_ms": 366083,
+      "caption": "A woman wearing a tactical vest with a shoulder-mounted radio stands in a dimly lit room near a wall with books and a wall lamp. She is looking slightly off-camera with a neutral expression.",
+      "transcript": "Why does she do this? We already",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0076.jpg"
+    },
+    {
+      "result_position": 29,
+      "scene_id": "1d34b4769d15:0116",
+      "point_id": "2b1b0e6b-6a63-5909-853d-29557972c7db",
+      "rrf_score": 0.00264272,
+      "ranks": {
+        "caption": 11
+      },
+      "similarities": {
+        "caption": 0.131566
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 116,
+      "start_ms": 485500,
+      "end_ms": 488042,
+      "keyframe_ms": 486771,
+      "caption": "A person is suspended in mid-air within a dark, industrial or cavernous setting filled with hanging cables, wooden beams, and scaffolding. The individual appears to be falling or traversing through the air toward a brightly lit, partially obscured opening in the background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0116.jpg"
+    },
+    {
+      "result_position": 30,
+      "scene_id": "1d34b4769d15:0065",
+      "point_id": "e9f055bc-7818-5bd2-9cad-e092c4fedd16",
+      "rrf_score": 0.00259656,
+      "ranks": {
+        "keyframe": 13
+      },
+      "similarities": {
+        "keyframe": 0.24766
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 65,
+      "start_ms": 324083,
+      "end_ms": 328458,
+      "keyframe_ms": 326270,
+      "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
+      "transcript": "And I just want to be awesome in space.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg"
+    },
+    {
+      "result_position": 31,
+      "scene_id": "1d34b4769d15:0080",
+      "point_id": "d5ac2af0-fb77-5839-9bf6-9082dd365261",
+      "rrf_score": 0.00249,
+      "ranks": {
+        "keyframe": 14
+      },
+      "similarities": {
+        "keyframe": 0.247163
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 80,
+      "start_ms": 371625,
+      "end_ms": 373875,
+      "keyframe_ms": 372750,
+      "caption": "A man with a robotic eye attachment and a woman in military-style clothing sit together in a room filled with books and lamps, while the man adjusts a device held in his hands.",
+      "transcript": "Avar!",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0080.jpg"
+    },
+    {
+      "result_position": 32,
+      "scene_id": "1d34b4769d15:0043",
+      "point_id": "e5b3ab41-e46b-5130-825c-5ed6aeddb700",
+      "rrf_score": 0.00231095,
+      "ranks": {
+        "transcript": 8
+      },
+      "similarities": {
+        "transcript": 0.198933
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 43,
+      "start_ms": 213917,
+      "end_ms": 215542,
+      "keyframe_ms": 214729,
+      "caption": "Two men stand indoors, with the man in the foreground wearing a mechanical eye device while speaking with his mouth open. The man in the background watches him while wearing a plaid jacket over a dark shirt.",
+      "transcript": "Come on!",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0043.jpg"
+    },
+    {
+      "result_position": 33,
+      "scene_id": "1d34b4769d15:0096",
+      "point_id": "145273ad-1f63-5ee6-aaf4-a000fae4b749",
+      "rrf_score": 0.002227,
+      "ranks": {
+        "caption": 36,
+        "transcript": 48,
+        "keyframe": 21
+      },
+      "similarities": {
+        "caption": 0.076721,
+        "transcript": 0.16367,
+        "keyframe": 0.243906
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 96,
+      "start_ms": 411875,
+      "end_ms": 415000,
+      "keyframe_ms": 413437,
+      "caption": "A woman looks toward a person out of frame while a mechanical device with a needle is positioned near the person's face outdoors.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0096.jpg"
+    },
+    {
+      "result_position": 34,
+      "scene_id": "1d34b4769d15:0140",
+      "point_id": "4bfe192a-6666-5564-bf6d-a4227b759de9",
+      "rrf_score": 0.00213334,
+      "ranks": {
+        "transcript": 40,
+        "keyframe": 17
+      },
+      "similarities": {
+        "transcript": 0.16367,
+        "keyframe": 0.245283
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 140,
+      "start_ms": 571333,
+      "end_ms": 572833,
+      "keyframe_ms": 572083,
+      "caption": "Several people are gathered around a metallic, mechanical structure in a dimly lit, outdoor environment with foliage nearby. The group appears to be interacting with the device while a bright light illuminates the scene from above.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0140.jpg"
+    },
+    {
+      "result_position": 35,
+      "scene_id": "1d34b4769d15:0033",
+      "point_id": "db4aeecd-c2d5-5aba-b7d7-77d3f2f75b69",
+      "rrf_score": 0.00206936,
+      "ranks": {
+        "transcript": 36,
+        "keyframe": 18
+      },
+      "similarities": {
+        "transcript": 0.16367,
+        "keyframe": 0.245015
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 33,
+      "start_ms": 183250,
+      "end_ms": 189500,
+      "keyframe_ms": 186375,
+      "caption": "A man with grey hair stands inside a semi-ruined room featuring brick walls, overgrown vegetation, a wooden desk, and a red armchair. The room is open to the outdoors, and a person sits at the desk in the background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0033.jpg"
+    },
+    {
+      "result_position": 36,
+      "scene_id": "1d34b4769d15:0078",
+      "point_id": "4a6bb3a8-1b3e-5103-bc86-f0538a435170",
+      "rrf_score": 0.00196067,
+      "ranks": {
+        "transcript": 18,
+        "keyframe": 20
+      },
+      "similarities": {
+        "transcript": 0.16367,
+        "keyframe": 0.244586
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 78,
+      "start_ms": 368958,
+      "end_ms": 369583,
+      "keyframe_ms": 369270,
+      "caption": "A person with a blurred hand is positioned in the foreground, with a bridge railing and a body of water visible in the background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0078.jpg"
+    },
+    {
+      "result_position": 37,
+      "scene_id": "1d34b4769d15:0128",
+      "point_id": "cfc95d3b-e7b7-5c98-93f9-36fff68bf9c4",
+      "rrf_score": 0.0019343,
+      "ranks": {
+        "caption": 28,
+        "keyframe": 27
+      },
+      "similarities": {
+        "caption": 0.092597,
+        "keyframe": 0.238204
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 128,
+      "start_ms": 505875,
+      "end_ms": 509958,
+      "keyframe_ms": 507916,
+      "caption": "A woman speaks to a man wearing a red cybernetic eye piece and a brown jacket with red floral accents, both gesturing with their hands inside a room furnished with lamps and a bookshelf.",
+      "transcript": "Captain, we have to abort.",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0128.jpg"
+    },
+    {
+      "result_position": 38,
+      "scene_id": "1d34b4769d15:0152",
+      "point_id": "fe8e586b-9dcd-54da-aa3d-399158eba83c",
+      "rrf_score": 0.0019124,
+      "ranks": {
+        "caption": 15
+      },
+      "similarities": {
+        "caption": 0.115528
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 152,
+      "start_ms": 656583,
+      "end_ms": 677125,
+      "keyframe_ms": 666854,
+      "caption": "The screen displays a list of names formatted in columns against a dark, tech-themed background with graphical border accents. No people are shown, and the static text appears to be part of a scrolling credit sequence.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0152.jpg"
+    },
+    {
+      "result_position": 39,
+      "scene_id": "1d34b4769d15:0007",
+      "point_id": "3bff73bb-8303-5ae9-889e-b63d6bda97a4",
+      "rrf_score": 0.00187084,
+      "ranks": {
+        "transcript": 9
+      },
+      "similarities": {
+        "transcript": 0.192637
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 7,
+      "start_ms": 45625,
+      "end_ms": 47458,
+      "keyframe_ms": 46541,
+      "caption": "Two humanoid wireframe figures, one orange and one blue, stand in a dimly lit industrial facility filled with machinery and pipes. The translucent, box-like structures appear to be holographic overlays or representations within the setting.",
+      "transcript": "The",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0007.jpg"
+    },
+    {
+      "result_position": 40,
+      "scene_id": "1d34b4769d15:0022",
+      "point_id": "2c459501-120f-5733-8255-bd0784642999",
+      "rrf_score": 0.00170221,
+      "ranks": {
+        "keyframe": 22
+      },
+      "similarities": {
+        "keyframe": 0.242962
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 22,
+      "start_ms": 98208,
+      "end_ms": 102417,
+      "keyframe_ms": 100312,
+      "caption": "A man rests on a bed while a person in tactical gear aims a sniper rifle toward the outdoors through an opening with railings. Candles are placed on a ledge near the sniper, and the overall setting appears to be a dimly lit, rustic interior.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0022.jpg"
+    },
+    {
+      "result_position": 41,
+      "scene_id": "1d34b4769d15:0154",
+      "point_id": "db28cc37-7c4e-5345-8811-caa4758b63cc",
+      "rrf_score": 0.00165112,
+      "ranks": {
+        "caption": 16
+      },
+      "similarities": {
+        "caption": 0.109018
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 154,
+      "start_ms": 678792,
+      "end_ms": 681000,
+      "keyframe_ms": 679896,
+      "caption": "A long, scrolling list of names appears on a dark screen, accented by faint, abstract digital graphics along the left and right edges. There are no actual people visible in this display of text.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0154.jpg"
+    },
+    {
+      "result_position": 42,
+      "scene_id": "1d34b4769d15:0157",
+      "point_id": "70aeb4d8-88a0-5a50-96bd-871e12a03b9e",
+      "rrf_score": 0.00161147,
+      "ranks": {
+        "caption": 17
+      },
+      "similarities": {
+        "caption": 0.108509
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 157,
+      "start_ms": 693375,
+      "end_ms": 709500,
+      "keyframe_ms": 701437,
+      "caption": "Text appears on a black screen crediting the supporters of a film, including the Blender Foundation, the Netherlands Film Fund, and other organizations, while listing the production company as the Blender Institute. The bottom of the screen displays the website www.tearsofsteel.org and various organizational logos.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0157.jpg"
+    },
+    {
+      "result_position": 43,
+      "scene_id": "1d34b4769d15:0014",
+      "point_id": "8d101aa4-2583-531a-82d4-2b84ca8fa7f0",
+      "rrf_score": 0.00155592,
+      "ranks": {
+        "caption": 20,
+        "transcript": 38,
+        "keyframe": 45
+      },
+      "similarities": {
+        "caption": 0.104732,
+        "transcript": 0.16367,
+        "keyframe": 0.231172
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 14,
+      "start_ms": 64458,
+      "end_ms": 69917,
+      "keyframe_ms": 67187,
+      "caption": "The title \"Tears of Steel\" is displayed in metallic, stylized lettering centered against a solid black background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0014.jpg"
+    },
+    {
+      "result_position": 44,
+      "scene_id": "1d34b4769d15:0091",
+      "point_id": "f38bbe2f-5c7b-5744-bf8b-d7e1f7cbd139",
+      "rrf_score": 0.00154925,
+      "ranks": {
+        "caption": 18,
+        "transcript": 46
+      },
+      "similarities": {
+        "caption": 0.107333,
+        "transcript": 0.16367
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 91,
+      "start_ms": 392500,
+      "end_ms": 399000,
+      "keyframe_ms": 395750,
+      "caption": "A person with closed eyes has a mechanical, metallic arm pressing against their face. The scene takes place outdoors against a blurred, leafy green background.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0091.jpg"
+    },
+    {
+      "result_position": 45,
+      "scene_id": "1d34b4769d15:0144",
+      "point_id": "3841cf62-7e87-5656-ad9b-80d1c0b2bbfd",
+      "rrf_score": 0.00144332,
+      "ranks": {
+        "caption": 19
+      },
+      "similarities": {
+        "caption": 0.104859
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 144,
+      "start_ms": 589042,
+      "end_ms": 594500,
+      "keyframe_ms": 591771,
+      "caption": "Text reading \"Written and Directed by IAN HUBERT\" is overlaid on a dynamic, abstract graphic featuring metallic, geometric structures highlighted in blue and orange. There are no people visible, and no specific action is taking place within this static composition.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0144.jpg"
+    },
+    {
+      "result_position": 46,
+      "scene_id": "1d34b4769d15:0057",
+      "point_id": "ec20c7b3-c90c-5a18-8843-811201359f97",
+      "rrf_score": 0.00142804,
+      "ranks": {
+        "keyframe": 23
+      },
+      "similarities": {
+        "keyframe": 0.240983
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 57,
+      "start_ms": 300875,
+      "end_ms": 302708,
+      "keyframe_ms": 301791,
+      "caption": "A man stands on a bridge next to a large, mechanical robotic structure in an outdoor urban setting.",
+      "transcript": "Oh,",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0057.jpg"
+    },
+    {
+      "result_position": 47,
+      "scene_id": "1d34b4769d15:0119",
+      "point_id": "a39c9d93-eb3a-5d3a-9cba-d26b2105d6e6",
+      "rrf_score": 0.00137614,
+      "ranks": {
+        "keyframe": 24
+      },
+      "similarities": {
+        "keyframe": 0.240707
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 119,
+      "start_ms": 491542,
+      "end_ms": 496083,
+      "keyframe_ms": 493812,
+      "caption": "The interior of a grand building features tall columns and a pipe organ, while a blurred, indistinct figure moves in the foreground.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0119.jpg"
+    },
+    {
+      "result_position": 48,
+      "scene_id": "1d34b4769d15:0125",
+      "point_id": "6325ece4-efb8-5390-ac30-683fdfd63cd0",
+      "rrf_score": 0.00137412,
+      "ranks": {
+        "caption": 21
+      },
+      "similarities": {
+        "caption": 0.103872
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 125,
+      "start_ms": 501375,
+      "end_ms": 502375,
+      "keyframe_ms": 501875,
+      "caption": "A person suspended by a rope swings through the interior of a ruined church filled with debris and clouds of dust.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0125.jpg"
+    },
+    {
+      "result_position": 49,
+      "scene_id": "1d34b4769d15:0037",
+      "point_id": "981a1b93-b149-5b6c-9b61-1b4ce1e69d1c",
+      "rrf_score": 0.0012364,
+      "ranks": {
+        "keyframe": 25
+      },
+      "similarities": {
+        "keyframe": 0.23972
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 37,
+      "start_ms": 201167,
+      "end_ms": 206667,
+      "keyframe_ms": 203917,
+      "caption": "A man with a robotic eye attachment and a woman in military-style gear stand together indoors in a room furnished with lamps, desks, and books. The man in the red jacket is gesturing while speaking, while the woman beside him looks toward the side.",
+      "transcript": "Well, that's perfect. We're only one. All systems, go!",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0037.jpg"
+    },
+    {
+      "result_position": 50,
+      "scene_id": "1d34b4769d15:0030",
+      "point_id": "506a766a-a7df-5ed8-be50-3233822a31b9",
+      "rrf_score": 0.00123121,
+      "ranks": {
+        "caption": 22
+      },
+      "similarities": {
+        "caption": 0.100119
+      },
+      "video_id": "1d34b4769d15",
+      "scene_number": 30,
+      "start_ms": 152875,
+      "end_ms": 158542,
+      "keyframe_ms": 155708,
+      "caption": "A person hangs from a rope in front of a large pipe organ inside a dimly lit, vine-covered stone interior that resembles a ruined church.",
+      "transcript": "",
+      "keyframe_path": "C:\\Users\\Stella Ling\\Documents\\Stella\\Programming\\video understander\\data\\processed\\1d34b4769d15\\keyframes\\scene_0030.jpg"
     }
   ]
 }

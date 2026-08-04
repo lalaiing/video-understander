@@ -1,0 +1,315 @@
+{
+  "question": "Does a four-legged robot attack a flying vehicle?",
+  "retrieval_weights": {
+    "caption": 1.0,
+    "transcript": 1.0,
+    "keyframe": 1.0
+  },
+  "retrieved_results": [
+    {
+      "rank": 1,
+      "scene_number": 64,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.40534528118058655
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 118,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "keyframe": 1
+      },
+      "similarities": {
+        "keyframe": 0.28274164368732907
+      }
+    },
+    {
+      "rank": 3,
+      "scene_number": 120,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "caption": 1
+      },
+      "similarities": {
+        "caption": 0.3926852803049108
+      }
+    },
+    {
+      "rank": 4,
+      "scene_number": 45,
+      "rrf_score": 0.01518528632614462,
+      "ranks": {
+        "caption": 5,
+        "keyframe": 4
+      },
+      "similarities": {
+        "caption": 0.3109681092362069,
+        "keyframe": 0.2722859543249045
+      }
+    },
+    {
+      "rank": 5,
+      "scene_number": 9,
+      "rrf_score": 0.014912205912426717,
+      "ranks": {
+        "transcript": 2
+      },
+      "similarities": {
+        "transcript": 0.3850697140881695
+      }
+    }
+  ],
+  "evidence_scenes": [
+    {
+      "scene_id": "1d34b4769d15:0009",
+      "scene_number": 9,
+      "start_ms": 48292,
+      "end_ms": 49792,
+      "duration_ms": 1500,
+      "keyframe_ms": 49042,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0009.jpg",
+      "transcript": "robot's",
+      "transcript_words": [
+        {
+          "start_ms": 47340,
+          "end_ms": 50700,
+          "text": " robot's",
+          "probability": 0.8795
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 47340,
+      "speech_end_ms": 50700,
+      "caption": "A digital, light-green heads-up display showing \"MEMORY PLAYBACK - GLOBAL\" with media playback icons floats over a dimly lit, complex industrial setting featuring heavy machinery and pipes. No people are visible in this scene.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 5,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0045",
+      "scene_number": 45,
+      "start_ms": 222417,
+      "end_ms": 225083,
+      "duration_ms": 2666,
+      "keyframe_ms": 223750,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0045.jpg",
+      "transcript": "That's nice. Nothing to",
+      "transcript_words": [
+        {
+          "start_ms": 222700,
+          "end_ms": 223300,
+          "text": " That's",
+          "probability": 0.981
+        },
+        {
+          "start_ms": 223300,
+          "end_ms": 223720,
+          "text": " nice.",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 224600,
+          "end_ms": 224960,
+          "text": " Nothing",
+          "probability": 0.423
+        },
+        {
+          "start_ms": 224960,
+          "end_ms": 225180,
+          "text": " to",
+          "probability": 0.9911
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 222700,
+      "speech_end_ms": 225180,
+      "caption": "A mechanical, spider-like robot stands on a bridge in an urban setting surrounded by trees and a building, with no people visible in the frame.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 4,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0063",
+      "scene_number": 63,
+      "start_ms": 319958,
+      "end_ms": 322208,
+      "duration_ms": 2250,
+      "keyframe_ms": 321083,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg",
+      "transcript": "You have your",
+      "transcript_words": [
+        {
+          "start_ms": 320960,
+          "end_ms": 321560,
+          "text": " You",
+          "probability": 0.9926
+        },
+        {
+          "start_ms": 321560,
+          "end_ms": 321740,
+          "text": " have",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 321740,
+          "end_ms": 322000,
+          "text": " your",
+          "probability": 0.9985
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 320960,
+      "speech_end_ms": 322000,
+      "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0064",
+      "scene_number": 64,
+      "start_ms": 322208,
+      "end_ms": 324083,
+      "duration_ms": 1875,
+      "keyframe_ms": 323145,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0064.jpg",
+      "transcript": "robotics.",
+      "transcript_words": [
+        {
+          "start_ms": 322000,
+          "end_ms": 322580,
+          "text": " robotics.",
+          "probability": 0.9908
+        }
+      ],
+      "word_count": 1,
+      "has_speech": true,
+      "speech_start_ms": 322000,
+      "speech_end_ms": 322580,
+      "caption": "A person is shown in profile looking out toward a canal-side street in Amsterdam, where traditional Dutch row houses line the bank. Text overlaying the scene reads, \"...AND I JUST WANT TO BE AWESOME IN SPACE.\"",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 1,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0065",
+      "scene_number": 65,
+      "start_ms": 324083,
+      "end_ms": 328458,
+      "duration_ms": 4375,
+      "keyframe_ms": 326270,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0065.jpg",
+      "transcript": "And I just want to be awesome in space.",
+      "transcript_words": [
+        {
+          "start_ms": 324840,
+          "end_ms": 325440,
+          "text": " And",
+          "probability": 0.8819
+        },
+        {
+          "start_ms": 325440,
+          "end_ms": 326040,
+          "text": " I",
+          "probability": 0.947
+        },
+        {
+          "start_ms": 326040,
+          "end_ms": 326240,
+          "text": " just",
+          "probability": 0.9957
+        },
+        {
+          "start_ms": 326240,
+          "end_ms": 326460,
+          "text": " want",
+          "probability": 0.7745
+        },
+        {
+          "start_ms": 326460,
+          "end_ms": 326560,
+          "text": " to",
+          "probability": 0.9986
+        },
+        {
+          "start_ms": 326560,
+          "end_ms": 326720,
+          "text": " be",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 326720,
+          "end_ms": 327060,
+          "text": " awesome",
+          "probability": 0.9954
+        },
+        {
+          "start_ms": 327060,
+          "end_ms": 327320,
+          "text": " in",
+          "probability": 0.9789
+        },
+        {
+          "start_ms": 327320,
+          "end_ms": 327740,
+          "text": " space.",
+          "probability": 0.9931
+        }
+      ],
+      "word_count": 9,
+      "has_speech": true,
+      "speech_start_ms": 324840,
+      "speech_end_ms": 327740,
+      "caption": "A young man stands outdoors with a blurred background of trees and buildings while speaking.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0118",
+      "scene_number": 118,
+      "start_ms": 489417,
+      "end_ms": 491542,
+      "duration_ms": 2125,
+      "keyframe_ms": 490479,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0118.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A person hangs from a rope suspended from the wooden rafters of a church-like structure, while a large, metallic, robotic-looking sculpture stands in the foreground.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 2,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0120",
+      "scene_number": 120,
+      "start_ms": 496083,
+      "end_ms": 496917,
+      "duration_ms": 834,
+      "keyframe_ms": 496500,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0120.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "Mechanical entities engage in combat inside a stone building with arched doorways. Sparks fly from the robots as they move across the floor amidst scattered debris.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 3,
+      "is_direct_retrieval": true
+    }
+  ]
+}

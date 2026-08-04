@@ -15,7 +15,7 @@
       "answerable": false,
       "support_type": "none",
       "confidence": "high",
-      "evidence": "The candidate video window contains only shots of people speaking or standing in a residential area. There is no four-legged robot or flying vehicle present in any of the frames, nor is there any action of an attack occurring.",
+      "evidence": "The candidate video window contains only shots of a woman and a man speaking; there is no four-legged robot or flying vehicle present, nor any action resembling an attack.",
       "grounded_start_ms": null,
       "grounded_end_ms": null,
       "selected_frame_paths": []
@@ -45,7 +45,7 @@
       "answerable": false,
       "support_type": "none",
       "confidence": "high",
-      "evidence": "While a four-legged robot is visible in the scene, there is no flying vehicle present, and therefore no attack on one can be observed.",
+      "evidence": "While a four-legged robot is visible in the frames, there is no flying vehicle present in the scene, nor is there any evidence of an attack on such an object.",
       "grounded_start_ms": null,
       "grounded_end_ms": null,
       "selected_frame_paths": []
@@ -75,7 +75,7 @@
       "answerable": false,
       "support_type": "none",
       "confidence": "high",
-      "evidence": "The provided frames only show a digital heads-up display interface over industrial machinery. No four-legged robot or flying vehicle is visible, and no attack action is depicted.",
+      "evidence": "The provided frames only show a digital heads-up display interface in an industrial setting. No four-legged robot or flying vehicle is visible, and no attack action is depicted.",
       "grounded_start_ms": null,
       "grounded_end_ms": null,
       "selected_frame_paths": []
