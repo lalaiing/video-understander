@@ -10,3 +10,5 @@ rich
 python-dotenv
 google-genai
 opencv-python
+streamlit>=1.37,<2
+yt-dlp>=2025.1.1

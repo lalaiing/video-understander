@@ -6,17 +6,16 @@
     {
       "window_index": 0,
       "scene_numbers": [
-        60,
-        61,
-        62,
-        63
+        129,
+        130,
+        131
       ],
-      "candidate_start_ms": 310583,
-      "candidate_end_ms": 322208,
+      "candidate_start_ms": 509958,
+      "candidate_end_ms": 527417,
       "answerable": false,
       "support_type": "none",
       "confidence": "high",
-      "evidence": "The provided transcript and frames do not contain any mention of Thom or the act of breaking a heart.",
+      "evidence": "The candidate window does not contain the scene where Celia says 'You broke my heart'. That dialogue occurs in Scene 86, which is not part of the provided candidate-local context.",
       "grounded_start_ms": null,
       "grounded_end_ms": null,
       "selected_frame_paths": []
@@ -24,18 +23,61 @@
     {
       "window_index": 1,
       "scene_numbers": [
-        74,
-        75,
-        76
+        62
       ],
-      "candidate_start_ms": 356333,
-      "candidate_end_ms": 367667,
+      "candidate_start_ms": 315375,
+      "candidate_end_ms": 319958,
       "answerable": false,
       "support_type": "none",
       "confidence": "high",
-      "evidence": "The provided transcript and frames do not contain any mention of Thom or the action of breaking a heart.",
+      "evidence": "The candidate window does not contain the scene where Celia says that Thom broke her heart. The global context shows that this statement occurs in Scene 86, which is outside the current candidate window.",
       "grounded_start_ms": null,
       "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 2,
+      "scene_numbers": [
+        69
+      ],
+      "candidate_start_ms": 341208,
+      "candidate_end_ms": 346458,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The candidate window does not contain the scene where Celia says 'You broke my heart'. That dialogue occurs in Scene 86, which is not part of the current candidate window.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 3,
+      "scene_numbers": [
+        74
+      ],
+      "candidate_start_ms": 356333,
+      "candidate_end_ms": 362125,
+      "answerable": false,
+      "support_type": "none",
+      "confidence": "high",
+      "evidence": "The candidate window contains a conversation between Celia and a young man, but the specific statement 'You broke my heart' is not present in this scene's transcript. That statement appears in Scene 86, which is outside the current candidate window.",
+      "grounded_start_ms": null,
+      "grounded_end_ms": null,
+      "selected_frame_paths": []
+    },
+    {
+      "window_index": 4,
+      "scene_numbers": [
+        86
+      ],
+      "candidate_start_ms": 383125,
+      "candidate_end_ms": 385417,
+      "answerable": true,
+      "support_type": "transcript",
+      "confidence": "high",
+      "evidence": "The transcript in the candidate window explicitly contains the phrase 'You broke my heart.' spoken by Celia, as established by the global context.",
+      "grounded_start_ms": 383320,
+      "grounded_end_ms": 385360,
       "selected_frame_paths": []
     }
   ]

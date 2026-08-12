@@ -1,5 +1,5 @@
 {
-  "question": "Which university does Thom attend?",
+  "question": "What is Celia's passion?",
   "retrieval_weights": {
     "caption": 1.0,
     "transcript": 1.0,
@@ -8,237 +8,310 @@
   "retrieved_results": [
     {
       "rank": 1,
-      "scene_number": 7,
-      "rrf_score": 0.01639344262295082,
-      "ranks": {
-        "transcript": 1
-      },
-      "similarities": {
-        "transcript": 0.1821850140293847
-      }
-    },
-    {
-      "rank": 2,
-      "scene_number": 77,
-      "rrf_score": 0.01639344262295082,
-      "ranks": {
-        "keyframe": 1
-      },
-      "similarities": {
-        "keyframe": 0.2551513376677339
-      }
-    },
-    {
-      "rank": 3,
-      "scene_number": 157,
+      "scene_number": 61,
       "rrf_score": 0.01639344262295082,
       "ranks": {
         "caption": 1
       },
       "similarities": {
-        "caption": 0.17913652235482902
+        "caption": 0.43376751079195075
+      }
+    },
+    {
+      "rank": 2,
+      "scene_number": 62,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "transcript": 1
+      },
+      "similarities": {
+        "transcript": 0.7438284872443452
+      }
+    },
+    {
+      "rank": 3,
+      "scene_number": 86,
+      "rrf_score": 0.01639344262295082,
+      "ranks": {
+        "keyframe": 1
+      },
+      "similarities": {
+        "keyframe": 0.22703978773124586
       }
     },
     {
       "rank": 4,
-      "scene_number": 12,
-      "rrf_score": 0.012601684430314048,
+      "scene_number": 85,
+      "rrf_score": 0.01535148017810417,
       "ranks": {
         "keyframe": 2
       },
       "similarities": {
-        "keyframe": 0.2502880578181003
+        "keyframe": 0.2265973504429962
       }
     },
     {
       "rank": 5,
-      "scene_number": 78,
-      "rrf_score": 0.011014638395704249,
+      "scene_number": 130,
+      "rrf_score": 0.014068272731088143,
       "ranks": {
-        "keyframe": 3
+        "transcript": 2
       },
       "similarities": {
-        "keyframe": 0.24834488092536833
+        "transcript": 0.668728047835154
       }
     }
   ],
   "evidence_scenes": [
     {
-      "scene_id": "1d34b4769d15:0006",
-      "scene_number": 6,
-      "start_ms": 42083,
-      "end_ms": 45625,
-      "duration_ms": 3542,
-      "keyframe_ms": 43854,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0006.jpg",
-      "transcript": "claws. We're done.",
-      "transcript_words": [
-        {
-          "start_ms": 42120,
-          "end_ms": 42420,
-          "text": " claws.",
-          "probability": 0.793
-        },
-        {
-          "start_ms": 44100,
-          "end_ms": 44580,
-          "text": " We're",
-          "probability": 0.5196
-        },
-        {
-          "start_ms": 44580,
-          "end_ms": 44960,
-          "text": " done.",
-          "probability": 0.9914
-        }
-      ],
-      "word_count": 3,
-      "has_speech": true,
-      "speech_start_ms": 42120,
-      "speech_end_ms": 44960,
-      "caption": "In a dark, industrial setting, two holographic figures stand near a large, complex machine structure, while a glowing pink brain-like object sits on the left side of the frame. The text \"40 YEARS LATER\" is displayed prominently in the center of the scene.",
+      "scene_id": "1d34b4769d15:0060",
+      "scene_number": 60,
+      "start_ms": 310583,
+      "end_ms": 312375,
+      "duration_ms": 1792,
+      "keyframe_ms": 311479,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0060.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man with dark hair and a patterned shirt stands outdoors, looking toward a woman whose back is turned to the camera. They are situated on a street near trees, buildings, and a canal boat in the background.",
       "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": null,
       "is_direct_retrieval": false
     },
     {
-      "scene_id": "1d34b4769d15:0007",
-      "scene_number": 7,
-      "start_ms": 45625,
-      "end_ms": 47458,
-      "duration_ms": 1833,
-      "keyframe_ms": 46541,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0007.jpg",
-      "transcript": "The",
-      "transcript_words": [
-        {
-          "start_ms": 44960,
-          "end_ms": 47340,
-          "text": " The",
-          "probability": 0.0327
-        }
-      ],
-      "word_count": 1,
-      "has_speech": true,
-      "speech_start_ms": 44960,
-      "speech_end_ms": 47340,
-      "caption": "Two humanoid wireframe figures, one orange and one blue, stand in a dimly lit industrial facility filled with machinery and pipes. The translucent, box-like structures appear to be holographic overlays or representations within the setting.",
+      "scene_id": "1d34b4769d15:0061",
+      "scene_number": 61,
+      "start_ms": 312375,
+      "end_ms": 315375,
+      "duration_ms": 3000,
+      "keyframe_ms": 313875,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0061.jpg",
+      "transcript": "",
+      "transcript_words": [],
+      "word_count": 0,
+      "has_speech": false,
+      "speech_start_ms": null,
+      "speech_end_ms": null,
+      "caption": "A man is seen in profile looking toward a canal in a city setting with traditional brick buildings, with superimposed purple text stating, \"LOOK, CELIA, WE HAVE TO FOLLOW OUR PASSIONS...\"",
       "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": 1,
       "is_direct_retrieval": true
     },
     {
-      "scene_id": "1d34b4769d15:0008",
-      "scene_number": 8,
-      "start_ms": 47458,
-      "end_ms": 48292,
-      "duration_ms": 834,
-      "keyframe_ms": 47875,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0008.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "A neon digital interface with playback controls and progress bars glows over a dark, cluttered industrial setting containing obscured figures. The scene is filled with floating particles and light artifacts that suggest a glitchy or futuristic digital environment.",
-      "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": null,
-      "is_direct_retrieval": false
-    },
-    {
-      "scene_id": "1d34b4769d15:0012",
-      "scene_number": 12,
-      "start_ms": 53667,
-      "end_ms": 56667,
-      "duration_ms": 3000,
-      "keyframe_ms": 55167,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0012.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "Two individuals wearing white lab coats operate glowing, complex technological equipment in a futuristic environment marked by large digital displays that read \"SIMULATION READY.\" The person on the left wears a head covering, while the person on the right sits at a desk with various illuminated components.",
-      "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": 4,
-      "is_direct_retrieval": true
-    },
-    {
-      "scene_id": "1d34b4769d15:0077",
-      "scene_number": 77,
-      "start_ms": 367667,
-      "end_ms": 368958,
-      "duration_ms": 1291,
-      "keyframe_ms": 368312,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0077.jpg",
-      "transcript": "tried that one.",
+      "scene_id": "1d34b4769d15:0062",
+      "scene_number": 62,
+      "start_ms": 315375,
+      "end_ms": 319958,
+      "duration_ms": 4583,
+      "keyframe_ms": 317666,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0062.jpg",
+      "transcript": "Look, Celia, we have to follow our passions.",
       "transcript_words": [
         {
-          "start_ms": 367580,
-          "end_ms": 368000,
-          "text": " tried",
-          "probability": 0.9921
+          "start_ms": 315640,
+          "end_ms": 316240,
+          "text": " Look,",
+          "probability": 0.698
         },
         {
-          "start_ms": 368000,
-          "end_ms": 368240,
-          "text": " that",
-          "probability": 0.9386
+          "start_ms": 316480,
+          "end_ms": 316700,
+          "text": " Celia,",
+          "probability": 0.9641
         },
         {
-          "start_ms": 368240,
-          "end_ms": 368500,
-          "text": " one.",
-          "probability": 0.9983
+          "start_ms": 317500,
+          "end_ms": 318560,
+          "text": " we",
+          "probability": 0.9145
+        },
+        {
+          "start_ms": 318560,
+          "end_ms": 318740,
+          "text": " have",
+          "probability": 0.9979
+        },
+        {
+          "start_ms": 318740,
+          "end_ms": 318960,
+          "text": " to",
+          "probability": 0.9992
+        },
+        {
+          "start_ms": 318960,
+          "end_ms": 319260,
+          "text": " follow",
+          "probability": 0.9994
+        },
+        {
+          "start_ms": 319260,
+          "end_ms": 319560,
+          "text": " our",
+          "probability": 0.9927
+        },
+        {
+          "start_ms": 319560,
+          "end_ms": 320160,
+          "text": " passions.",
+          "probability": 0.9663
         }
       ],
-      "word_count": 3,
+      "word_count": 8,
       "has_speech": true,
-      "speech_start_ms": 367580,
-      "speech_end_ms": 368500,
-      "caption": "A large chalkboard covered in various handwritten phrases and notes stands in a cluttered room that also contains a painting, a mug, and furniture. No people are visible in the scene.",
+      "speech_start_ms": 315640,
+      "speech_end_ms": 320160,
+      "caption": "A man with dark hair and a serious expression stands outdoors with trees and blurred buildings in the background.",
       "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": 2,
       "is_direct_retrieval": true
     },
     {
-      "scene_id": "1d34b4769d15:0078",
-      "scene_number": 78,
-      "start_ms": 368958,
-      "end_ms": 369583,
-      "duration_ms": 625,
-      "keyframe_ms": 369270,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0078.jpg",
+      "scene_id": "1d34b4769d15:0063",
+      "scene_number": 63,
+      "start_ms": 319958,
+      "end_ms": 322208,
+      "duration_ms": 2250,
+      "keyframe_ms": 321083,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0063.jpg",
+      "transcript": "You have your",
+      "transcript_words": [
+        {
+          "start_ms": 320960,
+          "end_ms": 321560,
+          "text": " You",
+          "probability": 0.9926
+        },
+        {
+          "start_ms": 321560,
+          "end_ms": 321740,
+          "text": " have",
+          "probability": 0.9989
+        },
+        {
+          "start_ms": 321740,
+          "end_ms": 322000,
+          "text": " your",
+          "probability": 0.9985
+        }
+      ],
+      "word_count": 3,
+      "has_speech": true,
+      "speech_start_ms": 320960,
+      "speech_end_ms": 322000,
+      "caption": "A woman with brown hair stands outdoors in a leafy, residential area with blurred houses in the background. She is wearing a black jacket and looking ahead with a serious expression.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": null,
+      "is_direct_retrieval": false
+    },
+    {
+      "scene_id": "1d34b4769d15:0085",
+      "scene_number": 85,
+      "start_ms": 380000,
+      "end_ms": 383125,
+      "duration_ms": 3125,
+      "keyframe_ms": 381562,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0085.jpg",
       "transcript": "",
       "transcript_words": [],
       "word_count": 0,
       "has_speech": false,
       "speech_start_ms": null,
       "speech_end_ms": null,
-      "caption": "A person with a blurred hand is positioned in the foreground, with a bridge railing and a body of water visible in the background.",
+      "caption": "A person wearing glasses is shown with their mouth wide open in a scream, positioned in front of a glowing digital interface and a desk lamp in a dimly lit, high-tech setting.",
       "caption_model": "gemini-3.1-flash-lite",
-      "retrieval_rank": 5,
+      "retrieval_rank": 4,
       "is_direct_retrieval": true
     },
     {
-      "scene_id": "1d34b4769d15:0157",
-      "scene_number": 157,
-      "start_ms": 693375,
-      "end_ms": 709500,
-      "duration_ms": 16125,
-      "keyframe_ms": 701437,
-      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0157.jpg",
-      "transcript": "",
-      "transcript_words": [],
-      "word_count": 0,
-      "has_speech": false,
-      "speech_start_ms": null,
-      "speech_end_ms": null,
-      "caption": "Text appears on a black screen crediting the supporters of a film, including the Blender Foundation, the Netherlands Film Fund, and other organizations, while listing the production company as the Blender Institute. The bottom of the screen displays the website www.tearsofsteel.org and various organizational logos.",
+      "scene_id": "1d34b4769d15:0086",
+      "scene_number": 86,
+      "start_ms": 383125,
+      "end_ms": 385417,
+      "duration_ms": 2292,
+      "keyframe_ms": 384271,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0086.jpg",
+      "transcript": "You broke my heart.",
+      "transcript_words": [
+        {
+          "start_ms": 383720,
+          "end_ms": 383720,
+          "text": " You",
+          "probability": 0.1373
+        },
+        {
+          "start_ms": 383720,
+          "end_ms": 384160,
+          "text": " broke",
+          "probability": 0.9883
+        },
+        {
+          "start_ms": 384160,
+          "end_ms": 384500,
+          "text": " my",
+          "probability": 0.9983
+        },
+        {
+          "start_ms": 384500,
+          "end_ms": 384960,
+          "text": " heart.",
+          "probability": 0.9961
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 383720,
+      "speech_end_ms": 384960,
+      "caption": "A woman with a wide-eyed expression and open mouth stares at a metallic, robotic device positioned near a person's neck in an outdoor setting with green foliage in the background.",
       "caption_model": "gemini-3.1-flash-lite",
       "retrieval_rank": 3,
+      "is_direct_retrieval": true
+    },
+    {
+      "scene_id": "1d34b4769d15:0130",
+      "scene_number": 130,
+      "start_ms": 517875,
+      "end_ms": 521000,
+      "duration_ms": 3125,
+      "keyframe_ms": 519437,
+      "keyframe_path": "data\\processed\\1d34b4769d15\\keyframes\\scene_0130.jpg",
+      "transcript": "The world's changed, Celia.",
+      "transcript_words": [
+        {
+          "start_ms": 518660,
+          "end_ms": 519380,
+          "text": " The",
+          "probability": 0.9069
+        },
+        {
+          "start_ms": 519380,
+          "end_ms": 519740,
+          "text": " world's",
+          "probability": 0.9097
+        },
+        {
+          "start_ms": 519740,
+          "end_ms": 519960,
+          "text": " changed,",
+          "probability": 0.9972
+        },
+        {
+          "start_ms": 520300,
+          "end_ms": 520820,
+          "text": " Celia.",
+          "probability": 0.9775
+        }
+      ],
+      "word_count": 4,
+      "has_speech": true,
+      "speech_start_ms": 518660,
+      "speech_end_ms": 520820,
+      "caption": "A man stands outdoors in a city setting near a canal and a large, textured object, looking toward someone off-screen while speaking.",
+      "caption_model": "gemini-3.1-flash-lite",
+      "retrieval_rank": 5,
       "is_direct_retrieval": true
     }
   ]

@@ -6,4 +6,8 @@ data/qdrant/
 ui_output/
 eval_output/
 __pycache__/
-ground_output/
+grounding_output/
+temp.txt
+
+outputs/app.py
+outputs/run_ui.ps1
