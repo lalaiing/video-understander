@@ -6,3 +6,4 @@ data/qdrant/
 ui_output/
 eval_output/
 __pycache__/
+ground_output/
